@@ -1,0 +1,388 @@
+{
+  "lesson_number": 3,
+  "title_en": "Family",
+  "title_py": "Érzi, nǚ'ér, jiā",
+  "category": "Family / people",
+  "hsk": 1,
+  "teach": {
+    "intro": {
+      "en": "Hi Evan, here's Mandarin Lesson 3. We're staying in the family category today: a quick review of everything so far, then three new family words. Answer each numbered item with pinyin or English. Tone marks are optional (numbers like ni3 hao3 are fine)."
+    },
+    "blocks": [
+      {
+        "type": "heading",
+        "text": "New words"
+      },
+      {
+        "type": "vocab_card",
+        "en": "son",
+        "py": "érzi"
+      },
+      {
+        "type": "vocab_card",
+        "en": "daughter",
+        "py": "nǚ'ér"
+      },
+      {
+        "type": "vocab_card",
+        "en": "home / family",
+        "py": "jiā",
+        "note_en": "With close family, Mandarin usually drops the word for \"my's\" helper, so wǒ érzi means my son. My family is wǒ jiā."
+      },
+      {
+        "type": "heading",
+        "text": "Examples"
+      },
+      {
+        "type": "example",
+        "n": 1,
+        "en": "He is my son.",
+        "py": "Tā shì wǒ érzi."
+      },
+      {
+        "type": "example",
+        "n": 2,
+        "en": "My family",
+        "py": "wǒ jiā"
+      }
+    ]
+  },
+  "practice": {
+    "sections": [
+      {
+        "title": "A · Warm-up: English → pinyin",
+        "items": [
+          {
+            "n": 1,
+            "type": "prompt",
+            "prompt_en": "hello"
+          },
+          {
+            "n": 2,
+            "type": "prompt",
+            "prompt_en": "thank you"
+          },
+          {
+            "n": 3,
+            "type": "prompt",
+            "prompt_en": "goodbye"
+          },
+          {
+            "n": 4,
+            "type": "prompt",
+            "prompt_en": "dad"
+          },
+          {
+            "n": 5,
+            "type": "prompt",
+            "prompt_en": "mom"
+          },
+          {
+            "n": 6,
+            "type": "prompt",
+            "prompt_en": "how are you?"
+          }
+        ]
+      },
+      {
+        "title": "B · Pinyin → English",
+        "items": [
+          {
+            "n": 7,
+            "type": "prompt",
+            "prompt_en": "wǒ",
+            "prompt_py": "?"
+          },
+          {
+            "n": 8,
+            "type": "prompt",
+            "prompt_en": "nǐ",
+            "prompt_py": "?"
+          },
+          {
+            "n": 9,
+            "type": "prompt",
+            "prompt_en": "tā",
+            "prompt_py": "?"
+          },
+          {
+            "n": 10,
+            "type": "prompt",
+            "prompt_en": "shì",
+            "prompt_py": "?"
+          },
+          {
+            "n": 11,
+            "type": "prompt",
+            "prompt_en": "hěn hǎo",
+            "prompt_py": "?"
+          }
+        ]
+      },
+      {
+        "title": "C · Fill in the blank",
+        "items": [
+          {
+            "n": 12,
+            "type": "fill",
+            "prompt_en": "I am dad.",
+            "prompt_py": "Wǒ ___ bàba."
+          },
+          {
+            "n": 13,
+            "type": "fill",
+            "prompt_en": "She is my daughter.",
+            "prompt_py": "Tā shì wǒ ___."
+          },
+          {
+            "n": 14,
+            "type": "fill",
+            "prompt_en": "Mom is very good.",
+            "prompt_py": "Māma ___ hǎo."
+          },
+          {
+            "n": 15,
+            "type": "fill",
+            "prompt_en": "He is my son.",
+            "prompt_py": "___ shì wǒ érzi."
+          }
+        ]
+      },
+      {
+        "title": "D · Build the sentence",
+        "items": [
+          {
+            "n": 16,
+            "type": "prompt",
+            "prompt_en": "You are mom."
+          },
+          {
+            "n": 17,
+            "type": "prompt",
+            "prompt_en": "My family is very good."
+          },
+          {
+            "n": 18,
+            "type": "prompt",
+            "prompt_en": "Hello, mom! How are you?"
+          }
+        ]
+      }
+    ],
+    "how_to": "Type your answers in the boxes below. On these early lessons, tone marks are optional (numbers like ni3 hao3 are fine). Then tap Submit to see your written score right away."
+  },
+  "closing": {
+    "en": "That's it, about 10 minutes. Guess if you're unsure; misses tell me what to repeat. Tap Submit when your answers are ready. Jiāyóu!"
+  },
+  "answer_key": {
+    "items": [
+      {
+        "n": "1",
+        "kind": "pinyin",
+        "expected": [
+          "nǐ hǎo",
+          "Nǐ hǎo"
+        ],
+        "words": [
+          "nǐ hǎo"
+        ]
+      },
+      {
+        "n": "2",
+        "kind": "pinyin",
+        "expected": [
+          "xièxie"
+        ],
+        "words": [
+          "xièxie"
+        ]
+      },
+      {
+        "n": "3",
+        "kind": "pinyin",
+        "expected": [
+          "zàijiàn"
+        ],
+        "words": [
+          "zàijiàn"
+        ]
+      },
+      {
+        "n": "4",
+        "kind": "pinyin",
+        "expected": [
+          "bàba"
+        ],
+        "words": [
+          "bàba"
+        ]
+      },
+      {
+        "n": "5",
+        "kind": "pinyin",
+        "expected": [
+          "māma"
+        ],
+        "words": [
+          "māma"
+        ]
+      },
+      {
+        "n": "6",
+        "kind": "pinyin",
+        "expected": [
+          "nǐ hǎo ma",
+          "Nǐ hǎo ma?"
+        ],
+        "words": [
+          "nǐ hǎo"
+        ]
+      },
+      {
+        "n": "7",
+        "kind": "english",
+        "expected": [
+          "I",
+          "me",
+          "I / me"
+        ],
+        "words": [
+          "wǒ"
+        ]
+      },
+      {
+        "n": "8",
+        "kind": "english",
+        "expected": [
+          "you"
+        ],
+        "words": [
+          "nǐ"
+        ]
+      },
+      {
+        "n": "9",
+        "kind": "english",
+        "expected": [
+          "he",
+          "she",
+          "it",
+          "he / she",
+          "he / she / it"
+        ],
+        "words": [
+          "tā"
+        ]
+      },
+      {
+        "n": "10",
+        "kind": "english",
+        "expected": [
+          "to be",
+          "is",
+          "to be / is",
+          "am",
+          "are"
+        ],
+        "words": [
+          "shì"
+        ]
+      },
+      {
+        "n": "11",
+        "kind": "english",
+        "expected": [
+          "very good",
+          "very well"
+        ],
+        "words": [
+          "hěn",
+          "hǎo"
+        ]
+      },
+      {
+        "n": "12",
+        "kind": "pinyin",
+        "expected": [
+          "shì"
+        ],
+        "words": [
+          "shì"
+        ]
+      },
+      {
+        "n": "13",
+        "kind": "pinyin",
+        "expected": [
+          "nǚ'ér",
+          "de nǚ'ér"
+        ],
+        "words": [
+          "nǚ'ér"
+        ]
+      },
+      {
+        "n": "14",
+        "kind": "pinyin",
+        "expected": [
+          "hěn"
+        ],
+        "words": [
+          "hěn"
+        ]
+      },
+      {
+        "n": "15",
+        "kind": "pinyin",
+        "expected": [
+          "Tā",
+          "tā"
+        ],
+        "words": [
+          "tā"
+        ]
+      },
+      {
+        "n": "16",
+        "kind": "sentence",
+        "expected": [
+          "Nǐ shì māma.",
+          "Nǐ shì māma"
+        ],
+        "words": [
+          "nǐ",
+          "shì",
+          "māma"
+        ]
+      },
+      {
+        "n": "17",
+        "kind": "sentence",
+        "expected": [
+          "Wǒ jiā hěn hǎo.",
+          "Wǒ jiā hěn hǎo"
+        ],
+        "words": [
+          "jiā",
+          "hěn",
+          "hǎo"
+        ]
+      },
+      {
+        "n": "18",
+        "kind": "sentence",
+        "expected": [
+          "Nǐ hǎo, māma! Nǐ hǎo ma?",
+          "Nǐ hǎo, māma, nǐ hǎo ma?",
+          "Nǐ hǎo māma, nǐ hǎo ma?",
+          "Nǐ hǎo, māma! Nǐ hǎo ma"
+        ],
+        "words": [
+          "nǐ hǎo",
+          "māma"
+        ]
+      }
+    ]
+  },
+  "date": "2026-10-28"
+}

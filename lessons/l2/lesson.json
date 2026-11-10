@@ -1,0 +1,359 @@
+{
+  "lesson_number": 2,
+  "title_en": "Everyday People + Basics",
+  "title_py": "Bàba, māma, wǒ, nǐ, tā",
+  "category": "Family / people",
+  "hsk": 1,
+  "teach": {
+    "intro": {
+      "en": "Hi Evan, here's your Mandarin Lesson 2 (vocabulary focus). We'll quickly refresh hello, thank you, and goodbye, then learn everyday people words and a few basics you can start putting into short sentences."
+    },
+    "blocks": [
+      {
+        "type": "heading",
+        "text": "Review"
+      },
+      {
+        "type": "review_table",
+        "rows": [
+          {
+            "en": "hello",
+            "py": "nǐ hǎo"
+          },
+          {
+            "en": "thank you",
+            "py": "xièxie"
+          },
+          {
+            "en": "goodbye",
+            "py": "zàijiàn"
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "New words"
+      },
+      {
+        "type": "vocab_card",
+        "en": "dad",
+        "py": "bàba"
+      },
+      {
+        "type": "vocab_card",
+        "en": "mom",
+        "py": "māma"
+      },
+      {
+        "type": "vocab_card",
+        "en": "I / me",
+        "py": "wǒ"
+      },
+      {
+        "type": "vocab_card",
+        "en": "you",
+        "py": "nǐ"
+      },
+      {
+        "type": "vocab_card",
+        "en": "he / she / it (same sound)",
+        "py": "tā"
+      },
+      {
+        "type": "vocab_card",
+        "en": "to be / is",
+        "py": "shì"
+      },
+      {
+        "type": "vocab_card",
+        "en": "very",
+        "py": "hěn"
+      },
+      {
+        "type": "vocab_card",
+        "en": "good",
+        "py": "hǎo"
+      },
+      {
+        "type": "heading",
+        "text": "Useful bits"
+      },
+      {
+        "type": "callout",
+        "kind": "pattern",
+        "title": "Useful bits",
+        "body_en": "You can already make two short patterns with today's words.",
+        "pairs": [
+          {
+            "en": "I am…",
+            "py": "wǒ shì…"
+          },
+          {
+            "en": "how are you?",
+            "py": "nǐ hǎo ma"
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "Try saying"
+      },
+      {
+        "type": "example",
+        "n": 1,
+        "en": "I am Evan.",
+        "py": "wǒ shì Evan"
+      },
+      {
+        "type": "example",
+        "n": 2,
+        "en": "Mom is very well.",
+        "py": "māma hěn hǎo"
+      }
+    ]
+  },
+  "practice": {
+    "how_to": "Type your answers in the boxes below, then tap Submit. Tone marks are optional (numbers like ni3 hao3 are fine). There is no voice recording in this lesson.",
+    "sections": [
+      {
+        "title": "A · Review: English → pinyin",
+        "items": [
+          {
+            "n": 1,
+            "type": "prompt",
+            "prompt_en": "hello"
+          },
+          {
+            "n": 2,
+            "type": "prompt",
+            "prompt_en": "thank you"
+          },
+          {
+            "n": 3,
+            "type": "prompt",
+            "prompt_en": "goodbye"
+          }
+        ]
+      },
+      {
+        "title": "B · New words: English → pinyin",
+        "items": [
+          {
+            "n": 4,
+            "type": "prompt",
+            "prompt_en": "dad"
+          },
+          {
+            "n": 5,
+            "type": "prompt",
+            "prompt_en": "mom"
+          },
+          {
+            "n": 6,
+            "type": "prompt",
+            "prompt_en": "I / me"
+          },
+          {
+            "n": 7,
+            "type": "prompt",
+            "prompt_en": "you"
+          },
+          {
+            "n": 8,
+            "type": "prompt",
+            "prompt_en": "he / she"
+          },
+          {
+            "n": 9,
+            "type": "prompt",
+            "prompt_en": "to be / is"
+          },
+          {
+            "n": 10,
+            "type": "prompt",
+            "prompt_en": "very"
+          },
+          {
+            "n": 11,
+            "type": "prompt",
+            "prompt_en": "good"
+          }
+        ]
+      },
+      {
+        "title": "C · Useful bits",
+        "items": [
+          {
+            "n": 12,
+            "type": "prompt",
+            "prompt_en": "I am… (just the pattern, in pinyin)"
+          },
+          {
+            "n": 13,
+            "type": "prompt",
+            "prompt_en": "how are you?"
+          }
+        ]
+      },
+      {
+        "title": "D · About you",
+        "items": [
+          {
+            "n": 14,
+            "type": "about_you",
+            "prompt_en": "Which of today's words feel shaky, and which already feel solid?"
+          }
+        ]
+      }
+    ]
+  },
+  "closing": {
+    "en": "Nice start, Evan. The last item is just for me: tell me which words feel shaky vs solid, and I'll mix review into the next set. Tap Submit when you're ready."
+  },
+  "answer_key": {
+    "items": [
+      {
+        "n": "1",
+        "kind": "pinyin",
+        "expected": [
+          "nǐ hǎo",
+          "Nǐ hǎo"
+        ],
+        "words": [
+          "nǐ hǎo"
+        ]
+      },
+      {
+        "n": "2",
+        "kind": "pinyin",
+        "expected": [
+          "xièxie"
+        ],
+        "words": [
+          "xièxie"
+        ]
+      },
+      {
+        "n": "3",
+        "kind": "pinyin",
+        "expected": [
+          "zàijiàn"
+        ],
+        "words": [
+          "zàijiàn"
+        ]
+      },
+      {
+        "n": "4",
+        "kind": "pinyin",
+        "expected": [
+          "bàba"
+        ],
+        "words": [
+          "bàba"
+        ]
+      },
+      {
+        "n": "5",
+        "kind": "pinyin",
+        "expected": [
+          "māma"
+        ],
+        "words": [
+          "māma"
+        ]
+      },
+      {
+        "n": "6",
+        "kind": "pinyin",
+        "expected": [
+          "wǒ"
+        ],
+        "words": [
+          "wǒ"
+        ]
+      },
+      {
+        "n": "7",
+        "kind": "pinyin",
+        "expected": [
+          "nǐ"
+        ],
+        "words": [
+          "nǐ"
+        ]
+      },
+      {
+        "n": "8",
+        "kind": "pinyin",
+        "expected": [
+          "tā"
+        ],
+        "words": [
+          "tā"
+        ]
+      },
+      {
+        "n": "9",
+        "kind": "pinyin",
+        "expected": [
+          "shì"
+        ],
+        "words": [
+          "shì"
+        ]
+      },
+      {
+        "n": "10",
+        "kind": "pinyin",
+        "expected": [
+          "hěn"
+        ],
+        "words": [
+          "hěn"
+        ]
+      },
+      {
+        "n": "11",
+        "kind": "pinyin",
+        "expected": [
+          "hǎo"
+        ],
+        "words": [
+          "hǎo"
+        ]
+      },
+      {
+        "n": "12",
+        "kind": "pinyin",
+        "expected": [
+          "wǒ shì",
+          "wǒ shì…",
+          "Wǒ shì"
+        ],
+        "words": [
+          "wǒ",
+          "shì"
+        ]
+      },
+      {
+        "n": "13",
+        "kind": "pinyin",
+        "expected": [
+          "nǐ hǎo ma",
+          "Nǐ hǎo ma?"
+        ],
+        "words": [
+          "nǐ hǎo"
+        ]
+      },
+      {
+        "n": "14",
+        "kind": "free",
+        "expected": [],
+        "words": []
+      }
+    ]
+  },
+  "date": "2026-10-26"
+}

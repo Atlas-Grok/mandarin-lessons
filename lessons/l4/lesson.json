@@ -1,0 +1,472 @@
+{
+  "lesson_number": 4,
+  "title_en": "My Family",
+  "title_py": "wǒ de jiā",
+  "category": "Family / people",
+  "hsk": 1,
+  "teach": {
+    "intro": {
+      "en": "Hi Evan! Yesterday you met son (érzi), daughter (nǚ'ér), and home/family (jiā). Today we add three small, powerful words so you can actually talk about YOUR family: \"to have,\" \"child,\" and the little word that makes \"my.\""
+    },
+    "blocks": [
+      {
+        "type": "heading",
+        "text": "New words"
+      },
+      {
+        "type": "vocab_card",
+        "en": "to have",
+        "py": "yǒu",
+        "note_en": "Super simple: it never changes. I have = wǒ yǒu. He/she has = tā yǒu."
+      },
+      {
+        "type": "vocab_card",
+        "en": "child / kids",
+        "py": "háizi",
+        "note_en": "Same word for one child or several. Context tells you which."
+      },
+      {
+        "type": "vocab_card",
+        "en": "'s / of (possessive)",
+        "py": "de",
+        "note_en": "Put it after a person to show ownership: my | wǒ de, your | nǐ de, his/her | tā de. Tip: with close family and home, Chinese often drops de: my mom | wǒ māma, my family | wǒ jiā."
+      },
+      {
+        "type": "heading",
+        "text": "Quick refresh"
+      },
+      {
+        "type": "review_table",
+        "rows": [
+          {
+            "en": "son",
+            "py": "érzi"
+          },
+          {
+            "en": "daughter",
+            "py": "nǚ'ér"
+          },
+          {
+            "en": "home / family",
+            "py": "jiā"
+          },
+          {
+            "en": "dad",
+            "py": "bàba"
+          },
+          {
+            "en": "mom",
+            "py": "māma"
+          },
+          {
+            "en": "I / me",
+            "py": "wǒ"
+          },
+          {
+            "en": "you",
+            "py": "nǐ"
+          },
+          {
+            "en": "he / she",
+            "py": "tā"
+          },
+          {
+            "en": "to be",
+            "py": "shì"
+          },
+          {
+            "en": "very",
+            "py": "hěn"
+          },
+          {
+            "en": "good",
+            "py": "hǎo"
+          }
+        ]
+      },
+      {
+        "type": "callout",
+        "kind": "pattern",
+        "title": "Pattern: ask a yes/no question with ma",
+        "body_en": "You already know this from nǐ hǎo ma. Just add ma to the end of any statement.",
+        "pairs": [
+          {
+            "en": "You have kids.",
+            "py": "Nǐ yǒu háizi."
+          },
+          {
+            "en": "Do you have kids?",
+            "py": "Nǐ yǒu háizi ma?"
+          }
+        ]
+      },
+      {
+        "type": "callout",
+        "kind": "bonus",
+        "title": "Bonus (recognize only): counting people",
+        "body_en": "Chinese puts a little counter word (gè) between a number and a noun. No need to memorize yet.",
+        "pairs": [
+          {
+            "en": "one (+ counter)",
+            "py": "yí gè"
+          },
+          {
+            "en": "two (+ counter)",
+            "py": "liǎng gè"
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "Examples"
+      },
+      {
+        "type": "example",
+        "n": 1,
+        "en": "I have a son.",
+        "py": "Wǒ yǒu yí gè érzi."
+      },
+      {
+        "type": "example",
+        "n": 2,
+        "en": "She is my daughter.",
+        "py": "Tā shì wǒ de nǚ'ér."
+      },
+      {
+        "type": "example",
+        "n": 3,
+        "en": "My family is great.",
+        "py": "Wǒ jiā hěn hǎo."
+      },
+      {
+        "type": "example",
+        "n": 4,
+        "en": "Do you have kids?",
+        "py": "Nǐ yǒu háizi ma?"
+      },
+      {
+        "type": "example",
+        "n": 5,
+        "en": "I have two kids.",
+        "py": "Wǒ yǒu liǎng gè háizi."
+      }
+    ]
+  },
+  "practice": {
+    "sections": [
+      {
+        "title": "Warm-up review",
+        "items": [
+          {
+            "n": 1,
+            "type": "prompt",
+            "prompt_en": "hello | ?"
+          },
+          {
+            "n": 2,
+            "type": "prompt",
+            "prompt_en": "thank you | ?"
+          },
+          {
+            "n": 3,
+            "type": "prompt",
+            "prompt_en": "? | zàijiàn"
+          },
+          {
+            "n": 4,
+            "type": "prompt",
+            "prompt_en": "dad and mom | ? and ?"
+          },
+          {
+            "n": 5,
+            "type": "prompt",
+            "prompt_en": "? | tā"
+          },
+          {
+            "n": 6,
+            "type": "prompt",
+            "prompt_en": "son | ?"
+          },
+          {
+            "n": 7,
+            "type": "prompt",
+            "prompt_en": "daughter | ?"
+          },
+          {
+            "n": 8,
+            "type": "prompt",
+            "prompt_en": "? | jiā"
+          }
+        ]
+      },
+      {
+        "title": "New words",
+        "items": [
+          {
+            "n": 9,
+            "type": "prompt",
+            "prompt_en": "to have | ?"
+          },
+          {
+            "n": 10,
+            "type": "prompt",
+            "prompt_en": "child / kids | ?"
+          },
+          {
+            "n": 11,
+            "type": "fill",
+            "prompt_en": "my dad (full form)",
+            "prompt_py": "wǒ ___ bàba"
+          }
+        ]
+      },
+      {
+        "title": "Build a sentence",
+        "items": [
+          {
+            "n": 12,
+            "type": "prompt",
+            "prompt_en": "I am a dad. | ?"
+          },
+          {
+            "n": 13,
+            "type": "prompt",
+            "prompt_en": "I have a son. | ?"
+          },
+          {
+            "n": 14,
+            "type": "prompt",
+            "prompt_en": "She is my daughter. | ?"
+          },
+          {
+            "n": 15,
+            "type": "prompt",
+            "prompt_en": "Do you have kids? | ?"
+          },
+          {
+            "n": 16,
+            "type": "prompt",
+            "prompt_en": "? | Wǒ jiā hěn hǎo."
+          }
+        ]
+      },
+      {
+        "title": "Bonus",
+        "items": [
+          {
+            "n": 17,
+            "type": "about_you",
+            "prompt_en": "Say one true thing about your own family in pinyin."
+          }
+        ]
+      }
+    ],
+    "how_to": "Type your answers in the boxes below. On these early lessons, tone marks are optional (numbers like ni3 hao3 are fine). Then tap Submit to see your written score right away."
+  },
+  "closing": {
+    "en": "Great work showing up again — family words are the ones you'll use most. Tap Submit when your answers are ready. Jiāyóu! (Keep going!)"
+  },
+  "answer_key": {
+    "items": [
+      {
+        "n": "1",
+        "kind": "pinyin",
+        "expected": [
+          "nǐ hǎo",
+          "Nǐ hǎo"
+        ],
+        "words": [
+          "nǐ hǎo"
+        ]
+      },
+      {
+        "n": "2",
+        "kind": "pinyin",
+        "expected": [
+          "xièxie"
+        ],
+        "words": [
+          "xièxie"
+        ]
+      },
+      {
+        "n": "3",
+        "kind": "english",
+        "expected": [
+          "goodbye",
+          "bye",
+          "see you"
+        ],
+        "words": [
+          "zàijiàn"
+        ]
+      },
+      {
+        "n": "4",
+        "kind": "pinyin",
+        "expected": [
+          "bàba and māma",
+          "bàba māma",
+          "bàba hé māma",
+          "bàba, māma"
+        ],
+        "words": [
+          "bàba",
+          "māma"
+        ]
+      },
+      {
+        "n": "5",
+        "kind": "english",
+        "expected": [
+          "he",
+          "she",
+          "he/she",
+          "he / she",
+          "him",
+          "her",
+          "it"
+        ],
+        "words": [
+          "tā"
+        ]
+      },
+      {
+        "n": "6",
+        "kind": "pinyin",
+        "expected": [
+          "érzi"
+        ],
+        "words": [
+          "érzi"
+        ]
+      },
+      {
+        "n": "7",
+        "kind": "pinyin",
+        "expected": [
+          "nǚ'ér"
+        ],
+        "words": [
+          "nǚ'ér"
+        ]
+      },
+      {
+        "n": "8",
+        "kind": "english",
+        "expected": [
+          "home",
+          "family",
+          "home / family",
+          "home/family"
+        ],
+        "words": [
+          "jiā"
+        ]
+      },
+      {
+        "n": "9",
+        "kind": "pinyin",
+        "expected": [
+          "yǒu"
+        ],
+        "words": [
+          "yǒu"
+        ]
+      },
+      {
+        "n": "10",
+        "kind": "pinyin",
+        "expected": [
+          "háizi"
+        ],
+        "words": [
+          "háizi"
+        ]
+      },
+      {
+        "n": "11",
+        "kind": "pinyin",
+        "expected": [
+          "de"
+        ],
+        "words": [
+          "de"
+        ]
+      },
+      {
+        "n": "12",
+        "kind": "sentence",
+        "expected": [
+          "Wǒ shì bàba.",
+          "Wǒ shì yí gè bàba.",
+          "Wǒ shì bàba"
+        ],
+        "words": [
+          "wǒ",
+          "shì",
+          "bàba"
+        ]
+      },
+      {
+        "n": "13",
+        "kind": "sentence",
+        "expected": [
+          "Wǒ yǒu yí gè érzi.",
+          "Wǒ yǒu érzi.",
+          "Wǒ yǒu yí gè érzi"
+        ],
+        "words": [
+          "yǒu",
+          "érzi"
+        ]
+      },
+      {
+        "n": "14",
+        "kind": "sentence",
+        "expected": [
+          "Tā shì wǒ de nǚ'ér.",
+          "Tā shì wǒ nǚ'ér.",
+          "Tā shì wǒ de nǚ'ér"
+        ],
+        "words": [
+          "nǚ'ér"
+        ]
+      },
+      {
+        "n": "15",
+        "kind": "sentence",
+        "expected": [
+          "Nǐ yǒu háizi ma?",
+          "Nǐ yǒu háizi ma"
+        ],
+        "words": [
+          "yǒu",
+          "háizi"
+        ]
+      },
+      {
+        "n": "16",
+        "kind": "english",
+        "expected": [
+          "My family is great",
+          "My family is very good",
+          "My family is good",
+          "My home is very good"
+        ],
+        "words": [
+          "jiā"
+        ]
+      },
+      {
+        "n": "17",
+        "kind": "free",
+        "expected": [],
+        "words": [
+          "jiā"
+        ]
+      }
+    ]
+  },
+  "date": "2026-10-29"
+}

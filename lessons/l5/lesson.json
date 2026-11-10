@@ -1,0 +1,456 @@
+{
+  "lesson_number": 5,
+  "title_en": "Who Is This?",
+  "title_py": "Zhè shì shéi?",
+  "category": "Family / people",
+  "hsk": 1,
+  "auditory_note": "Tap ▶ Listen to play each clip.",
+  "banner": {
+    "kind": "info",
+    "title_en": "Tone marks count from today",
+    "body_en": "Most of yesterday's pinyin came without tone marks (you for yǒu, nuer for nǚ'ér). Without marks, \"you\" could be yǒu (to have) or yòu (again), so from today answers without tone marks earn half credit. Tip: on most pinyin keyboards you type ü as v.",
+    "body_py": "Guānyú shēngdiào: zuótiān nǐ de pīnyīn dàduō méiyǒu shēngdiào fúhào. Méiyǒu fúhào, \"you\" kěyǐ shì yǒu, yě kěyǐ shì yòu. Suǒyǐ cóng jīntiān kāishǐ, méiyǒu shēngdiào fúhào de dá'àn zhǐ dé yíbàn fēn. Xiǎo tíshì: zài pīnyīn jiànpán shàng, ü dǎ \"v\"."
+  },
+  "teach": {
+    "intro": {
+      "en": "Hi Evan! Yesterday you learned to say what you have, like \"I have two kids. | Wǒ yǒu liǎng gè háizi.\" Today we learn to point at people and ask \"Who is this?\" It's the perfect sentence for flipping through family photos with your kids.",
+      "py": "Nǐ hǎo, Evan! Zuótiān nǐ xuéle zěnme shuō nǐ yǒu shénme. Jīntiān wǒmen xué zěnme zhǐzhe rén wèn: \"Zhè shì shéi?\" Gēn háizimen yìqǐ kàn jiātíng zhàopiàn de shíhou, zhège jùzi fēicháng hǎoyòng."
+    },
+    "blocks": [
+      {
+        "type": "heading",
+        "text": "New words"
+      },
+      {
+        "type": "vocab_card",
+        "en": "who",
+        "py": "shéi",
+        "note_en": "A question word; it sits where the answer would go. You'll also hear shuí.",
+        "listen_url": "l5-shei.mp3"
+      },
+      {
+        "type": "vocab_card",
+        "en": "this",
+        "py": "zhè",
+        "note_en": "Points at something near you. This is… | Zhè shì…",
+        "listen_url": "l5-zhe.mp3"
+      },
+      {
+        "type": "vocab_card",
+        "en": "that",
+        "py": "nà",
+        "note_en": "The far version of zhè. That is… | Nà shì…",
+        "listen_url": "l5-na.mp3"
+      },
+      {
+        "type": "vocab_card",
+        "en": "person / people",
+        "py": "rén",
+        "note_en": "Rising tone, like asking a question.",
+        "listen_url": "l5-ren.mp3"
+      },
+      {
+        "type": "vocab_card",
+        "en": "friend",
+        "py": "péngyou",
+        "note_en": "PÉNG-you; second syllable is a light neutral tone.",
+        "listen_url": "l5-pengyou.mp3"
+      },
+      {
+        "type": "callout",
+        "kind": "pattern",
+        "title": "Pattern: question words stay put",
+        "body_en": "Question words don't move. English flips the sentence; Chinese just swaps the answer for shéi. And don't add ma: shéi already makes it a question.",
+        "body_py": "Wèncí bú yòng dòng. Bǎ dá'àn huànchéng \"shéi\" jiù kěyǐ le. Bú yào jiā \"ma\", yīnwèi \"shéi\" yǐjīng shì wèntí le.",
+        "pairs": [
+          {
+            "en": "This is Dad.",
+            "py": "Zhè shì bàba."
+          },
+          {
+            "en": "Who is this?",
+            "py": "Zhè shì shéi?"
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "Review: your three tricky words"
+      },
+      {
+        "type": "paragraph",
+        "en": "These three tripped you up yesterday, so listen and repeat each one out loud with the right tone.",
+        "py": "Zuótiān zhè sān gè cí yǒudiǎnr nán, suǒyǐ qǐng tīng yíxià, ránhòu dàshēng gēnzhe shuō."
+      },
+      {
+        "type": "review_table",
+        "rows": [
+          {
+            "en": "daughter",
+            "py": "nǚ'ér",
+            "tip": "dip, then rise",
+            "listen_url": "l5-review-nuer.mp3"
+          },
+          {
+            "en": "to have",
+            "py": "yǒu",
+            "tip": "dip down low",
+            "listen_url": "l5-review-you.mp3"
+          },
+          {
+            "en": "home / family",
+            "py": "jiā",
+            "tip": "high and flat",
+            "listen_url": "l5-review-jia.mp3"
+          }
+        ]
+      },
+      {
+        "type": "callout",
+        "kind": "bonus",
+        "title": "Bonus (recognize only): four | sì",
+        "body_en": "In example 5 you'll see sì. Numbers get their own lesson soon; for now just recognize it.",
+        "body_py": "Zài dì-wǔ gè lìzi lǐ, nǐ huì kàndào \"sì\". Shùzì hěn kuài huì yǒu zìjǐ de kè; xiànzài zhǐ yào rènshi tā."
+      },
+      {
+        "type": "heading",
+        "text": "Examples"
+      },
+      {
+        "type": "example",
+        "n": 1,
+        "en": "Who is this?",
+        "py": "Zhè shì shéi?",
+        "listen_url": "l5-zhe-shi-shei.mp3"
+      },
+      {
+        "type": "example",
+        "n": 2,
+        "en": "This is my son.",
+        "py": "Zhè shì wǒ érzi.",
+        "listen_url": "l5-ex2.mp3"
+      },
+      {
+        "type": "example",
+        "n": 3,
+        "en": "He is my friend.",
+        "py": "Tā shì wǒ de péngyou.",
+        "listen_url": "l5-ex3.mp3"
+      },
+      {
+        "type": "example",
+        "n": 4,
+        "en": "That is my daughter.",
+        "py": "Nà shì wǒ nǚ'ér.",
+        "listen_url": "l5-ex4.mp3"
+      },
+      {
+        "type": "example",
+        "n": 5,
+        "en": "My family has four people.",
+        "py": "Wǒ jiā yǒu sì gè rén.",
+        "listen_url": "l5-ex5.mp3"
+      }
+    ]
+  },
+  "practice": {
+    "how_to": "Type your answers in the boxes below. Use tone marks on every pinyin answer (missing tones earn half credit). For 🎤 S1–S3, record a short clip on this page (you can replay and re-record; each clip stops at about 20 seconds). Then tap Submit to see your written score right away.",
+    "sections": [
+      {
+        "title": "A · Choose the right word",
+        "items": [
+          {
+            "n": 1,
+            "type": "prompt",
+            "prompt_en": "who — a) zhè   b) shéi   c) rén"
+          },
+          {
+            "n": 2,
+            "type": "prompt",
+            "prompt_en": "friend — a) péngyou   b) háizi   c) bàba"
+          },
+          {
+            "n": 3,
+            "type": "prompt",
+            "prompt_en": "person / people — a) nǚ'ér   b) jiā   c) rén"
+          },
+          {
+            "n": 4,
+            "type": "prompt",
+            "prompt_en": "to have — a) shì   b) yǒu   c) hěn"
+          }
+        ]
+      },
+      {
+        "title": "B · Pinyin → English",
+        "items": [
+          {
+            "n": 5,
+            "type": "prompt",
+            "prompt_en": "Zhè shì wǒ māma.",
+            "prompt_py": "?"
+          },
+          {
+            "n": 6,
+            "type": "prompt",
+            "prompt_en": "Tā shì shéi?",
+            "prompt_py": "?"
+          },
+          {
+            "n": 7,
+            "type": "prompt",
+            "prompt_en": "Nǐ hǎo ma?",
+            "prompt_py": "?"
+          }
+        ]
+      },
+      {
+        "title": "C · Fill in the blank",
+        "items": [
+          {
+            "n": 8,
+            "type": "fill",
+            "prompt_en": "Who is this?",
+            "prompt_py": "Zhè shì ___?"
+          },
+          {
+            "n": 9,
+            "type": "fill",
+            "prompt_en": "He is my friend.",
+            "prompt_py": "Tā shì wǒ de ___."
+          },
+          {
+            "n": 10,
+            "type": "fill",
+            "prompt_en": "I have two kids.",
+            "prompt_py": "Wǒ ___ liǎng gè háizi."
+          }
+        ]
+      },
+      {
+        "title": "D · Tone check — rewrite with tone marks",
+        "items": [
+          {
+            "n": 14,
+            "type": "prompt",
+            "prompt_en": "nuer (daughter)"
+          },
+          {
+            "n": 15,
+            "type": "prompt",
+            "prompt_en": "you (to have)"
+          },
+          {
+            "n": 16,
+            "type": "prompt",
+            "prompt_en": "ni hao ma (how are you?)"
+          }
+        ]
+      },
+      {
+        "title": "E · Say it out loud 🎤",
+        "intro_callout": {
+          "title": "Record a voice memo on this page",
+          "body_en": "Listen to each model first, then read S1–S3 aloud into the recorder. Voice clips are not auto-graded; Mei listens later."
+        },
+        "items": [
+          {
+            "n": "S1",
+            "type": "say",
+            "prompt_en": "Who is this?",
+            "prompt_py": "Zhè shì shéi?",
+            "listen_url": "l5-zhe-shi-shei.mp3"
+          },
+          {
+            "n": "S2",
+            "type": "say",
+            "prompt_en": "This is my friend.",
+            "prompt_py": "Zhè shì wǒ de péngyou.",
+            "listen_url": "l5-say2.mp3"
+          },
+          {
+            "n": "S3",
+            "type": "say",
+            "prompt_en": "My family has four people.",
+            "prompt_py": "Wǒ jiā yǒu sì gè rén.",
+            "listen_url": "l5-ex5.mp3"
+          }
+        ]
+      }
+    ]
+  },
+  "closing": {
+    "en": "Nice work. Tap Submit when your written answers and voice memos are ready. Jiāyóu! (Keep going!)"
+  },
+  "answer_key": {
+    "items": [
+      {
+        "n": "1",
+        "kind": "choice",
+        "expected": [
+          "b",
+          "shéi"
+        ],
+        "words": [
+          "shéi"
+        ]
+      },
+      {
+        "n": "2",
+        "kind": "choice",
+        "expected": [
+          "a",
+          "péngyou"
+        ],
+        "words": [
+          "péngyou"
+        ]
+      },
+      {
+        "n": "3",
+        "kind": "choice",
+        "expected": [
+          "c",
+          "rén"
+        ],
+        "words": [
+          "rén"
+        ]
+      },
+      {
+        "n": "4",
+        "kind": "choice",
+        "expected": [
+          "b",
+          "yǒu"
+        ],
+        "words": [
+          "yǒu"
+        ]
+      },
+      {
+        "n": "5",
+        "kind": "english",
+        "expected": [
+          "This is my mom",
+          "This is my mother",
+          "This is mom"
+        ],
+        "words": [
+          "zhè",
+          "māma"
+        ]
+      },
+      {
+        "n": "6",
+        "kind": "english",
+        "expected": [
+          "Who is he?",
+          "Who is she?",
+          "Who is he/she?",
+          "Who is that?"
+        ],
+        "words": [
+          "shéi"
+        ]
+      },
+      {
+        "n": "7",
+        "kind": "english",
+        "expected": [
+          "How are you?",
+          "How are you"
+        ],
+        "words": [
+          "nǐ hǎo"
+        ]
+      },
+      {
+        "n": "8",
+        "kind": "pinyin",
+        "expected": [
+          "shéi"
+        ],
+        "words": [
+          "shéi"
+        ]
+      },
+      {
+        "n": "9",
+        "kind": "pinyin",
+        "expected": [
+          "péngyou"
+        ],
+        "words": [
+          "péngyou"
+        ]
+      },
+      {
+        "n": "10",
+        "kind": "pinyin",
+        "expected": [
+          "yǒu"
+        ],
+        "words": [
+          "yǒu"
+        ]
+      },
+      {
+        "n": "14",
+        "kind": "pinyin",
+        "expected": [
+          "nǚ'ér"
+        ],
+        "words": [
+          "nǚ'ér"
+        ]
+      },
+      {
+        "n": "15",
+        "kind": "pinyin",
+        "expected": [
+          "yǒu"
+        ],
+        "words": [
+          "yǒu"
+        ]
+      },
+      {
+        "n": "16",
+        "kind": "pinyin",
+        "expected": [
+          "nǐ hǎo ma",
+          "Nǐ hǎo ma?"
+        ],
+        "words": [
+          "nǐ hǎo"
+        ]
+      },
+      {
+        "n": "S1",
+        "kind": "voice",
+        "words": [
+          "Zhè shì shéi?",
+          "shéi"
+        ]
+      },
+      {
+        "n": "S2",
+        "kind": "voice",
+        "words": [
+          "zhè",
+          "péngyou"
+        ]
+      },
+      {
+        "n": "S3",
+        "kind": "voice",
+        "words": [
+          "jiā",
+          "rén"
+        ]
+      }
+    ]
+  },
+  "date": "2026-10-30"
+}

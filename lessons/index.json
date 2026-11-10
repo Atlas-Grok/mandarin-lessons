@@ -8,6 +8,96 @@
       "date": "2026-11-10",
       "category": "Animals",
       "hsk": 1
+    },
+    {
+      "id": "l11",
+      "lesson_number": 11,
+      "title_en": "More Colors: Black, Yellow, Green",
+      "title_py": "Gèng duō yánsè: hēi, huáng, lǜ",
+      "date": "2026-11-09",
+      "category": "Colors",
+      "hsk": 1
+    },
+    {
+      "id": "l10",
+      "lesson_number": 10,
+      "title_en": "Colors: What Do You Like?",
+      "title_py": "Yánsè: Nǐ xǐhuan shénme yánsè?",
+      "date": "2026-11-06",
+      "category": "Colors",
+      "hsk": 1
+    },
+    {
+      "id": "l9",
+      "lesson_number": 9,
+      "title_en": "What's Your Name? How Old?",
+      "title_py": "Nǐ jiào shénme míngzi? Jǐ suì?",
+      "date": "2026-11-05",
+      "category": "Family / people",
+      "hsk": 1
+    },
+    {
+      "id": "l8",
+      "lesson_number": 8,
+      "title_en": "How Many People? Numbers 1–5",
+      "title_py": "Jǐ gè rén? Yī dào wǔ",
+      "date": "2026-11-04",
+      "category": "Family / people",
+      "hsk": 1
+    },
+    {
+      "id": "l7",
+      "lesson_number": 7,
+      "title_en": "Grandpa, Grandma & Love",
+      "title_py": "Yéye, nǎinai, ài",
+      "date": "2026-11-03",
+      "category": "Family / people",
+      "hsk": 1
+    },
+    {
+      "id": "l6",
+      "lesson_number": 6,
+      "title_en": "Brothers & Sisters",
+      "title_py": "Gēge, jiějie, dìdi, mèimei",
+      "date": "2026-10-31",
+      "category": "Family / people",
+      "hsk": 1
+    },
+    {
+      "id": "l5",
+      "lesson_number": 5,
+      "title_en": "Who Is This?",
+      "title_py": "Zhè shì shéi?",
+      "date": "2026-10-30",
+      "category": "Family / people",
+      "hsk": 1
+    },
+    {
+      "id": "l4",
+      "lesson_number": 4,
+      "title_en": "My Family",
+      "title_py": "wǒ de jiā",
+      "date": "2026-10-29",
+      "category": "Family / people",
+      "hsk": 1
+    },
+    {
+      "id": "l3",
+      "lesson_number": 3,
+      "title_en": "Family",
+      "title_py": "Érzi, nǚ'ér, jiā",
+      "date": "2026-10-28",
+      "category": "Family / people",
+      "hsk": 1
+    },
+    {
+      "id": "l2",
+      "lesson_number": 2,
+      "title_en": "Everyday People + Basics",
+      "title_py": "Bàba, māma, wǒ, nǐ, tā",
+      "date": "2026-10-26",
+      "category": "Family / people",
+      "hsk": 1
     }
   ]
 }

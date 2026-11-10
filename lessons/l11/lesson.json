@@ -1,0 +1,604 @@
+{
+  "lesson_number": 11,
+  "title_en": "More Colors: Black, Yellow, Green",
+  "title_py": "Gèng duō yánsè: hēi, huáng, lǜ",
+  "category": "Colors",
+  "hsk": 1,
+  "auditory_note": "Tap ▶ Listen to play each clip.",
+  "banner": {
+    "kind": "info",
+    "title_en": "👋 Lessons 8, 9 and 10 are still waiting",
+    "body_en": "Whenever you have a few minutes, reply with your answers to Lesson 8 (numbers), Lesson 9 (names and ages) and Lesson 10 (colors) so I can grade them. No rush. Today we stay in colors and add three more, plus a tiny word for \"not\".",
+    "body_py": "Nǐ yǒu kòng de shíhou, qǐng huífù dì-bā, dì-jiǔ hé dì-shí kè de dá'àn, wǒ lái pǔfēn. Bù jí. Jīntiān wǒmen jìxù xué yánsè, zài jiā sān gè yánsè, hái yǒu yí gè biǎoshì “bù” de xiǎo cí."
+  },
+  "teach": {
+    "intro": {
+      "en": "Hi Evan! Last time you met color, red, blue, white, and \"to like\". Today we stay with colors and add three more: black, yellow, and green. You'll also learn bù, the little word for \"not\", so you can say what you don't like as well as what you do. Then we'll warm up some older words that are due for a refresh.",
+      "py": "Nǐ hǎo, Evan! Shàng cì nǐ xué le yánsè, hóngsè, lánsè, báisè hé xǐhuan. Jīntiān wǒmen jìxù xué yánsè, zài jiā sān gè: hēisè, huángsè, lǜsè. Nǐ hái huì xué “bù”, jiù shì “not” de xiǎo cí, zhèyàng nǐ jì néng shuō xǐhuan shénme, yě néng shuō bù xǐhuan shénme. Ránhòu wǒmen yě fùxí yìxiē gāi fùxí de jiù cí."
+    },
+    "blocks": [
+      {
+        "type": "heading",
+        "text": "New words"
+      },
+      {
+        "type": "vocab_card",
+        "en": "black",
+        "py": "hēisè",
+        "note_en": "1st tone on HĒI (high and flat), then the falling 4th tone on SÈ. Same sè ending as the other colors.",
+        "note_py": "Hēi shì dì-yī shēng, sè shì dì-sì shēng. Hòumiàn de sè gēn qítā yánsè yíyàng.",
+        "listen_url": "l11-heise.mp3"
+      },
+      {
+        "type": "vocab_card",
+        "en": "yellow",
+        "py": "huángsè",
+        "note_en": "2nd tone (rising) on HUÁNG, then 4th on SÈ. The \"ng\" sound at the end of huáng rings a little, like in \"song\".",
+        "note_py": "Huáng shì dì-èr shēng, sè shì dì-sì shēng. Huáng zuìhòu de ng hé “song” de ng yíyàng.",
+        "listen_url": "l11-huangse.mp3"
+      },
+      {
+        "type": "vocab_card",
+        "en": "green",
+        "py": "lǜsè",
+        "note_en": "The ü sound is like saying \"ee\" with rounded lips. Lǜ is a falling 4th tone, and sè is a 4th tone too, so both syllables fall.",
+        "note_py": "Lǜ de ü shì zuǐchún yuán de “yi”. Lǜ shì dì-sì shēng, sè yě shì dì-sì shēng, liǎng gè dōu wǎng xià jiàng.",
+        "listen_url": "l11-luse.mp3"
+      },
+      {
+        "type": "vocab_card",
+        "en": "not",
+        "py": "bù",
+        "note_en": "Falling 4th tone. It goes right before the verb: bù xǐhuan means \"don't like\". (Before another 4th tone it turns into bú, but we won't need that today.)",
+        "note_py": "Bù shì dì-sì shēng. Tā fàng zài dòngcí qiánmiàn: bù xǐhuan jiù shì “don't like”. (Hòumiàn shì dì-sì shēng shí biàn chéng bú, jīntiān yòng bú dào.)",
+        "listen_url": "l11-bu.mp3"
+      },
+      {
+        "type": "vocab_card",
+        "en": "I don't like green.",
+        "py": "Wǒ bù xǐhuan lǜsè.",
+        "note_en": "Word for word: \"I not like green.\" Just put bù between the person and xǐhuan. The 3rd tones of wǒ and xǐhuan don't meet here, so wǒ stays a normal 3rd.",
+        "note_py": "Zhè jù huà jiù shì: wǒ bù xǐhuan lǜsè. Bǎ bù fàng zài rén hé xǐhuan zhōngjiān. Wǒ hé xǐ zhōngjiān yǒu bù, suǒyǐ liǎng gè dì-sān shēng bú huì xiāngyù.",
+        "listen_url": "l11-wo-bu-xihuan-luse.mp3"
+      },
+      {
+        "type": "callout",
+        "kind": "pattern",
+        "title": "🔑 Pattern: don't like = bù xǐhuan",
+        "body_en": "To say you don't like something, drop bù right before xǐhuan. Everything else stays the same as last lesson's \"I like...\" sentences, so you only add one tiny word.",
+        "body_py": "Yào shuō bù xǐhuan mǒu wù, bǎ bù fàng zài xǐhuan qiánmiàn. Qítā dōu hé shàng yí cì de “wǒ xǐhuan…” yíyàng, nǐ zhǐ jiā yí gè xiǎo cí.",
+        "pairs": [
+          {
+            "en": "I like red. / I don't like red.",
+            "py": "Wǒ xǐhuan hóngsè. / Wǒ bù xǐhuan hóngsè."
+          },
+          {
+            "en": "He doesn't like blue.",
+            "py": "Tā bù xǐhuan lánsè."
+          }
+        ]
+      },
+      {
+        "type": "callout",
+        "kind": "tip",
+        "title": "💡 Tip: colors all end in sè",
+        "body_en": "Hēisè, huángsè, lǜsè, hóngsè, lánsè, báisè: six colors, one ending. Once you know sè means \"color\", you only need the first sound to tell them apart.",
+        "body_py": "Hēisè, huángsè, lǜsè, hóngsè, lánsè, báisè: liù gè yánsè, tóngyàng de jiéwěi. Zhīdào sè shì “color” zhīhòu, nǐ zhǐ yào tīng dì-yī gè yīn jiù néng fēnbié."
+      },
+      {
+        "type": "heading",
+        "text": "Review: due words"
+      },
+      {
+        "type": "paragraph",
+        "en": "These words are due for a refresh, and the colors from Lesson 10 haven't had a first practice yet. Listen, then say each one out loud.",
+        "py": "Zhèxiē cí gāi fùxí le, ér dì-shí kè de yánsè hái méiyǒu liànxí guò. Xiān tīng, ránhòu dàshēng shuō."
+      },
+      {
+        "type": "review_table",
+        "rows": [
+          {
+            "en": "color",
+            "py": "yánsè",
+            "tip": "2nd, then 4th",
+            "listen_url": "l11-review-yanse.mp3"
+          },
+          {
+            "en": "red",
+            "py": "hóngsè",
+            "tip": "2nd + 4th",
+            "listen_url": "l11-review-hongse.mp3"
+          },
+          {
+            "en": "blue",
+            "py": "lánsè",
+            "tip": "2nd + 4th",
+            "listen_url": "l11-review-lanse.mp3"
+          },
+          {
+            "en": "white",
+            "py": "báisè",
+            "tip": "2nd + 4th",
+            "listen_url": "l11-review-baise.mp3"
+          },
+          {
+            "en": "to like",
+            "py": "xǐhuan",
+            "tip": "wó xǐhuan, ní xǐhuan",
+            "listen_url": "l11-review-xihuan.mp3"
+          },
+          {
+            "en": "person / people",
+            "py": "rén",
+            "tip": "2nd tone",
+            "listen_url": "l11-review-ren.mp3"
+          },
+          {
+            "en": "five",
+            "py": "wǔ",
+            "tip": "3rd tone",
+            "listen_url": "l11-review-wu.mp3"
+          },
+          {
+            "en": "one",
+            "py": "yī",
+            "tip": "flat 1st tone",
+            "listen_url": "l11-review-yi.mp3"
+          },
+          {
+            "en": "two (counting things)",
+            "py": "liǎng",
+            "tip": "3rd tone, liǎng gè",
+            "listen_url": "l11-review-liang.mp3"
+          },
+          {
+            "en": "What color do you like?",
+            "py": "Nǐ xǐhuan shénme yánsè?",
+            "tip": "say it ní xǐhuan…",
+            "listen_url": "l11-review-nxsmys.mp3"
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "Examples"
+      },
+      {
+        "type": "example",
+        "n": 1,
+        "en": "I like black.",
+        "py": "Wǒ xǐhuan hēisè.",
+        "listen_url": "l11-ex1.mp3"
+      },
+      {
+        "type": "example",
+        "n": 2,
+        "en": "He likes yellow.",
+        "py": "Tā xǐhuan huángsè.",
+        "listen_url": "l11-ex2.mp3"
+      },
+      {
+        "type": "example",
+        "n": 3,
+        "en": "My son likes green.",
+        "py": "Wǒ de érzi xǐhuan lǜsè.",
+        "listen_url": "l11-ex3.mp3"
+      },
+      {
+        "type": "example",
+        "n": 4,
+        "en": "I don't like white.",
+        "py": "Wǒ bù xǐhuan báisè.",
+        "listen_url": "l11-ex4.mp3"
+      },
+      {
+        "type": "example",
+        "n": 5,
+        "en": "I like red, I don't like blue.",
+        "py": "Wǒ xǐhuan hóngsè, wǒ bù xǐhuan lánsè.",
+        "listen_url": "l11-ex5.mp3"
+      }
+    ]
+  },
+  "practice": {
+    "how_to": "Type your answers in the boxes below. Use tone marks on every pinyin answer (missing tones earn half credit). For 🎤 S1–S3, record a short clip on this page (you can replay and re-record; each clip stops at about 20 seconds). Then tap Submit to see your written score right away.",
+    "sections": [
+      {
+        "title": "A · Matching",
+        "options_line": "Match each pinyin to its English: black · yellow · green · not · color · to like",
+        "items": [
+          {
+            "n": 1,
+            "type": "match",
+            "prompt_en": "hēisè",
+            "prompt_py": "?"
+          },
+          {
+            "n": 2,
+            "type": "match",
+            "prompt_en": "huángsè",
+            "prompt_py": "?"
+          },
+          {
+            "n": 3,
+            "type": "match",
+            "prompt_en": "lǜsè",
+            "prompt_py": "?"
+          },
+          {
+            "n": 4,
+            "type": "match",
+            "prompt_en": "bù",
+            "prompt_py": "?"
+          },
+          {
+            "n": 5,
+            "type": "match",
+            "prompt_en": "yánsè",
+            "prompt_py": "?"
+          },
+          {
+            "n": 6,
+            "type": "match",
+            "prompt_en": "xǐhuan",
+            "prompt_py": "?"
+          }
+        ]
+      },
+      {
+        "title": "B · English → pinyin",
+        "items": [
+          {
+            "n": 7,
+            "type": "prompt",
+            "prompt_en": "red"
+          },
+          {
+            "n": 8,
+            "type": "prompt",
+            "prompt_en": "white"
+          },
+          {
+            "n": 9,
+            "type": "prompt",
+            "prompt_en": "five"
+          },
+          {
+            "n": 10,
+            "type": "prompt",
+            "prompt_en": "person"
+          }
+        ]
+      },
+      {
+        "title": "C · Fill in the blank",
+        "options_line": "Choose from: bù · xǐhuan · shénme · hēisè",
+        "items": [
+          {
+            "n": 11,
+            "type": "fill",
+            "prompt_en": "I don't like green.",
+            "prompt_py": "Wǒ ___ xǐhuan lǜsè."
+          },
+          {
+            "n": 12,
+            "type": "fill",
+            "prompt_en": "What color do you like?",
+            "prompt_py": "Nǐ xǐhuan ___ yánsè?"
+          },
+          {
+            "n": 13,
+            "type": "fill",
+            "prompt_en": "He likes black.",
+            "prompt_py": "Tā xǐhuan ___."
+          }
+        ]
+      },
+      {
+        "title": "D · Unscramble the sentence",
+        "items": [
+          {
+            "n": 14,
+            "type": "unscramble",
+            "prompt_en": "I like yellow.",
+            "unscramble": "xǐhuan / huángsè / wǒ"
+          },
+          {
+            "n": 15,
+            "type": "unscramble",
+            "prompt_en": "He doesn't like blue.",
+            "unscramble": "lánsè / bù / tā / xǐhuan"
+          },
+          {
+            "n": 16,
+            "type": "unscramble",
+            "prompt_en": "My kid likes green.",
+            "unscramble": "de / lǜsè / háizi / wǒ / xǐhuan"
+          }
+        ]
+      },
+      {
+        "title": "E · About you",
+        "items": [
+          {
+            "n": 17,
+            "type": "about_you",
+            "prompt_en": "Name one color you do not like, in a full pinyin sentence.",
+            "hint": "Wǒ bù xǐhuan ___."
+          },
+          {
+            "n": 18,
+            "type": "about_you",
+            "prompt_en": "Name one color you like, in a full pinyin sentence.",
+            "hint": "Wǒ xǐhuan ___."
+          }
+        ]
+      },
+      {
+        "title": "F · Say it out loud 🎤",
+        "intro_callout": {
+          "title": "Send a voice memo in Mandarin Tutor chat",
+          "body_en": "Email can't record audio. Listen to each model first, then read S1–S3 aloud in one memo. Remember: nǐ xǐhuan sounds like ní xǐhuan in S2.",
+          "body_py": "Diànzǐ yóujiàn bù néng lùyīn. Xiān tīng, ránhòu bǎ S1 dào S3 dàshēng dú chūlái. S2 lǐ nǐ xǐhuan shuō chéng ní xǐhuan."
+        },
+        "items": [
+          {
+            "n": "S1",
+            "type": "say",
+            "prompt_en": "I don't like green.",
+            "prompt_py": "Wǒ bù xǐhuan lǜsè.",
+            "listen_url": "l11-wo-bu-xihuan-luse.mp3"
+          },
+          {
+            "n": "S2",
+            "type": "say",
+            "prompt_en": "What color do you like?",
+            "prompt_py": "Nǐ xǐhuan shénme yánsè?",
+            "listen_url": "l11-review-nxsmys.mp3"
+          },
+          {
+            "n": "S3",
+            "type": "say",
+            "prompt_en": "My kid likes yellow.",
+            "prompt_py": "Wǒ de háizi xǐhuan huángsè.",
+            "listen_url": "l11-say3.mp3"
+          }
+        ]
+      }
+    ]
+  },
+  "closing": {
+    "en": "Nice work, Evan! Today, look around and name one color you like and one you don't. Even just \"hēisè!\" counts. Tap Submit when your written answers and voice memos are ready. Jiāyóu!",
+    "py": "Zuò de hěn hǎo, Evan! Jīntiān kànkan zhōuwéi, shuō yí gè nǐ xǐhuan de yánsè hé yí gè nǐ bù xǐhuan de yánsè. Zhǐ shuō “hēisè!” yě suàn. Nǐ zhǔnbèi hǎo le jiù huífù, yǔyīn qǐng fā dào Mandarin Tutor liáotiān lǐ. Jiāyóu!"
+  },
+  "answer_key": {
+    "items": [
+      {
+        "n": "1",
+        "kind": "english",
+        "expected": [
+          "black"
+        ],
+        "words": [
+          "hēisè"
+        ]
+      },
+      {
+        "n": "2",
+        "kind": "english",
+        "expected": [
+          "yellow"
+        ],
+        "words": [
+          "huángsè"
+        ]
+      },
+      {
+        "n": "3",
+        "kind": "english",
+        "expected": [
+          "green"
+        ],
+        "words": [
+          "lǜsè"
+        ]
+      },
+      {
+        "n": "4",
+        "kind": "english",
+        "expected": [
+          "not"
+        ],
+        "words": [
+          "bù"
+        ]
+      },
+      {
+        "n": "5",
+        "kind": "english",
+        "expected": [
+          "color"
+        ],
+        "words": [
+          "yánsè"
+        ]
+      },
+      {
+        "n": "6",
+        "kind": "english",
+        "expected": [
+          "to like",
+          "like"
+        ],
+        "words": [
+          "xǐhuan"
+        ]
+      },
+      {
+        "n": "7",
+        "kind": "pinyin",
+        "expected": [
+          "hóngsè"
+        ],
+        "words": [
+          "hóngsè"
+        ]
+      },
+      {
+        "n": "8",
+        "kind": "pinyin",
+        "expected": [
+          "báisè"
+        ],
+        "words": [
+          "báisè"
+        ]
+      },
+      {
+        "n": "9",
+        "kind": "pinyin",
+        "expected": [
+          "wǔ"
+        ],
+        "words": [
+          "wǔ"
+        ]
+      },
+      {
+        "n": "10",
+        "kind": "pinyin",
+        "expected": [
+          "rén"
+        ],
+        "words": [
+          "rén"
+        ]
+      },
+      {
+        "n": "11",
+        "kind": "pinyin",
+        "expected": [
+          "bù"
+        ],
+        "words": [
+          "bù"
+        ]
+      },
+      {
+        "n": "12",
+        "kind": "pinyin",
+        "expected": [
+          "shénme"
+        ],
+        "words": [
+          "shénme"
+        ]
+      },
+      {
+        "n": "13",
+        "kind": "pinyin",
+        "expected": [
+          "hēisè"
+        ],
+        "words": [
+          "hēisè"
+        ]
+      },
+      {
+        "n": "14",
+        "kind": "sentence",
+        "expected": [
+          "Wǒ xǐhuan huángsè."
+        ],
+        "words": [
+          "xǐhuan",
+          "huángsè"
+        ]
+      },
+      {
+        "n": "15",
+        "kind": "sentence",
+        "expected": [
+          "Tā bù xǐhuan lánsè."
+        ],
+        "words": [
+          "bù",
+          "xǐhuan",
+          "lánsè"
+        ]
+      },
+      {
+        "n": "16",
+        "kind": "sentence",
+        "expected": [
+          "Wǒ de háizi xǐhuan lǜsè."
+        ],
+        "words": [
+          "xǐhuan",
+          "lǜsè",
+          "háizi"
+        ]
+      },
+      {
+        "n": "17",
+        "kind": "sentence",
+        "expected": [
+          "Wǒ bù xǐhuan hēisè.",
+          "Wǒ bù xǐhuan huángsè.",
+          "Wǒ bù xǐhuan lǜsè.",
+          "Wǒ bù xǐhuan hóngsè.",
+          "Wǒ bù xǐhuan lánsè.",
+          "Wǒ bù xǐhuan báisè."
+        ],
+        "regex": "wǒ\\s*bù\\s*xǐhuan\\s*(hóngsè|lánsè|báisè|hēisè|huángsè|lǜsè)(\\s*ma)?",
+        "words": [
+          "bù",
+          "xǐhuan"
+        ]
+      },
+      {
+        "n": "18",
+        "kind": "sentence",
+        "expected": [
+          "Wǒ xǐhuan hēisè.",
+          "Wǒ xǐhuan huángsè.",
+          "Wǒ xǐhuan lǜsè.",
+          "Wǒ xǐhuan hóngsè.",
+          "Wǒ xǐhuan lánsè.",
+          "Wǒ xǐhuan báisè."
+        ],
+        "regex": "wǒ\\s*xǐhuan\\s*(hóngsè|lánsè|báisè|hēisè|huángsè|lǜsè)(\\s*ma)?",
+        "words": [
+          "xǐhuan"
+        ]
+      },
+      {
+        "n": "S1",
+        "kind": "voice",
+        "words": [
+          "Wǒ bù xǐhuan lǜsè.",
+          "bù",
+          "lǜsè"
+        ]
+      },
+      {
+        "n": "S2",
+        "kind": "voice",
+        "words": [
+          "Nǐ xǐhuan shénme yánsè?",
+          "xǐhuan",
+          "yánsè"
+        ]
+      },
+      {
+        "n": "S3",
+        "kind": "voice",
+        "words": [
+          "Wǒ de háizi xǐhuan huángsè.",
+          "huángsè"
+        ]
+      }
+    ]
+  },
+  "date": "2026-11-09"
+}

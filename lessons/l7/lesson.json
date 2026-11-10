@@ -1,0 +1,414 @@
+{
+  "lesson_number": 7,
+  "title_en": "Grandpa, Grandma & Love",
+  "title_py": "Yéye, nǎinai, ài",
+  "category": "Family / people",
+  "hsk": 1,
+  "auditory_note": "Tap ▶ Listen to play each clip.",
+  "banner": {
+    "kind": "warn",
+    "title_en": "✏️ Tone marks count today",
+    "body_en": "Last lesson, most of your answers were right but lost half credit for missing tone marks. On a phone, long-press a vowel (like a) to pick ā á ǎ à. On a computer, typing the tone number after the syllable (yi2) is fine too.",
+    "body_py": "Shàng yí kè, nǐ hěn duō dá'àn dōu duì le, dànshì méiyǒu shēngdiào, suǒyǐ zhǐ dé yíbàn fēn. Zài shǒujī shang, cháng àn yí gè yuányīn zìmǔ jiù kěyǐ xuǎn shēngdiào. Zài diànnǎo shang, zài yīnjié hòumiàn xiě shùzì yě kěyǐ."
+  },
+  "teach": {
+    "intro": {
+      "en": "Hi Evan! Nice work on Lesson 6. You got all four siblings right in the matching section. Today we climb up the family tree to grandpa and grandma, and you'll learn one of the warmest words in Chinese: ài, to love. These are perfect words to use with your kids. We'll also review a few words that are due: nà (that), Zhè shì shéi? (Who is this?), and jiā (family).",
+      "py": "Nǐ hǎo, Evan! Dì-liù kè zuò de hěn hǎo. Pèiduì liànxí lǐ, sì gè xiōngdì jiěmèi nǐ quán duì le. Jīntiān wǒmen xué yéye hé nǎinai, hái yǒu Zhōngwén lǐ zuì wēnnuǎn de yí gè cí: ài. Zhèxiē cí hěn shìhé gēn nǐ de háizi yìqǐ yòng. Wǒmen yě fùxí jǐ gè cí: nà, Zhè shì shéi?, hé jiā."
+    },
+    "blocks": [
+      {
+        "type": "heading",
+        "text": "New words"
+      },
+      {
+        "type": "vocab_card",
+        "en": "grandpa (dad's dad)",
+        "py": "yéye",
+        "note_en": "2nd tone rising on YÉ, then a light neutral ye. Doubled, just like bàba and gēge. Strictly, yéye is your father's father; mom's side has its own words, which we'll meet later.",
+        "note_py": "Dì-èr shēng, ránhòu qīngshēng. Gēn bàba, gēge yíyàng chóngdié. Yéye shì bàba de bàba.",
+        "listen_url": "l7-yeye.mp3"
+      },
+      {
+        "type": "vocab_card",
+        "en": "grandma (dad's mom)",
+        "py": "nǎinai",
+        "note_en": "A low 3rd-tone dip on NǍI, then a soft neutral nai. Nǎinai is your father's mother.",
+        "note_py": "Dì-sān shēng, ránhòu qīngshēng. Nǎinai shì bàba de māma.",
+        "listen_url": "l7-nainai.mp3"
+      },
+      {
+        "type": "vocab_card",
+        "en": "to love",
+        "py": "ài",
+        "note_en": "One sharp 4th-tone drop, like a happy \"Eye!\" It sits between two people: A ài B.",
+        "note_py": "Dì-sì shēng, kuài kuài xiàjiàng. Tā zài liǎng gè rén zhōngjiān: A ài B.",
+        "listen_url": "l7-ai.mp3"
+      },
+      {
+        "type": "vocab_card",
+        "en": "I love you.",
+        "py": "Wǒ ài nǐ.",
+        "note_en": "wǒ (3rd) + ài (4th) + nǐ (3rd). No tone change here: the two 3rd tones don't touch, because ài sits between them.",
+        "note_py": "Wǒ, ài, nǐ. Liǎng gè dì-sān shēng méiyǒu zài yìqǐ, suǒyǐ bù biàn diào.",
+        "listen_url": "l7-wo-ai-ni.mp3"
+      },
+      {
+        "type": "callout",
+        "kind": "pattern",
+        "title": "🔑 Pattern: A ài B (A loves B)",
+        "body_en": "Word order matches English here: person, ài, person. Add de to say whose: wǒ de nǎinai means my grandma.",
+        "body_py": "Zhèlǐ de yǔxù gēn Yīngwén yíyàng: rén, ài, rén. Jiā “de” shuō shì shéi de: wǒ de nǎinai.",
+        "pairs": [
+          {
+            "en": "I love my family.",
+            "py": "Wǒ ài wǒ de jiā."
+          },
+          {
+            "en": "Grandma loves you.",
+            "py": "Nǎinai ài nǐ."
+          }
+        ]
+      },
+      {
+        "type": "callout",
+        "kind": "tone",
+        "title": "🎵 Remember: zhè (near) vs. nà (far)",
+        "body_en": "zhè and nà are both 4th tone, so the sound is what changes. zhè is right here, close to you; nà is over there. Last lesson, \"Who is that?\" needed nà: Nà shì shéi?",
+        "body_py": "Zhè hé nà dōu shì dì-sì shēng. Zhè shì jìn de, nà shì yuǎn de. Shàng yí kè, “Who is that?” yào yòng nà: Nà shì shéi?"
+      },
+      {
+        "type": "heading",
+        "text": "Review: due words"
+      },
+      {
+        "type": "paragraph",
+        "en": "These three are due for review. Listen to each one and say it out loud before Practice.",
+        "py": "Zhè sān gè cí yào fùxí le. Liànxí yǐqián, qǐng tīng yíxià, ránhòu dàshēng shuō."
+      },
+      {
+        "type": "review_table",
+        "rows": [
+          {
+            "en": "that",
+            "py": "nà",
+            "tip": "4th tone, points far away",
+            "listen_url": "l7-review-na.mp3"
+          },
+          {
+            "en": "Who is this?",
+            "py": "Zhè shì shéi?",
+            "tip": "shéi rises like a question",
+            "listen_url": "l7-review-zhe-shi-shei.mp3"
+          },
+          {
+            "en": "home / family",
+            "py": "jiā",
+            "tip": "high, flat 1st tone",
+            "listen_url": "l7-review-jia.mp3"
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "Examples"
+      },
+      {
+        "type": "example",
+        "n": 1,
+        "en": "This is my grandpa.",
+        "py": "Zhè shì wǒ de yéye.",
+        "listen_url": "l7-ex1.mp3"
+      },
+      {
+        "type": "example",
+        "n": 2,
+        "en": "That is my grandma.",
+        "py": "Nà shì wǒ de nǎinai.",
+        "listen_url": "l7-ex2.mp3"
+      },
+      {
+        "type": "example",
+        "n": 3,
+        "en": "I love my family.",
+        "py": "Wǒ ài wǒ de jiā.",
+        "listen_url": "l7-ex3.mp3"
+      },
+      {
+        "type": "example",
+        "n": 4,
+        "en": "Do you have a grandpa? (say ní yǒu)",
+        "py": "Nǐ yǒu yéye ma?",
+        "listen_url": "l7-ex4.mp3"
+      },
+      {
+        "type": "example",
+        "n": 5,
+        "en": "My kids love grandma.",
+        "py": "Wǒ de háizi ài nǎinai.",
+        "listen_url": "l7-ex5.mp3"
+      }
+    ]
+  },
+  "practice": {
+    "how_to": "Type your answers in the boxes below. Use tone marks on every pinyin answer (missing tones earn half credit). For 🎤 S1–S3, record a short clip on this page (you can replay and re-record; each clip stops at about 20 seconds). Then tap Submit to see your written score right away.",
+    "sections": [
+      {
+        "title": "A · Pinyin → English",
+        "items": [
+          {
+            "n": 1,
+            "type": "prompt",
+            "prompt_en": "What does this mean in English?",
+            "prompt_py": "yéye"
+          },
+          {
+            "n": 2,
+            "type": "prompt",
+            "prompt_en": "What does this mean in English?",
+            "prompt_py": "nà"
+          },
+          {
+            "n": 3,
+            "type": "prompt",
+            "prompt_en": "What does this mean in English?",
+            "prompt_py": "Wǒ ài nǐ."
+          },
+          {
+            "n": 4,
+            "type": "prompt",
+            "prompt_en": "What does this mean in English?",
+            "prompt_py": "érzi",
+            "hint": "Lesson 3 family word"
+          }
+        ]
+      },
+      {
+        "title": "B · Fill in the blank",
+        "items": [
+          {
+            "n": 5,
+            "type": "fill",
+            "prompt_en": "my grandma",
+            "prompt_py": "wǒ de ____"
+          },
+          {
+            "n": 6,
+            "type": "fill",
+            "prompt_en": "That is my older sister.",
+            "prompt_py": "____ shì wǒ de jiějie.",
+            "hint": "far away, not near"
+          },
+          {
+            "n": 7,
+            "type": "fill",
+            "prompt_en": "I love dad.",
+            "prompt_py": "Wǒ ____ bàba."
+          }
+        ]
+      },
+      {
+        "title": "C · English → pinyin",
+        "items": [
+          {
+            "n": 8,
+            "type": "prompt",
+            "prompt_en": "Who is this?"
+          },
+          {
+            "n": 9,
+            "type": "prompt",
+            "prompt_en": "I love my family."
+          },
+          {
+            "n": 10,
+            "type": "prompt",
+            "prompt_en": "Do you have a younger brother?",
+            "hint": "yes/no question with ma"
+          }
+        ]
+      },
+      {
+        "title": "E · Say it out loud 🎤",
+        "intro_callout": {
+          "title": "Send a voice memo in Mandarin Tutor chat",
+          "body_en": "Email can't record audio. Listen to each model first, then read S1–S3 aloud in one memo. In S3, watch the wǒ yǒu tone change: say it like wó yǒu.",
+          "body_py": "Diànzǐ yóujiàn bù néng lùyīn. Xiān tīng, ránhòu bǎ S1 dào S3 dàshēng dú chūlái. S3 lǐ, “wǒ yǒu” yào shuō chéng “wó yǒu”."
+        },
+        "items": [
+          {
+            "n": "S1",
+            "type": "say",
+            "prompt_en": "I love you.",
+            "prompt_py": "Wǒ ài nǐ.",
+            "listen_url": "l7-wo-ai-ni.mp3"
+          },
+          {
+            "n": "S2",
+            "type": "say",
+            "prompt_en": "Who is that? That's my grandpa.",
+            "prompt_py": "Nà shì shéi? Nà shì wǒ de yéye.",
+            "listen_url": "l7-say2.mp3"
+          },
+          {
+            "n": "S3",
+            "type": "say",
+            "prompt_en": "I have two kids; I don't have a younger brother.",
+            "prompt_py": "Wǒ yǒu liǎng gè háizi, wǒ méiyǒu dìdi.",
+            "listen_url": "l7-say3.mp3"
+          }
+        ]
+      }
+    ]
+  },
+  "closing": {
+    "en": "Great job, Evan! Tonight at bedtime, try telling your kids \"Wǒ ài nǐ.\" Tap Submit when your written answers and voice memos are ready. Jiāyóu!",
+    "py": "Zuò de hěn hǎo, Evan! Jīntiān wǎnshang shuìjiào de shíhou, shìshi gēn nǐ de háizi shuō “Wǒ ài nǐ.” Nǐ zhǔnbèi hǎo le jiù huífù, yǔyīn qǐng fā dào Mandarin Tutor liáotiān lǐ. Jiāyóu!"
+  },
+  "answer_key": {
+    "items": [
+      {
+        "n": "1",
+        "kind": "english",
+        "expected": [
+          "grandpa",
+          "grandfather",
+          "paternal grandfather"
+        ],
+        "words": [
+          "yéye"
+        ]
+      },
+      {
+        "n": "2",
+        "kind": "english",
+        "expected": [
+          "that"
+        ],
+        "words": [
+          "nà"
+        ]
+      },
+      {
+        "n": "3",
+        "kind": "english",
+        "expected": [
+          "I love you"
+        ],
+        "words": [
+          "Wǒ ài nǐ.",
+          "ài"
+        ]
+      },
+      {
+        "n": "4",
+        "kind": "english",
+        "expected": [
+          "son"
+        ],
+        "words": [
+          "érzi"
+        ]
+      },
+      {
+        "n": "5",
+        "kind": "fill",
+        "expected": [
+          "nǎinai"
+        ],
+        "words": [
+          "nǎinai",
+          "de"
+        ]
+      },
+      {
+        "n": "6",
+        "kind": "fill",
+        "expected": [
+          "Nà",
+          "nà"
+        ],
+        "words": [
+          "nà"
+        ]
+      },
+      {
+        "n": "7",
+        "kind": "fill",
+        "expected": [
+          "ài"
+        ],
+        "words": [
+          "ài"
+        ]
+      },
+      {
+        "n": "8",
+        "kind": "sentence",
+        "expected": [
+          "Zhè shì shéi?",
+          "Zhè shì shéi",
+          "Zhè shì shuí?"
+        ],
+        "words": [
+          "Zhè shì shéi?",
+          "zhè",
+          "shéi"
+        ]
+      },
+      {
+        "n": "9",
+        "kind": "sentence",
+        "expected": [
+          "Wǒ ài wǒ de jiā.",
+          "Wǒ ài wǒ de jiā",
+          "Wǒ ài wǒ jiā"
+        ],
+        "words": [
+          "ài",
+          "jiā"
+        ]
+      },
+      {
+        "n": "10",
+        "kind": "sentence",
+        "expected": [
+          "Nǐ yǒu dìdi ma?",
+          "Nǐ yǒu dìdi ma"
+        ],
+        "words": [
+          "dìdi",
+          "yǒu"
+        ]
+      },
+      {
+        "n": "S1",
+        "kind": "voice",
+        "words": [
+          "Wǒ ài nǐ.",
+          "ài"
+        ]
+      },
+      {
+        "n": "S2",
+        "kind": "voice",
+        "words": [
+          "nà",
+          "shéi",
+          "yéye"
+        ]
+      },
+      {
+        "n": "S3",
+        "kind": "voice",
+        "words": [
+          "yǒu",
+          "háizi",
+          "méiyǒu",
+          "dìdi"
+        ]
+      }
+    ]
+  },
+  "date": "2026-11-03"
+}
