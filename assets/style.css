@@ -41,7 +41,9 @@ html { background-color: var(--page); }
 body { background: transparent; min-height: 100vh; }
 
 /* Fixed copper plate + soft navy-to-umber overlay. A pseudo-element
-   avoids background-attachment:fixed bugs on mobile. */
+   avoids background-attachment:fixed bugs on mobile. The copper
+   texture is a 1536×1536 seamless mirror-tile, drawn at native
+   size and repeated so it is never upscaled. */
 body::before {
   content: "";
   position: fixed;
@@ -51,10 +53,10 @@ body::before {
   background-color: var(--page);
   background-image:
     linear-gradient(180deg, rgba(14, 16, 32, 0.32), rgba(22, 12, 8, 0.42)),
-    url("bg-copper.jpg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
+    url("bg-copper-tile.jpg?v=1");
+  background-position: 0 0;
+  background-size: 1536px 1536px;
+  background-repeat: repeat;
 }
 
 .page {
