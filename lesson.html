@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mei · Mandarin Tutor</title>
+    <link rel="stylesheet" href="assets/style.css">
+  </head>
+  <body>
+    <div id="lock-screen" hidden>
+      <div class="lock-card">
+        <div class="brand">Mei · Mandarin Tutor</div>
+        <h1 style="font-size:22px;">Draw your pattern</h1>
+        <p class="lock-hint">Connect the dots the way you would on a phone lock screen.</p>
+        <div class="lock-canvas-wrap">
+          <canvas id="lock-canvas" width="280" height="280" aria-label="Pattern lock"></canvas>
+        </div>
+        <div id="lock-status" class="lock-status">Draw the pattern</div>
+      </div>
+    </div>
+    <div id="app" class="page" hidden>
+      <div class="card">
+        <div class="mast">
+          <div class="brand">Mei · Mandarin Tutor</div>
+          <div style="margin:8px 0 0 0;"><a class="back" href="index.html">← All lessons</a></div>
+          <div id="lesson-id" class="lesson-id"></div>
+          <div id="header"></div>
+        </div>
+        <div id="body" class="lesson"></div>
+      </div>
+      <div class="foot">Mei · Mandarin Tutor</div>
+    </div>
+    <script src="assets/config.js"></script>
+    <script src="assets/grade.js"></script>
+    <script src="assets/lock.js"></script>
+    <script src="assets/lesson.js"></script>
+  </body>
+</html>

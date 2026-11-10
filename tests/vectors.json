@@ -1,0 +1,2623 @@
+{
+  "grade_item": [
+    {
+      "name": "spacing",
+      "item": {
+        "n": 1,
+        "kind": "pinyin",
+        "expected": [
+          "wǔ gè"
+        ]
+      },
+      "answer": "wǔgè",
+      "voice": null,
+      "ok": true,
+      "value": {
+        "n": "1",
+        "status": "correct",
+        "points": 15,
+        "note": null
+      }
+    },
+    {
+      "name": "missing_tones",
+      "item": {
+        "n": 1,
+        "kind": "pinyin",
+        "expected": [
+          "wǔ gè"
+        ]
+      },
+      "answer": "wu ge",
+      "voice": null,
+      "ok": true,
+      "value": {
+        "n": "1",
+        "status": "partial",
+        "points": 8,
+        "error": "missing_tones",
+        "note": "missing tones"
+      }
+    },
+    {
+      "name": "partially_missing_tones",
+      "item": {
+        "n": 1,
+        "kind": "pinyin",
+        "expected": [
+          "wǔ gè"
+        ]
+      },
+      "answer": "wǔ ge",
+      "voice": null,
+      "ok": true,
+      "value": {
+        "n": "1",
+        "status": "partial",
+        "points": 8,
+        "error": "missing_tones",
+        "note": "missing tones"
+      }
+    },
+    {
+      "name": "wrong_tone",
+      "item": {
+        "n": 1,
+        "kind": "pinyin",
+        "expected": [
+          "wǔ gè"
+        ]
+      },
+      "answer": "wúgè",
+      "voice": null,
+      "ok": true,
+      "value": {
+        "n": "1",
+        "status": "partial",
+        "points": 8,
+        "error": "tone_error",
+        "note": "tone_error: wrong or misplaced tone mark"
+      }
+    },
+    {
+      "name": "misplaced_tone",
+      "item": {
+        "n": 1,
+        "kind": "pinyin",
+        "expected": [
+          "jiějie"
+        ]
+      },
+      "answer": "Jíejie",
+      "voice": null,
+      "ok": true,
+      "value": {
+        "n": "1",
+        "status": "partial",
+        "points": 8,
+        "error": "tone_error",
+        "note": "tone_error: wrong or misplaced tone mark"
+      }
+    },
+    {
+      "name": "number_tones",
+      "item": {
+        "n": 1,
+        "kind": "pinyin",
+        "expected": [
+          "wǔ gè"
+        ]
+      },
+      "answer": "wu3ge4",
+      "voice": null,
+      "ok": true,
+      "value": {
+        "n": "1",
+        "status": "partial",
+        "points": 8,
+        "error": "tone_error",
+        "note": "tone_error: wrong or misplaced tone mark"
+      }
+    },
+    {
+      "name": "blank_skipped",
+      "item": {
+        "n": 1,
+        "kind": "pinyin",
+        "expected": [
+          "wǔ gè"
+        ]
+      },
+      "answer": "",
+      "voice": null,
+      "ok": true,
+      "value": {
+        "n": "1",
+        "status": "skipped",
+        "points": -5,
+        "note": "blank"
+      }
+    },
+    {
+      "name": "none_skipped",
+      "item": {
+        "n": 1,
+        "kind": "pinyin",
+        "expected": [
+          "wǔ gè"
+        ]
+      },
+      "answer": null,
+      "voice": null,
+      "ok": true,
+      "value": {
+        "n": "1",
+        "status": "skipped",
+        "points": -5,
+        "note": "blank"
+      }
+    },
+    {
+      "name": "whitespace_skipped",
+      "item": {
+        "n": 1,
+        "kind": "pinyin",
+        "expected": [
+          "wǔ gè"
+        ]
+      },
+      "answer": "   ",
+      "voice": null,
+      "ok": true,
+      "value": {
+        "n": "1",
+        "status": "skipped",
+        "points": -5,
+        "note": "blank"
+      }
+    },
+    {
+      "name": "any_number_yí",
+      "item": {
+        "n": 1,
+        "kind": "pinyin",
+        "expected": [
+          "Wǒ jiā yǒu ___ gè rén."
+        ],
+        "accept_any": "number"
+      },
+      "answer": "Wǒ jiā yǒu yígè rén",
+      "voice": null,
+      "ok": true,
+      "value": {
+        "n": "1",
+        "status": "correct",
+        "points": 15,
+        "note": null
+      }
+    },
+    {
+      "name": "any_number_liǎng",
+      "item": {
+        "n": 1,
+        "kind": "pinyin",
+        "expected": [
+          "Wǒ jiā yǒu ___ gè rén."
+        ],
+        "accept_any": "number"
+      },
+      "answer": "Wǒ jiā yǒu liǎnggè rén",
+      "voice": null,
+      "ok": true,
+      "value": {
+        "n": "1",
+        "status": "correct",
+        "points": 15,
+        "note": null
+      }
+    },
+    {
+      "name": "any_number_sān",
+      "item": {
+        "n": 1,
+        "kind": "pinyin",
+        "expected": [
+          "Wǒ jiā yǒu ___ gè rén."
+        ],
+        "accept_any": "number"
+      },
+      "answer": "Wǒ jiā yǒu sāngè rén",
+      "voice": null,
+      "ok": true,
+      "value": {
+        "n": "1",
+        "status": "correct",
+        "points": 15,
+        "note": null
+      }
+    },
+    {
+      "name": "any_number_sì",
+      "item": {
+        "n": 1,
+        "kind": "pinyin",
+        "expected": [
+          "Wǒ jiā yǒu ___ gè rén."
+        ],
+        "accept_any": "number"
+      },
+      "answer": "Wǒ jiā yǒu sìgè rén",
+      "voice": null,
+      "ok": true,
+      "value": {
+        "n": "1",
+        "status": "correct",
+        "points": 15,
+        "note": null
+      }
+    },
+    {
+      "name": "any_number_wǔ",
+      "item": {
+        "n": 1,
+        "kind": "pinyin",
+        "expected": [
+          "Wǒ jiā yǒu ___ gè rén."
+        ],
+        "accept_any": "number"
+      },
+      "answer": "Wǒ jiā yǒu wǔgè rén",
+      "voice": null,
+      "ok": true,
+      "value": {
+        "n": "1",
+        "status": "correct",
+        "points": 15,
+        "note": null
+      }
+    },
+    {
+      "name": "any_number_liù",
+      "item": {
+        "n": 1,
+        "kind": "pinyin",
+        "expected": [
+          "Wǒ jiā yǒu ___ gè rén."
+        ],
+        "accept_any": "number"
+      },
+      "answer": "Wǒ jiā yǒu liùgè rén",
+      "voice": null,
+      "ok": true,
+      "value": {
+        "n": "1",
+        "status": "correct",
+        "points": 15,
+        "note": null
+      }
+    },
+    {
+      "name": "any_number_shí_yī",
+      "item": {
+        "n": 1,
+        "kind": "pinyin",
+        "expected": [
+          "Wǒ jiā yǒu ___ gè rén."
+        ],
+        "accept_any": "number"
+      },
+      "answer": "Wǒ jiā yǒu shí yīgè rén",
+      "voice": null,
+      "ok": true,
+      "value": {
+        "n": "1",
+        "status": "correct",
+        "points": 15,
+        "note": null
+      }
+    },
+    {
+      "name": "any_number_èr_shí_sān",
+      "item": {
+        "n": 1,
+        "kind": "pinyin",
+        "expected": [
+          "Wǒ jiā yǒu ___ gè rén."
+        ],
+        "accept_any": "number"
+      },
+      "answer": "Wǒ jiā yǒu èr shí sāngè rén",
+      "voice": null,
+      "ok": true,
+      "value": {
+        "n": "1",
+        "status": "correct",
+        "points": 15,
+        "note": null
+      }
+    },
+    {
+      "name": "any_number_yī_bǎi_líng_sì",
+      "item": {
+        "n": 1,
+        "kind": "pinyin",
+        "expected": [
+          "Wǒ jiā yǒu ___ gè rén."
+        ],
+        "accept_any": "number"
+      },
+      "answer": "Wǒ jiā yǒu yī bǎi líng sìgè rén",
+      "voice": null,
+      "ok": true,
+      "value": {
+        "n": "1",
+        "status": "correct",
+        "points": 15,
+        "note": null
+      }
+    },
+    {
+      "name": "any_number_tone_error",
+      "item": {
+        "n": 1,
+        "kind": "pinyin",
+        "expected": [
+          "Wǒ jiā yǒu ___ gè rén."
+        ],
+        "accept_any": "number"
+      },
+      "answer": "Wǒ jiā yǒu sígè rén",
+      "voice": null,
+      "ok": true,
+      "value": {
+        "n": "1",
+        "status": "partial",
+        "points": 8,
+        "error": "tone_error",
+        "note": "tone_error: wrong or misplaced tone mark"
+      }
+    },
+    {
+      "name": "any_number_wrong",
+      "item": {
+        "n": 1,
+        "kind": "pinyin",
+        "expected": [
+          "Wǒ jiā yǒu ___ gè rén."
+        ],
+        "accept_any": "number"
+      },
+      "answer": "Wǒ jiā yǒu banana gè rén",
+      "voice": null,
+      "ok": true,
+      "value": {
+        "n": "1",
+        "status": "wrong",
+        "points": -12,
+        "note": "expected: Wǒ jiā yǒu líng gè rén. / Wǒ jiā yǒu yí gè rén. / Wǒ jiā yǒu liǎng gè rén. / Wǒ jiā yǒu sān gè rén. / Wǒ jiā yǒu sì gè rén. / Wǒ jiā yǒu wǔ gè rén. / Wǒ jiā yǒu liù gè rén. / Wǒ jiā yǒu qī gè rén. / Wǒ jiā yǒu bā gè rén. / Wǒ jiā yǒu jiǔ gè rén. / Wǒ jiā yǒu shí gè rén."
+      }
+    },
+    {
+      "name": "any_number_yi_ge_bare_rejected",
+      "item": {
+        "n": 1,
+        "kind": "pinyin",
+        "expected": [
+          "Wǒ jiā yǒu ___ gè rén."
+        ],
+        "accept_any": "number"
+      },
+      "answer": "Wǒ jiā yǒu yī gè rén",
+      "voice": null,
+      "ok": true,
+      "value": {
+        "n": "1",
+        "status": "partial",
+        "points": 8,
+        "error": "tone_error",
+        "note": "tone_error: wrong or misplaced tone mark"
+      }
+    },
+    {
+      "name": "any_number_er_ge_bare_rejected",
+      "item": {
+        "n": 1,
+        "kind": "pinyin",
+        "expected": [
+          "Wǒ jiā yǒu ___ gè rén."
+        ],
+        "accept_any": "number"
+      },
+      "answer": "Wǒ jiā yǒu èr gè rén",
+      "voice": null,
+      "ok": true,
+      "value": {
+        "n": "1",
+        "status": "wrong",
+        "points": -12,
+        "note": "expected: Wǒ jiā yǒu líng gè rén. / Wǒ jiā yǒu yí gè rén. / Wǒ jiā yǒu liǎng gè rén. / Wǒ jiā yǒu sān gè rén. / Wǒ jiā yǒu sì gè rén. / Wǒ jiā yǒu wǔ gè rén. / Wǒ jiā yǒu liù gè rén. / Wǒ jiā yǒu qī gè rén. / Wǒ jiā yǒu bā gè rén. / Wǒ jiā yǒu jiǔ gè rén. / Wǒ jiā yǒu shí gè rén."
+      }
+    },
+    {
+      "name": "any_number_liang_ok",
+      "item": {
+        "n": 1,
+        "kind": "pinyin",
+        "expected": [
+          "Wǒ jiā yǒu ___ gè rén."
+        ],
+        "accept_any": "number"
+      },
+      "answer": "Wǒ jiā yǒu liǎng gè rén",
+      "voice": null,
+      "ok": true,
+      "value": {
+        "n": "1",
+        "status": "correct",
+        "points": 15,
+        "note": null
+      }
+    },
+    {
+      "name": "any_number_yi_ge_ok_sandhi",
+      "item": {
+        "n": 1,
+        "kind": "pinyin",
+        "expected": [
+          "Wǒ jiā yǒu ___ gè rén."
+        ],
+        "accept_any": "number"
+      },
+      "answer": "Wǒ jiā yǒu yí gè rén",
+      "voice": null,
+      "ok": true,
+      "value": {
+        "n": "1",
+        "status": "correct",
+        "points": 15,
+        "note": null
+      }
+    },
+    {
+      "name": "regex_fullmatch",
+      "item": {
+        "n": 1,
+        "kind": "english",
+        "accept_any": {
+          "regex": "(?:red|blue)"
+        }
+      },
+      "answer": "red",
+      "voice": null,
+      "ok": true,
+      "value": {
+        "n": "1",
+        "status": "correct",
+        "points": 15,
+        "note": null
+      }
+    },
+    {
+      "name": "regex_substring_rejected",
+      "item": {
+        "n": 1,
+        "kind": "english",
+        "accept_any": {
+          "regex": "(?:red|blue)"
+        }
+      },
+      "answer": "a red car",
+      "voice": null,
+      "ok": true,
+      "value": {
+        "n": "1",
+        "status": "wrong",
+        "points": -12,
+        "note": "expected: key regex"
+      }
+    },
+    {
+      "name": "regex_case",
+      "item": {
+        "n": 1,
+        "kind": "english",
+        "accept_any": {
+          "regex": "(?:red|blue)"
+        }
+      },
+      "answer": "BLUE",
+      "voice": null,
+      "ok": true,
+      "value": {
+        "n": "1",
+        "status": "correct",
+        "points": 15,
+        "note": null
+      }
+    },
+    {
+      "name": "enum",
+      "item": {
+        "n": 1,
+        "kind": "pinyin",
+        "expected": "___",
+        "accept_any": [
+          "wǔ",
+          "liù"
+        ]
+      },
+      "answer": "liù",
+      "voice": null,
+      "ok": true,
+      "value": {
+        "n": "1",
+        "status": "correct",
+        "points": 15,
+        "note": null
+      }
+    },
+    {
+      "name": "enum_wrong",
+      "item": {
+        "n": 1,
+        "kind": "pinyin",
+        "expected": "___",
+        "accept_any": [
+          "wǔ",
+          "liù"
+        ]
+      },
+      "answer": "sān",
+      "voice": null,
+      "ok": true,
+      "value": {
+        "n": "1",
+        "status": "wrong",
+        "points": -12,
+        "note": "expected: wǔ / liù"
+      }
+    },
+    {
+      "name": "english_spacing_not_removed",
+      "item": {
+        "n": 1,
+        "kind": "english",
+        "expected": [
+          "a bit"
+        ]
+      },
+      "answer": "abit",
+      "voice": null,
+      "ok": true,
+      "value": {
+        "n": "1",
+        "status": "wrong",
+        "points": -12,
+        "note": "expected: a bit"
+      }
+    },
+    {
+      "name": "english_exact",
+      "item": {
+        "n": 1,
+        "kind": "english",
+        "expected": [
+          "a bit"
+        ]
+      },
+      "answer": "A bit",
+      "voice": null,
+      "ok": true,
+      "value": {
+        "n": "1",
+        "status": "correct",
+        "points": 15,
+        "note": null
+      }
+    },
+    {
+      "name": "bad_regex",
+      "item": {
+        "n": 1,
+        "kind": "pinyin",
+        "expected": "hi",
+        "regex": "["
+      },
+      "answer": "hi",
+      "voice": null,
+      "ok": false,
+      "error": "invalid answer regex: unterminated character set at position 0"
+    },
+    {
+      "name": "accept_any_true",
+      "item": {
+        "n": 1,
+        "kind": "pinyin",
+        "expected": "hi",
+        "accept_any": true
+      },
+      "answer": "hi",
+      "voice": null,
+      "ok": false,
+      "error": "accept_any: true is unsafe; supply an enum, number, or {regex: ...}"
+    },
+    {
+      "name": "no_expected",
+      "item": {
+        "n": 7,
+        "kind": "pinyin"
+      },
+      "answer": "hi",
+      "voice": null,
+      "ok": false,
+      "error": "item 7 has no expected"
+    },
+    {
+      "name": "number_without_blank",
+      "item": {
+        "n": 1,
+        "kind": "pinyin",
+        "expected": "wǔ gè",
+        "accept_any": "number"
+      },
+      "answer": "wǔ gè",
+      "voice": null,
+      "ok": false,
+      "error": "accept_any: number requires ___ in expected"
+    },
+    {
+      "name": "trailing_punct",
+      "item": {
+        "n": 1,
+        "kind": "pinyin",
+        "expected": [
+          "gēge"
+        ]
+      },
+      "answer": "Gēge!",
+      "voice": null,
+      "ok": true,
+      "value": {
+        "n": "1",
+        "status": "correct",
+        "points": 15,
+        "note": null
+      }
+    },
+    {
+      "name": "trailing_cjk_punct",
+      "item": {
+        "n": 1,
+        "kind": "pinyin",
+        "expected": [
+          "gēge"
+        ]
+      },
+      "answer": "gēge。？",
+      "voice": null,
+      "ok": true,
+      "value": {
+        "n": "1",
+        "status": "correct",
+        "points": 15,
+        "note": null
+      }
+    },
+    {
+      "name": "v_equals_u_umlaut",
+      "item": {
+        "n": 1,
+        "kind": "pinyin",
+        "expected": [
+          "nǚ"
+        ]
+      },
+      "answer": "nv",
+      "voice": null,
+      "ok": true,
+      "value": {
+        "n": "1",
+        "status": "partial",
+        "points": 8,
+        "error": "missing_tones",
+        "note": "missing tones"
+      }
+    },
+    {
+      "name": "u_colon",
+      "item": {
+        "n": 1,
+        "kind": "pinyin",
+        "expected": [
+          "nǚ"
+        ]
+      },
+      "answer": "nu:",
+      "voice": null,
+      "ok": true,
+      "value": {
+        "n": "1",
+        "status": "partial",
+        "points": 8,
+        "error": "missing_tones",
+        "note": "missing tones"
+      }
+    },
+    {
+      "name": "umlaut_direct",
+      "item": {
+        "n": 1,
+        "kind": "pinyin",
+        "expected": [
+          "nǚ"
+        ]
+      },
+      "answer": "nǚ",
+      "voice": null,
+      "ok": true,
+      "value": {
+        "n": "1",
+        "status": "correct",
+        "points": 15,
+        "note": null
+      }
+    },
+    {
+      "name": "luse_v",
+      "item": {
+        "n": 1,
+        "kind": "pinyin",
+        "expected": [
+          "lǜsè"
+        ]
+      },
+      "answer": "lvse",
+      "voice": null,
+      "ok": true,
+      "value": {
+        "n": "1",
+        "status": "partial",
+        "points": 8,
+        "error": "missing_tones",
+        "note": "missing tones"
+      }
+    },
+    {
+      "name": "apostrophe_spacing",
+      "item": {
+        "n": 1,
+        "kind": "pinyin",
+        "expected": [
+          "Xī'ān"
+        ]
+      },
+      "answer": "xī ān",
+      "voice": null,
+      "ok": true,
+      "value": {
+        "n": "1",
+        "status": "correct",
+        "points": 15,
+        "note": null
+      }
+    },
+    {
+      "name": "hyphen_spacing",
+      "item": {
+        "n": 1,
+        "kind": "pinyin",
+        "expected": [
+          "yè-lǐ"
+        ]
+      },
+      "answer": "yèlǐ",
+      "voice": null,
+      "ok": true,
+      "value": {
+        "n": "1",
+        "status": "correct",
+        "points": 15,
+        "note": null
+      }
+    },
+    {
+      "name": "nfc_composed",
+      "item": {
+        "n": 1,
+        "kind": "pinyin",
+        "expected": [
+          "wǒ"
+        ]
+      },
+      "answer": "wǒ",
+      "voice": null,
+      "ok": true,
+      "value": {
+        "n": "1",
+        "status": "correct",
+        "points": 15,
+        "note": null
+      }
+    },
+    {
+      "name": "nfd_decomposed",
+      "item": {
+        "n": 1,
+        "kind": "pinyin",
+        "expected": [
+          "wǒ"
+        ]
+      },
+      "answer": "wǒ",
+      "voice": null,
+      "ok": true,
+      "value": {
+        "n": "1",
+        "status": "correct",
+        "points": 15,
+        "note": null
+      }
+    },
+    {
+      "name": "choice_plain",
+      "item": {
+        "n": 1,
+        "kind": "choice",
+        "expected": "b"
+      },
+      "answer": "b",
+      "voice": null,
+      "ok": true,
+      "value": {
+        "n": "1",
+        "status": "correct",
+        "points": 15,
+        "note": null
+      }
+    },
+    {
+      "name": "choice_parens",
+      "item": {
+        "n": 1,
+        "kind": "choice",
+        "expected": "b"
+      },
+      "answer": "(b)",
+      "voice": null,
+      "ok": true,
+      "value": {
+        "n": "1",
+        "status": "correct",
+        "points": 15,
+        "note": null
+      }
+    },
+    {
+      "name": "choice_expected_parens",
+      "item": {
+        "n": 1,
+        "kind": "choice",
+        "expected": "(B)"
+      },
+      "answer": "b",
+      "voice": null,
+      "ok": true,
+      "value": {
+        "n": "1",
+        "status": "correct",
+        "points": 15,
+        "note": null
+      }
+    },
+    {
+      "name": "choice_wrong",
+      "item": {
+        "n": 1,
+        "kind": "choice",
+        "expected": "b"
+      },
+      "answer": "c",
+      "voice": null,
+      "ok": true,
+      "value": {
+        "n": "1",
+        "status": "wrong",
+        "points": -12,
+        "note": "expected: b"
+      }
+    },
+    {
+      "name": "choice_no_partial_tones",
+      "item": {
+        "n": 1,
+        "kind": "choice",
+        "expected": [
+          "wǔ"
+        ]
+      },
+      "answer": "wu",
+      "voice": null,
+      "ok": true,
+      "value": {
+        "n": "1",
+        "status": "wrong",
+        "points": -12,
+        "note": "expected: wǔ"
+      }
+    },
+    {
+      "name": "english_no_partial_tones",
+      "item": {
+        "n": 1,
+        "kind": "english",
+        "expected": [
+          "café"
+        ]
+      },
+      "answer": "cafe",
+      "voice": null,
+      "ok": true,
+      "value": {
+        "n": "1",
+        "status": "wrong",
+        "points": -12,
+        "note": "expected: café"
+      }
+    },
+    {
+      "name": "sentence_punct",
+      "item": {
+        "n": 1,
+        "kind": "sentence",
+        "expected": [
+          "Wǒ yǒu gǒu."
+        ]
+      },
+      "answer": "wǒ yǒu gǒu",
+      "voice": null,
+      "ok": true,
+      "value": {
+        "n": "1",
+        "status": "correct",
+        "points": 15,
+        "note": null
+      }
+    },
+    {
+      "name": "sentence_spacing",
+      "item": {
+        "n": 1,
+        "kind": "sentence",
+        "expected": [
+          "Wǒ yǒu gǒu."
+        ]
+      },
+      "answer": "wǒyǒugǒu",
+      "voice": null,
+      "ok": true,
+      "value": {
+        "n": "1",
+        "status": "correct",
+        "points": 15,
+        "note": null
+      }
+    },
+    {
+      "name": "fill_partial",
+      "item": {
+        "n": 1,
+        "kind": "fill",
+        "expected": [
+          "zhī"
+        ]
+      },
+      "answer": "zhi",
+      "voice": null,
+      "ok": true,
+      "value": {
+        "n": "1",
+        "status": "partial",
+        "points": 8,
+        "error": "missing_tones",
+        "note": "missing tones"
+      }
+    },
+    {
+      "name": "free_kind_default",
+      "item": {
+        "n": 1,
+        "expected": [
+          "māo"
+        ]
+      },
+      "answer": "māo",
+      "voice": null,
+      "ok": true,
+      "value": {
+        "n": "1",
+        "status": "correct",
+        "points": 15,
+        "note": null
+      }
+    },
+    {
+      "name": "expected_any_alias",
+      "item": {
+        "n": 1,
+        "kind": "pinyin",
+        "expected_any": [
+          "māo",
+          "māo māo"
+        ]
+      },
+      "answer": "māo",
+      "voice": null,
+      "ok": true,
+      "value": {
+        "n": "1",
+        "status": "correct",
+        "points": 15,
+        "note": null
+      }
+    },
+    {
+      "name": "accept_regex_alias",
+      "item": {
+        "n": 1,
+        "kind": "english",
+        "accept_regex": "cat|dog"
+      },
+      "answer": "dog",
+      "voice": null,
+      "ok": true,
+      "value": {
+        "n": "1",
+        "status": "correct",
+        "points": 15,
+        "note": null
+      }
+    },
+    {
+      "name": "regex_list",
+      "item": {
+        "n": 1,
+        "kind": "english",
+        "regex": [
+          "cat",
+          "dog"
+        ]
+      },
+      "answer": "dog",
+      "voice": null,
+      "ok": true,
+      "value": {
+        "n": "1",
+        "status": "correct",
+        "points": 15,
+        "note": null
+      }
+    },
+    {
+      "name": "note_any_true_number",
+      "item": {
+        "n": 1,
+        "kind": "pinyin",
+        "expected": "___ gè",
+        "note": "Any true number is fine"
+      },
+      "answer": "sān gè",
+      "voice": null,
+      "ok": true,
+      "value": {
+        "n": "1",
+        "status": "correct",
+        "points": 15,
+        "note": null
+      }
+    },
+    {
+      "name": "voice_ungraded",
+      "item": {
+        "n": "S1",
+        "kind": "voice",
+        "words": [
+          "gǒu"
+        ]
+      },
+      "answer": null,
+      "voice": null,
+      "ok": true,
+      "value": {
+        "n": "S1",
+        "status": "needs_voice",
+        "points": 0,
+        "note": "say-it-aloud; not auto-graded"
+      }
+    },
+    {
+      "name": "voice_graded",
+      "item": {
+        "n": "S1",
+        "kind": "voice",
+        "words": [
+          "gǒu"
+        ]
+      },
+      "answer": null,
+      "voice": {
+        "S1": {
+          "points": 15,
+          "note": "clear"
+        }
+      },
+      "ok": true,
+      "value": {
+        "n": "S1",
+        "status": "voice_graded",
+        "points": 15,
+        "note": "clear"
+      }
+    },
+    {
+      "name": "voice_partial",
+      "item": {
+        "n": "S1",
+        "kind": "voice"
+      },
+      "answer": null,
+      "voice": {
+        "S1": {
+          "points": 8
+        }
+      },
+      "ok": true,
+      "value": {
+        "n": "S1",
+        "status": "voice_graded",
+        "points": 8,
+        "note": null
+      }
+    },
+    {
+      "name": "l18_mao",
+      "item": {
+        "n": "18",
+        "kind": "sentence",
+        "expected": [
+          "Wǒ xǐhuan māo.",
+          "Wǒ xǐhuan gǒu.",
+          "Wǒ xǐhuan māo hé gǒu.",
+          "Wǒ xǐhuan gǒu hé māo."
+        ],
+        "regex": "wǒ\\s*xǐhuan\\s*(māo|gǒu)(\\s*hé\\s*(māo|gǒu))?(\\s*ma)?"
+      },
+      "answer": "Wǒ xǐhuan māo.",
+      "voice": null,
+      "ok": true,
+      "value": {
+        "n": "18",
+        "status": "correct",
+        "points": 15,
+        "note": null
+      }
+    },
+    {
+      "name": "l18_gou",
+      "item": {
+        "n": "18",
+        "kind": "sentence",
+        "expected": [
+          "Wǒ xǐhuan māo.",
+          "Wǒ xǐhuan gǒu.",
+          "Wǒ xǐhuan māo hé gǒu.",
+          "Wǒ xǐhuan gǒu hé māo."
+        ],
+        "regex": "wǒ\\s*xǐhuan\\s*(māo|gǒu)(\\s*hé\\s*(māo|gǒu))?(\\s*ma)?"
+      },
+      "answer": "wǒ xǐhuan gǒu",
+      "voice": null,
+      "ok": true,
+      "value": {
+        "n": "18",
+        "status": "correct",
+        "points": 15,
+        "note": null
+      }
+    },
+    {
+      "name": "l18_missing_tones",
+      "item": {
+        "n": "18",
+        "kind": "sentence",
+        "expected": [
+          "Wǒ xǐhuan māo.",
+          "Wǒ xǐhuan gǒu.",
+          "Wǒ xǐhuan māo hé gǒu.",
+          "Wǒ xǐhuan gǒu hé māo."
+        ],
+        "regex": "wǒ\\s*xǐhuan\\s*(māo|gǒu)(\\s*hé\\s*(māo|gǒu))?(\\s*ma)?"
+      },
+      "answer": "wo xihuan mao",
+      "voice": null,
+      "ok": true,
+      "value": {
+        "n": "18",
+        "status": "partial",
+        "points": 8,
+        "error": "missing_tones",
+        "note": "missing tones"
+      }
+    },
+    {
+      "name": "l18_wrong",
+      "item": {
+        "n": "18",
+        "kind": "sentence",
+        "expected": [
+          "Wǒ xǐhuan māo.",
+          "Wǒ xǐhuan gǒu.",
+          "Wǒ xǐhuan māo hé gǒu.",
+          "Wǒ xǐhuan gǒu hé māo."
+        ],
+        "regex": "wǒ\\s*xǐhuan\\s*(māo|gǒu)(\\s*hé\\s*(māo|gǒu))?(\\s*ma)?"
+      },
+      "answer": "nǐ hǎo",
+      "voice": null,
+      "ok": true,
+      "value": {
+        "n": "18",
+        "status": "wrong",
+        "points": -12,
+        "note": "expected: Wǒ xǐhuan māo. / Wǒ xǐhuan gǒu. / Wǒ xǐhuan māo hé gǒu. / Wǒ xǐhuan gǒu hé māo."
+      }
+    }
+  ],
+  "grade": [
+    {
+      "name": "example_written_only",
+      "key": {
+        "items": [
+          {
+            "n": 1,
+            "kind": "pinyin",
+            "expected": "gēge"
+          },
+          {
+            "n": 2,
+            "kind": "pinyin",
+            "expected": [
+              "mèimei",
+              "mèi mei"
+            ]
+          },
+          {
+            "n": 3,
+            "kind": "english",
+            "expected": [
+              "older brother",
+              "big brother"
+            ],
+            "words": [
+              "gēge"
+            ]
+          },
+          {
+            "n": 4,
+            "kind": "choice",
+            "expected": "b"
+          },
+          {
+            "n": 5,
+            "kind": "sentence",
+            "expected": "Wǒ méiyǒu gēge",
+            "words": [
+              "méiyǒu",
+              "gēge"
+            ]
+          },
+          {
+            "n": 6,
+            "kind": "fill",
+            "expected": "yǒu"
+          },
+          {
+            "n": "S1",
+            "kind": "voice",
+            "words": [
+              "gēge"
+            ]
+          },
+          {
+            "n": "S2",
+            "kind": "voice",
+            "words": [
+              "shì"
+            ]
+          }
+        ]
+      },
+      "sub": {
+        "lesson_number": 6,
+        "answers": {
+          "1": "gēge",
+          "2": "meimei",
+          "3": "older brother",
+          "4": "(b)",
+          "5": "Wǒ méiyǒu gēge",
+          "6": ""
+        }
+      },
+      "vres": null,
+      "ok": true,
+      "value": {
+        "items": [
+          {
+            "n": "1",
+            "status": "correct",
+            "points": 15,
+            "note": null
+          },
+          {
+            "n": "2",
+            "status": "partial",
+            "points": 8,
+            "error": "missing_tones",
+            "note": "missing tones"
+          },
+          {
+            "n": "3",
+            "status": "correct",
+            "points": 15,
+            "note": null
+          },
+          {
+            "n": "4",
+            "status": "correct",
+            "points": 15,
+            "note": null
+          },
+          {
+            "n": "5",
+            "status": "correct",
+            "points": 15,
+            "note": null
+          },
+          {
+            "n": "6",
+            "status": "skipped",
+            "points": -5,
+            "note": "blank"
+          },
+          {
+            "n": "S1",
+            "status": "needs_voice",
+            "points": 0,
+            "note": "say-it-aloud; not auto-graded"
+          },
+          {
+            "n": "S2",
+            "status": "needs_voice",
+            "points": 0,
+            "note": "say-it-aloud; not auto-graded"
+          }
+        ],
+        "sheet_patches": [
+          {
+            "id_or_word": "gēge",
+            "delta_points": 15,
+            "times_correct_inc": 1
+          },
+          {
+            "id_or_word": "mèimei",
+            "delta_points": 8,
+            "times_correct_inc": 0
+          },
+          {
+            "id_or_word": "gēge",
+            "delta_points": 15,
+            "times_correct_inc": 1
+          },
+          {
+            "id_or_word": "méiyǒu",
+            "delta_points": 15,
+            "times_correct_inc": 1
+          },
+          {
+            "id_or_word": "gēge",
+            "delta_points": 15,
+            "times_correct_inc": 1
+          }
+        ],
+        "needs_voice": [
+          "S1",
+          "S2"
+        ],
+        "score": 63,
+        "max": 90,
+        "summary_md": "**Lesson 6 Practice — 63 / 90**\n✅ 4 correct · 🟡 1 partial · ❌ 0 wrong · ⏭ 1 skipped\n\n- #2 partial (+8) — missing tones\n- #6 skipped (-5) — blank\n\n**🎤 Voice**\n- Not yet graded (excluded from score): S1, S2\n"
+      }
+    },
+    {
+      "name": "example_with_voice",
+      "key": {
+        "items": [
+          {
+            "n": 1,
+            "kind": "pinyin",
+            "expected": "gēge"
+          },
+          {
+            "n": 2,
+            "kind": "pinyin",
+            "expected": [
+              "mèimei",
+              "mèi mei"
+            ]
+          },
+          {
+            "n": 3,
+            "kind": "english",
+            "expected": [
+              "older brother",
+              "big brother"
+            ],
+            "words": [
+              "gēge"
+            ]
+          },
+          {
+            "n": 4,
+            "kind": "choice",
+            "expected": "b"
+          },
+          {
+            "n": 5,
+            "kind": "sentence",
+            "expected": "Wǒ méiyǒu gēge",
+            "words": [
+              "méiyǒu",
+              "gēge"
+            ]
+          },
+          {
+            "n": 6,
+            "kind": "fill",
+            "expected": "yǒu"
+          },
+          {
+            "n": "S1",
+            "kind": "voice",
+            "words": [
+              "gēge"
+            ]
+          },
+          {
+            "n": "S2",
+            "kind": "voice",
+            "words": [
+              "shì"
+            ]
+          }
+        ]
+      },
+      "sub": {
+        "lesson_number": 6,
+        "answers": {
+          "1": "gēge",
+          "2": "mèimei",
+          "3": "sis",
+          "4": "a",
+          "5": "Wǒ méiyǒu gēge",
+          "6": "yǒu"
+        }
+      },
+      "vres": {
+        "S1": {
+          "points": 15,
+          "note": "clear tones"
+        },
+        "S2": {
+          "points": 8,
+          "note": "soft"
+        }
+      },
+      "ok": true,
+      "value": {
+        "items": [
+          {
+            "n": "1",
+            "status": "correct",
+            "points": 15,
+            "note": null
+          },
+          {
+            "n": "2",
+            "status": "correct",
+            "points": 15,
+            "note": null
+          },
+          {
+            "n": "3",
+            "status": "wrong",
+            "points": -12,
+            "note": "expected: older brother / big brother"
+          },
+          {
+            "n": "4",
+            "status": "wrong",
+            "points": -12,
+            "note": "expected: b"
+          },
+          {
+            "n": "5",
+            "status": "correct",
+            "points": 15,
+            "note": null
+          },
+          {
+            "n": "6",
+            "status": "correct",
+            "points": 15,
+            "note": null
+          },
+          {
+            "n": "S1",
+            "status": "voice_graded",
+            "points": 15,
+            "note": "clear tones"
+          },
+          {
+            "n": "S2",
+            "status": "voice_graded",
+            "points": 8,
+            "note": "soft"
+          }
+        ],
+        "sheet_patches": [
+          {
+            "id_or_word": "gēge",
+            "delta_points": 15,
+            "times_correct_inc": 1
+          },
+          {
+            "id_or_word": "mèimei",
+            "delta_points": 15,
+            "times_correct_inc": 1
+          },
+          {
+            "id_or_word": "gēge",
+            "delta_points": -12,
+            "times_correct_inc": 0
+          },
+          {
+            "id_or_word": "méiyǒu",
+            "delta_points": 15,
+            "times_correct_inc": 1
+          },
+          {
+            "id_or_word": "gēge",
+            "delta_points": 15,
+            "times_correct_inc": 1
+          },
+          {
+            "id_or_word": "gēge",
+            "delta_points": 15,
+            "times_correct_inc": 1
+          },
+          {
+            "id_or_word": "shì",
+            "delta_points": 8,
+            "times_correct_inc": 0
+          }
+        ],
+        "needs_voice": [],
+        "score": 59,
+        "max": 120,
+        "summary_md": "**Lesson 6 Practice — 59 / 120**\n✅ 4 correct · 🟡 0 partial · ❌ 2 wrong · ⏭ 0 skipped\n\n- #3 wrong (-12) — expected: older brother / big brother\n- #4 wrong (-12) — expected: b\n\n**🎤 Voice**\n- #S1 +15 — clear tones\n- #S2 +8 — soft\n"
+      }
+    },
+    {
+      "name": "voice_list_form",
+      "key": {
+        "items": [
+          {
+            "n": 1,
+            "kind": "pinyin",
+            "expected": "gēge"
+          },
+          {
+            "n": 2,
+            "kind": "pinyin",
+            "expected": [
+              "mèimei",
+              "mèi mei"
+            ]
+          },
+          {
+            "n": 3,
+            "kind": "english",
+            "expected": [
+              "older brother",
+              "big brother"
+            ],
+            "words": [
+              "gēge"
+            ]
+          },
+          {
+            "n": 4,
+            "kind": "choice",
+            "expected": "b"
+          },
+          {
+            "n": 5,
+            "kind": "sentence",
+            "expected": "Wǒ méiyǒu gēge",
+            "words": [
+              "méiyǒu",
+              "gēge"
+            ]
+          },
+          {
+            "n": 6,
+            "kind": "fill",
+            "expected": "yǒu"
+          },
+          {
+            "n": "S1",
+            "kind": "voice",
+            "words": [
+              "gēge"
+            ]
+          },
+          {
+            "n": "S2",
+            "kind": "voice",
+            "words": [
+              "shì"
+            ]
+          }
+        ]
+      },
+      "sub": {
+        "lesson_number": 6,
+        "answers": {
+          "1": "gēge"
+        }
+      },
+      "vres": {
+        "items": [
+          {
+            "n": "S1",
+            "points": 15,
+            "note": "ok"
+          }
+        ]
+      },
+      "ok": true,
+      "value": {
+        "items": [
+          {
+            "n": "1",
+            "status": "correct",
+            "points": 15,
+            "note": null
+          },
+          {
+            "n": "2",
+            "status": "skipped",
+            "points": -5,
+            "note": "blank"
+          },
+          {
+            "n": "3",
+            "status": "skipped",
+            "points": -5,
+            "note": "blank"
+          },
+          {
+            "n": "4",
+            "status": "skipped",
+            "points": -5,
+            "note": "blank"
+          },
+          {
+            "n": "5",
+            "status": "skipped",
+            "points": -5,
+            "note": "blank"
+          },
+          {
+            "n": "6",
+            "status": "skipped",
+            "points": -5,
+            "note": "blank"
+          },
+          {
+            "n": "S1",
+            "status": "voice_graded",
+            "points": 15,
+            "note": "ok"
+          },
+          {
+            "n": "S2",
+            "status": "needs_voice",
+            "points": 0,
+            "note": "say-it-aloud; not auto-graded"
+          }
+        ],
+        "sheet_patches": [
+          {
+            "id_or_word": "gēge",
+            "delta_points": 15,
+            "times_correct_inc": 1
+          },
+          {
+            "id_or_word": "mèimei",
+            "delta_points": -5,
+            "times_correct_inc": 0
+          },
+          {
+            "id_or_word": "gēge",
+            "delta_points": -5,
+            "times_correct_inc": 0
+          },
+          {
+            "id_or_word": "méiyǒu",
+            "delta_points": -5,
+            "times_correct_inc": 0
+          },
+          {
+            "id_or_word": "gēge",
+            "delta_points": -5,
+            "times_correct_inc": 0
+          },
+          {
+            "id_or_word": "gēge",
+            "delta_points": 15,
+            "times_correct_inc": 1
+          }
+        ],
+        "needs_voice": [
+          "S2"
+        ],
+        "score": 5,
+        "max": 105,
+        "summary_md": "**Lesson 6 Practice — 5 / 105**\n✅ 1 correct · 🟡 0 partial · ❌ 0 wrong · ⏭ 5 skipped\n\n- #2 skipped (-5) — blank\n- #3 skipped (-5) — blank\n- #4 skipped (-5) — blank\n- #5 skipped (-5) — blank\n- #6 skipped (-5) — blank\n\n**🎤 Voice**\n- #S1 +15 — ok\n- Not yet graded (excluded from score): S2\n"
+      }
+    },
+    {
+      "name": "all_skipped",
+      "key": {
+        "items": [
+          {
+            "n": 1,
+            "kind": "pinyin",
+            "expected": "gēge"
+          },
+          {
+            "n": 2,
+            "kind": "pinyin",
+            "expected": [
+              "mèimei",
+              "mèi mei"
+            ]
+          },
+          {
+            "n": 3,
+            "kind": "english",
+            "expected": [
+              "older brother",
+              "big brother"
+            ],
+            "words": [
+              "gēge"
+            ]
+          },
+          {
+            "n": 4,
+            "kind": "choice",
+            "expected": "b"
+          },
+          {
+            "n": 5,
+            "kind": "sentence",
+            "expected": "Wǒ méiyǒu gēge",
+            "words": [
+              "méiyǒu",
+              "gēge"
+            ]
+          },
+          {
+            "n": 6,
+            "kind": "fill",
+            "expected": "yǒu"
+          },
+          {
+            "n": "S1",
+            "kind": "voice",
+            "words": [
+              "gēge"
+            ]
+          },
+          {
+            "n": "S2",
+            "kind": "voice",
+            "words": [
+              "shì"
+            ]
+          }
+        ]
+      },
+      "sub": {
+        "lesson_number": 6,
+        "answers": {}
+      },
+      "vres": null,
+      "ok": true,
+      "value": {
+        "items": [
+          {
+            "n": "1",
+            "status": "skipped",
+            "points": -5,
+            "note": "blank"
+          },
+          {
+            "n": "2",
+            "status": "skipped",
+            "points": -5,
+            "note": "blank"
+          },
+          {
+            "n": "3",
+            "status": "skipped",
+            "points": -5,
+            "note": "blank"
+          },
+          {
+            "n": "4",
+            "status": "skipped",
+            "points": -5,
+            "note": "blank"
+          },
+          {
+            "n": "5",
+            "status": "skipped",
+            "points": -5,
+            "note": "blank"
+          },
+          {
+            "n": "6",
+            "status": "skipped",
+            "points": -5,
+            "note": "blank"
+          },
+          {
+            "n": "S1",
+            "status": "needs_voice",
+            "points": 0,
+            "note": "say-it-aloud; not auto-graded"
+          },
+          {
+            "n": "S2",
+            "status": "needs_voice",
+            "points": 0,
+            "note": "say-it-aloud; not auto-graded"
+          }
+        ],
+        "sheet_patches": [
+          {
+            "id_or_word": "gēge",
+            "delta_points": -5,
+            "times_correct_inc": 0
+          },
+          {
+            "id_or_word": "mèimei",
+            "delta_points": -5,
+            "times_correct_inc": 0
+          },
+          {
+            "id_or_word": "gēge",
+            "delta_points": -5,
+            "times_correct_inc": 0
+          },
+          {
+            "id_or_word": "méiyǒu",
+            "delta_points": -5,
+            "times_correct_inc": 0
+          },
+          {
+            "id_or_word": "gēge",
+            "delta_points": -5,
+            "times_correct_inc": 0
+          }
+        ],
+        "needs_voice": [
+          "S1",
+          "S2"
+        ],
+        "score": -30,
+        "max": 90,
+        "summary_md": "**Lesson 6 Practice — -30 / 90**\n✅ 0 correct · 🟡 0 partial · ❌ 0 wrong · ⏭ 6 skipped\n\n- #1 skipped (-5) — blank\n- #2 skipped (-5) — blank\n- #3 skipped (-5) — blank\n- #4 skipped (-5) — blank\n- #5 skipped (-5) — blank\n- #6 skipped (-5) — blank\n\n**🎤 Voice**\n- Not yet graded (excluded from score): S1, S2\n"
+      }
+    },
+    {
+      "name": "pinyin_words_default",
+      "key": {
+        "items": [
+          {
+            "n": 1,
+            "kind": "pinyin",
+            "expected": [
+              "gēge",
+              "gē ge"
+            ]
+          }
+        ]
+      },
+      "sub": {
+        "lesson_number": 1,
+        "answers": {
+          "1": "gēge"
+        }
+      },
+      "vres": null,
+      "ok": true,
+      "value": {
+        "items": [
+          {
+            "n": "1",
+            "status": "correct",
+            "points": 15,
+            "note": null
+          }
+        ],
+        "sheet_patches": [
+          {
+            "id_or_word": "gēge",
+            "delta_points": 15,
+            "times_correct_inc": 1
+          }
+        ],
+        "needs_voice": [],
+        "score": 15,
+        "max": 15,
+        "summary_md": "**Lesson 1 Practice — 15 / 15**\n✅ 1 correct · 🟡 0 partial · ❌ 0 wrong · ⏭ 0 skipped\n"
+      }
+    },
+    {
+      "name": "bad_voice_points",
+      "key": {
+        "items": [
+          {
+            "n": 1,
+            "kind": "pinyin",
+            "expected": "gēge"
+          },
+          {
+            "n": 2,
+            "kind": "pinyin",
+            "expected": [
+              "mèimei",
+              "mèi mei"
+            ]
+          },
+          {
+            "n": 3,
+            "kind": "english",
+            "expected": [
+              "older brother",
+              "big brother"
+            ],
+            "words": [
+              "gēge"
+            ]
+          },
+          {
+            "n": 4,
+            "kind": "choice",
+            "expected": "b"
+          },
+          {
+            "n": 5,
+            "kind": "sentence",
+            "expected": "Wǒ méiyǒu gēge",
+            "words": [
+              "méiyǒu",
+              "gēge"
+            ]
+          },
+          {
+            "n": 6,
+            "kind": "fill",
+            "expected": "yǒu"
+          },
+          {
+            "n": "S1",
+            "kind": "voice",
+            "words": [
+              "gēge"
+            ]
+          },
+          {
+            "n": "S2",
+            "kind": "voice",
+            "words": [
+              "shì"
+            ]
+          }
+        ]
+      },
+      "sub": {
+        "lesson_number": 6,
+        "answers": {
+          "1": "gēge"
+        }
+      },
+      "vres": {
+        "S1": {
+          "points": "fifteen"
+        }
+      },
+      "ok": false,
+      "error": "voice result S1 needs numeric points"
+    },
+    {
+      "name": "l12_mixed",
+      "key": {
+        "items": [
+          {
+            "n": "1",
+            "kind": "english",
+            "expected": [
+              "animal"
+            ],
+            "words": [
+              "dòngwù"
+            ]
+          },
+          {
+            "n": "2",
+            "kind": "english",
+            "expected": [
+              "cat"
+            ],
+            "words": [
+              "māo"
+            ]
+          },
+          {
+            "n": "3",
+            "kind": "english",
+            "expected": [
+              "dog"
+            ],
+            "words": [
+              "gǒu"
+            ]
+          },
+          {
+            "n": "4",
+            "kind": "english",
+            "expected": [
+              "person",
+              "people"
+            ],
+            "words": [
+              "rén"
+            ]
+          },
+          {
+            "n": "5",
+            "kind": "english",
+            "expected": [
+              "two"
+            ],
+            "words": [
+              "liǎng"
+            ]
+          },
+          {
+            "n": "6",
+            "kind": "english",
+            "expected": [
+              "not"
+            ],
+            "words": [
+              "bù"
+            ]
+          },
+          {
+            "n": "7",
+            "kind": "pinyin",
+            "expected": [
+              "zhī"
+            ],
+            "words": [
+              "zhī"
+            ]
+          },
+          {
+            "n": "8",
+            "kind": "pinyin",
+            "expected": [
+              "māo"
+            ],
+            "words": [
+              "māo"
+            ]
+          },
+          {
+            "n": "9",
+            "kind": "pinyin",
+            "expected": [
+              "bù"
+            ],
+            "words": [
+              "bù"
+            ]
+          },
+          {
+            "n": "10",
+            "kind": "pinyin",
+            "expected": [
+              "gǒu"
+            ],
+            "words": [
+              "gǒu"
+            ]
+          },
+          {
+            "n": "11",
+            "kind": "sentence",
+            "expected": [
+              "Wǒ yǒu liǎng zhī gǒu."
+            ],
+            "words": [
+              "yǒu",
+              "liǎng",
+              "zhī",
+              "gǒu"
+            ]
+          },
+          {
+            "n": "12",
+            "kind": "sentence",
+            "expected": [
+              "Nǐ xǐhuan gǒu ma?"
+            ],
+            "words": [
+              "xǐhuan",
+              "gǒu"
+            ]
+          },
+          {
+            "n": "13",
+            "kind": "sentence",
+            "expected": [
+              "Wǒ de háizi xǐhuan māo."
+            ],
+            "words": [
+              "xǐhuan",
+              "māo",
+              "háizi"
+            ]
+          },
+          {
+            "n": "14",
+            "kind": "english",
+            "expected": [
+              "black"
+            ],
+            "words": [
+              "hēisè"
+            ]
+          },
+          {
+            "n": "15",
+            "kind": "english",
+            "expected": [
+              "yellow"
+            ],
+            "words": [
+              "huángsè"
+            ]
+          },
+          {
+            "n": "16",
+            "kind": "english",
+            "expected": [
+              "green"
+            ],
+            "words": [
+              "lǜsè"
+            ]
+          },
+          {
+            "n": "17",
+            "kind": "english",
+            "expected": [
+              "red"
+            ],
+            "words": [
+              "hóngsè"
+            ]
+          },
+          {
+            "n": "18",
+            "kind": "sentence",
+            "expected": [
+              "Wǒ xǐhuan māo.",
+              "Wǒ xǐhuan gǒu.",
+              "Wǒ xǐhuan māo hé gǒu.",
+              "Wǒ xǐhuan gǒu hé māo."
+            ],
+            "regex": "wǒ\\s*xǐhuan\\s*(māo|gǒu)(\\s*hé\\s*(māo|gǒu))?(\\s*ma)?",
+            "words": [
+              "xǐhuan",
+              "māo",
+              "gǒu"
+            ]
+          },
+          {
+            "n": "19",
+            "kind": "sentence",
+            "expected": [
+              "Wǒ bù xǐhuan māo.",
+              "Wǒ bù xǐhuan gǒu.",
+              "Wǒ bù xǐhuan dòngwù."
+            ],
+            "regex": "wǒ\\s*bù\\s*xǐhuan\\s*(māo|gǒu|dòngwù)(\\s*ma)?",
+            "words": [
+              "bù",
+              "xǐhuan"
+            ]
+          },
+          {
+            "n": "S1",
+            "kind": "voice",
+            "words": [
+              "Wǒ yǒu yì zhī gǒu.",
+              "zhī",
+              "gǒu"
+            ]
+          },
+          {
+            "n": "S2",
+            "kind": "voice",
+            "words": [
+              "Nǐ xǐhuan māo ma?",
+              "māo"
+            ]
+          },
+          {
+            "n": "S3",
+            "kind": "voice",
+            "words": [
+              "Wǒ de háizi bù xǐhuan māo.",
+              "bù",
+              "xǐhuan",
+              "māo"
+            ]
+          }
+        ]
+      },
+      "sub": {
+        "lesson_number": 12,
+        "answers": {
+          "1": "animal",
+          "2": "cat",
+          "3": "dog",
+          "4": "people",
+          "5": "two",
+          "6": "not",
+          "7": "zhi",
+          "8": "māo",
+          "9": "bu",
+          "10": "gǒu",
+          "11": "Wǒ yǒu liǎng zhī gǒu.",
+          "12": "ni xihuan gou ma",
+          "13": "Wǒ de háizi xǐhuan māo.",
+          "14": "black",
+          "15": "yellow",
+          "16": "green",
+          "17": "blue",
+          "18": "Wǒ xǐhuan gǒu.",
+          "19": ""
+        }
+      },
+      "vres": null,
+      "ok": true,
+      "value": {
+        "items": [
+          {
+            "n": "1",
+            "status": "correct",
+            "points": 15,
+            "note": null
+          },
+          {
+            "n": "2",
+            "status": "correct",
+            "points": 15,
+            "note": null
+          },
+          {
+            "n": "3",
+            "status": "correct",
+            "points": 15,
+            "note": null
+          },
+          {
+            "n": "4",
+            "status": "correct",
+            "points": 15,
+            "note": null
+          },
+          {
+            "n": "5",
+            "status": "correct",
+            "points": 15,
+            "note": null
+          },
+          {
+            "n": "6",
+            "status": "correct",
+            "points": 15,
+            "note": null
+          },
+          {
+            "n": "7",
+            "status": "partial",
+            "points": 8,
+            "error": "missing_tones",
+            "note": "missing tones"
+          },
+          {
+            "n": "8",
+            "status": "correct",
+            "points": 15,
+            "note": null
+          },
+          {
+            "n": "9",
+            "status": "partial",
+            "points": 8,
+            "error": "missing_tones",
+            "note": "missing tones"
+          },
+          {
+            "n": "10",
+            "status": "correct",
+            "points": 15,
+            "note": null
+          },
+          {
+            "n": "11",
+            "status": "correct",
+            "points": 15,
+            "note": null
+          },
+          {
+            "n": "12",
+            "status": "partial",
+            "points": 8,
+            "error": "missing_tones",
+            "note": "missing tones"
+          },
+          {
+            "n": "13",
+            "status": "correct",
+            "points": 15,
+            "note": null
+          },
+          {
+            "n": "14",
+            "status": "correct",
+            "points": 15,
+            "note": null
+          },
+          {
+            "n": "15",
+            "status": "correct",
+            "points": 15,
+            "note": null
+          },
+          {
+            "n": "16",
+            "status": "correct",
+            "points": 15,
+            "note": null
+          },
+          {
+            "n": "17",
+            "status": "wrong",
+            "points": -12,
+            "note": "expected: red"
+          },
+          {
+            "n": "18",
+            "status": "correct",
+            "points": 15,
+            "note": null
+          },
+          {
+            "n": "19",
+            "status": "skipped",
+            "points": -5,
+            "note": "blank"
+          },
+          {
+            "n": "S1",
+            "status": "needs_voice",
+            "points": 0,
+            "note": "say-it-aloud; not auto-graded"
+          },
+          {
+            "n": "S2",
+            "status": "needs_voice",
+            "points": 0,
+            "note": "say-it-aloud; not auto-graded"
+          },
+          {
+            "n": "S3",
+            "status": "needs_voice",
+            "points": 0,
+            "note": "say-it-aloud; not auto-graded"
+          }
+        ],
+        "sheet_patches": [
+          {
+            "id_or_word": "dòngwù",
+            "delta_points": 15,
+            "times_correct_inc": 1
+          },
+          {
+            "id_or_word": "māo",
+            "delta_points": 15,
+            "times_correct_inc": 1
+          },
+          {
+            "id_or_word": "gǒu",
+            "delta_points": 15,
+            "times_correct_inc": 1
+          },
+          {
+            "id_or_word": "rén",
+            "delta_points": 15,
+            "times_correct_inc": 1
+          },
+          {
+            "id_or_word": "liǎng",
+            "delta_points": 15,
+            "times_correct_inc": 1
+          },
+          {
+            "id_or_word": "bù",
+            "delta_points": 15,
+            "times_correct_inc": 1
+          },
+          {
+            "id_or_word": "zhī",
+            "delta_points": 8,
+            "times_correct_inc": 0
+          },
+          {
+            "id_or_word": "māo",
+            "delta_points": 15,
+            "times_correct_inc": 1
+          },
+          {
+            "id_or_word": "bù",
+            "delta_points": 8,
+            "times_correct_inc": 0
+          },
+          {
+            "id_or_word": "gǒu",
+            "delta_points": 15,
+            "times_correct_inc": 1
+          },
+          {
+            "id_or_word": "yǒu",
+            "delta_points": 15,
+            "times_correct_inc": 1
+          },
+          {
+            "id_or_word": "liǎng",
+            "delta_points": 15,
+            "times_correct_inc": 1
+          },
+          {
+            "id_or_word": "zhī",
+            "delta_points": 15,
+            "times_correct_inc": 1
+          },
+          {
+            "id_or_word": "gǒu",
+            "delta_points": 15,
+            "times_correct_inc": 1
+          },
+          {
+            "id_or_word": "xǐhuan",
+            "delta_points": 8,
+            "times_correct_inc": 0
+          },
+          {
+            "id_or_word": "gǒu",
+            "delta_points": 8,
+            "times_correct_inc": 0
+          },
+          {
+            "id_or_word": "xǐhuan",
+            "delta_points": 15,
+            "times_correct_inc": 1
+          },
+          {
+            "id_or_word": "māo",
+            "delta_points": 15,
+            "times_correct_inc": 1
+          },
+          {
+            "id_or_word": "háizi",
+            "delta_points": 15,
+            "times_correct_inc": 1
+          },
+          {
+            "id_or_word": "hēisè",
+            "delta_points": 15,
+            "times_correct_inc": 1
+          },
+          {
+            "id_or_word": "huángsè",
+            "delta_points": 15,
+            "times_correct_inc": 1
+          },
+          {
+            "id_or_word": "lǜsè",
+            "delta_points": 15,
+            "times_correct_inc": 1
+          },
+          {
+            "id_or_word": "hóngsè",
+            "delta_points": -12,
+            "times_correct_inc": 0
+          },
+          {
+            "id_or_word": "xǐhuan",
+            "delta_points": 15,
+            "times_correct_inc": 1
+          },
+          {
+            "id_or_word": "māo",
+            "delta_points": 15,
+            "times_correct_inc": 1
+          },
+          {
+            "id_or_word": "gǒu",
+            "delta_points": 15,
+            "times_correct_inc": 1
+          },
+          {
+            "id_or_word": "bù",
+            "delta_points": -5,
+            "times_correct_inc": 0
+          },
+          {
+            "id_or_word": "xǐhuan",
+            "delta_points": -5,
+            "times_correct_inc": 0
+          }
+        ],
+        "needs_voice": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "score": 217,
+        "max": 285,
+        "summary_md": "**Lesson 12 Practice — 217 / 285**\n✅ 14 correct · 🟡 3 partial · ❌ 1 wrong · ⏭ 1 skipped\n\n- #7 partial (+8) — missing tones\n- #9 partial (+8) — missing tones\n- #12 partial (+8) — missing tones\n- #17 wrong (-12) — expected: red\n- #19 skipped (-5) — blank\n\n**🎤 Voice**\n- Not yet graded (excluded from score): S1, S2, S3\n"
+      }
+    }
+  ]
+}
