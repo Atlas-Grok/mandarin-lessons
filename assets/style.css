@@ -232,6 +232,7 @@ h2.block-h, .block-h {
   border-radius: 0;
   margin: 0;
   border: 0;
+  border-bottom: 1px solid var(--line);
   box-shadow: none;
   cursor: default;
   line-height: inherit;
@@ -530,5 +531,6 @@ button.listen[disabled] { opacity: 0.5; cursor: default; }
     height: auto;
     padding: 6px 8px 2px;
     background: none;
+    border: 0;
   }
 }
