@@ -16,7 +16,7 @@ No framework and no build step: plain HTML, CSS, and vanilla JS.
 | `lesson.html?id=l12` | One lesson: teach + interactive practice |
 | `lessons/<id>/lesson.json` | Lesson content, answer key, and local audio filenames |
 | `lessons/<id>/*.mp3` | Listen clips |
-| `assets/style.css` | Cool-stone card look, matching the lesson email |
+| `assets/style.css` | Patinated-copper theme with cream lesson cards |
 | `assets/grade.js` | Port of `grade_practice.py` |
 | `assets/lock.js` | 3×3 pattern lock |
 | `assets/config.js` | `SUBMIT_URL` placeholder for the Apps Script endpoint |

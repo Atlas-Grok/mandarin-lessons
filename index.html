@@ -4,11 +4,20 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Mei · Mandarin Lessons</title>
+    <meta name="theme-color" content="#1b325e">
+    <meta property="og:title" content="Mei · Mandarin Lessons">
+    <meta property="og:description" content="Weekday Mandarin lessons from Mei.">
+    <meta property="og:image" content="https://atlas-grok.github.io/mandarin-lessons/assets/og-image.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+    <link rel="icon" type="image/png" sizes="64x64" href="assets/favicon-64.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
     <link rel="stylesheet" href="assets/style.css">
   </head>
   <body>
     <div id="lock-screen" hidden>
       <div class="lock-card">
+        <img class="lock-logo" src="assets/logo.png" alt="Mei" width="96" height="96">
         <div class="brand">Mei · Mandarin Tutor</div>
         <h1 style="font-size:22px;">Draw your pattern</h1>
         <p class="lock-hint">Connect the dots the way you would on a phone lock screen.</p>
@@ -20,7 +29,10 @@
     </div>
     <div id="app" class="page" hidden>
       <div class="card">
-        <div class="brand">Mei · Mandarin Tutor</div>
+        <div class="brand-row">
+          <img class="brand-logo" src="assets/logo.png" alt="Mei" width="48" height="48">
+          <div class="brand">Mei · Mandarin Tutor</div>
+        </div>
         <h1>Lessons</h1>
         <p class="meta">Open a lesson, fill in the practice, and submit when you’re ready.</p>
         <div id="index-error" hidden class="error-banner"></div>

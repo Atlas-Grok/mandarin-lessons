@@ -143,7 +143,9 @@
       ctx.lineCap = "round";
       ctx.lineJoin = "round";
       if (pattern.length) {
-        ctx.strokeStyle = "#b91c1c";
+        ctx.strokeStyle = "#4cf0a0";
+        ctx.shadowColor = "rgba(76, 240, 160, 0.8)";
+        ctx.shadowBlur = 12;
         ctx.lineWidth = 3;
         ctx.beginPath();
         for (let i = 0; i < pattern.length; i++) {
@@ -153,17 +155,26 @@
         }
         if (drawing && pointer) ctx.lineTo(pointer.x, pointer.y);
         ctx.stroke();
+        ctx.shadowBlur = 0;
       }
       for (let i = 0; i < nodes.length; i++) {
         const n = nodes[i];
         const on = pattern.indexOf(n.n) !== -1;
         ctx.beginPath();
         ctx.arc(n.x, n.y, on ? n.r + 2 : n.r, 0, Math.PI * 2);
-        ctx.fillStyle = on ? "#b91c1c" : "#d6c4a8";
+        if (on) {
+          ctx.shadowColor = "rgba(76, 240, 160, 0.95)";
+          ctx.shadowBlur = 14;
+          ctx.fillStyle = "#4cf0a0";
+        } else {
+          ctx.shadowBlur = 0;
+          ctx.fillStyle = "#c4a07a";
+        }
         ctx.fill();
+        ctx.shadowBlur = 0;
         ctx.beginPath();
         ctx.arc(n.x, n.y, Math.max(3, n.r * 0.35), 0, Math.PI * 2);
-        ctx.fillStyle = on ? "#fffdf8" : "#7a6450";
+        ctx.fillStyle = on ? "#0e1a36" : "#6b4a32";
         ctx.fill();
       }
     }

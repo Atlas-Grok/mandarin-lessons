@@ -1,19 +1,26 @@
-/* Cool-stone card look, shared with the lesson email (template.html / render.py). */
+/* Patinated-copper theme, sampled from Mei's logo, with cream lesson cards. */
 :root {
-  --page: #fdf6ec;
-  --card: #fffdf8;
-  --line: #f1e5d1;
-  --ink: #374151;
-  --muted: #9ca3af;
-  --red: #b91c1c;
-  --blue: #1d4ed8;
-  --green: #15803d;
-  --amber: #d97706;
-  --tip-bg: #fffbeb;
-  --pattern-bg: #eff6ff;
-  --tone-bg: #fef2f2;
-  --note-bg: #f0fdf4;
-  --white: #ffffff;
+  --page: #1a120c;
+  --card: #efe6d6;
+  --line: #b07848;
+  --ink: #1a1c22;
+  --muted: #6b6258;
+  --red: #b91c1c; /* pinyin stays red, same as the lesson email */
+  --blue: #1b325e; /* navy from the logo disc */
+  --green: #1f7a5a;
+  --amber: #c4843a;
+  --tip-bg: #f7efd8;
+  --pattern-bg: #e6edf6;
+  --tone-bg: #f8ebe6;
+  --note-bg: #e7f3ed;
+  --white: #f7f1e6;
+  --navy: #1b325e;
+  --navy-deep: #0e1a36;
+  --copper: #b07848;
+  --copper-dark: #8a5a32;
+  --mint: #4cf0a0;
+  --mint-soft: #a7f7d2;
+  --verdigris: #2f8f7a;
 }
 
 * { box-sizing: border-box; }
@@ -21,12 +28,33 @@
 html, body {
   margin: 0;
   padding: 0;
-  background: var(--page);
   color: var(--ink);
   font-family: Georgia, "Times New Roman", serif;
   font-size: 16px;
   line-height: 1.55;
   -webkit-text-size-adjust: 100%;
+}
+
+/* Fallback color on html. Body stays transparent so the fixed
+   ::before plate (z-index: -1) can show through. */
+html { background-color: var(--page); }
+body { background: transparent; min-height: 100vh; }
+
+/* Fixed copper plate + soft navy-to-umber overlay. A pseudo-element
+   avoids background-attachment:fixed bugs on mobile. */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background-color: var(--page);
+  background-image:
+    linear-gradient(180deg, rgba(14, 16, 32, 0.32), rgba(22, 12, 8, 0.42)),
+    url("bg-copper.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .page {
@@ -42,15 +70,40 @@ html, body {
   border: 1px solid var(--line);
   border-radius: 12px;
   padding: 28px;
+  box-shadow: 0 8px 28px rgba(20, 10, 6, 0.28);
 }
 
 .brand {
   font-size: 12px;
   letter-spacing: 2px;
   text-transform: uppercase;
-  color: var(--red);
+  color: var(--navy);
   font-weight: bold;
   font-family: Georgia, "Times New Roman", serif;
+}
+
+.brand-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.brand-logo {
+  width: 48px;
+  height: 48px;
+  flex: 0 0 48px;
+  border-radius: 50%;
+  display: block;
+  box-shadow: 0 0 0 1px rgba(176, 120, 72, 0.35);
+}
+
+.lock-logo {
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto 12px;
+  box-shadow: 0 0 0 1px rgba(176, 120, 72, 0.4), 0 4px 16px rgba(20, 10, 6, 0.25);
 }
 
 .lesson-id {
@@ -88,7 +141,7 @@ h1 {
 h2, .h2 {
   font-family: Georgia, serif;
   font-size: 20px;
-  color: var(--red);
+  color: var(--navy);
   margin: 22px 0 10px 0;
   border-bottom: 2px solid var(--line);
   padding-bottom: 4px;
@@ -108,7 +161,7 @@ h3, .h3 {
 }
 h2.block-h, .block-h {
   font-size: 18px;
-  color: var(--red);
+  color: var(--navy);
 }
 
 .pair { font-size: 16px; }
@@ -168,7 +221,7 @@ h2.block-h, .block-h {
 
 .listen {
   display: inline-block;
-  background: var(--red);
+  background: var(--navy);
   color: #ffffff;
   text-decoration: none;
   font-family: Arial, sans-serif;
@@ -181,8 +234,12 @@ h2.block-h, .block-h {
   cursor: pointer;
   line-height: 1.2;
 }
-.listen:hover, .listen:focus { filter: brightness(1.08); }
-.listen.playing { background: #7f1d1d; }
+.listen:hover, .listen:focus { filter: brightness(1.12); }
+.listen.playing {
+  background: var(--verdigris);
+  box-shadow: 0 0 0 1px var(--mint), 0 0 12px rgba(76, 240, 160, 0.65);
+  color: #042016;
+}
 .listen[disabled] { opacity: 0.5; cursor: default; }
 
 .options-line { font-size: 14px; color: #6b7280; margin: 4px 0 8px 0; }
@@ -272,11 +329,16 @@ h2.block-h, .block-h {
   border-radius: 999px;
   padding: 8px 14px;
   cursor: pointer;
-  background: var(--red);
+  background: var(--navy);
   color: #fff;
 }
-.rec-btn.secondary { background: #6b7280; }
+.rec-btn.secondary { background: var(--copper-dark); }
 .rec-btn:disabled { opacity: 0.45; cursor: default; }
+.rec-btn[aria-pressed="true"], .rec-btn.recording {
+  background: var(--verdigris);
+  box-shadow: 0 0 0 1px var(--mint), 0 0 12px rgba(76, 240, 160, 0.65);
+  color: #042016;
+}
 .rec-timer { font-size: 13px; color: var(--ink); min-width: 4ch; }
 .rec-status { font-size: 12px; color: var(--muted); margin-top: 4px; }
 .recorder audio { width: 100%; margin-top: 8px; }
@@ -292,14 +354,18 @@ h2.block-h, .block-h {
   font-family: Arial, sans-serif;
   font-size: 16px;
   font-weight: bold;
-  background: var(--blue);
+  background: var(--navy);
   color: #fff;
   border: 0;
   border-radius: 8px;
   padding: 12px 22px;
   cursor: pointer;
 }
-.primary:disabled { opacity: 0.5; cursor: default; }
+.primary:hover, .primary:focus {
+  filter: brightness(1.08);
+  box-shadow: 0 0 0 1px var(--mint), 0 0 10px rgba(76, 240, 160, 0.45);
+}
+.primary:disabled { opacity: 0.5; cursor: default; box-shadow: none; }
 .linkish {
   font-family: Arial, sans-serif;
   font-size: 14px;
@@ -336,7 +402,7 @@ h2.block-h, .block-h {
 .foot {
   font-family: Arial, sans-serif;
   font-size: 11px;
-  color: var(--muted);
+  color: #d4c4a8;
   text-align: center;
   padding-top: 12px;
 }
@@ -375,7 +441,7 @@ h2.block-h, .block-h {
   align-items: center;
   justify-content: center;
   padding: 24px 12px;
-  background: var(--page);
+  background: transparent;
 }
 #lock-screen[hidden], #app[hidden] { display: none !important; }
 .lock-card {
@@ -386,6 +452,7 @@ h2.block-h, .block-h {
   border-radius: 12px;
   padding: 28px 24px 24px;
   text-align: center;
+  box-shadow: 0 8px 28px rgba(20, 10, 6, 0.28);
 }
 .lock-canvas-wrap {
   touch-action: none;
@@ -425,6 +492,8 @@ h2.block-h, .block-h {
   .page { padding: 12px 8px; }
   .card, .lock-card { padding: 20px 16px; }
   h1 { font-size: 22px; }
+  .brand-logo { width: 40px; height: 40px; flex-basis: 40px; }
+  .lock-logo { width: 80px; height: 80px; }
   .listen { margin: 6px 0 0 0; }
   .review, .review tbody, .review tr, .review td { display: block; width: 100%; }
   .review tr { border-bottom: 1px solid var(--line); padding: 8px 0; }
