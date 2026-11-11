@@ -1,0 +1,327 @@
+{
+  "lesson_id": "l10",
+  "lesson_number": 10,
+  "title_en": "Colors: What Do You Like?",
+  "title_py": "Yánsè: Nǐ xǐhuan shénme yánsè?",
+  "graded_at": "2026-11-10",
+  "score": 163,
+  "max": 285,
+  "written_score": 139,
+  "written_max": 240,
+  "voice_score": 24,
+  "voice_max": 45,
+  "items": [
+    {
+      "n": "1",
+      "section": "A · Pinyin → English",
+      "kind": "english",
+      "prompt_en": "hóngsè",
+      "prompt_py": null,
+      "answer": "red",
+      "expected": [
+        "red"
+      ],
+      "status": "correct",
+      "points": 15,
+      "max_points": 15,
+      "correction": null,
+      "note": null
+    },
+    {
+      "n": "2",
+      "section": "A · Pinyin → English",
+      "kind": "english",
+      "prompt_en": "lánsè",
+      "prompt_py": null,
+      "answer": "blue",
+      "expected": [
+        "blue"
+      ],
+      "status": "correct",
+      "points": 15,
+      "max_points": 15,
+      "correction": null,
+      "note": null
+    },
+    {
+      "n": "3",
+      "section": "A · Pinyin → English",
+      "kind": "english",
+      "prompt_en": "xǐhuan",
+      "prompt_py": null,
+      "answer": "to like",
+      "expected": [
+        "to like",
+        "like"
+      ],
+      "status": "correct",
+      "points": 15,
+      "max_points": 15,
+      "correction": null,
+      "note": null
+    },
+    {
+      "n": "4",
+      "section": "A · Pinyin → English",
+      "kind": "english",
+      "prompt_en": "yánsè",
+      "prompt_py": null,
+      "answer": "color",
+      "expected": [
+        "color"
+      ],
+      "status": "correct",
+      "points": 15,
+      "max_points": 15,
+      "correction": null,
+      "note": null
+    },
+    {
+      "n": "5",
+      "section": "A · Pinyin → English",
+      "kind": "english",
+      "prompt_en": "jiào",
+      "prompt_py": null,
+      "answer": "",
+      "expected": [
+        "to be called",
+        "called"
+      ],
+      "status": "skipped",
+      "points": -5,
+      "max_points": 15,
+      "correction": "to be called",
+      "note": "blank"
+    },
+    {
+      "n": "6",
+      "section": "A · Pinyin → English",
+      "kind": "english",
+      "prompt_en": "míngzi",
+      "prompt_py": null,
+      "answer": "name",
+      "expected": [
+        "name"
+      ],
+      "status": "correct",
+      "points": 15,
+      "max_points": 15,
+      "correction": null,
+      "note": null
+    },
+    {
+      "n": "7",
+      "section": "B · Fill in the blank",
+      "kind": "pinyin",
+      "prompt_en": "I like blue.",
+      "prompt_py": "Wǒ ___ lánsè.",
+      "answer": "xǐhuan",
+      "expected": [
+        "xǐhuan"
+      ],
+      "status": "correct",
+      "points": 15,
+      "max_points": 15,
+      "correction": null,
+      "note": null
+    },
+    {
+      "n": "8",
+      "section": "B · Fill in the blank",
+      "kind": "pinyin",
+      "prompt_en": "What color do you like?",
+      "prompt_py": "Nǐ xǐhuan ___ yánsè?",
+      "answer": "shénme",
+      "expected": [
+        "shénme"
+      ],
+      "status": "correct",
+      "points": 15,
+      "max_points": 15,
+      "correction": null,
+      "note": null
+    },
+    {
+      "n": "9",
+      "section": "B · Fill in the blank",
+      "kind": "pinyin",
+      "prompt_en": "He is three years old.",
+      "prompt_py": "Tā ___ suì.",
+      "answer": "sān",
+      "expected": [
+        "sān"
+      ],
+      "status": "correct",
+      "points": 15,
+      "max_points": 15,
+      "correction": null,
+      "note": null
+    },
+    {
+      "n": "10",
+      "section": "B · Fill in the blank",
+      "kind": "pinyin",
+      "prompt_en": "My name is Evan.",
+      "prompt_py": "Wǒ ___ Evan.",
+      "answer": "míngzi",
+      "expected": [
+        "jiào"
+      ],
+      "status": "wrong",
+      "points": -12,
+      "max_points": 15,
+      "correction": "jiào",
+      "note": "míngzi for jiào"
+    },
+    {
+      "n": "11",
+      "section": "C · Build the sentence",
+      "kind": "pinyin",
+      "prompt_en": "I like white.",
+      "prompt_py": null,
+      "answer": "wǒ xǐhuan báisè",
+      "expected": [
+        "Wǒ xǐhuan báisè.",
+        "Wǒ xǐhuan báisè"
+      ],
+      "status": "correct",
+      "points": 15,
+      "max_points": 15,
+      "correction": null,
+      "note": null
+    },
+    {
+      "n": "12",
+      "section": "C · Build the sentence",
+      "kind": "pinyin",
+      "prompt_en": "She likes red.",
+      "prompt_py": null,
+      "answer": "tā xǐhuan hóngsè",
+      "expected": [
+        "Tā xǐhuan hóngsè.",
+        "Tā xǐhuan hóngsè"
+      ],
+      "status": "correct",
+      "points": 15,
+      "max_points": 15,
+      "correction": null,
+      "note": null
+    },
+    {
+      "n": "13",
+      "section": "C · Build the sentence",
+      "kind": "pinyin",
+      "prompt_en": "What's your name?",
+      "prompt_py": null,
+      "answer": "nǐ míngzi shènme",
+      "expected": [
+        "Nǐ jiào shénme míngzi?"
+      ],
+      "status": "wrong",
+      "points": -12,
+      "max_points": 15,
+      "correction": "Nǐ jiào shénme míngzi?",
+      "note": "missing jiào; shènme should be shénme"
+    },
+    {
+      "n": "14",
+      "section": "C · Build the sentence",
+      "kind": "pinyin",
+      "prompt_en": "How old is he?",
+      "prompt_py": null,
+      "answer": "tā shì suì ma",
+      "expected": [
+        "Tā jǐ suì?"
+      ],
+      "status": "wrong",
+      "points": -12,
+      "max_points": 15,
+      "correction": "Tā jǐ suì?",
+      "note": "shì for jǐ — this is the how-old question, Tā jǐ suì?"
+    },
+    {
+      "n": "15",
+      "section": "D · About you",
+      "kind": "pinyin",
+      "prompt_en": "What color do you like? Answer in a full pinyin sentence.",
+      "prompt_py": "Wǒ xǐhuan ___.",
+      "answer": "Wǒ xǐhuan lánsè",
+      "expected": [
+        "Wǒ xǐhuan lánsè.",
+        "Wǒ xǐhuan lánsè",
+        "Wǒ xǐhuan + any color"
+      ],
+      "status": "correct",
+      "points": 15,
+      "max_points": 15,
+      "correction": null,
+      "note": null
+    },
+    {
+      "n": "16",
+      "section": "D · About you",
+      "kind": "pinyin",
+      "prompt_en": "Pick a color your kid likes (or guess!) and write it in pinyin.",
+      "prompt_py": "Wǒ de háizi xǐhuan ___.",
+      "answer": "Wǒde háizi xǐhuan báisè",
+      "expected": [
+        "Wǒ de háizi xǐhuan báisè.",
+        "Wǒ de háizi xǐhuan báisè",
+        "Wǒ de háizi xǐhuan + color"
+      ],
+      "status": "correct",
+      "points": 15,
+      "max_points": 15,
+      "correction": null,
+      "note": null
+    },
+    {
+      "n": "S1",
+      "section": "E · Say it out loud",
+      "kind": "voice",
+      "prompt_en": "I like red.",
+      "prompt_py": "Wǒ xǐhuan hóngsè.",
+      "answer": null,
+      "expected": [
+        "Wǒ xǐhuan hóngsè."
+      ],
+      "status": "voice_graded",
+      "points": 8,
+      "max_points": 15,
+      "correction": "Wǒ xǐhuan hóngsè.",
+      "note": "Wǒ xǐhuan hóngsè — phrase comes through; tones still need work"
+    },
+    {
+      "n": "S2",
+      "section": "E · Say it out loud",
+      "kind": "voice",
+      "prompt_en": "What's your name?",
+      "prompt_py": "Nǐ jiào shénme míngzi?",
+      "answer": null,
+      "expected": [
+        "Nǐ jiào shénme míngzi?"
+      ],
+      "status": "voice_graded",
+      "points": 8,
+      "max_points": 15,
+      "correction": "Nǐ jiào shénme míngzi.",
+      "note": "Nǐ jiào shénme míngzi? — phrase comes through; tones still need work"
+    },
+    {
+      "n": "S3",
+      "section": "E · Say it out loud",
+      "kind": "voice",
+      "prompt_en": "He is four. He likes blue.",
+      "prompt_py": "Tā sì suì. Tā xǐhuan lánsè.",
+      "answer": null,
+      "expected": [
+        "Tā sì suì. Tā xǐhuan lánsè."
+      ],
+      "status": "voice_graded",
+      "points": 8,
+      "max_points": 15,
+      "correction": "Tā sì suì. Tā xǐhuan lánsè.",
+      "note": "Tā sì suì. Tā xǐhuan lánsè. — phrase comes through; tones still need work"
+    }
+  ]
+}
