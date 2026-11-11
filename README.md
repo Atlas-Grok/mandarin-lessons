@@ -18,6 +18,8 @@ No framework and no build step: plain HTML, CSS, and vanilla JS.
 | `lessons/<id>/*.mp3` | Listen clips |
 | `assets/style.css` | Patinated-copper theme with cream lesson cards |
 | `assets/grade.js` | Port of `grade_practice.py` |
+| `assets/report.js` | Renders published `grade.json` report cards |
+| `lessons/<id>/grade.json` | Published scored report (optional; not in `index.json`) |
 | `assets/lock.js` | 3×3 pattern lock |
 | `assets/config.js` | `SUBMIT_URL` placeholder for the Apps Script endpoint |
 
@@ -139,6 +141,50 @@ python3 routines/mandarin-lesson/publish_site.py --convert-yaml path/to/lesson.y
 Embed `answer_key` in the JSON before publishing. `listen_url` values should
 be the local MP3 filenames.
 
+## Published grade report (`grade.json`)
+
+After Mei grades a submission, `publish_site.py grade` (in
+`evandcombs/bot-scripts`) writes `lessons/<id>/grade.json` and deploys it.
+The site does **not** list this file in `lessons/index.json`; the lesson list
+and lesson page each fetch it at runtime with `cache: "no-store"`. A **404**
+means the lesson is not graded yet.
+
+When the file exists:
+
+- The home page shows a **Completed** badge on that lesson.
+- The lesson page shows a **report card** at the top (Teach and Practice stay
+  below; Practice inputs are read-only and Submit is hidden).
+
+Schema (extra unknown fields are ignored):
+
+| Field | Meaning |
+|-------|---------|
+| `lesson_id`, `lesson_number`, `title_en`, `title_py` | Lesson identity |
+| `graded_at` | ISO date string shown on the report |
+| `score`, `max` | Overall total |
+| `written_score`, `written_max`, `voice_score`, `voice_max` | Section totals |
+| `items[]` | One row per practice item (written + voice) |
+
+Each `items[]` entry:
+
+| Field | Meaning |
+|-------|---------|
+| `n` | Item id (`"1"`, `"S1"`, …) |
+| `section` | Practice section title for grouping |
+| `kind` | `english`, `pinyin`, `voice`, … |
+| `prompt_en`, `prompt_py` | Prompt shown on the report |
+| `answer` | Evan’s submission (`""` or null if blank; voice uses `null`) |
+| `expected` | Accepted forms (informational; may be omitted on voice) |
+| `status` | `correct` · `partial` · `wrong` · `skipped` · `voice_graded` |
+| `points`, `max_points` | Points awarded for this item |
+| `correction` | Expected form when not fully correct; omit or null when correct |
+| `note` | Short grader note (tone, spelling, voice feedback) |
+
+Point bands match live practice grading: +15 correct, +8 partial, −12 wrong,
+−5 skipped. Voice rows use Mei’s note and the model sentence as `correction`.
+
+A full example fixture lives at `tests/fixtures/grade-l11.json` (not deployed).
+
 ## Practice, voice, and submission
 
 - Written items are real inputs. **Submit** runs `assets/grade.js` immediately
@@ -160,6 +206,7 @@ be the local MP3 filenames.
 # Rebuild vectors from the Python grader, then check the JS port.
 python3 tests/gen_vectors.py
 node tests/grade.test.js
+node tests/report.test.js
 
 # Existing Mandarin pipeline tests (from /workspace/mandarin):
 python3 -m unittest tests.test_inline_reply

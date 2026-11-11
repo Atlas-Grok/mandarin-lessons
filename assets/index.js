@@ -9,6 +9,17 @@
       .replace(/"/g, "&quot;");
   }
 
+  async function lessonComplete(id) {
+    var R = window.MandarinReport;
+    if (!R || !R.fetchGrade) return false;
+    try {
+      var grade = await R.fetchGrade(id);
+      return grade != null;
+    } catch (e) {
+      return false;
+    }
+  }
+
   async function loadIndex() {
     const list = document.getElementById("lesson-list");
     const err = document.getElementById("index-error");
@@ -21,12 +32,21 @@
         list.innerHTML = "<li class='meta'>No lessons have been published yet.</li>";
         return;
       }
-      list.innerHTML = lessons.map(function (L) {
+      const flags = await Promise.all(lessons.map(function (L) { return lessonComplete(L.id); }));
+      list.innerHTML = lessons.map(function (L, i) {
         const title = "Lesson " + esc(L.lesson_number) + " · " + esc(L.title_en);
         const py = L.title_py ? "<div class='title-py' style='font-size:15px;'>" + esc(L.title_py) + "</div>" : "";
         const when = L.date ? "<div class='when'>" + esc(L.date) + "</div>" : "";
-        return "<li><a href='lesson.html?id=" + encodeURIComponent(L.id) + "'>" +
-          "<div class='en'>" + title + "</div>" + py + when + "</a></li>";
+        const done = flags[i]
+          ? "<span class='lesson-done' title='Graded — report card on lesson page'>" +
+            "<span class='lesson-done-badge' aria-hidden='true'>✓</span> Completed</span>"
+          : "";
+        return "<li class='" + (flags[i] ? "lesson-complete" : "") + "'>" +
+          "<a href='lesson.html?id=" + encodeURIComponent(L.id) + "'>" +
+          "<div class='lesson-row'>" +
+          "<div class='lesson-titles'><div class='en'>" + title + "</div>" + py + when + "</div>" +
+          done +
+          "</div></a></li>";
       }).join("");
     } catch (e) {
       err.hidden = false;
