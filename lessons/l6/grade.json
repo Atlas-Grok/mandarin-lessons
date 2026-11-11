@@ -1,0 +1,337 @@
+{
+  "lesson_id": "l6",
+  "lesson_number": 6,
+  "title_en": "Brothers & Sisters",
+  "title_py": "Gēge, jiějie, dìdi, mèimei",
+  "graded_at": "2026-11-02",
+  "score": 147,
+  "max": 285,
+  "written_score": 116,
+  "written_max": 240,
+  "voice_score": 31,
+  "voice_max": 45,
+  "items": [
+    {
+      "n": "1",
+      "section": "A · Match",
+      "kind": "english",
+      "prompt_en": "older brother",
+      "prompt_py": null,
+      "answer": "c",
+      "expected": [
+        "c"
+      ],
+      "status": "correct",
+      "points": 15,
+      "max_points": 15,
+      "correction": null,
+      "note": null
+    },
+    {
+      "n": "2",
+      "section": "A · Match",
+      "kind": "english",
+      "prompt_en": "younger sister",
+      "prompt_py": null,
+      "answer": "d",
+      "expected": [
+        "d"
+      ],
+      "status": "correct",
+      "points": 15,
+      "max_points": 15,
+      "correction": null,
+      "note": null
+    },
+    {
+      "n": "3",
+      "section": "A · Match",
+      "kind": "english",
+      "prompt_en": "older sister",
+      "prompt_py": null,
+      "answer": "b",
+      "expected": [
+        "b"
+      ],
+      "status": "correct",
+      "points": 15,
+      "max_points": 15,
+      "correction": null,
+      "note": null
+    },
+    {
+      "n": "4",
+      "section": "A · Match",
+      "kind": "english",
+      "prompt_en": "younger brother",
+      "prompt_py": null,
+      "answer": "a",
+      "expected": [
+        "a"
+      ],
+      "status": "correct",
+      "points": 15,
+      "max_points": 15,
+      "correction": null,
+      "note": null
+    },
+    {
+      "n": "5",
+      "section": "B · English → pinyin",
+      "kind": "pinyin",
+      "prompt_en": "I don't have an older brother.",
+      "prompt_py": null,
+      "answer": "wǒ mèiyǒu gège",
+      "expected": [
+        "Wǒ méiyǒu gēge",
+        "Wǒ méiyǒu gēge."
+      ],
+      "status": "partial",
+      "points": 8,
+      "max_points": 15,
+      "correction": "Wǒ méiyǒu gēge.",
+      "note": "tone marks off on méiyǒu and gēge"
+    },
+    {
+      "n": "6",
+      "section": "B · English → pinyin",
+      "kind": "pinyin",
+      "prompt_en": "Who is that?",
+      "prompt_py": null,
+      "answer": "zhe shi shei",
+      "expected": [
+        "Nà shì shéi",
+        "Nà shì shéi?"
+      ],
+      "status": "wrong",
+      "points": -12,
+      "max_points": 15,
+      "correction": "Nà shì shéi?",
+      "note": "zhè for nà"
+    },
+    {
+      "n": "7",
+      "section": "B · English → pinyin",
+      "kind": "pinyin",
+      "prompt_en": "This is my friend.",
+      "prompt_py": null,
+      "answer": "shei wode pengyou",
+      "expected": [
+        "Zhè shì wǒ de péngyou",
+        "Zhè shì wǒ de péngyou."
+      ],
+      "status": "wrong",
+      "points": -12,
+      "max_points": 15,
+      "correction": "Zhè shì wǒ de péngyou.",
+      "note": "wrote shéi wǒ de péngyou instead of Zhè shì…"
+    },
+    {
+      "n": "8",
+      "section": "C · Build the sentence",
+      "kind": "pinyin",
+      "prompt_en": "I have two younger sisters.",
+      "prompt_py": "mèimei / yǒu / wǒ / liǎng gè",
+      "answer": "wo you liang ge meimei",
+      "expected": [
+        "Wǒ yǒu liǎng gè mèimei",
+        "Wǒ yǒu liǎng gè mèimei."
+      ],
+      "status": "partial",
+      "points": 8,
+      "max_points": 15,
+      "correction": "Wǒ yǒu liǎng gè mèimei.",
+      "note": "missing tones"
+    },
+    {
+      "n": "9",
+      "section": "C · Build the sentence",
+      "kind": "pinyin",
+      "prompt_en": "Who is she?",
+      "prompt_py": "shéi / tā / shì / ?",
+      "answer": "ta shi shei?",
+      "expected": [
+        "Tā shì shéi",
+        "Tā shì shéi?"
+      ],
+      "status": "partial",
+      "points": 8,
+      "max_points": 15,
+      "correction": "Tā shì shéi?",
+      "note": "missing tones"
+    },
+    {
+      "n": "10",
+      "section": "C · Build the sentence",
+      "kind": "pinyin",
+      "prompt_en": "Do you have an older sister?",
+      "prompt_py": "ma / jiějie / nǐ / yǒu / ?",
+      "answer": "ni you jiejie ma",
+      "expected": [
+        "Nǐ yǒu jiějie ma",
+        "Nǐ yǒu jiějie ma?"
+      ],
+      "status": "partial",
+      "points": 8,
+      "max_points": 15,
+      "correction": "Nǐ yǒu jiějie ma?",
+      "note": "missing tones"
+    },
+    {
+      "n": "11",
+      "section": "D · About you",
+      "kind": "pinyin",
+      "prompt_en": "Nǐ yǒu gēge ma?",
+      "prompt_py": null,
+      "answer": "wo meiyou gege",
+      "expected": [
+        "Wǒ méiyǒu gēge",
+        "Wǒ méiyǒu gēge.",
+        "Wǒ yǒu gēge",
+        "Wǒ yǒu gēge."
+      ],
+      "status": "partial",
+      "points": 8,
+      "max_points": 15,
+      "correction": "Wǒ méiyǒu gēge.",
+      "note": "missing tones"
+    },
+    {
+      "n": "12",
+      "section": "D · About you",
+      "kind": "pinyin",
+      "prompt_en": "Nǐ yǒu mèimei ma?",
+      "prompt_py": null,
+      "answer": "wo meiyou meimei",
+      "expected": [
+        "Wǒ méiyǒu mèimei",
+        "Wǒ méiyǒu mèimei.",
+        "Wǒ yǒu mèimei",
+        "Wǒ yǒu mèimei."
+      ],
+      "status": "partial",
+      "points": 8,
+      "max_points": 15,
+      "correction": "Wǒ méiyǒu mèimei.",
+      "note": "missing tones"
+    },
+    {
+      "n": "13",
+      "section": "E · Picture practice",
+      "kind": "pinyin",
+      "prompt_en": "You are Xiǎo Míng (#3). Point at #1 and say: “This is my older brother.”",
+      "prompt_py": null,
+      "answer": "Zhe shi wode gege",
+      "expected": [
+        "Zhè shì wǒ de gēge",
+        "Zhè shì wǒ de gēge."
+      ],
+      "status": "partial",
+      "points": 8,
+      "max_points": 15,
+      "correction": "Zhè shì wǒ de gēge.",
+      "note": "missing tones"
+    },
+    {
+      "n": "14",
+      "section": "E · Picture practice",
+      "kind": "pinyin",
+      "prompt_en": "Still Xiǎo Míng: point at #4 and say: “She is my younger sister.”",
+      "prompt_py": null,
+      "answer": "Ta shi wode meimei",
+      "expected": [
+        "Tā shì wǒ de mèimei",
+        "Tā shì wǒ de mèimei."
+      ],
+      "status": "partial",
+      "points": 8,
+      "max_points": 15,
+      "correction": "Tā shì wǒ de mèimei.",
+      "note": "missing tones"
+    },
+    {
+      "n": "15",
+      "section": "E · Picture practice",
+      "kind": "pinyin",
+      "prompt_en": "Who is #2 to Xiǎo Míng? Answer in one word of pinyin.",
+      "prompt_py": null,
+      "answer": "jiejie",
+      "expected": [
+        "jiějie"
+      ],
+      "status": "partial",
+      "points": 8,
+      "max_points": 15,
+      "correction": "jiějie",
+      "note": "missing tones"
+    },
+    {
+      "n": "16",
+      "section": "E · Picture practice",
+      "kind": "pinyin",
+      "prompt_en": "Does Xiǎo Míng have a younger brother?",
+      "prompt_py": "Xiǎo Míng yǒu dìdi ma?",
+      "answer": "bushi, Xiao Ming meiyou didi.",
+      "expected": [
+        "Xiǎo Míng méiyǒu dìdi",
+        "Xiǎo Míng méiyǒu dìdi.",
+        "Bù shì, Xiǎo Míng méiyǒu dìdi",
+        "Bùshì, Xiǎo Míng méiyǒu dìdi",
+        "Bù shì, Xiǎo Míng méiyǒu dìdi."
+      ],
+      "status": "partial",
+      "points": 8,
+      "max_points": 15,
+      "correction": "Bù shì, Xiǎo Míng méiyǒu dìdi.",
+      "note": "missing tones"
+    },
+    {
+      "n": "S1",
+      "section": "F · Say it out loud",
+      "kind": "voice",
+      "prompt_en": "Do you have an older brother?",
+      "prompt_py": "Nǐ yǒu gēge ma?",
+      "answer": null,
+      "expected": [
+        "Nǐ yǒu gēge ma?"
+      ],
+      "status": "voice_graded",
+      "points": 8,
+      "max_points": 15,
+      "correction": "Nǐ yǒu gēge ma?",
+      "note": "Syllables right; nǐ yǒu kept as 3+3 (should sandhi to ní yǒu)"
+    },
+    {
+      "n": "S2",
+      "section": "F · Say it out loud",
+      "kind": "voice",
+      "prompt_en": "I don't have an older brother; I have an older sister.",
+      "prompt_py": "Wǒ méiyǒu gēge, wǒ yǒu jiějie.",
+      "answer": null,
+      "expected": [
+        "Wǒ méiyǒu gēge, wǒ yǒu jiějie."
+      ],
+      "status": "voice_graded",
+      "points": 8,
+      "max_points": 15,
+      "correction": "Wǒ méiyǒu gēge, wǒ yǒu jiějie.",
+      "note": "méiyǒu + jiějie solid; wǒ yǒu missed 3+3 sandhi; a bit choppy"
+    },
+    {
+      "n": "S3",
+      "section": "F · Say it out loud",
+      "kind": "voice",
+      "prompt_en": "This is my friend.",
+      "prompt_py": "Zhè shì wǒ de péngyou.",
+      "answer": null,
+      "expected": [
+        "Zhè shì wǒ de péngyou."
+      ],
+      "status": "voice_graded",
+      "points": 15,
+      "max_points": 15,
+      "correction": null,
+      "note": "Zhè shì wǒ de péngyou — clear tones, fluent"
+    }
+  ]
+}
