@@ -228,7 +228,7 @@ h2.block-h, .block-h {
   background: none;
   color: inherit;
   font: inherit;
-  padding: 10px 8px;
+  padding: 8px 8px 6px;
   border-radius: 0;
   margin: 0;
   border: 0;
@@ -236,21 +236,38 @@ h2.block-h, .block-h {
   box-shadow: none;
   cursor: default;
   line-height: inherit;
-  width: auto;
+  width: 1%;
   height: auto;
 }
 
-/* Mei speech-bubble play control. Reset UA button styles so only the
-   avatar + bubble read as a control — never a navy pill. */
+/* Hidden SVG filter defs (injected by lesson.js). Must stay in the
+   document (not display:none) so url(#listen-outline) resolves. */
+.listen-filters {
+  position: absolute;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  pointer-events: none;
+}
+#listen-outline feFlood { flood-color: var(--copper); }
+#listen-outline-mint feFlood { flood-color: var(--mint); }
+
+/* Mei speech-bubble play control. Small avatar at the bottom-left;
+   navy bubble above and to the right. The comma tail is an inline
+   SVG that overlaps the bubble so they read as one cohesive shape.
+   A 1px outline is painted with feMorphology on the combined
+   alpha; the playing glow is a drop-shadow on the same wrapper so
+   it follows bubble+tail, not the rectangular box. */
 button.listen {
+  position: relative;
   display: flex;
-  align-items: center;
-  gap: 8px;
+  flex-direction: column;
+  align-items: flex-start;
   width: fit-content;
   max-width: 100%;
   height: auto;
-  margin: 8px 0 2px 0;
-  padding: 0;
+  margin: 10px 0 4px 0;
+  padding: 0 0 15px 0; /* with .listen-shape padding, 28px below the bubble for the 20px avatar */
   border: 0;
   background: none;
   color: inherit;
@@ -260,6 +277,7 @@ button.listen {
   border-radius: 0;
   cursor: pointer;
   text-align: left;
+  overflow: visible;
   -webkit-appearance: none;
   appearance: none;
 }
@@ -267,16 +285,34 @@ button.listen {
   display: inline-flex;
   margin: 0;
   vertical-align: middle;
+  padding-bottom: 11px; /* with compact shape padding, 22px below the bubble for the 16px avatar */
+}
+.listen-shape {
+  position: relative;
+  display: block;
+  width: fit-content;
+  max-width: 100%;
+  padding: 0 0 13px 0; /* room for the tail, so the filter box includes it */
+  overflow: visible;
+  filter: url(#listen-outline) drop-shadow(0 1px 0.5px rgba(26, 18, 12, 0.18));
 }
 .listen-avatar {
-  width: 28px;
-  height: 28px;
-  flex: 0 0 28px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 20px;
+  height: 20px;
   border-radius: 50%;
   display: block;
   object-fit: cover;
   background: var(--navy);
   box-shadow: 0 0 0 1.5px var(--copper);
+  z-index: 2;
+}
+.review td.listen .listen-avatar {
+  width: 16px;
+  height: 16px;
+  box-shadow: 0 0 0 1px var(--copper);
 }
 .listen-bubble {
   position: relative;
@@ -284,44 +320,53 @@ button.listen {
   align-items: center;
   gap: 6px;
   min-height: 28px;
-  max-width: calc(100% - 36px);
+  max-width: 100%;
+  margin-left: 22px;
   padding: 5px 12px 5px 10px;
-  background: var(--white);
-  color: var(--navy);
-  border: 1px solid var(--copper);
-  border-radius: 16px 16px 16px 5px;
-  box-shadow: 0 1px 0 rgba(26, 18, 12, 0.06);
+  background: var(--navy);
+  color: var(--white);
+  border: 0;
+  border-radius: 16px;
   font-family: Georgia, "Times New Roman", serif;
   font-size: 14px;
   line-height: 1.3;
+  z-index: 1;
 }
-/* Tail pointing at the avatar. */
-.listen-bubble::before {
-  content: "";
+/* Comma tail: same navy fill as the bubble, overlapping the
+   bottom-left so there is no seam. It grows out of the bubble and
+   points down-left toward the avatar, stopping short of the face. */
+.listen-tail {
   position: absolute;
-  left: -5px;
-  top: 50%;
-  width: 8px;
-  height: 8px;
-  margin-top: -4px;
-  background: inherit;
-  border-left: 1px solid var(--copper);
-  border-bottom: 1px solid var(--copper);
-  transform: rotate(45deg);
-  border-radius: 0 0 0 1px;
+  left: 14px; /* margin-left 22px - 8px viewBox inset */
+  bottom: 0;
+  width: 36px;
+  height: 20px;
+  overflow: visible;
+  pointer-events: none;
+  fill: var(--navy);
+  z-index: 0;
 }
 .listen-text {
-  color: var(--red);
+  color: var(--white);
   font-style: italic;
   font-weight: bold;
   white-space: normal;
   overflow-wrap: break-word;
   word-wrap: break-word;
 }
+button.listen.compact .listen-shape { padding-bottom: 11px; }
 button.listen.compact .listen-bubble {
-  padding: 5px 10px;
-  min-width: 28px;
+  margin-left: 18px;
+  padding: 4px 9px;
+  min-height: 24px;
+  min-width: 24px;
   justify-content: center;
+  border-radius: 14px;
+}
+button.listen.compact .listen-tail {
+  left: 11px;
+  width: 30px;
+  height: 16px;
 }
 .listen-icon {
   position: relative;
@@ -331,7 +376,7 @@ button.listen.compact .listen-bubble {
   width: 14px;
   height: 14px;
   flex: 0 0 14px;
-  color: var(--navy);
+  color: var(--white);
 }
 .listen-ico { display: block; }
 .listen-ico-wave { display: none; }
@@ -352,27 +397,26 @@ button.listen.playing .listen-ico-wave .w3 { animation-delay: 0.3s; }
 }
 button.listen:hover .listen-bubble,
 button.listen:focus-visible .listen-bubble {
-  border-color: var(--copper-dark);
+  background: #243e70;
+}
+button.listen:hover .listen-tail,
+button.listen:focus-visible .listen-tail {
+  fill: #243e70;
 }
 button.listen:focus { outline: none; }
-button.listen:focus-visible .listen-bubble {
-  box-shadow: 0 0 0 2px var(--mint), 0 0 10px rgba(76, 240, 160, 0.45);
+button.listen:focus-visible .listen-shape {
+  filter: url(#listen-outline-mint) drop-shadow(0 0 6px rgba(76, 240, 160, 0.45));
 }
 button.listen.playing .listen-avatar {
   box-shadow: 0 0 0 1.5px var(--mint), 0 0 8px rgba(76, 240, 160, 0.55);
 }
-button.listen.playing .listen-bubble {
-  background: #e9faf3;
-  border-color: var(--mint);
-  box-shadow: 0 0 0 1px var(--mint), 0 0 12px rgba(76, 240, 160, 0.55);
+button.listen.playing .listen-shape {
+  filter: url(#listen-outline-mint) drop-shadow(0 0 6px rgba(76, 240, 160, 0.55));
   animation: listen-pulse 1.4s ease-in-out infinite;
 }
-button.listen.playing .listen-bubble::before {
-  border-color: var(--mint);
-}
 @keyframes listen-pulse {
-  0%, 100% { box-shadow: 0 0 0 1px var(--mint), 0 0 8px rgba(76, 240, 160, 0.4); }
-  50% { box-shadow: 0 0 0 2px var(--mint), 0 0 16px rgba(76, 240, 160, 0.8); }
+  0%, 100% { filter: url(#listen-outline-mint) drop-shadow(0 0 4px rgba(76, 240, 160, 0.4)); }
+  50% { filter: url(#listen-outline-mint) drop-shadow(0 0 10px rgba(76, 240, 160, 0.85)); }
 }
 button.listen[disabled] { opacity: 0.5; cursor: default; }
 
@@ -628,8 +672,8 @@ button.listen[disabled] { opacity: 0.5; cursor: default; }
   h1 { font-size: 22px; }
   .brand-logo { width: 40px; height: 40px; flex-basis: 40px; }
   .lock-logo { width: 80px; height: 80px; }
-  button.listen { margin: 6px 0 0 0; }
-  .review td.listen button.listen { margin: 6px 0 0 0; }
+  button.listen { margin: 8px 0 2px 0; }
+  .review td.listen button.listen { margin: 4px 0 0 0; }
   .review, .review tbody, .review tr, .review td { display: block; width: 100%; }
   .review tr { border-bottom: 1px solid var(--line); padding: 10px 0; }
   .review td { border: 0; padding: 2px 8px; text-align: left; }

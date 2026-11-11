@@ -76,13 +76,44 @@
     var compact = !!opts.compact || !text;
     var aria = text ? "Listen: " + text : "Listen";
     var cls = "listen" + (compact ? " compact" : "");
-    var bubble = '<span class="listen-bubble">' + LISTEN_ICONS +
+    var tail = '<svg class="listen-tail" viewBox="0 0 36 20" width="36" height="20" aria-hidden="true" focusable="false">' +
+      '<path d="M8 0 L23 0 L23 7 C18.5 11 10.5 14.6 2.1 16.6 C1.05 16.95 0.95 15.55 2.3 15.15 C8.2 13 9.2 9 8 0 Z"></path>' +
+      "</svg>";
+    var bubble = '<span class="listen-shape">' +
+      '<span class="listen-bubble">' + LISTEN_ICONS +
       (compact ? "" : '<span class="listen-text">' + esc(text) + "</span>") +
-      "</span>";
+      "</span>" + tail + "</span>";
     return '<button type="button" class="' + cls + '" data-src="' + esc(src) +
       '" aria-label="' + esc(aria) + '">' +
-      '<img class="listen-avatar" src="assets/logo.png" alt="" width="28" height="28">' +
-      bubble + "</button>";
+      bubble +
+      '<img class="listen-avatar" src="assets/logo.png" alt="" width="20" height="20">' +
+      "</button>";
+  }
+
+  function ensureListenFilters() {
+    if (document.getElementById("listen-outline")) return;
+    var svg = document.createElementNS("http://www.w3.org/2000/svg", "svg");
+    svg.setAttribute("class", "listen-filters");
+    svg.setAttribute("width", "0");
+    svg.setAttribute("height", "0");
+    svg.setAttribute("aria-hidden", "true");
+    svg.setAttribute("focusable", "false");
+    svg.innerHTML =
+      "<defs>" +
+        '<filter id="listen-outline" x="-50%" y="-80%" width="200%" height="260%" color-interpolation-filters="sRGB">' +
+          '<feMorphology in="SourceAlpha" operator="dilate" radius="1" result="dilated"></feMorphology>' +
+          '<feFlood flood-color="#b07848" result="color"></feFlood>' +
+          '<feComposite in="color" in2="dilated" operator="in" result="outline"></feComposite>' +
+          "<feMerge><feMergeNode in=\"outline\"></feMergeNode><feMergeNode in=\"SourceGraphic\"></feMergeNode></feMerge>" +
+        "</filter>" +
+        '<filter id="listen-outline-mint" x="-80%" y="-80%" width="260%" height="280%" color-interpolation-filters="sRGB">' +
+          '<feMorphology in="SourceAlpha" operator="dilate" radius="1" result="dilated"></feMorphology>' +
+          '<feFlood flood-color="#4cf0a0" result="color"></feFlood>' +
+          '<feComposite in="color" in2="dilated" operator="in" result="outline"></feComposite>' +
+          "<feMerge><feMergeNode in=\"outline\"></feMergeNode><feMergeNode in=\"SourceGraphic\"></feMergeNode></feMerge>" +
+        "</filter>" +
+      "</defs>";
+    document.body.insertBefore(svg, document.body.firstChild);
   }
 
   function callout(block, fallbackKind) {
@@ -630,6 +661,8 @@
       body.innerHTML = '<div class="error-banner">' + esc(e.message || e) + "</div>";
     }
   }
+
+  ensureListenFilters();
 
   if (window.MandarinLock) {
     window.MandarinLock.setup({ onUnlock: loadLesson });
