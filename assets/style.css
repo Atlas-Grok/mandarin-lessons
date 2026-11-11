@@ -604,6 +604,142 @@ button.listen[disabled] { opacity: 0.5; cursor: default; }
   color: var(--muted);
   margin-top: 2px;
 }
+.lesson-list .lesson-row {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+}
+.lesson-list .lesson-titles { flex: 1; min-width: 0; }
+.lesson-done {
+  flex: 0 0 auto;
+  font-family: Arial, sans-serif;
+  font-size: 11px;
+  font-weight: bold;
+  letter-spacing: 0.4px;
+  text-transform: uppercase;
+  color: var(--navy-deep);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 10px;
+  border-radius: 999px;
+  background: linear-gradient(135deg, rgba(76, 240, 160, 0.35), rgba(47, 143, 122, 0.22));
+  border: 1px solid rgba(76, 240, 160, 0.55);
+  box-shadow: 0 0 0 1px rgba(27, 50, 94, 0.12);
+}
+.lesson-done-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: var(--navy);
+  color: var(--mint);
+  font-size: 12px;
+  line-height: 1;
+}
+.lesson-complete a {
+  border-color: rgba(76, 240, 160, 0.45);
+  box-shadow: inset 3px 0 0 var(--verdigris);
+}
+
+/* Published grade report card */
+.report-card {
+  margin: 0 0 22px 0;
+  padding: 16px 18px 14px;
+  border-radius: 0 10px 10px 0;
+  border: 1px solid rgba(27, 50, 94, 0.22);
+  border-left: 5px solid var(--navy);
+  background: linear-gradient(165deg, #e8edf6 0%, #efe6d6 55%, #f7f1e6 100%);
+  box-shadow: 0 4px 16px rgba(14, 26, 54, 0.1);
+}
+.report-card-title {
+  margin: 0 0 6px 0;
+  font-size: 20px;
+  color: var(--navy);
+  border: 0;
+  padding: 0;
+}
+.rc-meta {
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+  color: var(--muted);
+  margin-bottom: 10px;
+}
+.rc-totals {
+  margin: 0 0 14px 0;
+  padding: 10px 12px;
+  border-radius: 8px;
+  background: rgba(27, 50, 94, 0.08);
+  border: 1px solid rgba(176, 120, 72, 0.35);
+}
+.rc-score-main {
+  font-family: Arial, sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+  color: var(--ink);
+}
+.rc-score-breakdown {
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+  color: var(--muted);
+  margin-top: 2px;
+}
+.rc-section-title {
+  font-size: 15px;
+  margin: 14px 0 8px 0;
+  padding-bottom: 4px;
+  border-bottom: 1px dashed var(--line);
+  color: var(--blue);
+}
+.rc-item {
+  margin: 0 0 10px 0;
+  padding: 10px 12px;
+  border-radius: 8px;
+  background: var(--white);
+  border: 1px solid rgba(176, 120, 72, 0.35);
+}
+.rc-item-head {
+  margin-bottom: 6px;
+  font-size: 15px;
+}
+.rc-n {
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  color: var(--navy);
+  margin-right: 6px;
+}
+.rc-prompt-en { font-weight: bold; color: var(--ink); }
+.rc-prompt-bar { color: var(--muted); }
+.rc-prompt-py { color: var(--red); font-style: italic; font-weight: bold; }
+.rc-row {
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+  margin: 3px 0;
+  line-height: 1.45;
+}
+.rc-lbl {
+  color: var(--muted);
+  font-weight: bold;
+  margin-right: 6px;
+}
+.rc-val { color: var(--ink); }
+.rc-answer { font-weight: bold; }
+.rc-st.correct { color: var(--green); }
+.rc-st.partial { color: #92400e; }
+.rc-st.wrong { color: var(--red); }
+.rc-st.skipped { color: #6b7280; }
+.rc-st.voice_graded { color: var(--verdigris); }
+.rc-correction .rc-val { color: var(--red); font-weight: bold; }
+.rc-note .rc-val { color: var(--blue); font-style: italic; }
+.graded-practice-note {
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+  color: var(--muted);
+  margin: 0 0 12px 0;
+}
 .back {
   font-family: Arial, sans-serif;
   font-size: 13px;

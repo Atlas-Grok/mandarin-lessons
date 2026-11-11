@@ -632,6 +632,41 @@
     }
   }
 
+  function applyGradedLesson(grade, root) {
+    var byN = {};
+    (grade.items || []).forEach(function (it) { byN[String(it.n)] = it; });
+    collectPracticeItems(lesson).forEach(function (it) {
+      var g = byN[String(it.n)];
+      var box = document.getElementById("item-" + it.n);
+      if (g && g.status && box) box.classList.add(g.status);
+      if (isSay(it)) {
+        var rec = root.querySelector('.recorder[data-n="' + it.n + '"]');
+        if (rec) {
+          rec.querySelectorAll("button").forEach(function (btn) { btn.disabled = true; });
+          var st = rec.querySelector(".rec-status");
+          if (st && g) st.textContent = "Voice graded — see report card above.";
+        }
+        return;
+      }
+      if (!g) return;
+      var el = document.getElementById("ans-" + it.n);
+      if (el) {
+        el.value = g.answer == null ? "" : String(g.answer);
+        el.disabled = true;
+        el.setAttribute("readonly", "readonly");
+      }
+    });
+    var submitRow = root.querySelector(".submit-row");
+    if (submitRow) submitRow.hidden = true;
+    var practiceHdr = root.querySelector("h2.practice");
+    if (practiceHdr && grade.graded_at) {
+      var note = document.createElement("p");
+      note.className = "graded-practice-note";
+      note.textContent = "This lesson was graded on " + grade.graded_at + ". Practice is read-only; your scored answers are in the report card.";
+      practiceHdr.insertAdjacentElement("afterend", note);
+    }
+  }
+
   async function loadLesson() {
     lessonId = qs("id") || "";
     var header = document.getElementById("header");
@@ -646,17 +681,33 @@
       var res = await fetch("lessons/" + encodeURIComponent(lessonId) + "/lesson.json", { cache: "no-store" });
       if (!res.ok) throw new Error("Lesson “" + lessonId + "” was not found (" + res.status + ").");
       lesson = await res.json();
+      var publishedGrade = null;
+      if (window.MandarinReport && window.MandarinReport.fetchGrade) {
+        try {
+          publishedGrade = await window.MandarinReport.fetchGrade(lessonId);
+        } catch (gradeErr) {
+          /* leave practice interactive if grade fetch fails */
+        }
+      }
       document.title = "Lesson " + lesson.lesson_number + " · " + (lesson.title_en || "") + " · Mei";
       idEl.textContent = "[L" + lesson.lesson_number + "]";
       header.innerHTML = headerHtml(lesson);
       body.innerHTML = bodyHtml(lesson);
+      if (publishedGrade && window.MandarinReport.renderReportCard) {
+        body.insertAdjacentHTML("afterbegin", window.MandarinReport.renderReportCard(publishedGrade));
+        applyGradedLesson(publishedGrade, body);
+      }
       bindListen(body);
       bindRecorders(body);
-      document.getElementById("submit-btn").addEventListener("click", onSubmit);
-      document.getElementById("download-btn").addEventListener("click", function () {
-        var data = window.__mandarinDownload || lastPayload();
-        if (data) downloadJson(data, (lessonId || "lesson") + "-submission.json");
-      });
+      var submitBtn = document.getElementById("submit-btn");
+      if (submitBtn) submitBtn.addEventListener("click", onSubmit);
+      var dlBtn = document.getElementById("download-btn");
+      if (dlBtn) {
+        dlBtn.addEventListener("click", function () {
+          var data = window.__mandarinDownload || lastPayload();
+          if (data) downloadJson(data, (lessonId || "lesson") + "-submission.json");
+        });
+      }
     } catch (e) {
       body.innerHTML = '<div class="error-banner">' + esc(e.message || e) + "</div>";
     }

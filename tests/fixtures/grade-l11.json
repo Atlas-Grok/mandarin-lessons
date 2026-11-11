@@ -1,0 +1,83 @@
+{
+  "lesson_id": "l11",
+  "lesson_number": 11,
+  "title_en": "More Colors: Black, Yellow, Green",
+  "title_py": "Gèng duō yánsè: hēi, huáng, lǜ",
+  "graded_at": "2026-11-11",
+  "score": 152,
+  "max": 315,
+  "written_score": 128,
+  "written_max": 270,
+  "voice_score": 24,
+  "voice_max": 45,
+  "items": [
+    {
+      "n": "1",
+      "section": "A · Matching",
+      "kind": "english",
+      "prompt_en": "hēisè",
+      "prompt_py": null,
+      "answer": "black",
+      "expected": ["black"],
+      "status": "correct",
+      "points": 15,
+      "max_points": 15,
+      "correction": null,
+      "note": null
+    },
+    {
+      "n": "8",
+      "section": "B · English → pinyin",
+      "kind": "pinyin",
+      "prompt_en": "white",
+      "prompt_py": null,
+      "answer": "bāisè",
+      "expected": ["báisè"],
+      "status": "partial",
+      "points": 8,
+      "max_points": 15,
+      "correction": "báisè",
+      "note": "tone: first instead of second"
+    },
+    {
+      "n": "7",
+      "section": "B · English → pinyin",
+      "kind": "pinyin",
+      "prompt_en": "red",
+      "answer": "",
+      "expected": ["hóngsè"],
+      "status": "skipped",
+      "points": -5,
+      "max_points": 15,
+      "correction": "hóngsè",
+      "note": "blank"
+    },
+    {
+      "n": "13",
+      "section": "C · Fill in the blank",
+      "kind": "pinyin",
+      "prompt_en": "He likes black.",
+      "prompt_py": "Tā xǐhuan ___.",
+      "answer": "bēisè",
+      "expected": ["hēisè"],
+      "status": "wrong",
+      "points": -12,
+      "max_points": 15,
+      "correction": "hēisè",
+      "note": null
+    },
+    {
+      "n": "S1",
+      "section": "F · Say it out loud",
+      "kind": "voice",
+      "prompt_en": "I don't like green.",
+      "prompt_py": "Wǒ bù xǐhuan lǜsè.",
+      "answer": null,
+      "status": "voice_graded",
+      "points": 8,
+      "max_points": 15,
+      "correction": "Wǒ bù xǐhuan lǜsè.",
+      "note": "phrase comes through; tones need work"
+    }
+  ]
+}
