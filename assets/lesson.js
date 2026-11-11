@@ -48,11 +48,41 @@
     return "lessons/" + encodeURIComponent(lessonId) + "/" + url.split("/").map(encodeURIComponent).join("/");
   }
 
-  function listenBtn(url, label) {
+  var LISTEN_ICONS =
+    '<span class="listen-icon" aria-hidden="true">' +
+      '<svg class="listen-ico listen-ico-play" viewBox="0 0 12 12" width="12" height="12" focusable="false">' +
+        '<path d="M3.2 1.6v8.8L10.4 6 3.2 1.6z" fill="currentColor"></path>' +
+      "</svg>" +
+      '<svg class="listen-ico listen-ico-wave" viewBox="0 0 14 12" width="14" height="12" focusable="false">' +
+        '<rect class="w1" x="1" y="4" width="2.2" height="4" rx="1" fill="currentColor"></rect>' +
+        '<rect class="w2" x="5.4" y="2" width="2.2" height="8" rx="1" fill="currentColor"></rect>' +
+        '<rect class="w3" x="9.8" y="3.2" width="2.2" height="5.6" rx="1" fill="currentColor"></rect>' +
+      "</svg>" +
+    "</span>";
+
+  function spokenLabel(text) {
+    if (!text) return "";
+    var t = String(text).trim();
+    if (!t || t === "?") return "";
+    return t;
+  }
+
+  function listenBtn(url, opts) {
     if (!url) return "";
+    if (typeof opts === "string") opts = { text: opts };
+    opts = opts || {};
     var src = audioSrc(url);
-    return '<button type="button" class="listen" data-src="' + esc(src) + '">' +
-      esc(label || "▶ Listen") + "</button>";
+    var text = spokenLabel(opts.text);
+    var compact = !!opts.compact || !text;
+    var aria = text ? "Listen: " + text : "Listen";
+    var cls = "listen" + (compact ? " compact" : "");
+    var bubble = '<span class="listen-bubble">' + LISTEN_ICONS +
+      (compact ? "" : '<span class="listen-text">' + esc(text) + "</span>") +
+      "</span>";
+    return '<button type="button" class="' + cls + '" data-src="' + esc(src) +
+      '" aria-label="' + esc(aria) + '">' +
+      '<img class="listen-avatar" src="assets/logo.png" alt="" width="28" height="28">' +
+      bubble + "</button>";
   }
 
   function callout(block, fallbackKind) {
@@ -62,7 +92,7 @@
     if (block.title) inner += '<div class="boxtitle" style="color:inherit;">' + esc(block.title) + "</div>";
     inner += bilingual(block.body_en, block.body_py);
     (block.pairs || []).forEach(function (p) {
-      inner += '<div style="margin:4px 0;">' + pairHtml(p.en, p.py, "pair-sm") + listenBtn(p.listen_url) + "</div>";
+      inner += '<div style="margin:4px 0;">' + pairHtml(p.en, p.py, "pair-sm") + listenBtn(p.listen_url, { text: p.py }) + "</div>";
     });
     return '<div class="box ' + kind + '">' + inner + "</div>";
   }
@@ -71,7 +101,7 @@
     var t = block.type;
     if (t === "heading") return '<h2 class="block-h">' + esc(block.text) + "</h2>";
     if (t === "vocab_card") {
-      var inner = "<div>" + pairHtml(block.en, block.py, "pair-lg") + listenBtn(block.listen_url) + "</div>";
+      var inner = "<div>" + pairHtml(block.en, block.py, "pair-lg") + listenBtn(block.listen_url, { text: block.py }) + "</div>";
       if (block.note_en || block.note_py) {
         inner += '<div class="notes">' + bilingual(block.note_en, block.note_py) + "</div>";
       }
@@ -81,13 +111,13 @@
     if (t === "paragraph") return bilingual(block.en, block.py);
     if (t === "example") {
       var label = block.n != null ? '<span class="ex-n">' + esc(block.n) + ".</span> " : "";
-      return '<div class="example">' + label + pairHtml(block.en, block.py) + listenBtn(block.listen_url) + "</div>";
+      return '<div class="example">' + label + pairHtml(block.en, block.py) + listenBtn(block.listen_url, { text: block.py }) + "</div>";
     }
     if (t === "review_table") {
       var rows = (block.rows || []).map(function (row) {
         return "<tr><td>" + pairHtml(row.en, row.py, "pair-sm") + "</td>" +
           '<td class="tip">' + esc(row.tip) + "</td>" +
-          '<td class="listen">' + listenBtn(row.listen_url) + "</td></tr>";
+          '<td class="listen">' + listenBtn(row.listen_url, { text: row.py, compact: true }) + "</td></tr>";
       }).join("");
       return '<table class="review" role="presentation">' + rows + "</table>";
     }
@@ -129,7 +159,7 @@
     var say = isSay(item);
     var prompt = '<div class="item-prompt"><span class="item-n">' + esc(n) + ".</span> ";
     if (say) prompt += "🎤 ";
-    prompt += pairHtml(item.prompt_en, item.prompt_py) + listenBtn(item.listen_url) + "</div>";
+    prompt += pairHtml(item.prompt_en, item.prompt_py) + listenBtn(item.listen_url, { text: item.prompt_py || item.prompt_en }) + "</div>";
     var parts = ['<div class="item" data-n="' + esc(n) + '" id="item-' + esc(n) + '">', prompt];
     if (item.unscramble) parts.push('<div class="unscramble">' + esc(item.unscramble) + "</div>");
     if (item.hint) parts.push('<div class="hint">' + esc(item.hint) + "</div>");
@@ -218,35 +248,52 @@
     return out;
   }
 
+  function setListenState(btn, playing) {
+    btn.classList.toggle("playing", playing);
+    var idle = btn.getAttribute("data-idle-label") || btn.getAttribute("aria-label") || "Listen";
+    if (!btn.getAttribute("data-idle-label")) btn.setAttribute("data-idle-label", idle);
+    if (playing) {
+      btn.setAttribute("aria-label", idle.replace(/^Listen/, "Stop"));
+    } else {
+      btn.setAttribute("aria-label", idle);
+    }
+  }
+
   function bindListen(root) {
     var current = null;
     root.querySelectorAll("button.listen").forEach(function (btn) {
+      if (!btn.getAttribute("data-idle-label")) {
+        btn.setAttribute("data-idle-label", btn.getAttribute("aria-label") || "Listen");
+      }
       var audio = new Audio();
       audio.preload = "none";
       audio.src = btn.getAttribute("data-src");
       audio.addEventListener("ended", function () {
-        btn.classList.remove("playing");
-        btn.textContent = "▶ Listen";
+        setListenState(btn, false);
+        if (current === audio) current = null;
       });
       btn.addEventListener("click", function () {
         if (current && current !== audio) {
           current.pause();
           current.currentTime = 0;
           root.querySelectorAll("button.listen.playing").forEach(function (b) {
-            b.classList.remove("playing");
-            b.textContent = "▶ Listen";
+            setListenState(b, false);
           });
         }
         if (btn.classList.contains("playing")) {
           audio.pause();
           audio.currentTime = 0;
-          btn.classList.remove("playing");
-          btn.textContent = "▶ Listen";
+          setListenState(btn, false);
           current = null;
         } else {
-          audio.play().catch(function () { btn.textContent = "▶ Listen (couldn't play)"; });
-          btn.classList.add("playing");
-          btn.textContent = "■ Stop";
+          audio.play().catch(function () {
+            setListenState(btn, false);
+            btn.setAttribute(
+              "aria-label",
+              (btn.getAttribute("data-idle-label") || "Listen") + " (couldn't play)"
+            );
+          });
+          setListenState(btn, true);
           current = audio;
         }
       });
