@@ -1,0 +1,356 @@
+{
+  "lesson_id": "l11",
+  "lesson_number": 11,
+  "title_en": "More Colors: Black, Yellow, Green",
+  "title_py": "Gèng duō yánsè: hēi, huáng, lǜ",
+  "graded_at": "2026-11-11",
+  "score": 152,
+  "max": 315,
+  "written_score": 128,
+  "written_max": 270,
+  "voice_score": 24,
+  "voice_max": 45,
+  "items": [
+    {
+      "n": "1",
+      "section": "A · Matching",
+      "kind": "english",
+      "prompt_en": "hēisè",
+      "prompt_py": null,
+      "answer": "black",
+      "expected": [
+        "black"
+      ],
+      "status": "correct",
+      "points": 15,
+      "max_points": 15,
+      "correction": null,
+      "note": null
+    },
+    {
+      "n": "2",
+      "section": "A · Matching",
+      "kind": "english",
+      "prompt_en": "huángsè",
+      "prompt_py": null,
+      "answer": "yellow",
+      "expected": [
+        "yellow"
+      ],
+      "status": "correct",
+      "points": 15,
+      "max_points": 15,
+      "correction": null,
+      "note": null
+    },
+    {
+      "n": "3",
+      "section": "A · Matching",
+      "kind": "english",
+      "prompt_en": "lǜsè",
+      "prompt_py": null,
+      "answer": "green",
+      "expected": [
+        "green"
+      ],
+      "status": "correct",
+      "points": 15,
+      "max_points": 15,
+      "correction": null,
+      "note": null
+    },
+    {
+      "n": "4",
+      "section": "A · Matching",
+      "kind": "english",
+      "prompt_en": "bù",
+      "prompt_py": null,
+      "answer": "not",
+      "expected": [
+        "not"
+      ],
+      "status": "correct",
+      "points": 15,
+      "max_points": 15,
+      "correction": null,
+      "note": null
+    },
+    {
+      "n": "5",
+      "section": "A · Matching",
+      "kind": "english",
+      "prompt_en": "yánsè",
+      "prompt_py": null,
+      "answer": "color",
+      "expected": [
+        "color"
+      ],
+      "status": "correct",
+      "points": 15,
+      "max_points": 15,
+      "correction": null,
+      "note": null
+    },
+    {
+      "n": "6",
+      "section": "A · Matching",
+      "kind": "english",
+      "prompt_en": "xǐhuan",
+      "prompt_py": null,
+      "answer": "to like",
+      "expected": [
+        "to like"
+      ],
+      "status": "correct",
+      "points": 15,
+      "max_points": 15,
+      "correction": null,
+      "note": null
+    },
+    {
+      "n": "7",
+      "section": "B · English → pinyin",
+      "kind": "pinyin",
+      "prompt_en": "red",
+      "prompt_py": null,
+      "answer": "",
+      "expected": [
+        "hóngsè"
+      ],
+      "status": "skipped",
+      "points": -5,
+      "max_points": 15,
+      "correction": "hóngsè",
+      "note": "blank"
+    },
+    {
+      "n": "8",
+      "section": "B · English → pinyin",
+      "kind": "pinyin",
+      "prompt_en": "white",
+      "prompt_py": null,
+      "answer": "bāisè",
+      "expected": [
+        "báisè"
+      ],
+      "status": "partial",
+      "points": 8,
+      "max_points": 15,
+      "correction": "báisè",
+      "note": "tone: first instead of second"
+    },
+    {
+      "n": "9",
+      "section": "B · English → pinyin",
+      "kind": "pinyin",
+      "prompt_en": "five",
+      "prompt_py": null,
+      "answer": "wǔ",
+      "expected": [
+        "wǔ"
+      ],
+      "status": "correct",
+      "points": 15,
+      "max_points": 15,
+      "correction": null,
+      "note": null
+    },
+    {
+      "n": "10",
+      "section": "B · English → pinyin",
+      "kind": "pinyin",
+      "prompt_en": "person",
+      "prompt_py": null,
+      "answer": "rèn",
+      "expected": [
+        "rén"
+      ],
+      "status": "partial",
+      "points": 8,
+      "max_points": 15,
+      "correction": "rén",
+      "note": "tone: fourth instead of second"
+    },
+    {
+      "n": "11",
+      "section": "C · Fill in the blank",
+      "kind": "pinyin",
+      "prompt_en": "I don't like green.",
+      "prompt_py": "Wǒ ___ xǐhuan lǜsè.",
+      "answer": "bù",
+      "expected": [
+        "bù"
+      ],
+      "status": "correct",
+      "points": 15,
+      "max_points": 15,
+      "correction": null,
+      "note": null
+    },
+    {
+      "n": "12",
+      "section": "C · Fill in the blank",
+      "kind": "pinyin",
+      "prompt_en": "What color do you like?",
+      "prompt_py": "Nǐ xǐhuan ___ yánsè?",
+      "answer": "",
+      "expected": [
+        "shénme"
+      ],
+      "status": "skipped",
+      "points": -5,
+      "max_points": 15,
+      "correction": "shénme",
+      "note": "blank"
+    },
+    {
+      "n": "13",
+      "section": "C · Fill in the blank",
+      "kind": "pinyin",
+      "prompt_en": "He likes black.",
+      "prompt_py": "Tā xǐhuan ___.",
+      "answer": "bēisè",
+      "expected": [
+        "hēisè"
+      ],
+      "status": "wrong",
+      "points": -12,
+      "max_points": 15,
+      "correction": "hēisè",
+      "note": "bēisè for hēisè"
+    },
+    {
+      "n": "14",
+      "section": "D · Unscramble the sentence",
+      "kind": "pinyin",
+      "prompt_en": "I like yellow.",
+      "prompt_py": null,
+      "answer": "Wǒ xǐhuan huángsè",
+      "expected": [
+        "Wǒ xǐhuan huángsè",
+        "Wǒ xǐhuan huángsè."
+      ],
+      "status": "correct",
+      "points": 15,
+      "max_points": 15,
+      "correction": null,
+      "note": null
+    },
+    {
+      "n": "15",
+      "section": "D · Unscramble the sentence",
+      "kind": "pinyin",
+      "prompt_en": "He doesn't like blue.",
+      "prompt_py": null,
+      "answer": "Tā bù xǐhuan lánsè",
+      "expected": [
+        "Tā bù xǐhuan lánsè",
+        "Tā bù xǐhuan lánsè."
+      ],
+      "status": "correct",
+      "points": 15,
+      "max_points": 15,
+      "correction": null,
+      "note": null
+    },
+    {
+      "n": "16",
+      "section": "D · Unscramble the sentence",
+      "kind": "pinyin",
+      "prompt_en": "My kid likes green.",
+      "prompt_py": null,
+      "answer": "Wǒde háziz xǐhuan lǜsè",
+      "expected": [
+        "Wǒ de háizi xǐhuan lǜsè",
+        "Wǒ de háizi xǐhuan lǜsè."
+      ],
+      "status": "wrong",
+      "points": -12,
+      "max_points": 15,
+      "correction": "Wǒ de háizi xǐhuan lǜsè.",
+      "note": "háziz should be háizi"
+    },
+    {
+      "n": "17",
+      "section": "E · About you",
+      "kind": "pinyin",
+      "prompt_en": "Name one color you do not like, in a full pinyin sentence.",
+      "prompt_py": "Wǒ bù xǐhuan ___.",
+      "answer": "Wǒ bù xǐhuan bēisè",
+      "expected": [
+        "Wǒ bù xǐhuan hēisè",
+        "Wǒ bù xǐhuan hēisè."
+      ],
+      "status": "wrong",
+      "points": -12,
+      "max_points": 15,
+      "correction": "Wǒ bù xǐhuan hēisè.",
+      "note": "bēisè for hēisè — same mix-up as #13"
+    },
+    {
+      "n": "18",
+      "section": "E · About you",
+      "kind": "pinyin",
+      "prompt_en": "Name one color you like, in a full pinyin sentence.",
+      "prompt_py": "Wǒ xǐhuan ___.",
+      "answer": "Wǒ xǐhuan lānsè",
+      "expected": [
+        "Wǒ xǐhuan lánsè",
+        "Wǒ xǐhuan lánsè."
+      ],
+      "status": "partial",
+      "points": 8,
+      "max_points": 15,
+      "correction": "Wǒ xǐhuan lánsè.",
+      "note": "tone on lánsè: first instead of second"
+    },
+    {
+      "n": "S1",
+      "section": "F · Say it out loud",
+      "kind": "voice",
+      "prompt_en": "I don't like green.",
+      "prompt_py": "Wǒ bù xǐhuan lǜsè.",
+      "answer": null,
+      "expected": [
+        "Wǒ bù xǐhuan lǜsè."
+      ],
+      "status": "voice_graded",
+      "points": 8,
+      "max_points": 15,
+      "correction": "Wǒ bù xǐhuan lǜsè.",
+      "note": "Wǒ bù xǐhuan lǜsè — phrase comes through; tones need work"
+    },
+    {
+      "n": "S2",
+      "section": "F · Say it out loud",
+      "kind": "voice",
+      "prompt_en": "What color do you like?",
+      "prompt_py": "Nǐ xǐhuan shénme yánsè?",
+      "answer": null,
+      "expected": [
+        "Nǐ xǐhuan shénme yánsè?"
+      ],
+      "status": "voice_graded",
+      "points": 8,
+      "max_points": 15,
+      "correction": "Nǐ xǐhuan shénme yánsè?",
+      "note": "Nǐ xǐhuan shénme yánsè? — phrase comes through; tones need work"
+    },
+    {
+      "n": "S3",
+      "section": "F · Say it out loud",
+      "kind": "voice",
+      "prompt_en": "My kid likes yellow.",
+      "prompt_py": "Wǒ de háizi xǐhuan huángsè.",
+      "answer": null,
+      "expected": [
+        "Wǒ de háizi xǐhuan huángsè."
+      ],
+      "status": "voice_graded",
+      "points": 8,
+      "max_points": 15,
+      "correction": "Wǒ de háizi xǐhuan huángsè.",
+      "note": "Wǒ de háizi xǐhuan huángsè — phrase comes through; tones need work"
+    }
+  ]
+}
