@@ -1,0 +1,298 @@
+{
+  "lesson_id": "l7",
+  "lesson_number": 7,
+  "title_en": "Grandpa, Grandma & Love",
+  "title_py": "Yéye, nǎinai, ài",
+  "graded_at": "2026-11-04",
+  "score": 186,
+  "max": 255,
+  "written_score": 141,
+  "written_max": 210,
+  "voice_score": 45,
+  "voice_max": 45,
+  "items": [
+    {
+      "n": "1",
+      "section": "A · Pinyin → English",
+      "kind": "english",
+      "prompt_en": "What does this mean in English?",
+      "prompt_py": "yéye",
+      "answer": "Grandpa",
+      "expected": [
+        "grandpa",
+        "grandfather",
+        "paternal grandfather"
+      ],
+      "status": "correct",
+      "points": 15,
+      "max_points": 15,
+      "correction": null,
+      "note": null
+    },
+    {
+      "n": "2",
+      "section": "A · Pinyin → English",
+      "kind": "english",
+      "prompt_en": "What does this mean in English?",
+      "prompt_py": "nà",
+      "answer": "That",
+      "expected": [
+        "that"
+      ],
+      "status": "correct",
+      "points": 15,
+      "max_points": 15,
+      "correction": null,
+      "note": null
+    },
+    {
+      "n": "3",
+      "section": "A · Pinyin → English",
+      "kind": "english",
+      "prompt_en": "What does this mean in English?",
+      "prompt_py": "Wǒ ài nǐ.",
+      "answer": "I love you",
+      "expected": [
+        "I love you"
+      ],
+      "status": "correct",
+      "points": 15,
+      "max_points": 15,
+      "correction": null,
+      "note": null
+    },
+    {
+      "n": "4",
+      "section": "A · Pinyin → English",
+      "kind": "english",
+      "prompt_en": "What does this mean in English?",
+      "prompt_py": "érzi",
+      "answer": "Son",
+      "expected": [
+        "son"
+      ],
+      "status": "correct",
+      "points": 15,
+      "max_points": 15,
+      "correction": null,
+      "note": null
+    },
+    {
+      "n": "5",
+      "section": "B · Fill in the blank",
+      "kind": "pinyin",
+      "prompt_en": "my grandma",
+      "prompt_py": "wǒ de ____",
+      "answer": "Nǎinai",
+      "expected": [
+        "nǎinai"
+      ],
+      "status": "correct",
+      "points": 15,
+      "max_points": 15,
+      "correction": null,
+      "note": null
+    },
+    {
+      "n": "6",
+      "section": "B · Fill in the blank",
+      "kind": "pinyin",
+      "prompt_en": "That is my older sister.",
+      "prompt_py": "____ shì wǒ de jiějie.",
+      "answer": "Nà",
+      "expected": [
+        "Nà",
+        "nà"
+      ],
+      "status": "correct",
+      "points": 15,
+      "max_points": 15,
+      "correction": null,
+      "note": null
+    },
+    {
+      "n": "7",
+      "section": "B · Fill in the blank",
+      "kind": "pinyin",
+      "prompt_en": "I love dad.",
+      "prompt_py": "Wǒ ____ bàba.",
+      "answer": "Ái",
+      "expected": [
+        "ài"
+      ],
+      "status": "partial",
+      "points": 8,
+      "max_points": 15,
+      "correction": "ài",
+      "note": "tone: second instead of fourth"
+    },
+    {
+      "n": "8",
+      "section": "C · English → pinyin",
+      "kind": "pinyin",
+      "prompt_en": "Who is this?",
+      "prompt_py": null,
+      "answer": "Zhè shì shéi",
+      "expected": [
+        "Zhè shì shéi?",
+        "Zhè shì shéi",
+        "Zhè shì shuí?"
+      ],
+      "status": "correct",
+      "points": 15,
+      "max_points": 15,
+      "correction": null,
+      "note": null
+    },
+    {
+      "n": "9",
+      "section": "C · English → pinyin",
+      "kind": "pinyin",
+      "prompt_en": "I love my family.",
+      "prompt_py": null,
+      "answer": "Wǒ ái wǒde jiā",
+      "expected": [
+        "Wǒ ài wǒ de jiā.",
+        "Wǒ ài wǒ de jiā",
+        "Wǒ ài wǒ jiā"
+      ],
+      "status": "partial",
+      "points": 8,
+      "max_points": 15,
+      "correction": "Wǒ ài wǒ de jiā.",
+      "note": "tone on ài: second instead of fourth"
+    },
+    {
+      "n": "10",
+      "section": "C · English → pinyin",
+      "kind": "pinyin",
+      "prompt_en": "Do you have a younger brother?",
+      "prompt_py": null,
+      "answer": "Ní yǒu dídi mà?",
+      "expected": [
+        "Nǐ yǒu dìdi ma?",
+        "Nǐ yǒu dìdi ma"
+      ],
+      "status": "partial",
+      "points": 8,
+      "max_points": 15,
+      "correction": "Nǐ yǒu dìdi ma?",
+      "note": "Ní second instead of third; dídi second instead of fourth; mà should be ma"
+    },
+    {
+      "n": "11",
+      "section": "D · Picture practice",
+      "kind": "pinyin",
+      "prompt_en": "You are the boy in yellow (#3). Point at #1 and say: “This is my grandpa.”",
+      "prompt_py": null,
+      "answer": "Zhé shì wǒde yéye",
+      "expected": [
+        "Zhè shì wǒ de yéye.",
+        "Zhè shì wǒ de yéye",
+        "Zhè shì wǒ yéye"
+      ],
+      "status": "partial",
+      "points": 8,
+      "max_points": 15,
+      "correction": "Zhè shì wǒ de yéye.",
+      "note": "tone on zhè: second instead of fourth"
+    },
+    {
+      "n": "12",
+      "section": "D · Picture practice",
+      "kind": "pinyin",
+      "prompt_en": "Who is #2 to the boy? Answer in one word of pinyin.",
+      "prompt_py": null,
+      "answer": "Náinai",
+      "expected": [
+        "nǎinai"
+      ],
+      "status": "partial",
+      "points": 8,
+      "max_points": 15,
+      "correction": "nǎinai",
+      "note": "tone: second instead of third"
+    },
+    {
+      "n": "13",
+      "section": "D · Picture practice",
+      "kind": "pinyin",
+      "prompt_en": "The boy is hugging #2. Write what he's thinking: “I love grandma.”",
+      "prompt_py": null,
+      "answer": "Wǒ ái náinai",
+      "expected": [
+        "Wǒ ài nǎinai.",
+        "Wǒ ài nǎinai"
+      ],
+      "status": "partial",
+      "points": 8,
+      "max_points": 15,
+      "correction": "Wǒ ài nǎinai.",
+      "note": "ái second instead of fourth; náinai second instead of third"
+    },
+    {
+      "n": "14",
+      "section": "D · Picture practice",
+      "kind": "pinyin",
+      "prompt_en": "#4 is the boy's sister, and she's older than him. What does he call her? One word.",
+      "prompt_py": null,
+      "answer": "Mèimei",
+      "expected": [
+        "jiějie"
+      ],
+      "status": "wrong",
+      "points": -12,
+      "max_points": 15,
+      "correction": "jiějie",
+      "note": "mèimei for jiějie — she's older, so jiějie"
+    },
+    {
+      "n": "S1",
+      "section": "E · Say it out loud",
+      "kind": "voice",
+      "prompt_en": "I love you.",
+      "prompt_py": "Wǒ ài nǐ.",
+      "answer": null,
+      "expected": [
+        "Wǒ ài nǐ."
+      ],
+      "status": "voice_graded",
+      "points": 15,
+      "max_points": 15,
+      "correction": null,
+      "note": "Wǒ ài nǐ — clear, complete"
+    },
+    {
+      "n": "S2",
+      "section": "E · Say it out loud",
+      "kind": "voice",
+      "prompt_en": "Who is that? That's my grandpa.",
+      "prompt_py": "Nà shì shéi? Nà shì wǒ de yéye.",
+      "answer": null,
+      "expected": [
+        "Nà shì shéi? Nà shì wǒ de yéye."
+      ],
+      "status": "voice_graded",
+      "points": 15,
+      "max_points": 15,
+      "correction": null,
+      "note": "Nà shì shéi? Nà shì wǒ de yéye — both lines clear"
+    },
+    {
+      "n": "S3",
+      "section": "E · Say it out loud",
+      "kind": "voice",
+      "prompt_en": "I have two kids; I don't have a younger brother.",
+      "prompt_py": "Wǒ yǒu liǎng gè háizi, wǒ méiyǒu dìdi.",
+      "answer": null,
+      "expected": [
+        "Wǒ yǒu liǎng gè háizi, wǒ méiyǒu dìdi."
+      ],
+      "status": "voice_graded",
+      "points": 15,
+      "max_points": 15,
+      "correction": null,
+      "note": "Wǒ yǒu liǎng gè háizi, wǒ méiyǒu dìdi — words solid; keep practicing wó yǒu sandhi"
+    }
+  ]
+}
