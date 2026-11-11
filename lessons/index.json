@@ -1,6 +1,15 @@
 {
   "lessons": [
     {
+      "id": "l13",
+      "lesson_number": 13,
+      "title_en": "Putting It Together: Names, Colors & Animals",
+      "title_py": "Hé zài yìqǐ: míngzi, yánsè hé dòngwù",
+      "date": "2026-11-11",
+      "category": "Mixed",
+      "hsk": 1
+    },
+    {
       "id": "l12",
       "lesson_number": 12,
       "title_en": "Animals: Cat and Dog",

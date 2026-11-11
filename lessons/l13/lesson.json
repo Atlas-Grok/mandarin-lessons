@@ -1,0 +1,737 @@
+{
+  "lesson_number": 13,
+  "title_en": "Putting It Together: Names, Colors & Animals",
+  "title_py": "Hé zài yìqǐ: míngzi, yánsè hé dòngwù",
+  "category": "Mixed",
+  "hsk": 1,
+  "date": "2026-11-11",
+  "auditory_note": "Tap ▶ Listen to play each clip.",
+  "teach": {
+    "intro": {
+      "en": "Hi Evan! Today there's no new topic. We put everything together so you can talk about yourself: names and ages, favorite colors, pets, and your family. Each word shows up in fresh sentences and two short conversations. Say each line out loud, and use it with the kids at home.",
+      "py": "Nǐ hǎo, Evan! Jīntiān méiyǒu xīn zhǔtí. Wǒmen bǎ suǒyǒu de cí fàng zài yìqǐ, ràng nǐ kěyǐ jièshào zìjǐ: míngzi hé niánlíng, xǐhuan de yánsè, chǒngwù hé jiārén. Měi gè cí dōu huì chūxiàn zài xīn de jùzi hé liǎng duàn duǎn duìhuà lǐ. Měi jù dōu dàshēng shuō, yě kěyǐ gēn jiā lǐ de háizi yìqǐ yòng."
+    },
+    "blocks": [
+      {
+        "type": "heading",
+        "text": "Names and ages"
+      },
+      {
+        "type": "paragraph",
+        "en": "Let's start with people. To ask a name, you use jiào (to be called) and shénme (what). To ask a child's age, you use jǐ (how many) and suì (years old). Listen to each one and say it out loud.",
+        "py": "Wǒmen xiān shuō rén. Wèn míngzi yào yòng “jiào” hé “shénme”. Wèn xiǎo háizi jǐ suì, yào yòng “jǐ” hé “suì”. Měi jù dōu xiān tīng, ránhòu dàshēng shuō."
+      },
+      {
+        "type": "vocab_card",
+        "en": "What's your name?",
+        "py": "Nǐ jiào shénme míngzi?",
+        "note_en": "Word for word: \"You are-called what name?\" The question word shénme stays right where the answer will go. Say ní jiào, with the 3rd-tone sandhi.",
+        "note_py": "Zhè jù zhíyì shì: nǐ jiào shénme míngzi? Wèn de cí shénme jiù fàng zài dá'àn de wèizhi. Nǐ jiào shuō chéng ní jiào.",
+        "listen_url": "l13-nxjsmmz.mp3"
+      },
+      {
+        "type": "vocab_card",
+        "en": "My name is Xiaoming.",
+        "py": "Wǒ jiào Xiǎomíng.",
+        "note_en": "Answer with jiào + the name. No shì needed. Wǒ jiào is said wó jiào.",
+        "note_py": "Huídá yòng jiào jiā míngzi, bú yòng shì. Wǒ jiào shuō chéng wó jiào.",
+        "listen_url": "l13-wo-jiao.mp3"
+      },
+      {
+        "type": "vocab_card",
+        "en": "How old is she?",
+        "py": "Tā jǐ suì?",
+        "note_en": "Jǐ asks for a small number. Tā means he, she, or it, and sounds the same for all three.",
+        "note_py": "Jǐ wèn xiǎo de shùzì. Tā kěyǐ shì tā (nán), tā (nǚ) huò tā (dòngwù), dúyīn dōu yíyàng.",
+        "listen_url": "l13-ta-ji-sui.mp3"
+      },
+      {
+        "type": "vocab_card",
+        "en": "She is four.",
+        "py": "Tā sì suì.",
+        "note_en": "Number + suì. No shì between them: just tā sì suì.",
+        "note_py": "Shùzì jiā suì, zhōngjiān bú yòng shì: tā sì suì.",
+        "listen_url": "l13-ta-si-sui.mp3"
+      },
+      {
+        "type": "callout",
+        "kind": "pattern",
+        "title": "🔑 Pattern: who + number + suì",
+        "body_en": "To give anyone's age, say the person, then the number, then suì. It works for your kids, your parents, and you.",
+        "body_py": "Shuō rènhé rén de niánlíng, jiù shì rén jiā shùzì zài jiā suì. Nǐ de háizi, nǐ de fùmǔ hé nǐ zìjǐ dōu kěyǐ zhèyàng shuō.",
+        "pairs": [
+          {
+            "en": "My son is five.",
+            "py": "Wǒ de érzi wǔ suì.",
+            "listen_url": "l13-er-wu-sui.mp3"
+          },
+          {
+            "en": "How old is your child?",
+            "py": "Nǐ de háizi jǐ suì?",
+            "listen_url": "l13-ni-haizi.mp3"
+          }
+        ]
+      },
+      {
+        "type": "example",
+        "n": 1,
+        "en": "Her name is Xiaomei.",
+        "py": "Tā jiào Xiǎoměi.",
+        "listen_url": "l13-ta-jiao.mp3"
+      },
+      {
+        "type": "example",
+        "n": 2,
+        "en": "My son is five.",
+        "py": "Wǒ de érzi wǔ suì.",
+        "listen_url": "l13-er-wu-sui.mp3"
+      },
+      {
+        "type": "example",
+        "n": 3,
+        "en": "How old is your child?",
+        "py": "Nǐ de háizi jǐ suì?",
+        "listen_url": "l13-ni-haizi.mp3"
+      },
+      {
+        "type": "heading",
+        "text": "Colors you like"
+      },
+      {
+        "type": "paragraph",
+        "en": "Next, colors. Yánsè means color, and xǐhuan means to like. Put them together to ask and answer about favorites. Bù makes a sentence negative: bù xǐhuan means don't like.",
+        "py": "Xiàmiàn shuō yánsè. Yánsè jiùshì “color”, xǐhuan jiùshì “to like”. Bǎ tāmen fàng zài yìqǐ, jiù kěyǐ wèn hé huídá nǐ xǐhuan shénme. Bù yòng lái biǎoshì fǒudìng: bù xǐhuan jiùshì bù xǐ'ài."
+      },
+      {
+        "type": "vocab_card",
+        "en": "color",
+        "py": "yánsè",
+        "note_en": "Both syllables fall into place: 2nd tone then 4th. Yán rises, sè drops.",
+        "note_py": "Yán shì dì-èr shēng, sè shì dì-sì shēng. Yán shàng shēng, sè xià jiàng.",
+        "listen_url": "l13-yanse.mp3"
+      },
+      {
+        "type": "vocab_card",
+        "en": "What color do you like?",
+        "py": "Nǐ xǐhuan shénme yánsè?",
+        "note_en": "Same shape as the name question: the question word shénme sits where the answer goes. Say ní xǐhuan.",
+        "note_py": "Hé wèn míngzi de jùzi yíyàng, shénme jiù zài dá'àn de wèizhi. Nǐ xǐhuan shuō chéng ní xǐhuan.",
+        "listen_url": "l13-nxsmys.mp3"
+      },
+      {
+        "type": "vocab_card",
+        "en": "I like red.",
+        "py": "Wǒ xǐhuan hóngsè.",
+        "note_en": "Swap in any color you know: hóngsè red, lánsè blue, báisè white, hēisè black, huángsè yellow, lǜsè green. Say wó xǐhuan.",
+        "note_py": "Nǐ kěyǐ huàn chéng rènhé yánsè: hóngsè, lánsè, báisè, hēisè, huángsè, lǜsè. Wǒ xǐhuan shuō chéng wó xǐhuan.",
+        "listen_url": "l13-wxh-hong.mp3"
+      },
+      {
+        "type": "callout",
+        "kind": "tip",
+        "title": "💡 Tip: bù changes before a 4th tone",
+        "body_en": "Bù is normally 4th tone, but before another 4th tone it turns into bú. Since báisè starts with a 2nd tone, bù stays bù there. Before xǐhuan (3rd tone) it also stays bù.",
+        "body_py": "Bù běnlái shì dì-sì shēng, dàn zài lìng yí gè dì-sì shēng qiánmiàn biàn chéng bú. Báisè kāitóu shì dì-èr shēng, suǒyǐ bù bú biàn. Xǐhuan shì dì-sān shēng, bù yě bú biàn.",
+        "pairs": [
+          {
+            "en": "I don't like white.",
+            "py": "Wǒ bù xǐhuan báisè.",
+            "listen_url": "l13-wbxh-bai.mp3"
+          }
+        ]
+      },
+      {
+        "type": "example",
+        "n": 4,
+        "en": "Do you like blue?",
+        "py": "Nǐ xǐhuan lánsè ma?",
+        "listen_url": "l13-nxh-lan.mp3"
+      },
+      {
+        "type": "example",
+        "n": 5,
+        "en": "I like black and yellow.",
+        "py": "Wǒ xǐhuan hēisè hé huángsè.",
+        "listen_url": "l13-wxh-hh.mp3"
+      },
+      {
+        "type": "example",
+        "n": 6,
+        "en": "I like green.",
+        "py": "Wǒ xǐhuan lǜsè.",
+        "listen_url": "l13-wxh-lv.mp3"
+      },
+      {
+        "type": "heading",
+        "text": "Animals at home"
+      },
+      {
+        "type": "paragraph",
+        "en": "Now pets. Dòngwù means animal. To count animals, put zhī between the number and the animal. To say you don't have something, use méiyǒu, never bù yǒu.",
+        "py": "Xiànzài shuō chǒngwù. Dòngwù jiùshì “animal”. Shù dòngwù yào zài shùzì hé dòngwù zhōngjiān jiā zhī. Shuō méiyǒu mǒu wù, yào yòng méiyǒu, bù shuō bù yǒu."
+      },
+      {
+        "type": "vocab_card",
+        "en": "animal",
+        "py": "dòngwù",
+        "note_en": "Both syllables are 4th tone, so they fall: DÒNG-WÙ.",
+        "note_py": "Liǎng gè zì dōu shì dì-sì shēng, dōu wǎng xià jiàng: dòng-wù.",
+        "listen_url": "l13-dongwu.mp3"
+      },
+      {
+        "type": "vocab_card",
+        "en": "(counter for animals)",
+        "py": "zhī",
+        "note_en": "Say yì zhī (one) or liǎng zhī (two) before the animal. It is the animal version of gè.",
+        "note_py": "Zài shùzì hé dòngwù zhōngjiān shuō yì zhī huò liǎng zhī. Zhī jiùshì dòngwù yòng de gè.",
+        "listen_url": "l13-zhi.mp3"
+      },
+      {
+        "type": "vocab_card",
+        "en": "I have a dog.",
+        "py": "Wǒ yǒu yì zhī gǒu.",
+        "note_en": "You know this one by now. Say wó yǒu and keep yì before zhī.",
+        "note_py": "Zhè jù nǐ yǐjīng shú le. Shuō wó yǒu, zhī qiánmiàn yòng yì.",
+        "listen_url": "l13-wyyzg.mp3"
+      },
+      {
+        "type": "vocab_card",
+        "en": "I don't have a cat.",
+        "py": "Wǒ méiyǒu māo.",
+        "note_en": "Méiyǒu is the negative of yǒu. No zhī is needed when you have none.",
+        "note_py": "Méiyǒu shì yǒu de fǒudìng. Méiyǒu de shíhou bú yòng zhī.",
+        "listen_url": "l13-wmy-mao.mp3"
+      },
+      {
+        "type": "example",
+        "n": 7,
+        "en": "Do you have a dog?",
+        "py": "Nǐ yǒu gǒu ma?",
+        "listen_url": "l13-ni-you-gou.mp3"
+      },
+      {
+        "type": "example",
+        "n": 8,
+        "en": "I have two cats.",
+        "py": "Wǒ yǒu liǎng zhī māo.",
+        "listen_url": "l13-wy-liang-mao.mp3"
+      },
+      {
+        "type": "example",
+        "n": 9,
+        "en": "He has three dogs.",
+        "py": "Tā yǒu sān zhī gǒu.",
+        "listen_url": "l13-ty-san-gou.mp3"
+      },
+      {
+        "type": "heading",
+        "text": "Your family"
+      },
+      {
+        "type": "paragraph",
+        "en": "Last, family. Rén means person, gè is the counting word for people, and jiā means home or family. Use yǒu with jǐ gè rén to ask how many people.",
+        "py": "Zuìhòu shuō jiārén. Rén jiùshì “person”, gè shì shù rén yòng de liàngcí, jiā jiùshì “home” huò “family”. Yòng yǒu hé jǐ gè rén lái wèn yǒu duōshǎo rén."
+      },
+      {
+        "type": "vocab_card",
+        "en": "How many people are in your family?",
+        "py": "Nǐ jiā yǒu jǐ gè rén?",
+        "note_en": "Word for word: \"Your family has how-many person?\" Jǐ is for small numbers.",
+        "note_py": "Zhíyì shì: nǐ jiā yǒu jǐ gè rén? Jǐ yòng lái wèn xiǎo de shùzì.",
+        "listen_url": "l13-nj-ji-ren.mp3"
+      },
+      {
+        "type": "vocab_card",
+        "en": "There are four people in my family.",
+        "py": "Wǒ jiā yǒu sì gè rén.",
+        "note_en": "Answer by swapping jǐ for the number. Four is sì, 4th tone.",
+        "note_py": "Huídá shí bǎ jǐ huàn chéng shùzì. Sì shì dì-sì shēng.",
+        "listen_url": "l13-wj-si-ren.mp3"
+      },
+      {
+        "type": "example",
+        "n": 10,
+        "en": "I have a son.",
+        "py": "Wǒ yǒu yí gè érzi.",
+        "listen_url": "l13-wy-yg-erzi.mp3"
+      },
+      {
+        "type": "example",
+        "n": 11,
+        "en": "My daughter is four.",
+        "py": "Wǒ de nǚ'ér sì suì.",
+        "listen_url": "l13-nv-si-sui.mp3"
+      },
+      {
+        "type": "example",
+        "n": 12,
+        "en": "Do you have kids?",
+        "py": "Nǐ yǒu háizi ma?",
+        "listen_url": "l13-ni-you-haizi.mp3"
+      },
+      {
+        "type": "heading",
+        "text": "Two short conversations"
+      },
+      {
+        "type": "paragraph",
+        "en": "Listen to both conversations, then read each line aloud. Play A and B yourself. Everything in them is a word you already know.",
+        "py": "Tīng liǎng duàn duìhuà, ránhòu dàshēng dú měi yí jù. Nǐ zìjǐ yǎn A hé B. Lǐmiàn de cí nǐ dōu yǐjīng xué guò."
+      },
+      {
+        "type": "heading",
+        "text": "Conversation 1: family"
+      },
+      {
+        "type": "example",
+        "n": 13,
+        "en": "A: How many people are in your family?",
+        "py": "A: Nǐ jiā yǒu jǐ gè rén?",
+        "listen_url": "l13-d1a.mp3"
+      },
+      {
+        "type": "example",
+        "n": 14,
+        "en": "B: Four people in my family.",
+        "py": "B: Wǒ jiā yǒu sì gè rén.",
+        "listen_url": "l13-d1b.mp3"
+      },
+      {
+        "type": "example",
+        "n": 15,
+        "en": "A: Do you have kids?",
+        "py": "A: Nǐ yǒu háizi ma?",
+        "listen_url": "l13-d1c.mp3"
+      },
+      {
+        "type": "example",
+        "n": 16,
+        "en": "B: I have two kids.",
+        "py": "B: Wǒ yǒu liǎng gè háizi.",
+        "listen_url": "l13-d1d.mp3"
+      },
+      {
+        "type": "example",
+        "n": 17,
+        "en": "A: How old is your son?",
+        "py": "A: Nǐ de érzi jǐ suì?",
+        "listen_url": "l13-d1e.mp3"
+      },
+      {
+        "type": "example",
+        "n": 18,
+        "en": "B: He is five.",
+        "py": "B: Tā wǔ suì.",
+        "listen_url": "l13-d1f.mp3"
+      },
+      {
+        "type": "heading",
+        "text": "Conversation 2: pets and colors"
+      },
+      {
+        "type": "example",
+        "n": 19,
+        "en": "A: Do you have a dog?",
+        "py": "A: Nǐ yǒu gǒu ma?",
+        "listen_url": "l13-d2a.mp3"
+      },
+      {
+        "type": "example",
+        "n": 20,
+        "en": "B: I have a dog.",
+        "py": "B: Wǒ yǒu yì zhī gǒu.",
+        "listen_url": "l13-d2b.mp3"
+      },
+      {
+        "type": "example",
+        "n": 21,
+        "en": "A: What color is your dog?",
+        "py": "A: Nǐ de gǒu shì shénme yánsè?",
+        "listen_url": "l13-d2c.mp3"
+      },
+      {
+        "type": "example",
+        "n": 22,
+        "en": "B: It is black.",
+        "py": "B: Tā shì hēisè.",
+        "listen_url": "l13-d2d.mp3"
+      },
+      {
+        "type": "callout",
+        "kind": "note",
+        "title": "📝 Note: tā can mean it",
+        "body_en": "When people talk about an animal, tā means it. The Chinese character is different for an animal, but the sound is the same.",
+        "body_py": "Tán dào dòngwù shí, tā jiùshì “it”. Dòngwù de tā zì bù yíyàng, dàn dúyīn yíyàng."
+      }
+    ]
+  },
+  "practice": {
+    "how_to": "Type your answers in the boxes below. Use tone marks on every pinyin answer (missing tones earn half credit). For 🎤 S1–S3, record a short clip on this page (you can replay and re-record; each clip stops at about 20 seconds). Then tap Submit to see your written score right away.",
+    "sections": [
+      {
+        "title": "A · Pinyin → English",
+        "items": [
+          {
+            "n": 1,
+            "type": "prompt",
+            "prompt_en": "jǐ",
+            "prompt_py": "?"
+          },
+          {
+            "n": 2,
+            "type": "prompt",
+            "prompt_en": "suì",
+            "prompt_py": "?"
+          },
+          {
+            "n": 3,
+            "type": "prompt",
+            "prompt_en": "hēisè",
+            "prompt_py": "?"
+          },
+          {
+            "n": 4,
+            "type": "prompt",
+            "prompt_en": "dòngwù",
+            "prompt_py": "?"
+          },
+          {
+            "n": 5,
+            "type": "prompt",
+            "prompt_en": "míngzi",
+            "prompt_py": "?"
+          }
+        ]
+      },
+      {
+        "title": "B · Fill in the blank",
+        "options_line": "Choose from: jiào · suì · zhī · bù",
+        "items": [
+          {
+            "n": 6,
+            "type": "fill",
+            "prompt_en": "What's your name?",
+            "prompt_py": "Nǐ ___ shénme míngzi?"
+          },
+          {
+            "n": 7,
+            "type": "fill",
+            "prompt_en": "She is four.",
+            "prompt_py": "Tā sì ___."
+          },
+          {
+            "n": 8,
+            "type": "fill",
+            "prompt_en": "I have two dogs.",
+            "prompt_py": "Wǒ yǒu liǎng ___ gǒu."
+          },
+          {
+            "n": 9,
+            "type": "fill",
+            "prompt_en": "I don't like white.",
+            "prompt_py": "Wǒ ___ xǐhuan báisè."
+          }
+        ]
+      },
+      {
+        "title": "C · Build the sentence",
+        "items": [
+          {
+            "n": 10,
+            "type": "unscramble",
+            "prompt_en": "My daughter is five.",
+            "unscramble": "suì / wǔ / nǚ'ér / wǒ / de"
+          },
+          {
+            "n": 11,
+            "type": "unscramble",
+            "prompt_en": "I like blue.",
+            "unscramble": "lánsè / xǐhuan / wǒ"
+          },
+          {
+            "n": 12,
+            "type": "unscramble",
+            "prompt_en": "Do you have a dog?",
+            "unscramble": "ma / gǒu / yǒu / nǐ"
+          },
+          {
+            "n": 13,
+            "type": "unscramble",
+            "prompt_en": "I don't have a cat.",
+            "unscramble": "māo / méiyǒu / wǒ"
+          }
+        ]
+      },
+      {
+        "title": "D · About you",
+        "items": [
+          {
+            "n": 14,
+            "type": "about_you",
+            "prompt_en": "Tell me your name in a full pinyin sentence.",
+            "hint": "Wǒ jiào ___."
+          },
+          {
+            "n": 15,
+            "type": "about_you",
+            "prompt_en": "Say which color you like, in a full pinyin sentence.",
+            "hint": "Wǒ xǐhuan ___."
+          },
+          {
+            "n": 16,
+            "type": "about_you",
+            "prompt_en": "Do you have a pet? Answer in a full pinyin sentence.",
+            "hint": "Wǒ yǒu yì zhī ___. / Wǒ méiyǒu ___."
+          }
+        ]
+      },
+      {
+        "title": "E · Say it out loud 🎤",
+        "intro_callout": {
+          "title": "Record each clip right on this page",
+          "body_en": "Listen to each model first, then record S1–S3. Remember: nǐ jiào sounds like ní jiào in S1, and wǒ yǒu sounds like wó yǒu in S2.",
+          "body_py": "Xiān tīng, ránhòu lùyīn S1 dào S3. S1 lǐ nǐ jiào shuō chéng ní jiào, S2 lǐ wǒ yǒu shuō chéng wó yǒu."
+        },
+        "items": [
+          {
+            "n": "S1",
+            "type": "say",
+            "prompt_en": "What's your name?",
+            "prompt_py": "Nǐ jiào shénme míngzi?",
+            "listen_url": "l13-nxjsmmz.mp3"
+          },
+          {
+            "n": "S2",
+            "type": "say",
+            "prompt_en": "I have two cats.",
+            "prompt_py": "Wǒ yǒu liǎng zhī māo.",
+            "listen_url": "l13-say2.mp3"
+          },
+          {
+            "n": "S3",
+            "type": "say",
+            "prompt_en": "My kid doesn't like green.",
+            "prompt_py": "Wǒ de háizi bù xǐhuan lǜsè.",
+            "listen_url": "l13-say3.mp3"
+          }
+        ]
+      }
+    ]
+  },
+  "closing": {
+    "en": "Nice work, Evan! Today, ask someone at home one question: Nǐ xǐhuan shénme yánsè? Even a smile and a point counts. Tap Submit when your written answers and voice clips are ready. Jiāyóu!",
+    "py": "Zuò de hěn hǎo, Evan! Jīntiān wèn jiā lǐ rén yí gè wèntí: Nǐ xǐhuan shénme yánsè? Jiùsuàn zhǐshì xiào yíxià, zhǐ yíxià yě suàn. Nǐ zhǔnbèi hǎo xiěxià de dá'àn hé yǔyīn le, jiù diǎn Submit. Jiāyóu!"
+  },
+  "answer_key": {
+    "items": [
+      {
+        "n": "1",
+        "kind": "english",
+        "expected": [
+          "how many",
+          "how much",
+          "how many (small number)"
+        ],
+        "words": [
+          "jǐ"
+        ]
+      },
+      {
+        "n": "2",
+        "kind": "english",
+        "expected": [
+          "years old",
+          "year old",
+          "age",
+          "years of age"
+        ],
+        "words": [
+          "suì"
+        ]
+      },
+      {
+        "n": "3",
+        "kind": "english",
+        "expected": [
+          "black"
+        ],
+        "words": [
+          "hēisè"
+        ]
+      },
+      {
+        "n": "4",
+        "kind": "english",
+        "expected": [
+          "animal"
+        ],
+        "words": [
+          "dòngwù"
+        ]
+      },
+      {
+        "n": "5",
+        "kind": "english",
+        "expected": [
+          "name"
+        ],
+        "words": [
+          "míngzi"
+        ]
+      },
+      {
+        "n": "6",
+        "kind": "pinyin",
+        "expected": [
+          "jiào"
+        ],
+        "words": [
+          "jiào"
+        ]
+      },
+      {
+        "n": "7",
+        "kind": "pinyin",
+        "expected": [
+          "suì"
+        ],
+        "words": [
+          "suì"
+        ]
+      },
+      {
+        "n": "8",
+        "kind": "pinyin",
+        "expected": [
+          "zhī"
+        ],
+        "words": [
+          "zhī"
+        ]
+      },
+      {
+        "n": "9",
+        "kind": "pinyin",
+        "expected": [
+          "bù"
+        ],
+        "words": [
+          "bù"
+        ]
+      },
+      {
+        "n": "10",
+        "kind": "sentence",
+        "expected": [
+          "Wǒ de nǚ'ér wǔ suì."
+        ],
+        "words": [
+          "nǚ'ér",
+          "suì",
+          "wǔ"
+        ]
+      },
+      {
+        "n": "11",
+        "kind": "sentence",
+        "expected": [
+          "Wǒ xǐhuan lánsè."
+        ],
+        "words": [
+          "xǐhuan",
+          "lánsè"
+        ]
+      },
+      {
+        "n": "12",
+        "kind": "sentence",
+        "expected": [
+          "Nǐ yǒu gǒu ma?"
+        ],
+        "words": [
+          "yǒu",
+          "gǒu"
+        ]
+      },
+      {
+        "n": "13",
+        "kind": "sentence",
+        "expected": [
+          "Wǒ méiyǒu māo."
+        ],
+        "words": [
+          "méiyǒu",
+          "māo"
+        ]
+      },
+      {
+        "n": "14",
+        "kind": "sentence",
+        "expected": [
+          "Wǒ jiào Evan."
+        ],
+        "regex": "wǒ\\s*jiào\\s*\\S.*",
+        "words": [
+          "jiào"
+        ]
+      },
+      {
+        "n": "15",
+        "kind": "sentence",
+        "expected": [
+          "Wǒ xǐhuan lánsè.",
+          "Wǒ xǐhuan hóngsè."
+        ],
+        "regex": "wǒ\\s*xǐhuan\\s*(hóngsè|lánsè|báisè|hēisè|huángsè|lǜsè)(\\s*(hé)\\s*(hóngsè|lánsè|báisè|hēisè|huángsè|lǜsè))?",
+        "words": [
+          "xǐhuan",
+          "yánsè"
+        ]
+      },
+      {
+        "n": "16",
+        "kind": "sentence",
+        "expected": [
+          "Wǒ yǒu yì zhī gǒu.",
+          "Wǒ méiyǒu māo."
+        ],
+        "regex": "wǒ\\s*((yǒu\\s*(yì|yī|yí|liǎng|sān|sì|wǔ)\\s*zhī\\s*(māo|gǒu|dòngwù))|(méiyǒu\\s*(māo|gǒu|dòngwù|chǒngwù)))",
+        "words": [
+          "yǒu",
+          "méiyǒu",
+          "zhī",
+          "dòngwù"
+        ]
+      },
+      {
+        "n": "S1",
+        "kind": "voice",
+        "words": [
+          "Nǐ jiào shénme míngzi?",
+          "jiào",
+          "shénme",
+          "míngzi"
+        ]
+      },
+      {
+        "n": "S2",
+        "kind": "voice",
+        "words": [
+          "liǎng",
+          "zhī",
+          "māo"
+        ]
+      },
+      {
+        "n": "S3",
+        "kind": "voice",
+        "words": [
+          "bù",
+          "xǐhuan",
+          "lǜsè",
+          "háizi"
+        ]
+      }
+    ]
+  }
+}
