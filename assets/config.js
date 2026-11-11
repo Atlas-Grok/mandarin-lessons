@@ -6,5 +6,5 @@
  * locally and offer a download of submission.json.
  */
 window.MANDARIN_CONFIG = {
-  SUBMIT_URL: "" // e.g. "https://script.google.com/macros/s/PASTE_DEPLOYMENT_ID/exec"
+  SUBMIT_URL: "https://script.google.com/macros/s/AKfycbxGeCadHhBTFQTBFHewsZMQdM_NzUw--Qq-0PS5zzM8S2nauAGsgfjKt-7F4OH6av5B/exec"
 };
