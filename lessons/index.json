@@ -1,6 +1,15 @@
 {
   "lessons": [
     {
+      "id": "l14",
+      "lesson_number": 14,
+      "title_en": "Food: Eat, Drink, Water & Apples",
+      "title_py": "Shíwù: chī, hē, shuǐ hé píngguǒ",
+      "date": "2026-11-12",
+      "category": "Food",
+      "hsk": 1
+    },
+    {
       "id": "l13",
       "lesson_number": 13,
       "title_en": "Putting It Together: Names, Colors & Animals",

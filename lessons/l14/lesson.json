@@ -1,0 +1,547 @@
+{
+  "lesson_number": 14,
+  "title_en": "Food: Eat, Drink, Water & Apples",
+  "title_py": "Shíwù: chī, hē, shuǐ hé píngguǒ",
+  "category": "Food",
+  "hsk": 1,
+  "date": "2026-11-12",
+  "auditory_note": "Tap ▶ Listen to play each clip.",
+  "teach": {
+    "intro": {
+      "en": "Hi Evan! Today we begin food, the next topic after family, colors, and animals. You will learn to eat, to drink, water, and apple, and build little sentences. Along the way, your older words (pets, colors, names, ages, and counting) pop up in new sentences, so each one gets stronger. Say every line out loud.",
+      "py": "Nǐ hǎo, Evan! Jīntiān wǒmen kāishǐ xué shíwù, zhè shì jiārén, yánsè hé dòngwù zhīhòu de xīn zhǔtí. Nǐ huì xué chī, hē, shuǐ hé píngguǒ, bìng zào xiǎo jùzi. Zài zhè guòchéng zhōng, nǐ yǐqián xué de cí (chǒngwù, yánsè, míngzi, niánlíng hé shùshù) huì chūxiàn zài xīn de jùzi lǐ, ràng měi gè cí gèng jiāngù. Měi jù dōu dàshēng shuō."
+    },
+    "blocks": [
+      {
+        "type": "heading",
+        "text": "Eating and drinking"
+      },
+      {
+        "type": "paragraph",
+        "en": "Today we start a new topic: food. Just like with toddlers, we begin with the very first food words: to eat, to drink, water, and apple. Then we mix them with your animals, colors, and family so the old words get a workout too.",
+        "py": "Jīntiān wǒmen kāishǐ xīn zhǔtí: shíwù. Jiù xiàng xiǎo háizi yíyàng, xiān xué zuì jīchǔ de cí: chī, hē, shuǐ hé píngguǒ. Ránhòu bǎ tāmen hé dòngwù, yánsè, jiārén fàng zài yìqǐ, ràng lǎo cí yě liànxí yíxià."
+      },
+      {
+        "type": "vocab_card",
+        "en": "to eat",
+        "py": "chī",
+        "note_en": "A verb, used like yǒu or xǐhuan: Wǒ chī… = I eat… Say chī with the tongue curled back, like the start of \"church\", 1st tone high and flat.",
+        "note_py": "Dòngcí, yòngfǎ hé yǒu, xǐhuan yíyàng: Wǒ chī… jiùshì I eat… Chī de 1st tone yào gāo yào píng.",
+        "listen_url": "l14-chi.mp3"
+      },
+      {
+        "type": "vocab_card",
+        "en": "to drink",
+        "py": "hē",
+        "note_en": "Same pattern as chī: Wǒ hē… = I drink… Also 1st tone, high and flat.",
+        "note_py": "Hé chī yíyàng: Wǒ hē… jiùshì I drink… Yě shì 1st tone, gāo ér píng.",
+        "listen_url": "l14-he.mp3"
+      },
+      {
+        "type": "vocab_card",
+        "en": "water",
+        "py": "shuǐ",
+        "note_en": "Shuǐ is 3rd tone, dip and come up. Before another 3rd tone it changes (Wǒ hē shuǐ: hē is 1st, so shuǐ stays a full dip).",
+        "note_py": "Shuǐ shì 3rd tone, xiān dī zài shēng. Hē shì 1st tone, suǒyǐ shuǐ bú biàn.",
+        "listen_url": "l14-shui.mp3"
+      },
+      {
+        "type": "vocab_card",
+        "en": "apple",
+        "py": "píngguǒ",
+        "note_en": "Two syllables: píng (2nd tone, rising) then guǒ (3rd tone, dip). A very common first fruit.",
+        "note_py": "Liǎng gè yīnjié: píng (2nd tone, shàngshēng) hé guǒ (3rd tone, dī). Zuì chángjiàn de shuǐguǒ zhī yī.",
+        "listen_url": "l14-pingguo.mp3"
+      },
+      {
+        "type": "heading",
+        "text": "Short sentences with food"
+      },
+      {
+        "type": "paragraph",
+        "en": "Put the person first, then the verb, then the food. No extra words needed. Listen to each line and say it out loud. Notice how many old friends hide in these sentences: māo, gǒu, háizi, hóngsè, bù.",
+        "py": "Rén zài qián, dòngcí zài zhōng, shíwù zài hòu, bú yòng bié de cí. Měi jù xiān tīng zài shuō. Zhù yì zhèxiē jùzi lǐ yǒu hěn duō lǎo péngyou: māo, gǒu, háizi, hóngsè, bù."
+      },
+      {
+        "type": "example",
+        "en": "I eat an apple.",
+        "py": "Wǒ chī píngguǒ.",
+        "listen_url": "l14-wo-chi-pg.mp3",
+        "n": 1
+      },
+      {
+        "type": "example",
+        "en": "I drink water.",
+        "py": "Wǒ hē shuǐ.",
+        "listen_url": "l14-wo-he-shui.mp3",
+        "n": 2
+      },
+      {
+        "type": "example",
+        "en": "The cat drinks water.",
+        "py": "Māo hē shuǐ.",
+        "listen_url": "l14-mao-he-shui.mp3",
+        "n": 3
+      },
+      {
+        "type": "example",
+        "en": "My dog doesn't eat apples.",
+        "py": "Wǒ de gǒu bù chī píngguǒ.",
+        "listen_url": "l14-gou-bu-chi.mp3",
+        "n": 4
+      },
+      {
+        "type": "example",
+        "en": "Apples are red.",
+        "py": "Píngguǒ shì hóngsè.",
+        "listen_url": "l14-pg-hongse.mp3",
+        "n": 5
+      },
+      {
+        "type": "example",
+        "en": "My kids like to eat apples.",
+        "py": "Wǒ de háizi xǐhuan chī píngguǒ.",
+        "listen_url": "l14-haizi-xh-chi.mp3",
+        "n": 6
+      },
+      {
+        "type": "callout",
+        "kind": "pattern",
+        "title": "Pattern: bù goes right before the verb",
+        "body_en": "To say someone doesn't eat or drink something, put bù in front of the verb: bù chī, bù hē. Bù becomes bú before a 4th tone, but chī and hē are 1st tone, so it stays bù.",
+        "body_py": "Yào shuō bù chī huò bù hē, bǎ bù fàng zài dòngcí qián. Bù zài 4th tone qián biàn bú, kěshì chī hé hē shì 1st tone, suǒyǐ háishi bù.",
+        "pairs": [
+          {
+            "en": "I don't eat.",
+            "py": "Wǒ bù chī.",
+            "listen_url": "l14-wo-bu-chi.mp3"
+          },
+          {
+            "en": "I don't drink.",
+            "py": "Wǒ bù hē.",
+            "listen_url": "l14-wo-bu-he.mp3"
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "Asking questions"
+      },
+      {
+        "type": "paragraph",
+        "en": "You already know shénme (what) and ma (yes/no question). Shénme stays where the answer will go, and ma goes at the end. Now you can ask what someone eats or drinks, and how old their kids are, all in one little chat.",
+        "py": "Nǐ yǐjīng zhīdào shénme hé ma. Shénme fàng zài dá'àn de wèizhi, ma fàng zài jù wěi. Xiànzài nǐ kěyǐ wèn biérén chī shénme, hē shénme, hái kěyǐ wèn tāmen de háizi jǐ suì."
+      },
+      {
+        "type": "vocab_card",
+        "en": "What do you eat?",
+        "py": "Nǐ chī shénme?",
+        "note_en": "Word for word: \"You eat what?\" Say nǐ as ní (3rd-3rd sandhi is only for nǐ + 3rd tone; here chī is 1st, so nǐ stays a low dip).",
+        "note_py": "Zhè jù zhíyì shì: nǐ chī shénme? Nǐ hòu miàn shì 1st tone chī, suǒyǐ nǐ háishi dī yīn.",
+        "listen_url": "l14-ni-chi-sm.mp3"
+      },
+      {
+        "type": "example",
+        "en": "Do you drink water?",
+        "py": "Nǐ hē shuǐ ma?",
+        "listen_url": "l14-ni-he-shui-ma.mp3",
+        "n": 7
+      },
+      {
+        "type": "example",
+        "en": "How old is your child? He is three.",
+        "py": "Nǐ de háizi jǐ suì? Tā sān suì.",
+        "listen_url": "l14-haizi-ji-sui.mp3",
+        "n": 8
+      },
+      {
+        "type": "callout",
+        "kind": "note",
+        "title": "Mini-chat",
+        "body_en": "A: What do you eat? B: I eat an apple. A: Does your dog eat apples too? B: No, my dog drinks water. It is black.",
+        "body_py": "A: Nǐ chī shénme? B: Wǒ chī píngguǒ. A: Nǐ de gǒu yě chī píngguǒ ma? B: Bù, wǒ de gǒu hē shuǐ. Tā shì hēisè.",
+        "pairs": [
+          {
+            "en": "What do you eat? I eat an apple.",
+            "py": "Nǐ chī shénme? Wǒ chī píngguǒ.",
+            "listen_url": "l14-chat-a.mp3"
+          },
+          {
+            "en": "Does your dog eat apples? No, it drinks water.",
+            "py": "Nǐ de gǒu chī píngguǒ ma? Bù, tā hē shuǐ.",
+            "listen_url": "l14-chat-b.mp3"
+          }
+        ]
+      },
+      {
+        "type": "callout",
+        "kind": "tip",
+        "title": "Say it with the kids",
+        "body_en": "At home, point at something you eat and say Wǒ chī… or Wǒ hē…. Then ask one of the kids: Nǐ chī shénme? Say liǎng zhī māo or yì zhī gǒu out loud when you see a pet. Repeating old words in new places is the fastest way to remember them.",
+        "body_py": "Zài jiā lǐ, zhǐ zhe chī de dōngxi shuō Wǒ chī… huò Wǒ hē…. Zài wèn háizi: Nǐ chī shénme? Kàndào chǒngwù jiù dàshēng shuō liǎng zhī māo huò yì zhī gǒu. Zài xīn dìfang chóngfù lǎo cí, zuì róngyì jì zhù."
+      }
+    ]
+  },
+  "practice": {
+    "how_to": "Type your answers in the boxes below. Use tone marks on every pinyin answer (missing tones earn half credit). For 🎤 S1–S3, record a short clip on this page (you can replay and re-record; each clip stops at about 20 seconds). Then tap Submit to see your written score right away.",
+    "sections": [
+      {
+        "title": "A · Pinyin → English",
+        "items": [
+          {
+            "n": 1,
+            "type": "prompt",
+            "prompt_en": "chī",
+            "prompt_py": "?"
+          },
+          {
+            "n": 2,
+            "type": "prompt",
+            "prompt_en": "shuǐ",
+            "prompt_py": "?"
+          },
+          {
+            "n": 3,
+            "type": "prompt",
+            "prompt_en": "rén",
+            "prompt_py": "?"
+          },
+          {
+            "n": 4,
+            "type": "prompt",
+            "prompt_en": "lǜsè",
+            "prompt_py": "?"
+          },
+          {
+            "n": 5,
+            "type": "prompt",
+            "prompt_en": "liǎng",
+            "prompt_py": "?"
+          }
+        ]
+      },
+      {
+        "title": "B · Fill in the blank",
+        "options_line": "Choose from: chī · hē · bù · zhī · jiào",
+        "items": [
+          {
+            "n": 6,
+            "type": "fill",
+            "prompt_en": "I eat an apple.",
+            "prompt_py": "Wǒ ___ píngguǒ."
+          },
+          {
+            "n": 7,
+            "type": "fill",
+            "prompt_en": "The cat drinks water.",
+            "prompt_py": "Māo ___ shuǐ."
+          },
+          {
+            "n": 8,
+            "type": "fill",
+            "prompt_en": "I have one dog.",
+            "prompt_py": "Wǒ yǒu yì ___ gǒu."
+          },
+          {
+            "n": 9,
+            "type": "fill",
+            "prompt_en": "My dog doesn't eat apples.",
+            "prompt_py": "Wǒ de gǒu ___ chī píngguǒ."
+          }
+        ]
+      },
+      {
+        "title": "C · Build the sentence",
+        "items": [
+          {
+            "n": 10,
+            "type": "unscramble",
+            "prompt_en": "I drink water.",
+            "unscramble": "shuǐ / wǒ / hē"
+          },
+          {
+            "n": 11,
+            "type": "unscramble",
+            "prompt_en": "What do you eat?",
+            "unscramble": "shénme / chī / nǐ"
+          },
+          {
+            "n": 12,
+            "type": "unscramble",
+            "prompt_en": "My child likes apples.",
+            "unscramble": "xǐhuan / wǒ / píngguǒ / háizi / de / chī"
+          },
+          {
+            "n": 13,
+            "type": "unscramble",
+            "prompt_en": "How old is she?",
+            "unscramble": "suì / jǐ / tā"
+          }
+        ]
+      },
+      {
+        "title": "D · About you",
+        "items": [
+          {
+            "n": 14,
+            "type": "about_you",
+            "prompt_en": "Say what you eat today, in a full pinyin sentence.",
+            "hint": "Wǒ chī ___. (try píngguǒ)"
+          },
+          {
+            "n": 15,
+            "type": "about_you",
+            "prompt_en": "Say what you drink, in a full pinyin sentence.",
+            "hint": "Wǒ hē ___. (try shuǐ)"
+          },
+          {
+            "n": 16,
+            "type": "about_you",
+            "prompt_en": "Tell me your name in a full pinyin sentence.",
+            "hint": "Wǒ jiào ___."
+          }
+        ]
+      },
+      {
+        "title": "E · Say it out loud 🎤",
+        "intro_callout": {
+          "title": "Record each clip right on this page",
+          "body_en": "Listen to each model first, then record S1–S3. Remember: wǒ hē sounds like wó hē in S1, and nǐ jiào sounds like ní jiào in S3.",
+          "body_py": "Xiān tīng, ránhòu lùyīn S1 dào S3. S1 lǐ wǒ hē shuō chéng wó hē, S3 lǐ nǐ jiào shuō chéng ní jiào."
+        },
+        "items": [
+          {
+            "n": "S1",
+            "type": "say",
+            "prompt_en": "I drink water.",
+            "prompt_py": "Wǒ hē shuǐ.",
+            "listen_url": "l14-wo-he-shui.mp3"
+          },
+          {
+            "n": "S2",
+            "type": "say",
+            "prompt_en": "My cat doesn't eat apples.",
+            "prompt_py": "Wǒ de māo bù chī píngguǒ.",
+            "listen_url": "l14-say2.mp3"
+          },
+          {
+            "n": "S3",
+            "type": "say",
+            "prompt_en": "What's your name?",
+            "prompt_py": "Nǐ jiào shénme míngzi?",
+            "listen_url": "l14-say3.mp3"
+          }
+        ]
+      }
+    ]
+  },
+  "closing": {
+    "en": "Great work, Evan! Today, say Wǒ hē shuǐ or Wǒ chī píngguǒ out loud once when you eat or drink. Tap Submit when your written answers and voice clips are ready. Jiāyóu!",
+    "py": "Zuò de hěn hǎo, Evan! Jīntiān chī huò hē de shíhou, dàshēng shuō yí biàn Wǒ hē shuǐ huò Wǒ chī píngguǒ. Nǐ zhǔnbèi hǎo xiěxià de dá'àn hé yǔyīn le, jiù diǎn Submit. Jiāyóu!"
+  },
+  "answer_key": {
+    "items": [
+      {
+        "n": "1",
+        "kind": "english",
+        "expected": [
+          "to eat",
+          "eat"
+        ],
+        "words": [
+          "chī"
+        ]
+      },
+      {
+        "n": "2",
+        "kind": "english",
+        "expected": [
+          "water"
+        ],
+        "words": [
+          "shuǐ"
+        ]
+      },
+      {
+        "n": "3",
+        "kind": "english",
+        "expected": [
+          "person",
+          "people"
+        ],
+        "words": [
+          "rén"
+        ]
+      },
+      {
+        "n": "4",
+        "kind": "english",
+        "expected": [
+          "green"
+        ],
+        "words": [
+          "lǜsè"
+        ]
+      },
+      {
+        "n": "5",
+        "kind": "english",
+        "expected": [
+          "two",
+          "two (counting things)"
+        ],
+        "words": [
+          "liǎng"
+        ]
+      },
+      {
+        "n": "6",
+        "kind": "pinyin",
+        "expected": [
+          "chī"
+        ],
+        "words": [
+          "chī"
+        ]
+      },
+      {
+        "n": "7",
+        "kind": "pinyin",
+        "expected": [
+          "hē"
+        ],
+        "words": [
+          "hē"
+        ]
+      },
+      {
+        "n": "8",
+        "kind": "pinyin",
+        "expected": [
+          "zhī"
+        ],
+        "words": [
+          "zhī"
+        ]
+      },
+      {
+        "n": "9",
+        "kind": "pinyin",
+        "expected": [
+          "bù"
+        ],
+        "words": [
+          "bù"
+        ]
+      },
+      {
+        "n": "10",
+        "kind": "sentence",
+        "expected": [
+          "Wǒ hē shuǐ."
+        ],
+        "words": [
+          "hē",
+          "shuǐ"
+        ]
+      },
+      {
+        "n": "11",
+        "kind": "sentence",
+        "expected": [
+          "Nǐ chī shénme?"
+        ],
+        "words": [
+          "chī",
+          "shénme"
+        ]
+      },
+      {
+        "n": "12",
+        "kind": "sentence",
+        "expected": [
+          "Wǒ de háizi xǐhuan chī píngguǒ."
+        ],
+        "words": [
+          "háizi",
+          "xǐhuan",
+          "chī",
+          "píngguǒ"
+        ]
+      },
+      {
+        "n": "13",
+        "kind": "sentence",
+        "expected": [
+          "Tā jǐ suì?"
+        ],
+        "words": [
+          "jǐ",
+          "suì"
+        ]
+      },
+      {
+        "n": "14",
+        "kind": "sentence",
+        "expected": [
+          "Wǒ chī píngguǒ."
+        ],
+        "regex": "wǒ\\s*chī\\s*\\S.*",
+        "words": [
+          "chī"
+        ]
+      },
+      {
+        "n": "15",
+        "kind": "sentence",
+        "expected": [
+          "Wǒ hē shuǐ."
+        ],
+        "regex": "wǒ\\s*hē\\s*\\S.*",
+        "words": [
+          "hē"
+        ]
+      },
+      {
+        "n": "16",
+        "kind": "sentence",
+        "expected": [
+          "Wǒ jiào Evan."
+        ],
+        "regex": "wǒ\\s*jiào\\s*\\S.*",
+        "words": [
+          "jiào",
+          "míngzi"
+        ]
+      },
+      {
+        "n": "S1",
+        "kind": "voice",
+        "words": [
+          "hē",
+          "shuǐ"
+        ]
+      },
+      {
+        "n": "S2",
+        "kind": "voice",
+        "words": [
+          "māo",
+          "bù",
+          "chī",
+          "píngguǒ"
+        ]
+      },
+      {
+        "n": "S3",
+        "kind": "voice",
+        "words": [
+          "Nǐ jiào shénme míngzi?",
+          "jiào",
+          "shénme",
+          "míngzi"
+        ]
+      }
+    ]
+  }
+}
