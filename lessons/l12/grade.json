@@ -1,0 +1,372 @@
+{
+  "lesson_id": "l12",
+  "lesson_number": 12,
+  "title_en": "Animals: Cat and Dog",
+  "title_py": "Dòngwù: māo hé gǒu",
+  "graded_at": "2026-11-12",
+  "score": 282,
+  "max": 330,
+  "written_score": 258,
+  "written_max": 285,
+  "voice_score": 24,
+  "voice_max": 45,
+  "items": [
+    {
+      "n": "1",
+      "section": "A · Pinyin → English",
+      "kind": "english",
+      "prompt_en": "dòngwù",
+      "prompt_py": null,
+      "answer": "animal",
+      "expected": [
+        "animal"
+      ],
+      "status": "correct",
+      "points": 15,
+      "max_points": 15,
+      "correction": null,
+      "note": null
+    },
+    {
+      "n": "2",
+      "section": "A · Pinyin → English",
+      "kind": "english",
+      "prompt_en": "māo",
+      "prompt_py": null,
+      "answer": "cat",
+      "expected": [
+        "cat"
+      ],
+      "status": "correct",
+      "points": 15,
+      "max_points": 15,
+      "correction": null,
+      "note": null
+    },
+    {
+      "n": "3",
+      "section": "A · Pinyin → English",
+      "kind": "english",
+      "prompt_en": "gǒu",
+      "prompt_py": null,
+      "answer": "dog",
+      "expected": [
+        "dog"
+      ],
+      "status": "correct",
+      "points": 15,
+      "max_points": 15,
+      "correction": null,
+      "note": null
+    },
+    {
+      "n": "4",
+      "section": "A · Pinyin → English",
+      "kind": "english",
+      "prompt_en": "rén",
+      "prompt_py": null,
+      "answer": "person",
+      "expected": [
+        "person",
+        "people"
+      ],
+      "status": "correct",
+      "points": 15,
+      "max_points": 15,
+      "correction": null,
+      "note": null
+    },
+    {
+      "n": "5",
+      "section": "A · Pinyin → English",
+      "kind": "english",
+      "prompt_en": "liǎng",
+      "prompt_py": null,
+      "answer": "two",
+      "expected": [
+        "two"
+      ],
+      "status": "correct",
+      "points": 15,
+      "max_points": 15,
+      "correction": null,
+      "note": null
+    },
+    {
+      "n": "6",
+      "section": "A · Pinyin → English",
+      "kind": "english",
+      "prompt_en": "bù",
+      "prompt_py": null,
+      "answer": "no/not",
+      "expected": [
+        "not"
+      ],
+      "status": "wrong",
+      "points": -12,
+      "max_points": 15,
+      "correction": "not",
+      "note": "bù means “not” (as in bù xǐhuan); the key only accepts “not”"
+    },
+    {
+      "n": "7",
+      "section": "B · Fill in the blank",
+      "kind": "pinyin",
+      "prompt_en": "I have a cat.",
+      "prompt_py": "Wǒ yǒu yì ___ māo.",
+      "answer": "zhī",
+      "expected": [
+        "zhī"
+      ],
+      "status": "correct",
+      "points": 15,
+      "max_points": 15,
+      "correction": null,
+      "note": null
+    },
+    {
+      "n": "8",
+      "section": "B · Fill in the blank",
+      "kind": "pinyin",
+      "prompt_en": "Do you like cats?",
+      "prompt_py": "Nǐ xǐhuan ___ ma?",
+      "answer": "māo",
+      "expected": [
+        "māo"
+      ],
+      "status": "correct",
+      "points": 15,
+      "max_points": 15,
+      "correction": null,
+      "note": null
+    },
+    {
+      "n": "9",
+      "section": "B · Fill in the blank",
+      "kind": "pinyin",
+      "prompt_en": "I don't like dogs.",
+      "prompt_py": "Wǒ ___ xǐhuan gǒu.",
+      "answer": "bù",
+      "expected": [
+        "bù"
+      ],
+      "status": "correct",
+      "points": 15,
+      "max_points": 15,
+      "correction": null,
+      "note": null
+    },
+    {
+      "n": "10",
+      "section": "B · Fill in the blank",
+      "kind": "pinyin",
+      "prompt_en": "He has a dog.",
+      "prompt_py": "Tā yǒu yì zhī ___.",
+      "answer": "gǒu",
+      "expected": [
+        "gǒu"
+      ],
+      "status": "correct",
+      "points": 15,
+      "max_points": 15,
+      "correction": null,
+      "note": null
+    },
+    {
+      "n": "11",
+      "section": "C · Build the sentence",
+      "kind": "pinyin",
+      "prompt_en": "I have two dogs.",
+      "prompt_py": null,
+      "answer": "Wǒ yǒu liǎng zhī gǒu",
+      "expected": [
+        "Wǒ yǒu liǎng zhī gǒu",
+        "Wǒ yǒu liǎng zhī gǒu."
+      ],
+      "status": "correct",
+      "points": 15,
+      "max_points": 15,
+      "correction": null,
+      "note": null
+    },
+    {
+      "n": "12",
+      "section": "C · Build the sentence",
+      "kind": "pinyin",
+      "prompt_en": "Do you like dogs?",
+      "prompt_py": null,
+      "answer": "Nǐ xǐhuan gǒu ma",
+      "expected": [
+        "Nǐ xǐhuan gǒu ma",
+        "Nǐ xǐhuan gǒu ma?"
+      ],
+      "status": "correct",
+      "points": 15,
+      "max_points": 15,
+      "correction": null,
+      "note": null
+    },
+    {
+      "n": "13",
+      "section": "C · Build the sentence",
+      "kind": "pinyin",
+      "prompt_en": "My kid likes cats.",
+      "prompt_py": null,
+      "answer": "Wǒde háizi xǐhuan māo",
+      "expected": [
+        "Wǒ de háizi xǐhuan māo",
+        "Wǒ de háizi xǐhuan māo."
+      ],
+      "status": "correct",
+      "points": 15,
+      "max_points": 15,
+      "correction": null,
+      "note": "spacing only: write wǒ de as two words"
+    },
+    {
+      "n": "14",
+      "section": "D · Match the color",
+      "kind": "english",
+      "prompt_en": "hēisè",
+      "prompt_py": null,
+      "answer": "black",
+      "expected": [
+        "black"
+      ],
+      "status": "correct",
+      "points": 15,
+      "max_points": 15,
+      "correction": null,
+      "note": null
+    },
+    {
+      "n": "15",
+      "section": "D · Match the color",
+      "kind": "english",
+      "prompt_en": "huángsè",
+      "prompt_py": null,
+      "answer": "yellow",
+      "expected": [
+        "yellow"
+      ],
+      "status": "correct",
+      "points": 15,
+      "max_points": 15,
+      "correction": null,
+      "note": null
+    },
+    {
+      "n": "16",
+      "section": "D · Match the color",
+      "kind": "english",
+      "prompt_en": "lǜsè",
+      "prompt_py": null,
+      "answer": "green",
+      "expected": [
+        "green"
+      ],
+      "status": "correct",
+      "points": 15,
+      "max_points": 15,
+      "correction": null,
+      "note": null
+    },
+    {
+      "n": "17",
+      "section": "D · Match the color",
+      "kind": "english",
+      "prompt_en": "hóngsè",
+      "prompt_py": null,
+      "answer": "red",
+      "expected": [
+        "red"
+      ],
+      "status": "correct",
+      "points": 15,
+      "max_points": 15,
+      "correction": null,
+      "note": null
+    },
+    {
+      "n": "18",
+      "section": "E · About you",
+      "kind": "pinyin",
+      "prompt_en": "Do you like cats or dogs? Answer in a full pinyin sentence.",
+      "prompt_py": "Wǒ xǐhuan ___.",
+      "answer": "Wǒ xǐhuan māo.",
+      "expected": [
+        "Wǒ xǐhuan māo.",
+        "Wǒ xǐhuan gǒu."
+      ],
+      "status": "correct",
+      "points": 15,
+      "max_points": 15,
+      "correction": null,
+      "note": null
+    },
+    {
+      "n": "19",
+      "section": "E · About you",
+      "kind": "pinyin",
+      "prompt_en": "Say one animal you do not like, in a full pinyin sentence.",
+      "prompt_py": "Wǒ bù xǐhuan ___.",
+      "answer": "Wǒ bù xǐhuan gǒu",
+      "expected": [
+        "Wǒ bù xǐhuan + animal"
+      ],
+      "status": "correct",
+      "points": 15,
+      "max_points": 15,
+      "correction": null,
+      "note": null
+    },
+    {
+      "n": "S1",
+      "section": "F · Say it out loud",
+      "kind": "voice",
+      "prompt_en": "I have a dog.",
+      "prompt_py": "Wǒ yǒu yì zhī gǒu.",
+      "answer": null,
+      "expected": [
+        "Wǒ yǒu yì zhī gǒu."
+      ],
+      "status": "voice_graded",
+      "points": 8,
+      "max_points": 15,
+      "correction": "Wǒ yǒu yì zhī gǒu.",
+      "note": "Wǒ yǒu yì zhī gǒu — phrase comes through; rushed and flat, yì zhī gǒu blurred together (heard closer to yì qǐ qù) — slow down and give gǒu a full low dip"
+    },
+    {
+      "n": "S2",
+      "section": "F · Say it out loud",
+      "kind": "voice",
+      "prompt_en": "Do you like cats?",
+      "prompt_py": "Nǐ xǐhuan māo ma?",
+      "answer": null,
+      "expected": [
+        "Nǐ xǐhuan māo ma?"
+      ],
+      "status": "voice_graded",
+      "points": 8,
+      "max_points": 15,
+      "correction": "Nǐ xǐhuan māo ma?",
+      "note": "Nǐ xǐhuan māo ma? — phrase comes through; xǐ came out high and level instead of a low dip, and māo ma ran together"
+    },
+    {
+      "n": "S3",
+      "section": "F · Say it out loud",
+      "kind": "voice",
+      "prompt_en": "My kid doesn't like cats.",
+      "prompt_py": "Wǒ de háizi bù xǐhuan māo.",
+      "answer": null,
+      "expected": [
+        "Wǒ de háizi bù xǐhuan māo."
+      ],
+      "status": "voice_graded",
+      "points": 8,
+      "max_points": 15,
+      "correction": "Wǒ de háizi bù xǐhuan māo.",
+      "note": "Wǒ de háizi bù xǐhuan māo — phrase mostly comes through and bù falls nicely; háizi was hard to hear and māo dipped instead of staying high and level"
+    }
+  ]
+}
