@@ -1,6 +1,15 @@
 {
   "lessons": [
     {
+      "id": "l15",
+      "lesson_number": 15,
+      "title_en": "More Food: Rice, Milk & Bread",
+      "title_py": "Gèng duō shíwù: mǐfàn, niúnǎi hé miànbāo",
+      "date": "2026-11-13",
+      "category": "Food",
+      "hsk": 1
+    },
+    {
       "id": "l14",
       "lesson_number": 14,
       "title_en": "Food: Eat, Drink, Water & Apples",
