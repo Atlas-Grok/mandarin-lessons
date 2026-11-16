@@ -1,6 +1,15 @@
 {
   "lessons": [
     {
+      "id": "l16",
+      "lesson_number": 16,
+      "title_en": "Tea, Eggs & Meat",
+      "title_py": "Chá, jīdàn hé ròu",
+      "date": "2026-11-16",
+      "category": "Food",
+      "hsk": 1
+    },
+    {
       "id": "l15",
       "lesson_number": 15,
       "title_en": "More Food: Rice, Milk & Bread",
