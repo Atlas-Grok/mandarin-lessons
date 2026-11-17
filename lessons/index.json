@@ -1,6 +1,15 @@
 {
   "lessons": [
     {
+      "id": "l17",
+      "lesson_number": 17,
+      "title_en": "Fish, Vegetables & Soup",
+      "title_py": "Yú, cài hé tāng",
+      "date": "2026-11-17",
+      "category": "Food",
+      "hsk": 1
+    },
+    {
       "id": "l16",
       "lesson_number": 16,
       "title_en": "Tea, Eggs & Meat",
