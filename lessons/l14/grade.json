@@ -1,0 +1,322 @@
+{
+  "lesson_id": "l14",
+  "lesson_number": 14,
+  "title_en": "Food: Eat, Drink, Water & Apples",
+  "title_py": "Shíwù: chī, hē, shuǐ hé píngguǒ",
+  "graded_at": "2026-11-18",
+  "score": 149,
+  "max": 285,
+  "written_score": 125,
+  "written_max": 240,
+  "voice_score": 24,
+  "voice_max": 45,
+  "items": [
+    {
+      "n": "1",
+      "section": "A · Pinyin → English",
+      "kind": "english",
+      "prompt_en": "chī",
+      "prompt_py": null,
+      "answer": "To eat",
+      "expected": [
+        "to eat",
+        "eat"
+      ],
+      "status": "correct",
+      "points": 15,
+      "max_points": 15,
+      "correction": null,
+      "note": null
+    },
+    {
+      "n": "2",
+      "section": "A · Pinyin → English",
+      "kind": "english",
+      "prompt_en": "shuǐ",
+      "prompt_py": null,
+      "answer": "Water",
+      "expected": [
+        "water"
+      ],
+      "status": "correct",
+      "points": 15,
+      "max_points": 15,
+      "correction": null,
+      "note": null
+    },
+    {
+      "n": "3",
+      "section": "A · Pinyin → English",
+      "kind": "english",
+      "prompt_en": "rén",
+      "prompt_py": null,
+      "answer": "Person",
+      "expected": [
+        "person",
+        "people"
+      ],
+      "status": "correct",
+      "points": 15,
+      "max_points": 15,
+      "correction": null,
+      "note": null
+    },
+    {
+      "n": "4",
+      "section": "A · Pinyin → English",
+      "kind": "english",
+      "prompt_en": "lǜsè",
+      "prompt_py": null,
+      "answer": "Green",
+      "expected": [
+        "green"
+      ],
+      "status": "correct",
+      "points": 15,
+      "max_points": 15,
+      "correction": null,
+      "note": null
+    },
+    {
+      "n": "5",
+      "section": "A · Pinyin → English",
+      "kind": "english",
+      "prompt_en": "liǎng",
+      "prompt_py": null,
+      "answer": "Two",
+      "expected": [
+        "two",
+        "two (counting things)"
+      ],
+      "status": "correct",
+      "points": 15,
+      "max_points": 15,
+      "correction": null,
+      "note": null
+    },
+    {
+      "n": "6",
+      "section": "B · Fill in the blank",
+      "kind": "pinyin",
+      "prompt_en": "I eat an apple.",
+      "prompt_py": "Wǒ ___ píngguǒ.",
+      "answer": "Wǒ chī píngguǒ",
+      "expected": [
+        "chī"
+      ],
+      "status": "wrong",
+      "points": -12,
+      "max_points": 15,
+      "correction": "chī",
+      "note": "fill-in wanted only chī; the full sentence Wǒ chī píngguǒ is otherwise right"
+    },
+    {
+      "n": "7",
+      "section": "B · Fill in the blank",
+      "kind": "pinyin",
+      "prompt_en": "The cat drinks water.",
+      "prompt_py": "Māo ___ shuǐ.",
+      "answer": "Māo hē shuǐ",
+      "expected": [
+        "hē"
+      ],
+      "status": "wrong",
+      "points": -12,
+      "max_points": 15,
+      "correction": "hē",
+      "note": "fill-in wanted only hē; the full sentence Māo hē shuǐ is otherwise right"
+    },
+    {
+      "n": "8",
+      "section": "B · Fill in the blank",
+      "kind": "pinyin",
+      "prompt_en": "I have one dog.",
+      "prompt_py": "Wǒ yǒu yì ___ gǒu.",
+      "answer": "wǒyǒuyì ge gǒu",
+      "expected": [
+        "zhī"
+      ],
+      "status": "wrong",
+      "points": -12,
+      "max_points": 15,
+      "correction": "zhī",
+      "note": "fill-in wanted only zhī (animal counter); wrote a full sentence with ge instead of zhī"
+    },
+    {
+      "n": "9",
+      "section": "B · Fill in the blank",
+      "kind": "pinyin",
+      "prompt_en": "My dog doesn't eat apples.",
+      "prompt_py": "Wǒ de gǒu ___ chī píngguǒ.",
+      "answer": "Wǒde gǒu bú chī píngguō",
+      "expected": [
+        "bù"
+      ],
+      "status": "wrong",
+      "points": -12,
+      "max_points": 15,
+      "correction": "bù",
+      "note": "fill-in wanted only bù; wrote the full sentence (bú is the sandhi form before chī; píngguō is missing the ǒ)"
+    },
+    {
+      "n": "10",
+      "section": "C · Build the sentence",
+      "kind": "sentence",
+      "prompt_en": "I drink water.",
+      "prompt_py": null,
+      "answer": "wǒ hē shuǐ ",
+      "expected": [
+        "Wǒ hē shuǐ."
+      ],
+      "status": "correct",
+      "points": 15,
+      "max_points": 15,
+      "correction": null,
+      "note": null
+    },
+    {
+      "n": "11",
+      "section": "C · Build the sentence",
+      "kind": "sentence",
+      "prompt_en": "What do you eat?",
+      "prompt_py": null,
+      "answer": "nǐchīshénme",
+      "expected": [
+        "Nǐ chī shénme?"
+      ],
+      "status": "correct",
+      "points": 15,
+      "max_points": 15,
+      "correction": null,
+      "note": null
+    },
+    {
+      "n": "12",
+      "section": "C · Build the sentence",
+      "kind": "sentence",
+      "prompt_en": "My child likes apples.",
+      "prompt_py": null,
+      "answer": "wǒde háizi xǐhuan chī píngguo",
+      "expected": [
+        "Wǒ de háizi xǐhuan chī píngguǒ."
+      ],
+      "status": "partial",
+      "points": 8,
+      "max_points": 15,
+      "correction": "Wǒ de háizi xǐhuan chī píngguǒ.",
+      "note": "missing tone: píngguo should be píngguǒ"
+    },
+    {
+      "n": "13",
+      "section": "C · Build the sentence",
+      "kind": "sentence",
+      "prompt_en": "How old is she?",
+      "prompt_py": null,
+      "answer": "Tā jǐ suì ",
+      "expected": [
+        "Tā jǐ suì?"
+      ],
+      "status": "correct",
+      "points": 15,
+      "max_points": 15,
+      "correction": null,
+      "note": null
+    },
+    {
+      "n": "14",
+      "section": "D · About you",
+      "kind": "sentence",
+      "prompt_en": "Say what you eat today, in a full pinyin sentence.",
+      "prompt_py": null,
+      "answer": "wǒ chī pingguǒ",
+      "expected": [
+        "Wǒ chī píngguǒ."
+      ],
+      "status": "correct",
+      "points": 15,
+      "max_points": 15,
+      "correction": null,
+      "note": null
+    },
+    {
+      "n": "15",
+      "section": "D · About you",
+      "kind": "sentence",
+      "prompt_en": "Say what you drink, in a full pinyin sentence.",
+      "prompt_py": null,
+      "answer": "wǒ hē shuí",
+      "expected": [
+        "Wǒ hē shuǐ."
+      ],
+      "status": "correct",
+      "points": 15,
+      "max_points": 15,
+      "correction": null,
+      "note": null
+    },
+    {
+      "n": "16",
+      "section": "D · About you",
+      "kind": "sentence",
+      "prompt_en": "Tell me your name in a full pinyin sentence.",
+      "prompt_py": null,
+      "answer": "wǒjiào Evan",
+      "expected": [
+        "Wǒ jiào Evan."
+      ],
+      "status": "correct",
+      "points": 15,
+      "max_points": 15,
+      "correction": null,
+      "note": null
+    },
+    {
+      "n": "S1",
+      "section": "E · Say it out loud",
+      "kind": "voice",
+      "prompt_en": "I drink water.",
+      "prompt_py": "Wǒ hē shuǐ.",
+      "answer": null,
+      "expected": [
+        "Wǒ hē shuǐ."
+      ],
+      "status": "voice_graded",
+      "points": 8,
+      "max_points": 15,
+      "correction": "Wǒ hē shuǐ.",
+      "note": "Wǒ hē shuǐ — phrase comes through (shuǐ is clear, and wǒ is audible); hē was muddy and wǒ did not get a full low dip — slow down and give wǒ the 3rd-tone dip before a high, level hē"
+    },
+    {
+      "n": "S2",
+      "section": "E · Say it out loud",
+      "kind": "voice",
+      "prompt_en": "My cat doesn't eat apples.",
+      "prompt_py": "Wǒ de māo bù chī píngguǒ.",
+      "answer": null,
+      "expected": [
+        "Wǒ de māo bù chī píngguǒ."
+      ],
+      "status": "voice_graded",
+      "points": 8,
+      "max_points": 15,
+      "correction": "Wǒ de māo bù chī píngguǒ.",
+      "note": "Wǒ de māo bù chī píngguǒ — Wǒ de māo bù comes through clearly; chī píngguǒ was muddy (heard closer to qù pīnmìng) and tones are off — bù should fall, and finish píngguǒ with a 3rd-tone dip"
+    },
+    {
+      "n": "S3",
+      "section": "E · Say it out loud",
+      "kind": "voice",
+      "prompt_en": "What's your name?",
+      "prompt_py": "Nǐ jiào shénme míngzi?",
+      "answer": null,
+      "expected": [
+        "Nǐ jiào shénme míngzi?"
+      ],
+      "status": "voice_graded",
+      "points": 8,
+      "max_points": 15,
+      "correction": "Nǐ jiào shénme míngzi?",
+      "note": "Nǐ jiào shénme míngzi? — phrase comes through clearly; tones need work: nǐ rose instead of a low dip, jiào stayed flat instead of falling, and míng fell instead of rising"
+    }
+  ]
+}
