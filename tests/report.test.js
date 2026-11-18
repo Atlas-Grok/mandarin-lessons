@@ -50,6 +50,24 @@ function testRenderReportCard() {
 function testStatusDisplay() {
   assert(report.statusDisplay("correct", 15).includes("Correct"));
   assert(report.statusDisplay("voice_graded", 8).includes("Voice graded"));
+  assert(report.statusDisplay("open_graded", 12).includes("Graded by Mei"));
+}
+
+function testOpenReportItem() {
+  const html = report.renderReportItem({
+    n: "17",
+    kind: "open",
+    prompt_en: "Explain 谢谢",
+    prompt_py: null,
+    answer: "thanks",
+    status: "open_graded",
+    points: 12,
+    note: "good gist",
+    correction: "Thank you.",
+  });
+  assert(html.includes("thanks"), "shows Evan answer");
+  assert(html.includes("good gist"), "shows Mei note");
+  assert(html.includes("open_graded"), "status class");
 }
 
 function main() {
@@ -58,6 +76,7 @@ function main() {
     ["sortItems", testSortItems],
     ["renderReportCard", testRenderReportCard],
     ["statusDisplay", testStatusDisplay],
+    ["openReportItem", testOpenReportItem],
   ];
   let failed = 0;
   for (const [name, fn] of tests) {

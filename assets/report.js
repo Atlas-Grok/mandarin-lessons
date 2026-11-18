@@ -13,7 +13,9 @@
     partial: "Partial",
     wrong: "Wrong",
     skipped: "Skipped",
-    voice_graded: "Voice graded"
+    voice_graded: "Voice graded",
+    pending_mei: "Pending Mei",
+    open_graded: "Graded by Mei"
   };
 
   var STATUS_POINTS = {
@@ -40,8 +42,11 @@
     var label = STATUS_LABEL[status] || status;
     var band = STATUS_POINTS[status];
     var pts = formatPoints(points);
-    if (status === "voice_graded") {
+    if (status === "voice_graded" || status === "open_graded") {
       return label + (pts ? " (" + pts + ")" : "");
+    }
+    if (status === "pending_mei") {
+      return label;
     }
     if (band && pts) return label + " (" + band + " · " + pts + " pts)";
     if (pts) return label + " (" + pts + " pts)";
@@ -50,6 +55,7 @@
 
   function answerDisplay(item) {
     if (item.kind === "voice") return "—";
+    if (item.kind === "open" && (item.answer == null || !String(item.answer).trim())) return "—";
     var a = item.answer;
     if (a == null || !String(a).trim()) return "—";
     return String(a);
