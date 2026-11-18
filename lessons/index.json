@@ -1,6 +1,15 @@
 {
   "lessons": [
     {
+      "id": "l18",
+      "lesson_number": 18,
+      "title_en": "What Do You Eat and Drink?",
+      "title_py": "Nǐ chī shénme, hē shénme?",
+      "date": "2026-11-18",
+      "category": "Food",
+      "hsk": 1
+    },
+    {
       "id": "l17",
       "lesson_number": 17,
       "title_en": "Fish, Vegetables & Soup",

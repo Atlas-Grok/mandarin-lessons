@@ -1,0 +1,550 @@
+{
+  "lesson_number": 18,
+  "title_en": "What Do You Eat and Drink?",
+  "title_py": "Nǐ chī shénme, hē shénme?",
+  "category": "Food",
+  "hsk": 1,
+  "date": "2026-11-18",
+  "auditory_note": "Tap ▶ Listen to play each clip.",
+  "teach": {
+    "intro": {
+      "en": "Hi Evan! Today we practice your food words in real questions and answers, with names, ages, and family mixed in. The more you use these words, the stronger they get. Say every line out loud.",
+      "py": "Nǐ hǎo, Evan! Jīntiān wǒmen yòng zhēnshí de wèn dá lái liànxí shíwù cí, hái yǒu míngzi, niánlíng hé jiārén. Yòng de yuè duō, cí jiù yuè láo. Měi jù dōu dàshēng shuō."
+    },
+    "blocks": [
+      {
+        "type": "heading",
+        "text": "A day of food talk"
+      },
+      {
+        "type": "paragraph",
+        "en": "Today there is no new topic. You have learned a lot of food words, and the best way to keep them is to use them. We will put eat, drink, rice, milk, bread, tea, eggs, meat, fish, and soup into real sentences, then bring in names, ages, and family so they stay fresh too.",
+        "py": "Jīntiān méiyǒu xīn zhǔtí. Nǐ yǐjīng xué le hěn duō shíwù cí, zuì hǎo de fāngfǎ jiùshì yòng tāmen. Wǒmen bǎ chī, hē, mǐfàn, niúnǎi, miànbāo, chá, jīdàn, ròu, yú hé tāng fàng jìn zhēnshí de jùzi, ránhòu zài yòng shàng míngzi, niánlíng hé jiārén, ràng tāmen yě bǎochí xīnxiān."
+      },
+      {
+        "type": "vocab_card",
+        "en": "to eat",
+        "py": "chī",
+        "note_en": "Chī is 1st tone: high and flat. Foods you chew go after it: chī mǐfàn, chī miànbāo, chī jīdàn, chī ròu.",
+        "note_py": "Chī shì 1st tone: gāo ér píng. Yào jǔjué de shíwù fàng zài hòumiàn: chī mǐfàn, chī miànbāo, chī jīdàn, chī ròu.",
+        "listen_url": "l18-chi.mp3"
+      },
+      {
+        "type": "vocab_card",
+        "en": "to drink",
+        "py": "hē",
+        "note_en": "Hē is also 1st tone. Drinks go after it: hē shuǐ, hē niúnǎi, hē chá, and soup too: hē tāng.",
+        "note_py": "Hē yě shì 1st tone. Yǐnliào fàng zài hòumiàn: hē shuǐ, hē niúnǎi, hē chá, hái yǒu hē tāng.",
+        "listen_url": "l18-he.mp3"
+      },
+      {
+        "type": "vocab_card",
+        "en": "what",
+        "py": "shénme",
+        "note_en": "Shénme stays in the spot of the answer. Nǐ chī shénme? = What do you eat? Answer: Wǒ chī jīdàn.",
+        "note_py": "Shénme fàng zài dá'àn de wèizhi. Nǐ chī shénme? Huídá: Wǒ chī jīdàn.",
+        "listen_url": "l18-shenme.mp3"
+      },
+      {
+        "type": "heading",
+        "text": "What do you eat and drink?"
+      },
+      {
+        "type": "example",
+        "en": "What do you eat?",
+        "py": "Nǐ chī shénme?",
+        "listen_url": "l18-ni-chi-shenme.mp3",
+        "n": 1
+      },
+      {
+        "type": "example",
+        "en": "I eat rice and eggs.",
+        "py": "Wǒ chī mǐfàn hé jīdàn.",
+        "listen_url": "l18-wo-chi-mifan-jidan.mp3",
+        "n": 2
+      },
+      {
+        "type": "example",
+        "en": "What do you drink? I drink tea.",
+        "py": "Nǐ hē shénme? Wǒ hē chá.",
+        "listen_url": "l18-ni-he-shenme.mp3",
+        "n": 3
+      },
+      {
+        "type": "example",
+        "en": "My older sister drinks milk and eats bread.",
+        "py": "Wǒ de jiějie hē niúnǎi, chī miànbāo.",
+        "listen_url": "l18-jiejie-niunai.mp3",
+        "n": 4
+      },
+      {
+        "type": "example",
+        "en": "Grandma doesn't eat meat. She likes to eat fish.",
+        "py": "Nǎinai bù chī ròu. Tā xǐhuan chī yú.",
+        "listen_url": "l18-nainai-bu-chi-rou.mp3",
+        "n": 5
+      },
+      {
+        "type": "example",
+        "en": "My daughter drinks water and eats an apple.",
+        "py": "Wǒ de nǚ'ér hē shuǐ, chī yí gè píngguǒ.",
+        "listen_url": "l18-nuer-pingguo.mp3",
+        "n": 6
+      },
+      {
+        "type": "callout",
+        "kind": "pattern",
+        "title": "Pattern: Nǐ chī/hē shénme?",
+        "body_en": "To ask what, keep the word order of the answer and swap in shénme. Nǐ chī shénme? Wǒ chī ___. Nǐ hē shénme? Wǒ hē ___. To say two foods, join them with hé (and): mǐfàn hé jīdàn.",
+        "body_py": "Wèn shénme shí, yǔxù hé dá'àn yíyàng, zhǐ bǎ shénme fàng zài kòng wèi. Nǐ chī shénme? Wǒ chī ___. Nǐ hē shénme? Wǒ hē ___. Shuō liǎng zhǒng shíwù, yòng hé lián qǐlái: mǐfàn hé jīdàn.",
+        "pairs": [
+          {
+            "en": "What do you like to eat?",
+            "py": "Nǐ xǐhuan chī shénme?",
+            "listen_url": "l18-xh-chi-shenme.mp3"
+          },
+          {
+            "en": "Do you drink milk?",
+            "py": "Nǐ hē niúnǎi ma?",
+            "listen_url": "l18-he-niunai-ma.mp3"
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "Mini-chats at the table"
+      },
+      {
+        "type": "paragraph",
+        "en": "Here are two short conversations. Notice names, ages, family, and pets mixed in with food. Listen to each, then try to follow it line by line.",
+        "py": "Xiàmiàn shì liǎng duàn duǎn duìhuà. Zhùyì míngzi, niánlíng, jiārén hé chǒngwù hé shíwù hùnhé zài yìqǐ. Měi duàn xiān tīng, zài yì háng yì háng gēnshàng."
+      },
+      {
+        "type": "callout",
+        "kind": "note",
+        "title": "Chat 1 and Chat 2",
+        "body_en": "Chat 1. A: What's your name? B: My name is Leo. A: How old are you? B: I am three. I drink milk. / Chat 2. A: Who is this? B: This is my friend. He is five. A: What does he eat? B: He eats bread and eggs.",
+        "body_py": "Duìhuà yī. A: Nǐ jiào shénme míngzi? B: Wǒ jiào Leo. A: Nǐ jǐ suì? B: Wǒ sān suì. Wǒ hē niúnǎi. / Duìhuà èr. A: Zhè shì shéi? B: Zhè shì wǒ de péngyou. Tā wǔ suì. A: Tā chī shénme? B: Tā chī miànbāo hé jīdàn.",
+        "pairs": [
+          {
+            "en": "What's your name? My name is Leo. How old are you? I am three. I drink milk.",
+            "py": "Nǐ jiào shénme míngzi? Wǒ jiào Leo. Nǐ jǐ suì? Wǒ sān suì. Wǒ hē niúnǎi.",
+            "listen_url": "l18-chat-a.mp3"
+          },
+          {
+            "en": "Who is this? This is my friend. He is five. What does he eat? He eats bread and eggs.",
+            "py": "Zhè shì shéi? Zhè shì wǒ de péngyou. Tā wǔ suì. Tā chī shénme? Tā chī miànbāo hé jīdàn.",
+            "listen_url": "l18-chat-b.mp3"
+          }
+        ]
+      },
+      {
+        "type": "example",
+        "en": "We have four people at home. We eat rice.",
+        "py": "Wǒ jiā yǒu sì gè rén. Wǒmen chī mǐfàn.",
+        "listen_url": "l18-jia-si-ren.mp3",
+        "n": 7
+      },
+      {
+        "type": "example",
+        "en": "The dog has two eggs. The cat has one fish.",
+        "py": "Gǒu yǒu liǎng gè jīdàn. Māo yǒu yì tiáo yú.",
+        "listen_url": "l18-gou-mao.mp3",
+        "n": 8
+      },
+      {
+        "type": "callout",
+        "kind": "tip",
+        "title": "Say it at the table",
+        "body_en": "At your next meal, ask your family Nǐ chī shénme? and Nǐ hē shénme?, and answer out loud. Count what is on the table: yī, liǎng, sān, sì, wǔ.",
+        "body_py": "Xiàcì chīfàn shí, wèn jiārén Nǐ chī shénme? hé Nǐ hē shénme?, ránhòu dàshēng huídá. Shǔ yi shǔ zhuōzi shàng de dōngxi: yī, liǎng, sān, sì, wǔ."
+      }
+    ]
+  },
+  "practice": {
+    "how_to": "Type your answers in the boxes below. Use tone marks on every pinyin answer (missing tones earn half credit). For 🎤 S1–S3, record a short clip on this page (you can replay and re-record; each clip stops at about 20 seconds). Then tap Submit to see your written score right away.",
+    "sections": [
+      {
+        "title": "A · English → pinyin",
+        "items": [
+          {
+            "n": 1,
+            "type": "prompt",
+            "prompt_en": "to eat",
+            "prompt_py": "?"
+          },
+          {
+            "n": 2,
+            "type": "prompt",
+            "prompt_en": "to drink",
+            "prompt_py": "?"
+          },
+          {
+            "n": 3,
+            "type": "prompt",
+            "prompt_en": "what",
+            "prompt_py": "?"
+          },
+          {
+            "n": 4,
+            "type": "prompt",
+            "prompt_en": "milk",
+            "prompt_py": "?"
+          },
+          {
+            "n": 5,
+            "type": "prompt",
+            "prompt_en": "tea",
+            "prompt_py": "?"
+          },
+          {
+            "n": 6,
+            "type": "prompt",
+            "prompt_en": "name",
+            "prompt_py": "?"
+          }
+        ]
+      },
+      {
+        "title": "B · Pinyin → English",
+        "items": [
+          {
+            "n": 7,
+            "type": "prompt",
+            "prompt_en": "mǐfàn",
+            "prompt_py": "?"
+          },
+          {
+            "n": 8,
+            "type": "prompt",
+            "prompt_en": "jīdàn",
+            "prompt_py": "?"
+          },
+          {
+            "n": 9,
+            "type": "prompt",
+            "prompt_en": "miànbāo",
+            "prompt_py": "?"
+          },
+          {
+            "n": 10,
+            "type": "prompt",
+            "prompt_en": "nǚ'ér",
+            "prompt_py": "?"
+          }
+        ]
+      },
+      {
+        "title": "C · Fill in the blank",
+        "options_line": "Choose from: chī · hē · shénme · jiào · suì · hé · ma",
+        "items": [
+          {
+            "n": 11,
+            "type": "fill",
+            "prompt_en": "What do you eat?",
+            "prompt_py": "Nǐ chī ___?"
+          },
+          {
+            "n": 12,
+            "type": "fill",
+            "prompt_en": "I drink tea.",
+            "prompt_py": "Wǒ ___ chá."
+          },
+          {
+            "n": 13,
+            "type": "fill",
+            "prompt_en": "My name is Leo.",
+            "prompt_py": "Wǒ ___ Leo."
+          },
+          {
+            "n": 14,
+            "type": "fill",
+            "prompt_en": "I eat rice and eggs.",
+            "prompt_py": "Wǒ chī mǐfàn ___ jīdàn."
+          },
+          {
+            "n": 15,
+            "type": "fill",
+            "prompt_en": "Do you drink milk?",
+            "prompt_py": "Nǐ hē niúnǎi ___?"
+          }
+        ]
+      },
+      {
+        "title": "D · About you",
+        "items": [
+          {
+            "n": 16,
+            "type": "about_you",
+            "prompt_en": "Say what you eat, in a full pinyin sentence.",
+            "hint": "Wǒ chī ___."
+          },
+          {
+            "n": 17,
+            "type": "about_you",
+            "prompt_en": "Say what you drink, in a full pinyin sentence.",
+            "hint": "Wǒ hē ___."
+          },
+          {
+            "n": 18,
+            "type": "about_you",
+            "prompt_en": "Say your name, in a full pinyin sentence.",
+            "hint": "Wǒ jiào ___."
+          }
+        ]
+      },
+      {
+        "title": "E · Say it out loud 🎤",
+        "intro_callout": {
+          "title": "Record each clip right on this page",
+          "body_en": "Listen to each model first, then record S1–S3. In S1, keep nǐ low and chī high and flat.",
+          "body_py": "Xiān tīng, ránhòu lùyīn S1 dào S3. S1 lǐ nǐ shì 3rd tone, chī shì 1st tone, nǐ yào dī, chī yào gāo ér píng."
+        },
+        "items": [
+          {
+            "n": "S1",
+            "type": "say",
+            "prompt_en": "What do you eat?",
+            "prompt_py": "Nǐ chī shénme?",
+            "listen_url": "l18-ni-chi-shenme.mp3"
+          },
+          {
+            "n": "S2",
+            "type": "say",
+            "prompt_en": "I eat rice and eggs.",
+            "prompt_py": "Wǒ chī mǐfàn hé jīdàn.",
+            "listen_url": "l18-wo-chi-mifan-jidan.mp3"
+          },
+          {
+            "n": "S3",
+            "type": "say",
+            "prompt_en": "Do you drink milk?",
+            "prompt_py": "Nǐ hē niúnǎi ma?",
+            "listen_url": "l18-he-niunai-ma.mp3"
+          }
+        ]
+      }
+    ]
+  },
+  "closing": {
+    "en": "Great work, Evan! Today, ask someone Nǐ chī shénme? once, out loud. Tap Submit when your written answers and voice clips are ready. Jiāyóu!",
+    "py": "Zuò de hěn hǎo, Evan! Jīntiān dàshēng wèn yí cì Nǐ chī shénme? Nǐ zhǔnbèi hǎo xiěxià de dá'àn hé yǔyīn le, jiù diǎn Submit. Jiāyóu!"
+  },
+  "answer_key": {
+    "items": [
+      {
+        "n": "1",
+        "kind": "pinyin",
+        "expected": [
+          "chī"
+        ],
+        "words": [
+          "chī"
+        ]
+      },
+      {
+        "n": "2",
+        "kind": "pinyin",
+        "expected": [
+          "hē"
+        ],
+        "words": [
+          "hē"
+        ]
+      },
+      {
+        "n": "3",
+        "kind": "pinyin",
+        "expected": [
+          "shénme"
+        ],
+        "words": [
+          "shénme"
+        ]
+      },
+      {
+        "n": "4",
+        "kind": "pinyin",
+        "expected": [
+          "niúnǎi"
+        ],
+        "words": [
+          "niúnǎi"
+        ]
+      },
+      {
+        "n": "5",
+        "kind": "pinyin",
+        "expected": [
+          "chá"
+        ],
+        "words": [
+          "chá"
+        ]
+      },
+      {
+        "n": "6",
+        "kind": "pinyin",
+        "expected": [
+          "míngzi"
+        ],
+        "words": [
+          "míngzi"
+        ]
+      },
+      {
+        "n": "7",
+        "kind": "english",
+        "expected": [
+          "rice",
+          "meal",
+          "cooked rice"
+        ],
+        "words": [
+          "mǐfàn"
+        ]
+      },
+      {
+        "n": "8",
+        "kind": "english",
+        "expected": [
+          "egg"
+        ],
+        "words": [
+          "jīdàn"
+        ]
+      },
+      {
+        "n": "9",
+        "kind": "english",
+        "expected": [
+          "bread"
+        ],
+        "words": [
+          "miànbāo"
+        ]
+      },
+      {
+        "n": "10",
+        "kind": "english",
+        "expected": [
+          "daughter"
+        ],
+        "words": [
+          "nǚ'ér"
+        ]
+      },
+      {
+        "n": "11",
+        "kind": "pinyin",
+        "expected": [
+          "shénme"
+        ],
+        "words": [
+          "shénme"
+        ]
+      },
+      {
+        "n": "12",
+        "kind": "pinyin",
+        "expected": [
+          "hē"
+        ],
+        "words": [
+          "hē"
+        ]
+      },
+      {
+        "n": "13",
+        "kind": "pinyin",
+        "expected": [
+          "jiào"
+        ],
+        "words": [
+          "jiào"
+        ]
+      },
+      {
+        "n": "14",
+        "kind": "pinyin",
+        "expected": [
+          "hé"
+        ],
+        "words": [
+          "hé"
+        ]
+      },
+      {
+        "n": "15",
+        "kind": "pinyin",
+        "expected": [
+          "ma"
+        ],
+        "words": [
+          "ma"
+        ]
+      },
+      {
+        "n": "16",
+        "kind": "sentence",
+        "expected": [
+          "Wǒ chī mǐfàn."
+        ],
+        "regex": "wǒ\\s*chī\\s*\\S.*",
+        "words": [
+          "chī"
+        ]
+      },
+      {
+        "n": "17",
+        "kind": "sentence",
+        "expected": [
+          "Wǒ hē shuǐ."
+        ],
+        "regex": "wǒ\\s*hē\\s*\\S.*",
+        "words": [
+          "hē"
+        ]
+      },
+      {
+        "n": "18",
+        "kind": "sentence",
+        "expected": [
+          "Wǒ jiào Evan."
+        ],
+        "regex": "wǒ\\s*jiào\\s*\\S.*",
+        "words": [
+          "jiào"
+        ]
+      },
+      {
+        "n": "S1",
+        "kind": "voice",
+        "words": [
+          "Nǐ chī shénme?",
+          "chī",
+          "shénme"
+        ]
+      },
+      {
+        "n": "S2",
+        "kind": "voice",
+        "words": [
+          "chī",
+          "mǐfàn",
+          "jīdàn"
+        ]
+      },
+      {
+        "n": "S3",
+        "kind": "voice",
+        "words": [
+          "Nǐ hē niúnǎi ma?",
+          "hē",
+          "niúnǎi",
+          "ma"
+        ]
+      }
+    ]
+  }
+}
