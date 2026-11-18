@@ -154,6 +154,23 @@
     return s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
   }
 
+  function tonePartialFromMatches(a, matches) {
+    var given = toneSignature(a);
+    var givenKeys = Object.keys(given);
+    var missing = matches.some(function (e) {
+      var sig = toneSignature(e);
+      var marksOk = givenKeys.every(function (pos) { return sig[pos] === given[pos]; });
+      return marksOk && !/[1-5]/.test(a);
+    });
+    var error = missing ? "missing_tones" : "tone_error";
+    return {
+      status: "partial",
+      points: PTS.partial,
+      error: error,
+      note: missing ? "missing tones" : "tone_error: wrong or misplaced tone mark"
+    };
+  }
+
   function gradeItem(it, ans, voice) {
     var n = String(it.n);
     var kind = it.kind === undefined ? "free" : it.kind;
@@ -163,6 +180,21 @@
         return { n: n, status: "voice_graded", points: v.points, note: v.note === undefined ? null : v.note };
       }
       return { n: n, status: "needs_voice", points: 0, note: "say-it-aloud; not auto-graded" };
+    }
+    if (kind === "open") {
+      var openRes = voice && voice[n];
+      if (openRes !== undefined && openRes !== null) {
+        return {
+          n: n,
+          status: "open_graded",
+          points: openRes.points,
+          note: openRes.note === undefined ? null : openRes.note
+        };
+      }
+      if (ans === undefined || ans === null || !String(ans).trim()) {
+        return { n: n, status: "skipped", points: PTS.skipped, note: "blank" };
+      }
+      return { n: n, status: "pending_mei", points: 0, note: "pending Mei" };
     }
     var ap = anyPatterns(it);
     var exp = expectedList(it).filter(function (e) { return e.indexOf("___") === -1; }).concat(ap.variants);
@@ -183,7 +215,10 @@
     var isPinyin = kind !== "choice" && kind !== "english";
     var compactExps = isPinyin ? exps.map(compact) : [];
     var regexHit = ap.patterns.some(function (p) { return fullmatch(p, a); });
-    if (exps.indexOf(a) !== -1 || (isPinyin && compactExps.indexOf(compact(a)) !== -1) || regexHit) {
+    if (exps.indexOf(a) !== -1 || (isPinyin && compactExps.indexOf(compact(a)) !== -1)) {
+      return { n: n, status: "correct", points: PTS.correct, note: null };
+    }
+    if (regexHit && !isPinyin) {
       return { n: n, status: "correct", points: PTS.correct, note: null };
     }
     var matches = [];
@@ -191,22 +226,16 @@
       var sa = stripTones(a);
       matches = exp.filter(function (e) { return sa === stripTones(e); });
     }
+    if (regexHit && isPinyin) {
+      if (matches.length) {
+        var partial = tonePartialFromMatches(a, matches);
+        return Object.assign({ n: n }, partial);
+      }
+      return { n: n, status: "correct", points: PTS.correct, note: null };
+    }
     if (matches.length) {
-      var given = toneSignature(a);
-      var givenKeys = Object.keys(given);
-      var missing = matches.some(function (e) {
-        var sig = toneSignature(e);
-        var marksOk = givenKeys.every(function (pos) { return sig[pos] === given[pos]; });
-        return marksOk && !/[1-5]/.test(a);
-      });
-      var error = missing ? "missing_tones" : "tone_error";
-      return {
-        n: n,
-        status: "partial",
-        points: PTS.partial,
-        error: error,
-        note: missing ? "missing tones" : "tone_error: wrong or misplaced tone mark"
-      };
+      var partialMatch = tonePartialFromMatches(a, matches);
+      return Object.assign({ n: n }, partialMatch);
     }
     return { n: n, status: "wrong", points: PTS.wrong, note: "expected: " + (exp.join(" / ") || "key regex") };
   }
@@ -243,12 +272,12 @@
     items.forEach(function (it) {
       var r = gradeItem(it, answers[String(it.n)], vres);
       res.push(r);
-      if (r.status === "needs_voice") {
-        voice.push(r.n);
+      if (r.status === "needs_voice" || r.status === "pending_mei") {
+        if (r.status === "needs_voice") voice.push(r.n);
         return;
       }
       var words = it.words;
-      if (r.status === "voice_graded") {
+      if (r.status === "voice_graded" || r.status === "open_graded") {
         (words || []).forEach(function (w) {
           patches.push({
             id_or_word: w,
@@ -269,7 +298,9 @@
         });
       });
     });
-    var scored = res.filter(function (r) { return r.status !== "needs_voice"; });
+    var scored = res.filter(function (r) {
+      return r.status !== "needs_voice" && r.status !== "pending_mei";
+    });
     var score = 0;
     scored.forEach(function (r) { score += r.points; });
     var mx = PTS.correct * scored.length;

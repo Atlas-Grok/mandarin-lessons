@@ -740,6 +740,73 @@ button.listen[disabled] { opacity: 0.5; cursor: default; }
   color: var(--muted);
   margin: 0 0 12px 0;
 }
+
+/* Hidden until Practice submit or Reveal (listen controls stay visible) */
+body:not(.lesson-revealed) .gated-content {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+.gated-slot {
+  display: inline;
+}
+.reveal-bar {
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+  margin: 8px 0 14px;
+  padding: 10px 12px;
+  background: var(--pattern-bg);
+  border-radius: 8px;
+  border: 1px solid rgba(27, 50, 94, 0.2);
+}
+.reveal-bar .reveal-hint {
+  display: block;
+  color: var(--muted);
+  margin-top: 6px;
+  font-size: 12px;
+}
+button.reveal-btn {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  padding: 8px 14px;
+  border-radius: 8px;
+  border: 1px solid var(--copper);
+  background: var(--white);
+  color: var(--navy);
+  cursor: pointer;
+}
+button.reveal-btn:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+}
+.model-answer {
+  margin-top: 8px;
+  padding: 8px 10px;
+  border-left: 3px solid var(--green);
+  background: var(--note-bg);
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
+.model-answer-lbl {
+  font-weight: bold;
+  color: var(--green);
+  display: block;
+  margin-bottom: 4px;
+}
+.item-feedback.pending_mei,
+.item-feedback.open_graded {
+  color: var(--verdigris);
+}
+.rc-st.pending_mei,
+.rc-st.open_graded {
+  color: var(--verdigris);
+}
 .back {
   font-family: Arial, sans-serif;
   font-size: 13px;

@@ -63,8 +63,79 @@ Top level:
 `example`, `review_table`.
 
 `practice.sections[].items[]` types: `prompt`, `match`, `fill`, `unscramble`,
-`about_you`, `picture`, `say`. Use `listen_url` as a filename in the same
-lesson folder (for example `l12-mao.mp3`), not a Drive link.
+`about_you`, `picture`, `say`, `open`. Use `listen_url` as a filename in the
+same lesson folder (for example `l12-mao.mp3`), not a Drive link.
+
+### Hidden text until Practice (`hidden_until_submitted` / `reveal`)
+
+For listening-first lessons, hide pinyin or English until Evan tries Practice
+or taps **Reveal hidden text** (enabled after at least one answer or voice
+clip). **Listen** buttons stay visible and playable while text is hidden.
+
+On any `teach.blocks[]` entry, callout `pairs[]` row, or practice `items[]`
+row:
+
+| Field | Meaning |
+|-------|---------|
+| `hidden_until_submitted` | `true` — clip or screen-reader-hide the text until submit or Reveal |
+| `reveal` | `"after_practice"` — same behavior (alias) |
+
+On practice items only, `listen_only: true` hides `prompt_en` / `prompt_py` but
+keeps the ▶ Listen control (compact bubble). Lessons without these fields
+render exactly as before.
+
+```json
+{
+  "type": "example",
+  "en": "I drink water.",
+  "py": "Wǒ hē shuǐ.",
+  "listen_url": "l14-wo-he-shui.mp3",
+  "hidden_until_submitted": true
+}
+```
+
+```json
+{
+  "n": 3,
+  "type": "prompt",
+  "listen_only": true,
+  "prompt_en": "What word do you hear?",
+  "listen_url": "l18-ni-chi-shenme.mp3"
+}
+```
+
+### Open answers (`type: open`)
+
+Free-text Practice items are not auto-scored as wrong. After Submit, the page
+shows Evan’s answer beside a model answer and marks the item **Pending Mei**;
+the written total ignores it until Mei grades (like voice).
+
+Practice item:
+
+```json
+{
+  "n": 17,
+  "type": "open",
+  "prompt_en": "In English, what does 谢谢 mean in your own words?"
+}
+```
+
+Matching `answer_key` row:
+
+```json
+{
+  "n": "17",
+  "kind": "open",
+  "model_answer_en": "Thank you.",
+  "model_answer_py": "Xièxie.",
+  "words": ["xièxie"]
+}
+```
+
+Optional `model_answer_en` / `model_answer_py` on the practice item are a
+fallback if the key omits them. Mei’s published `grade.json` row uses
+`kind: "open"`, `status: "open_graded"`, plus `points`, `note`, and
+`correction` like voice rows.
 
 Write `practice.how_to` for the website (type in the boxes, record 🎤 items,
 tap Submit). Voice items are `type: say` with `n` like `S1`.
@@ -96,7 +167,8 @@ Fields used by the grader (`assets/grade.js`, same rules as
 `grade_practice.py`):
 
 - `n`: item id (`"1"` or `"S1"`)
-- `kind`: `choice` · `pinyin` · `english` · `fill` · `unscramble` · `sentence` · `free` · `voice`
+- `kind`: `choice` · `pinyin` · `english` · `fill` · `unscramble` · `sentence` · `free` · `voice` · `open`
+- `model_answer_en` / `model_answer_py`: for `open` items (shown after Submit)
 - `expected` (or `expected_any`): string or list of accepted answers
 - `accept_any`: a list of extra variants, `"number"` (fill `___` in `expected`
   with a cardinal), or `{ "regex": "..." }`
@@ -175,7 +247,7 @@ Each `items[]` entry:
 | `prompt_en`, `prompt_py` | Prompt shown on the report |
 | `answer` | Evan’s submission (`""` or null if blank; voice uses `null`) |
 | `expected` | Accepted forms (informational; may be omitted on voice) |
-| `status` | `correct` · `partial` · `wrong` · `skipped` · `voice_graded` |
+| `status` | `correct` · `partial` · `wrong` · `skipped` · `voice_graded` · `open_graded` · `pending_mei` (client only) |
 | `points`, `max_points` | Points awarded for this item |
 | `correction` | Expected form when not fully correct; omit or null when correct |
 | `note` | Short grader note (tone, spelling, voice feedback) |
@@ -206,6 +278,7 @@ A full example fixture lives at `tests/fixtures/grade-l11.json` (not deployed).
 # Rebuild vectors from the Python grader, then check the JS port.
 python3 tests/gen_vectors.py
 node tests/grade.test.js
+node tests/grade_extra.test.js
 node tests/report.test.js
 
 # Existing Mandarin pipeline tests (from /workspace/mandarin):

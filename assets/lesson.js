@@ -12,6 +12,7 @@
   var lesson = null;
   var lessonId = "";
   var recorders = {}; // n -> {blob, mime, url}
+  var hasGatedContent = false;
 
   function esc(s) {
     return String(s == null ? "" : s)
@@ -24,6 +25,33 @@
 
   function qs(name) {
     return new URLSearchParams(window.location.search).get(name);
+  }
+
+  function isGated(block) {
+    return !!(block && (block.hidden_until_submitted === true || block.reveal === "after_practice"));
+  }
+
+  function markGated() {
+    hasGatedContent = true;
+  }
+
+  function gatedWrap(innerHtml, block) {
+    if (!isGated(block)) return innerHtml;
+    markGated();
+    return '<span class="gated-slot"><span class="gated-content">' + innerHtml + "</span></span>";
+  }
+
+  function listenOnlyPrompt(item) {
+    return item.listen_only === true || item.reveal === "after_practice";
+  }
+
+  function answerKeyByN() {
+    var map = Object.create(null);
+    var items = ((lesson || {}).answer_key || {}).items || [];
+    items.forEach(function (it) {
+      map[String(it.n)] = it;
+    });
+    return map;
   }
 
   function pairHtml(en, py, sizeClass) {
@@ -120,10 +148,22 @@
     var kind = block.kind || fallbackKind || "note";
     if (!CALLOUT[kind]) kind = "note";
     var inner = "";
-    if (block.title) inner += '<div class="boxtitle" style="color:inherit;">' + esc(block.title) + "</div>";
-    inner += bilingual(block.body_en, block.body_py);
+    var gateBlock = isGated(block);
+    if (gateBlock) markGated();
+    if (block.title) {
+      inner += gateBlock
+        ? gatedWrap('<div class="boxtitle" style="color:inherit;">' + esc(block.title) + "</div>", block)
+        : '<div class="boxtitle" style="color:inherit;">' + esc(block.title) + "</div>";
+    }
+    inner += gateBlock ? gatedWrap(bilingual(block.body_en, block.body_py), block) : bilingual(block.body_en, block.body_py);
     (block.pairs || []).forEach(function (p) {
-      inner += '<div style="margin:4px 0;">' + pairHtml(p.en, p.py, "pair-sm") + listenBtn(p.listen_url, { text: p.py }) + "</div>";
+      var pairGated = isGated(p) || gateBlock;
+      if (pairGated && !isGated(p)) markGated();
+      var pairPart = pairGated
+        ? gatedWrap(pairHtml(p.en, p.py, "pair-sm"), p.hidden_until_submitted ? p : block)
+        : pairHtml(p.en, p.py, "pair-sm");
+      var listenPart = listenBtn(p.listen_url, { text: p.py, compact: pairGated });
+      inner += '<div style="margin:4px 0;">' + pairPart + listenPart + "</div>";
     });
     return '<div class="box ' + kind + '">' + inner + "</div>";
   }
@@ -132,22 +172,26 @@
     var t = block.type;
     if (t === "heading") return '<h2 class="block-h">' + esc(block.text) + "</h2>";
     if (t === "vocab_card") {
-      var inner = "<div>" + pairHtml(block.en, block.py, "pair-lg") + listenBtn(block.listen_url, { text: block.py }) + "</div>";
+      var gated = isGated(block);
+      var inner = "<div>" + gatedWrap(pairHtml(block.en, block.py, "pair-lg"), block) +
+        listenBtn(block.listen_url, { text: block.py, compact: gated }) + "</div>";
       if (block.note_en || block.note_py) {
-        inner += '<div class="notes">' + bilingual(block.note_en, block.note_py) + "</div>";
+        inner += gatedWrap('<div class="notes">' + bilingual(block.note_en, block.note_py) + "</div>", block);
       }
       return '<div class="vocab">' + inner + "</div>";
     }
     if (t === "callout") return callout(block);
-    if (t === "paragraph") return bilingual(block.en, block.py);
+    if (t === "paragraph") return gatedWrap(bilingual(block.en, block.py), block);
     if (t === "example") {
       var label = block.n != null ? '<span class="ex-n">' + esc(block.n) + ".</span> " : "";
-      return '<div class="example">' + label + pairHtml(block.en, block.py) + listenBtn(block.listen_url, { text: block.py }) + "</div>";
+      var exGated = isGated(block);
+      return '<div class="example">' + gatedWrap(label + pairHtml(block.en, block.py), block) +
+        listenBtn(block.listen_url, { text: block.py, compact: exGated }) + "</div>";
     }
     if (t === "review_table") {
       var rows = (block.rows || []).map(function (row) {
-        return "<tr><td>" + pairHtml(row.en, row.py, "pair-sm") + "</td>" +
-          '<td class="tip">' + esc(row.tip) + "</td>" +
+        return "<tr><td>" + gatedWrap(pairHtml(row.en, row.py, "pair-sm"), row) + "</td>" +
+          '<td class="tip">' + gatedWrap(esc(row.tip), row) + "</td>" +
           '<td class="listen">' + listenBtn(row.listen_url, { text: row.py, compact: true }) + "</td></tr>";
       }).join("");
       return '<table class="review" role="presentation">' + rows + "</table>";
@@ -188,11 +232,24 @@
   function itemHtml(item) {
     var n = item.n;
     var say = isSay(item);
+    var open = item.type === "open";
+    var listenOnly = listenOnlyPrompt(item);
+    if (listenOnly) markGated();
     var prompt = '<div class="item-prompt"><span class="item-n">' + esc(n) + ".</span> ";
     if (say) prompt += "🎤 ";
-    prompt += pairHtml(item.prompt_en, item.prompt_py) + listenBtn(item.listen_url, { text: item.prompt_py || item.prompt_en }) + "</div>";
+    if (listenOnly) {
+      prompt += gatedWrap(pairHtml(item.prompt_en, item.prompt_py), item);
+      if (item.listen_url) {
+        prompt += listenBtn(item.listen_url, { text: item.prompt_py || item.prompt_en, compact: true });
+      }
+    } else {
+      prompt += pairHtml(item.prompt_en, item.prompt_py) + listenBtn(item.listen_url, { text: item.prompt_py || item.prompt_en }) + "</div>";
+    }
+    if (listenOnly) prompt += "</div>";
     var parts = ['<div class="item" data-n="' + esc(n) + '" id="item-' + esc(n) + '">', prompt];
-    if (item.unscramble) parts.push('<div class="unscramble">' + esc(item.unscramble) + "</div>");
+    if (item.unscramble) {
+      parts.push(gatedWrap('<div class="unscramble">' + esc(item.unscramble) + "</div>", item));
+    }
     if (item.hint) parts.push('<div class="hint">' + esc(item.hint) + "</div>");
     if (say) {
       parts.push(
@@ -208,14 +265,25 @@
         "</div>"
       );
     } else {
-      var longForm = item.type === "unscramble" || item.type === "about_you" || item.type === "sentence";
+      var longForm = open || item.type === "unscramble" || item.type === "about_you" || item.type === "sentence";
       parts.push('<div class="answer-box"><label for="ans-' + esc(n) + '">Your answer</label>');
       if (longForm) {
-        parts.push('<textarea id="ans-' + esc(n) + '" name="ans-' + esc(n) + '" rows="2" autocomplete="off" autocorrect="off" spellcheck="false"></textarea>');
+        parts.push('<textarea id="ans-' + esc(n) + '" name="ans-' + esc(n) + '" rows="' + (open ? 3 : 2) + '" autocomplete="off" autocorrect="off" spellcheck="false"></textarea>');
       } else {
         parts.push('<input id="ans-' + esc(n) + '" name="ans-' + esc(n) + '" type="text" autocomplete="off" autocapitalize="off" spellcheck="false">');
       }
       parts.push("</div>");
+      if (open) {
+        var key = answerKeyByN()[String(n)] || {};
+        var modEn = key.model_answer_en || item.model_answer_en || "";
+        var modPy = key.model_answer_py || item.model_answer_py || "";
+        parts.push(
+          '<div class="model-answer" hidden data-model-n="' + esc(n) + '">' +
+            '<span class="model-answer-lbl">Model answer</span>' +
+            pairHtml(modEn, modPy, "pair-sm") +
+          "</div>"
+        );
+      }
     }
     parts.push('<div class="item-feedback" hidden></div>');
     parts.push("</div>");
@@ -223,6 +291,7 @@
   }
 
   function bodyHtml(L) {
+    hasGatedContent = false;
     var html = "";
     if (L.banner) {
       var k = L.banner.kind || "info";
@@ -232,7 +301,7 @@
     }
     var teach = L.teach || {};
     html += '<h2 class="teach">📖 Teach</h2>';
-    html += bilingual((teach.intro || {}).en, (teach.intro || {}).py);
+    html += gatedWrap(bilingual((teach.intro || {}).en, (teach.intro || {}).py), teach.intro || {});
     (teach.blocks || []).forEach(function (b) { html += blockHtml(b); });
 
     var practice = L.practice || {};
@@ -240,6 +309,10 @@
       html += '<h2 class="practice">✏️ Practice</h2>';
       var how = practice.how_to || "Type your answers in the boxes, record the 🎤 items, then tap Submit.";
       html += '<div class="box pattern"><div class="boxtitle" style="color:' + BLUE + ';">How to answer</div>' + nl(how) + "</div>";
+      html += '<div class="reveal-bar" id="reveal-bar" hidden>' +
+        '<button type="button" class="reveal-btn" id="reveal-btn" disabled>Reveal hidden text</button>' +
+        '<span class="reveal-hint">Try at least one Practice answer, then reveal Teach / prompt text—or submit to reveal everything.</span>' +
+        "</div>";
       var pictureDone = false;
       (practice.sections || []).forEach(function (section) {
         html += "<h3>" + esc(section.title || "") + "</h3>";
@@ -413,6 +486,7 @@
           };
           status.textContent = "Saved. You can play it back or re-record.";
           setIdle(true);
+          updateRevealButton(document.getElementById("body"));
         });
         startedAt = Date.now();
         rec.start();
@@ -463,7 +537,7 @@
     (resultItems || []).forEach(function (r) {
       var box = document.getElementById("item-" + r.n);
       if (!box) return;
-      box.classList.remove("correct", "partial", "wrong", "skipped", "needs_voice", "voice_graded");
+      box.classList.remove("correct", "partial", "wrong", "skipped", "needs_voice", "voice_graded", "pending_mei", "open_graded");
       var cls = r.status === "needs_voice" || r.status === "voice_graded" ? r.status : r.status;
       if (r.status) box.classList.add(r.status);
       var fb = box.querySelector(".item-feedback");
@@ -474,7 +548,9 @@
         wrong: "❌ Wrong (−12)" + (r.note ? " — " + r.note : ""),
         skipped: "⏭ Skipped (−5)",
         needs_voice: "🎤 Saved for Mei (not auto-graded)",
-        voice_graded: "🎤 Graded (" + (r.points > 0 ? "+" : "") + r.points + ")"
+        voice_graded: "🎤 Graded (" + (r.points > 0 ? "+" : "") + r.points + ")",
+        pending_mei: "⏳ Pending Mei (not in written score)",
+        open_graded: "Graded by Mei (" + (r.points > 0 ? "+" : "") + r.points + ")"
       }[r.status] || r.status;
       if (r.status === "needs_voice") {
         label = recorders[r.n]
@@ -492,6 +568,7 @@
     var c = { correct: 0, partial: 0, wrong: 0, skipped: 0 };
     (out.items || []).forEach(function (r) { if (c[r.status] != null) c[r.status] += 1; });
     var voice = out.needs_voice || [];
+    var pendingOpen = (out.items || []).filter(function (r) { return r.status === "pending_mei"; }).map(function (r) { return r.n; });
     el.hidden = false;
     el.innerHTML =
       "<h2>Lesson " + esc(out.lesson_number) + " Practice — " + esc(out.score) + " / " + esc(out.max) + "</h2>" +
@@ -501,7 +578,10 @@
         ? "<p>🎤 Voice items (not in the written score): " + esc(voice.join(", ")) +
           (Object.keys(recorders).length ? " — clips attached." : " — no clips recorded yet.") + "</p>"
         : "") +
-      "<p>Written answers are scored instantly. Mei reviews the voice memos separately.</p>";
+      (pendingOpen.length
+        ? "<p>✍️ Open answers pending Mei: " + esc(pendingOpen.join(", ")) + ".</p>"
+        : "") +
+      "<p>Written answers are scored instantly. Mei reviews voice memos and open answers separately.</p>";
     el.scrollIntoView({ behavior: "smooth", block: "center" });
   }
 
@@ -589,16 +669,57 @@
     }
   }
 
+  function revealHiddenText() {
+    document.body.classList.add("lesson-revealed");
+    var rb = document.getElementById("reveal-btn");
+    if (rb) rb.disabled = true;
+  }
+
+  function practiceAttempted(root) {
+    root = root || document.getElementById("body");
+    if (!root) return false;
+    if (Object.keys(recorders).length) return true;
+    var tried = false;
+    collectPracticeItems(lesson).forEach(function (it) {
+      if (isSay(it)) return;
+      var el = root.querySelector("#ans-" + it.n);
+      if (el && String(el.value || "").trim()) tried = true;
+    });
+    return tried;
+  }
+
+  function updateRevealButton(root) {
+    var btn = document.getElementById("reveal-btn");
+    if (!btn || document.body.classList.contains("lesson-revealed")) return;
+    btn.disabled = !practiceAttempted(root);
+  }
+
+  function showModelAnswers() {
+    document.querySelectorAll(".model-answer").forEach(function (el) {
+      el.hidden = false;
+    });
+  }
+
+  function bindReveal(root) {
+    var btn = document.getElementById("reveal-btn");
+    if (!btn) return;
+    btn.addEventListener("click", revealHiddenText);
+    root.addEventListener("input", function () { updateRevealButton(root); });
+    updateRevealButton(root);
+  }
+
   async function onSubmit() {
     var btn = document.getElementById("submit-btn");
     var dl = document.getElementById("download-btn");
     btn.disabled = true;
     setMsg("Scoring…", "");
     try {
+      revealHiddenText();
       var answers = collectAnswers();
       var out = window.MandarinGrade.gradeLesson(lesson, answers);
       window.__mandarinLastGrade = out;
       showItemFeedback(out.items);
+      showModelAnswers();
       resultsCard(out);
       var payload = await buildPayload(out, answers);
       // Keep audio out of the downloaded JSON by default? Include a flag but
@@ -693,12 +814,15 @@
       idEl.textContent = "[L" + lesson.lesson_number + "]";
       header.innerHTML = headerHtml(lesson);
       body.innerHTML = bodyHtml(lesson);
+      var revealBar = document.getElementById("reveal-bar");
+      if (revealBar) revealBar.hidden = !hasGatedContent;
       if (publishedGrade && window.MandarinReport.renderReportCard) {
         body.insertAdjacentHTML("afterbegin", window.MandarinReport.renderReportCard(publishedGrade));
         applyGradedLesson(publishedGrade, body);
       }
       bindListen(body);
       bindRecorders(body);
+      bindReveal(body);
       var submitBtn = document.getElementById("submit-btn");
       if (submitBtn) submitBtn.addEventListener("click", onSubmit);
       var dlBtn = document.getElementById("download-btn");
