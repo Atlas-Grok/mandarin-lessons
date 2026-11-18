@@ -1,0 +1,326 @@
+{
+  "lesson_id": "l13",
+  "lesson_number": 13,
+  "title_en": "Putting It Together: Names, Colors & Animals",
+  "title_py": "Hé zài yìqǐ: míngzi, yánsè hé dòngwù",
+  "graded_at": "2026-11-18",
+  "score": 129,
+  "max": 285,
+  "written_score": 105,
+  "written_max": 240,
+  "voice_score": 24,
+  "voice_max": 45,
+  "items": [
+    {
+      "n": "1",
+      "section": "A · Pinyin → English",
+      "kind": "english",
+      "prompt_en": "jǐ",
+      "prompt_py": null,
+      "answer": "count",
+      "expected": [
+        "how many",
+        "how much",
+        "how many (small number)"
+      ],
+      "status": "wrong",
+      "points": -12,
+      "max_points": 15,
+      "correction": "how many",
+      "note": "jǐ is the question word “how many,” not the verb “count”"
+    },
+    {
+      "n": "2",
+      "section": "A · Pinyin → English",
+      "kind": "english",
+      "prompt_en": "suì",
+      "prompt_py": null,
+      "answer": "age",
+      "expected": [
+        "years old",
+        "year old",
+        "age",
+        "years of age"
+      ],
+      "status": "correct",
+      "points": 15,
+      "max_points": 15,
+      "correction": null,
+      "note": null
+    },
+    {
+      "n": "3",
+      "section": "A · Pinyin → English",
+      "kind": "english",
+      "prompt_en": "hēisè",
+      "prompt_py": null,
+      "answer": "black",
+      "expected": [
+        "black"
+      ],
+      "status": "correct",
+      "points": 15,
+      "max_points": 15,
+      "correction": null,
+      "note": null
+    },
+    {
+      "n": "4",
+      "section": "A · Pinyin → English",
+      "kind": "english",
+      "prompt_en": "dòngwù",
+      "prompt_py": null,
+      "answer": "animal",
+      "expected": [
+        "animal"
+      ],
+      "status": "correct",
+      "points": 15,
+      "max_points": 15,
+      "correction": null,
+      "note": null
+    },
+    {
+      "n": "5",
+      "section": "A · Pinyin → English",
+      "kind": "english",
+      "prompt_en": "míngzi",
+      "prompt_py": null,
+      "answer": "name",
+      "expected": [
+        "name"
+      ],
+      "status": "correct",
+      "points": 15,
+      "max_points": 15,
+      "correction": null,
+      "note": null
+    },
+    {
+      "n": "6",
+      "section": "B · Fill in the blank",
+      "kind": "pinyin",
+      "prompt_en": "What's your name?",
+      "prompt_py": "Nǐ ___ shénme míngzi?",
+      "answer": "jiào",
+      "expected": [
+        "jiào"
+      ],
+      "status": "correct",
+      "points": 15,
+      "max_points": 15,
+      "correction": null,
+      "note": null
+    },
+    {
+      "n": "7",
+      "section": "B · Fill in the blank",
+      "kind": "pinyin",
+      "prompt_en": "She is four.",
+      "prompt_py": "Tā sì ___.",
+      "answer": "suì",
+      "expected": [
+        "suì"
+      ],
+      "status": "correct",
+      "points": 15,
+      "max_points": 15,
+      "correction": null,
+      "note": null
+    },
+    {
+      "n": "8",
+      "section": "B · Fill in the blank",
+      "kind": "pinyin",
+      "prompt_en": "I have two dogs.",
+      "prompt_py": "Wǒ yǒu liǎng ___ gǒu.",
+      "answer": "zhī",
+      "expected": [
+        "zhī"
+      ],
+      "status": "correct",
+      "points": 15,
+      "max_points": 15,
+      "correction": null,
+      "note": null
+    },
+    {
+      "n": "9",
+      "section": "B · Fill in the blank",
+      "kind": "pinyin",
+      "prompt_en": "I don't like white.",
+      "prompt_py": "Wǒ ___ xǐhuan báisè.",
+      "answer": "bù",
+      "expected": [
+        "bù"
+      ],
+      "status": "correct",
+      "points": 15,
+      "max_points": 15,
+      "correction": null,
+      "note": null
+    },
+    {
+      "n": "10",
+      "section": "C · Build the sentence",
+      "kind": "sentence",
+      "prompt_en": "My daughter is five.",
+      "prompt_py": null,
+      "answer": "wǒde nǚér wǒ suì",
+      "expected": [
+        "Wǒ de nǚ'ér wǔ suì."
+      ],
+      "status": "wrong",
+      "points": -12,
+      "max_points": 15,
+      "correction": "Wǒ de nǚ'ér wǔ suì.",
+      "note": "used wǒ instead of wǔ (five); also nǚ'ér needs the apostrophe"
+    },
+    {
+      "n": "11",
+      "section": "C · Build the sentence",
+      "kind": "sentence",
+      "prompt_en": "I like blue.",
+      "prompt_py": null,
+      "answer": "wǒ xǐhuan lánsè",
+      "expected": [
+        "Wǒ xǐhuan lánsè."
+      ],
+      "status": "correct",
+      "points": 15,
+      "max_points": 15,
+      "correction": null,
+      "note": null
+    },
+    {
+      "n": "12",
+      "section": "C · Build the sentence",
+      "kind": "sentence",
+      "prompt_en": "Do you have a dog?",
+      "prompt_py": null,
+      "answer": "Nǐyǒugǒuma",
+      "expected": [
+        "Nǐ yǒu gǒu ma?"
+      ],
+      "status": "correct",
+      "points": 15,
+      "max_points": 15,
+      "correction": null,
+      "note": null
+    },
+    {
+      "n": "13",
+      "section": "C · Build the sentence",
+      "kind": "sentence",
+      "prompt_en": "I don't have a cat.",
+      "prompt_py": null,
+      "answer": "wǒméiyǒunāo",
+      "expected": [
+        "Wǒ méiyǒu māo."
+      ],
+      "status": "wrong",
+      "points": -12,
+      "max_points": 15,
+      "correction": "Wǒ méiyǒu māo.",
+      "note": "typo: nāo should be māo"
+    },
+    {
+      "n": "14",
+      "section": "D · About you",
+      "kind": "sentence",
+      "prompt_en": "Tell me your name in a full pinyin sentence.",
+      "prompt_py": null,
+      "answer": "wǒjiào Evan",
+      "expected": [
+        "Wǒ jiào Evan."
+      ],
+      "status": "correct",
+      "points": 15,
+      "max_points": 15,
+      "correction": null,
+      "note": null
+    },
+    {
+      "n": "15",
+      "section": "D · About you",
+      "kind": "sentence",
+      "prompt_en": "Say which color you like, in a full pinyin sentence.",
+      "prompt_py": null,
+      "answer": "wǒxǐhaunlánsè",
+      "expected": [
+        "Wǒ xǐhuan lánsè.",
+        "Wǒ xǐhuan hóngsè."
+      ],
+      "status": "wrong",
+      "points": -12,
+      "max_points": 15,
+      "correction": "Wǒ xǐhuan lánsè.",
+      "note": "typo: xǐhaun should be xǐhuan (u and n swapped)"
+    },
+    {
+      "n": "16",
+      "section": "D · About you",
+      "kind": "sentence",
+      "prompt_en": "Do you have a pet? Answer in a full pinyin sentence.",
+      "prompt_py": null,
+      "answer": "wǒyǒu liang zhīmāo",
+      "expected": [
+        "Wǒ yǒu yì zhī gǒu.",
+        "Wǒ méiyǒu māo."
+      ],
+      "status": "wrong",
+      "points": -12,
+      "max_points": 15,
+      "correction": "Wǒ yǒu yì zhī gǒu.",
+      "note": "meant Wǒ yǒu liǎng zhī māo (a valid pet answer) but liang is missing the tone mark"
+    },
+    {
+      "n": "S1",
+      "section": "E · Say it out loud",
+      "kind": "voice",
+      "prompt_en": "What's your name?",
+      "prompt_py": "Nǐ jiào shénme míngzi?",
+      "answer": null,
+      "expected": [
+        "Nǐ jiào shénme míngzi?"
+      ],
+      "status": "voice_graded",
+      "points": 8,
+      "max_points": 15,
+      "correction": "Nǐ jiào shénme míngzi?",
+      "note": "Nǐ jiào shénme míngzi? — phrase comes through (nǐ … míngzi heard clearly); jiào shénme was muddy and tones were weak — slow down and give nǐ a full low dip"
+    },
+    {
+      "n": "S2",
+      "section": "E · Say it out loud",
+      "kind": "voice",
+      "prompt_en": "I have two cats.",
+      "prompt_py": "Wǒ yǒu liǎng zhī māo.",
+      "answer": null,
+      "expected": [
+        "Wǒ yǒu liǎng zhī māo."
+      ],
+      "status": "voice_graded",
+      "points": 8,
+      "max_points": 15,
+      "correction": "Wǒ yǒu liǎng zhī māo.",
+      "note": "Wǒ yǒu liǎng zhī māo — phrase comes through (five syllables, ending in māo) but articulation is muddy and tones are off: wǒ rose instead of dipping, zhī was low instead of high and level, māo rose instead of staying high and flat"
+    },
+    {
+      "n": "S3",
+      "section": "E · Say it out loud",
+      "kind": "voice",
+      "prompt_en": "My kid doesn't like green.",
+      "prompt_py": "Wǒ de háizi bù xǐhuan lǜsè.",
+      "answer": null,
+      "expected": [
+        "Wǒ de háizi bù xǐhuan lǜsè."
+      ],
+      "status": "voice_graded",
+      "points": 8,
+      "max_points": 15,
+      "correction": "Wǒ de háizi bù xǐhuan lǜsè.",
+      "note": "Wǒ de háizi bù xǐhuan lǜsè — Wǒ de háizi bù xǐhuan comes through clearly and bù falls nicely; lǜsè was unclear (slipped toward the end) — keep lǜ falling and sè distinct"
+    }
+  ]
+}
