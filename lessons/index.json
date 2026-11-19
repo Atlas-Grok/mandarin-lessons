@@ -1,6 +1,15 @@
 {
   "lessons": [
     {
+      "id": "l19",
+      "lesson_number": 19,
+      "title_en": "Who Eats What?",
+      "title_py": "Shéi chī shénme?",
+      "date": "2026-11-19",
+      "category": "Food",
+      "hsk": 1
+    },
+    {
       "id": "l18",
       "lesson_number": 18,
       "title_en": "What Do You Eat and Drink?",
