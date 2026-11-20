@@ -1,0 +1,337 @@
+{
+  "lesson_id": "l16",
+  "lesson_number": 16,
+  "title_en": "Tea, Eggs & Meat",
+  "title_py": "Chá, jīdàn hé ròu",
+  "graded_at": "2026-11-19",
+  "score": 217,
+  "max": 300,
+  "written_score": 193,
+  "written_max": 255,
+  "voice_score": 24,
+  "voice_max": 45,
+  "items": [
+    {
+      "n": "1",
+      "section": "A · Pinyin → English",
+      "kind": "english",
+      "prompt_en": "chá",
+      "prompt_py": "?",
+      "answer": "Tea",
+      "expected": [
+        "tea"
+      ],
+      "status": "correct",
+      "points": 15,
+      "max_points": 15,
+      "correction": null,
+      "note": null
+    },
+    {
+      "n": "2",
+      "section": "A · Pinyin → English",
+      "kind": "english",
+      "prompt_en": "jīdàn",
+      "prompt_py": "?",
+      "answer": "eggs",
+      "expected": [
+        "egg"
+      ],
+      "status": "wrong",
+      "points": -12,
+      "max_points": 15,
+      "correction": "egg",
+      "note": "wrote 'eggs' (plural); expected 'egg' — likely override candidate if you meant the word, not a count"
+    },
+    {
+      "n": "3",
+      "section": "A · Pinyin → English",
+      "kind": "english",
+      "prompt_en": "ròu",
+      "prompt_py": "?",
+      "answer": "meat",
+      "expected": [
+        "meat"
+      ],
+      "status": "correct",
+      "points": 15,
+      "max_points": 15,
+      "correction": null,
+      "note": null
+    },
+    {
+      "n": "4",
+      "section": "A · Pinyin → English",
+      "kind": "english",
+      "prompt_en": "shuǐ",
+      "prompt_py": "?",
+      "answer": "water",
+      "expected": [
+        "water"
+      ],
+      "status": "correct",
+      "points": 15,
+      "max_points": 15,
+      "correction": null,
+      "note": null
+    },
+    {
+      "n": "5",
+      "section": "A · Pinyin → English",
+      "kind": "english",
+      "prompt_en": "jǐ",
+      "prompt_py": "?",
+      "answer": "How many",
+      "expected": [
+        "how many",
+        "how much",
+        "what number"
+      ],
+      "status": "correct",
+      "points": 15,
+      "max_points": 15,
+      "correction": null,
+      "note": null
+    },
+    {
+      "n": "6",
+      "section": "B · Fill in the blank",
+      "kind": "pinyin",
+      "prompt_en": "I drink tea.",
+      "prompt_py": "Wǒ ___ chá.",
+      "answer": "hē",
+      "expected": [
+        "hē"
+      ],
+      "status": "correct",
+      "points": 15,
+      "max_points": 15,
+      "correction": null,
+      "note": null
+    },
+    {
+      "n": "7",
+      "section": "B · Fill in the blank",
+      "kind": "pinyin",
+      "prompt_en": "My friend eats eggs.",
+      "prompt_py": "Wǒ de péngyou ___ jīdàn.",
+      "answer": "chi",
+      "expected": [
+        "chī"
+      ],
+      "status": "partial",
+      "points": 8,
+      "max_points": 15,
+      "correction": "chī",
+      "note": "missing tones: chi → chī"
+    },
+    {
+      "n": "8",
+      "section": "B · Fill in the blank",
+      "kind": "pinyin",
+      "prompt_en": "What do you like to eat?",
+      "prompt_py": "Nǐ xǐhuan chī ___?",
+      "answer": "shénme",
+      "expected": [
+        "shénme"
+      ],
+      "status": "correct",
+      "points": 15,
+      "max_points": 15,
+      "correction": null,
+      "note": null
+    },
+    {
+      "n": "9",
+      "section": "B · Fill in the blank",
+      "kind": "pinyin",
+      "prompt_en": "The cat doesn't drink tea.",
+      "prompt_py": "Māo ___ hē chá.",
+      "answer": "bú ",
+      "expected": [
+        "bù"
+      ],
+      "status": "partial",
+      "points": 8,
+      "max_points": 15,
+      "correction": "bù",
+      "note": "tone: bú is the sandhi form before a 4th-tone syllable; hē is 1st tone, so this should be bù"
+    },
+    {
+      "n": "10",
+      "section": "B · Fill in the blank",
+      "kind": "pinyin",
+      "prompt_en": "How old is your dog?",
+      "prompt_py": "Nǐ de gǒu ___ suì?",
+      "answer": "jǐ",
+      "expected": [
+        "jǐ"
+      ],
+      "status": "correct",
+      "points": 15,
+      "max_points": 15,
+      "correction": null,
+      "note": null
+    },
+    {
+      "n": "11",
+      "section": "C · Build the sentence",
+      "kind": "sentence",
+      "prompt_en": "I like to eat meat.",
+      "prompt_py": null,
+      "answer": "wǒ xǐhuan chī ròu ",
+      "expected": [
+        "Wǒ xǐhuan chī ròu."
+      ],
+      "status": "correct",
+      "points": 15,
+      "max_points": 15,
+      "correction": null,
+      "note": null
+    },
+    {
+      "n": "12",
+      "section": "C · Build the sentence",
+      "kind": "sentence",
+      "prompt_en": "Do you drink tea?",
+      "prompt_py": null,
+      "answer": "nǐ hē chá ma",
+      "expected": [
+        "Nǐ hē chá ma?"
+      ],
+      "status": "correct",
+      "points": 15,
+      "max_points": 15,
+      "correction": null,
+      "note": null
+    },
+    {
+      "n": "13",
+      "section": "C · Build the sentence",
+      "kind": "sentence",
+      "prompt_en": "I have three eggs.",
+      "prompt_py": null,
+      "answer": "wǒ yǒu sān gè jidàn",
+      "expected": [
+        "Wǒ yǒu sān gè jīdàn."
+      ],
+      "status": "partial",
+      "points": 8,
+      "max_points": 15,
+      "correction": "Wǒ yǒu sān gè jīdàn.",
+      "note": "missing tone: jidàn → jīdàn"
+    },
+    {
+      "n": "14",
+      "section": "C · Build the sentence",
+      "kind": "sentence",
+      "prompt_en": "The black cat drinks milk.",
+      "prompt_py": null,
+      "answer": "hēisè de māo hē niúnǎi",
+      "expected": [
+        "Hēisè de māo hē niúnǎi."
+      ],
+      "status": "correct",
+      "points": 15,
+      "max_points": 15,
+      "correction": null,
+      "note": null
+    },
+    {
+      "n": "15",
+      "section": "D · About you",
+      "kind": "sentence",
+      "prompt_en": "Say what you like to eat, in a full pinyin sentence.",
+      "prompt_py": null,
+      "answer": "wǒxǐhuan chi ròu",
+      "expected": [
+        "Wǒ xǐhuan chī ròu."
+      ],
+      "status": "partial",
+      "points": 8,
+      "max_points": 15,
+      "correction": "Wǒ xǐhuan chī ròu.",
+      "note": "full sentence is on target, but chi is missing its tone (chī) and the words need spaces: Wǒ xǐhuan chī ròu."
+    },
+    {
+      "n": "16",
+      "section": "D · About you",
+      "kind": "sentence",
+      "prompt_en": "Say what you drink, in a full pinyin sentence.",
+      "prompt_py": null,
+      "answer": "wǒ hē chá",
+      "expected": [
+        "Wǒ hē chá."
+      ],
+      "status": "correct",
+      "points": 15,
+      "max_points": 15,
+      "correction": null,
+      "note": null
+    },
+    {
+      "n": "17",
+      "section": "D · About you",
+      "kind": "sentence",
+      "prompt_en": "Say how many kids you have, in a full pinyin sentence.",
+      "prompt_py": null,
+      "answer": "wǒyǒu liàng gè háizi",
+      "expected": [
+        "Wǒ yǒu liǎng gè háizi."
+      ],
+      "status": "partial",
+      "points": 8,
+      "max_points": 15,
+      "correction": "Wǒ yǒu liǎng gè háizi.",
+      "note": "full sentence is on target, but liàng should be liǎng (3rd tone), and add a space: Wǒ yǒu liǎng gè háizi."
+    },
+    {
+      "n": "S1",
+      "section": "E · Say it out loud 🎤",
+      "kind": "voice",
+      "prompt_en": "I drink tea.",
+      "prompt_py": "Wǒ hē chá.",
+      "answer": null,
+      "status": "voice_graded",
+      "points": 8,
+      "max_points": 15,
+      "correction": "Wǒ hē chá.",
+      "note": "Wǒ hē chá — phrase comes through clearly; tones need work",
+      "expected": [
+        "Wǒ hē chá."
+      ]
+    },
+    {
+      "n": "S2",
+      "section": "E · Say it out loud 🎤",
+      "kind": "voice",
+      "prompt_en": "The cat eats meat.",
+      "prompt_py": "Māo chī ròu.",
+      "answer": null,
+      "status": "voice_graded",
+      "points": 8,
+      "max_points": 15,
+      "correction": "Māo chī ròu.",
+      "note": "Māo chī ròu — chī ròu comes through; the opening māo is muffled and tones are uneven — start with a high, level māo, then keep chī high and let ròu fall",
+      "expected": [
+        "Māo chī ròu."
+      ]
+    },
+    {
+      "n": "S3",
+      "section": "E · Say it out loud 🎤",
+      "kind": "voice",
+      "prompt_en": "What do you like to eat?",
+      "prompt_py": "Nǐ xǐhuan chī shénme?",
+      "answer": null,
+      "status": "voice_graded",
+      "points": 8,
+      "max_points": 15,
+      "correction": "Nǐ xǐhuan chī shénme?",
+      "note": "Nǐ xǐhuan chī shénme? — phrase comes through clearly; tones need work — give nǐ and xǐ a low 3rd-tone dip, keep chī high and level, and let shén rise",
+      "expected": [
+        "Nǐ xǐhuan chī shénme?"
+      ]
+    }
+  ]
+}
