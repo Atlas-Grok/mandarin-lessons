@@ -1,0 +1,337 @@
+{
+  "lesson_id": "l15",
+  "lesson_number": 15,
+  "title_en": "More Food: Rice, Milk & Bread",
+  "title_py": "Gèng duō shíwù: mǐfàn, niúnǎi hé miànbāo",
+  "graded_at": "2026-11-19",
+  "score": 2,
+  "max": 300,
+  "written_score": -22,
+  "written_max": 255,
+  "voice_score": 24,
+  "voice_max": 45,
+  "items": [
+    {
+      "n": "1",
+      "section": "A · Pinyin → English",
+      "kind": "english",
+      "prompt_en": "mǐfàn",
+      "prompt_py": null,
+      "answer": "rice",
+      "expected": [
+        "rice",
+        "cooked rice",
+        "meal"
+      ],
+      "status": "correct",
+      "points": 15,
+      "max_points": 15,
+      "correction": null,
+      "note": null
+    },
+    {
+      "n": "2",
+      "section": "A · Pinyin → English",
+      "kind": "english",
+      "prompt_en": "niúnǎi",
+      "prompt_py": null,
+      "answer": "Milk",
+      "expected": [
+        "milk"
+      ],
+      "status": "correct",
+      "points": 15,
+      "max_points": 15,
+      "correction": null,
+      "note": null
+    },
+    {
+      "n": "3",
+      "section": "A · Pinyin → English",
+      "kind": "english",
+      "prompt_en": "miànbāo",
+      "prompt_py": null,
+      "answer": "Bread",
+      "expected": [
+        "bread"
+      ],
+      "status": "correct",
+      "points": 15,
+      "max_points": 15,
+      "correction": null,
+      "note": null
+    },
+    {
+      "n": "4",
+      "section": "A · Pinyin → English",
+      "kind": "english",
+      "prompt_en": "míngzi",
+      "prompt_py": null,
+      "answer": "name",
+      "expected": [
+        "name"
+      ],
+      "status": "correct",
+      "points": 15,
+      "max_points": 15,
+      "correction": null,
+      "note": null
+    },
+    {
+      "n": "5",
+      "section": "A · Pinyin → English",
+      "kind": "english",
+      "prompt_en": "hēisè",
+      "prompt_py": null,
+      "answer": "black",
+      "expected": [
+        "black"
+      ],
+      "status": "correct",
+      "points": 15,
+      "max_points": 15,
+      "correction": null,
+      "note": null
+    },
+    {
+      "n": "6",
+      "section": "B · Fill in the blank",
+      "kind": "pinyin",
+      "prompt_en": "I eat rice.",
+      "prompt_py": "Wǒ ___ mǐfàn.",
+      "answer": "Wǒchī mīfán ",
+      "expected": [
+        "chī"
+      ],
+      "status": "wrong",
+      "points": -12,
+      "max_points": 15,
+      "correction": "chī",
+      "note": "fill-in wanted only chī; wrote the full sentence (also mīfán should be mǐfàn)"
+    },
+    {
+      "n": "7",
+      "section": "B · Fill in the blank",
+      "kind": "pinyin",
+      "prompt_en": "My child drinks milk.",
+      "prompt_py": "Wǒ de háizi ___ niúnǎi.",
+      "answer": "wǒde háizi hē niúnāi ",
+      "expected": [
+        "hē"
+      ],
+      "status": "wrong",
+      "points": -12,
+      "max_points": 15,
+      "correction": "hē",
+      "note": "fill-in wanted only hē; wrote the full sentence (niúnāi should be niúnǎi)"
+    },
+    {
+      "n": "8",
+      "section": "B · Fill in the blank",
+      "kind": "pinyin",
+      "prompt_en": "What's your name?",
+      "prompt_py": "Nǐ ___ shénme míngzi?",
+      "answer": "ni de shénme mingzi",
+      "expected": [
+        "jiào"
+      ],
+      "status": "wrong",
+      "points": -12,
+      "max_points": 15,
+      "correction": "jiào",
+      "note": "fill-in wanted jiào; wrote ní de shénme mingzi — de instead of jiào, and missing tones"
+    },
+    {
+      "n": "9",
+      "section": "B · Fill in the blank",
+      "kind": "pinyin",
+      "prompt_en": "My dog doesn't eat bread.",
+      "prompt_py": "Wǒ de gǒu ___ chī miànbāo.",
+      "answer": "wǒdegǒu bÙ chī miánbāo ",
+      "expected": [
+        "bù"
+      ],
+      "status": "wrong",
+      "points": -12,
+      "max_points": 15,
+      "correction": "bù",
+      "note": "fill-in wanted only bù; wrote the full sentence (miánbāo should be miànbāo)"
+    },
+    {
+      "n": "10",
+      "section": "B · Fill in the blank",
+      "kind": "pinyin",
+      "prompt_en": "She is four years old.",
+      "prompt_py": "Tā sì ___.",
+      "answer": "Tā sì sui",
+      "expected": [
+        "suì"
+      ],
+      "status": "wrong",
+      "points": -12,
+      "max_points": 15,
+      "correction": "suì",
+      "note": "fill-in wanted only suì; wrote the full Tā sì sui, and sui is missing the tone mark"
+    },
+    {
+      "n": "11",
+      "section": "C · Build the sentence",
+      "kind": "sentence",
+      "prompt_en": "I eat bread.",
+      "prompt_py": null,
+      "answer": "wǒchīmiànbāo",
+      "expected": [
+        "Wǒ chī miànbāo."
+      ],
+      "status": "correct",
+      "points": 15,
+      "max_points": 15,
+      "correction": null,
+      "note": null
+    },
+    {
+      "n": "12",
+      "section": "C · Build the sentence",
+      "kind": "sentence",
+      "prompt_en": "Do you drink milk?",
+      "prompt_py": null,
+      "answer": "nǐ hēniónāi hē ",
+      "expected": [
+        "Nǐ hē niúnǎi ma?"
+      ],
+      "status": "wrong",
+      "points": -12,
+      "max_points": 15,
+      "correction": "Nǐ hē niúnǎi ma?",
+      "note": "word order/ending is off: needs Nǐ hē niúnǎi ma? (not a second hē; niónāi should be niúnǎi)"
+    },
+    {
+      "n": "13",
+      "section": "C · Build the sentence",
+      "kind": "sentence",
+      "prompt_en": "The cat drinks water.",
+      "prompt_py": null,
+      "answer": "māo hē shui",
+      "expected": [
+        "Māo hē shuǐ."
+      ],
+      "status": "partial",
+      "points": 8,
+      "max_points": 15,
+      "correction": "Māo hē shuǐ.",
+      "note": "missing tone: shui should be shuǐ"
+    },
+    {
+      "n": "14",
+      "section": "C · Build the sentence",
+      "kind": "sentence",
+      "prompt_en": "My child likes to eat apples.",
+      "prompt_py": null,
+      "answer": "wǒde hēizi xǐhuan chī pingguō ",
+      "expected": [
+        "Wǒ de háizi xǐhuan chī píngguǒ."
+      ],
+      "status": "wrong",
+      "points": -12,
+      "max_points": 15,
+      "correction": "Wǒ de háizi xǐhuan chī píngguǒ.",
+      "note": "hēizi should be háizi; pingguō should be píngguǒ"
+    },
+    {
+      "n": "15",
+      "section": "D · About you",
+      "kind": "sentence",
+      "prompt_en": "Say what you eat, in a full pinyin sentence.",
+      "prompt_py": null,
+      "answer": "miàn bāo",
+      "expected": [
+        "Wǒ chī mǐfàn."
+      ],
+      "status": "wrong",
+      "points": -12,
+      "max_points": 15,
+      "correction": "Wǒ chī mǐfàn.",
+      "note": "wanted a full sentence (Wǒ chī miànbāo.); wrote only the food word"
+    },
+    {
+      "n": "16",
+      "section": "D · About you",
+      "kind": "sentence",
+      "prompt_en": "Say what you drink, in a full pinyin sentence.",
+      "prompt_py": null,
+      "answer": "shuí ",
+      "expected": [
+        "Wǒ hē niúnǎi."
+      ],
+      "status": "wrong",
+      "points": -12,
+      "max_points": 15,
+      "correction": "Wǒ hē niúnǎi.",
+      "note": "wanted a full sentence (Wǒ hē shuǐ.); wrote only shuí (also the tone should be shuǐ)"
+    },
+    {
+      "n": "17",
+      "section": "D · About you",
+      "kind": "sentence",
+      "prompt_en": "Tell me your name in a full pinyin sentence.",
+      "prompt_py": null,
+      "answer": "wǒjiēo Evan",
+      "expected": [
+        "Wǒ jiào Evan."
+      ],
+      "status": "wrong",
+      "points": -12,
+      "max_points": 15,
+      "correction": "Wǒ jiào Evan.",
+      "note": "typo: jiēo should be jiào"
+    },
+    {
+      "n": "S1",
+      "section": "E · Say it out loud",
+      "kind": "voice",
+      "prompt_en": "I drink milk.",
+      "prompt_py": "Wǒ hē niúnǎi.",
+      "answer": null,
+      "expected": [
+        "Wǒ hē niúnǎi."
+      ],
+      "status": "voice_graded",
+      "points": 8,
+      "max_points": 15,
+      "correction": "Wǒ hē niúnǎi.",
+      "note": "Wǒ hē niúnǎi — phrase comes through clearly; tones need work: wǒ did not get a full low dip, and hē fell instead of staying high and level"
+    },
+    {
+      "n": "S2",
+      "section": "E · Say it out loud",
+      "kind": "voice",
+      "prompt_en": "The cat doesn't eat bread.",
+      "prompt_py": "Māo bù chī miànbāo.",
+      "answer": null,
+      "expected": [
+        "Māo bù chī miànbāo."
+      ],
+      "status": "voice_graded",
+      "points": 8,
+      "max_points": 15,
+      "correction": "Māo bù chī miànbāo.",
+      "note": "Māo bù chī miànbāo — phrase comes through (māo bù chī … miànbāo); articulation of miànbāo was a little muddy and tones are uneven — keep māo high and flat and let miàn fall cleanly"
+    },
+    {
+      "n": "S3",
+      "section": "E · Say it out loud",
+      "kind": "voice",
+      "prompt_en": "What's your name?",
+      "prompt_py": "Nǐ jiào shénme míngzi?",
+      "answer": null,
+      "expected": [
+        "Nǐ jiào shénme míngzi?"
+      ],
+      "status": "voice_graded",
+      "points": 8,
+      "max_points": 15,
+      "correction": "Nǐ jiào shénme míngzi?",
+      "note": "Nǐ jiào shénme míngzi? — phrase comes through clearly; nǐ rose instead of a low dip, and jiào stayed flat instead of falling"
+    }
+  ]
+}
