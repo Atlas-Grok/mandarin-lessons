@@ -1,6 +1,15 @@
 {
   "lessons": [
     {
+      "id": "l20",
+      "lesson_number": 20,
+      "title_en": "Weekly Quiz & Speed Round",
+      "title_py": "Měi zhōu cèyàn hé kuài sù huídá",
+      "date": "2026-11-20",
+      "category": "Food",
+      "hsk": 1
+    },
+    {
       "id": "l19",
       "lesson_number": 19,
       "title_en": "Who Eats What?",
