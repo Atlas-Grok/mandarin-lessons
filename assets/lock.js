@@ -138,14 +138,19 @@
       };
     }
 
+    function einkLock() {
+      return document.documentElement.classList.contains("eink-mode");
+    }
+
     function draw() {
       ctx.clearRect(0, 0, cssSize, cssSize);
       ctx.lineCap = "round";
       ctx.lineJoin = "round";
+      var ink = einkLock();
       if (pattern.length) {
-        ctx.strokeStyle = "#4cf0a0";
-        ctx.shadowColor = "rgba(76, 240, 160, 0.8)";
-        ctx.shadowBlur = 12;
+        ctx.strokeStyle = ink ? "#000" : "#4cf0a0";
+        ctx.shadowColor = ink ? "transparent" : "rgba(76, 240, 160, 0.8)";
+        ctx.shadowBlur = ink ? 0 : 12;
         ctx.lineWidth = 3;
         ctx.beginPath();
         for (let i = 0; i < pattern.length; i++) {
@@ -163,18 +168,23 @@
         ctx.beginPath();
         ctx.arc(n.x, n.y, on ? n.r + 2 : n.r, 0, Math.PI * 2);
         if (on) {
-          ctx.shadowColor = "rgba(76, 240, 160, 0.95)";
-          ctx.shadowBlur = 14;
-          ctx.fillStyle = "#4cf0a0";
+          ctx.shadowColor = ink ? "transparent" : "rgba(76, 240, 160, 0.95)";
+          ctx.shadowBlur = ink ? 0 : 14;
+          ctx.fillStyle = ink ? "#000" : "#4cf0a0";
         } else {
           ctx.shadowBlur = 0;
-          ctx.fillStyle = "#c4a07a";
+          ctx.fillStyle = ink ? "#fff" : "#c4a07a";
         }
         ctx.fill();
+        if (ink && !on) {
+          ctx.lineWidth = 2;
+          ctx.strokeStyle = "#000";
+          ctx.stroke();
+        }
         ctx.shadowBlur = 0;
         ctx.beginPath();
         ctx.arc(n.x, n.y, Math.max(3, n.r * 0.35), 0, Math.PI * 2);
-        ctx.fillStyle = on ? "#0e1a36" : "#6b4a32";
+        ctx.fillStyle = on ? (ink ? "#fff" : "#0e1a36") : (ink ? "#000" : "#6b4a32");
         ctx.fill();
       }
     }
@@ -254,6 +264,7 @@
     canvas.addEventListener("pointercancel", onUp);
     canvas.addEventListener("contextmenu", function (e) { e.preventDefault(); });
     window.addEventListener("resize", layout);
+    document.addEventListener("mandarin-eink-change", function () { draw(); });
     layout();
     setStatus("Draw the pattern", "");
   }

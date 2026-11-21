@@ -1,12 +1,21 @@
 (function () {
   "use strict";
 
+  function nfc(s) {
+    var E = window.MandarinEink;
+    return E && E.normalizeNfc ? E.normalizeNfc(s) : String(s == null ? "" : s);
+  }
+
   function esc(s) {
     return String(s == null ? "" : s)
       .replace(/&/g, "&amp;")
       .replace(/</g, "&lt;")
       .replace(/>/g, "&gt;")
       .replace(/"/g, "&quot;");
+  }
+
+  function escPy(s) {
+    return esc(nfc(s));
   }
 
   async function lessonComplete(id) {
@@ -35,7 +44,7 @@
       const flags = await Promise.all(lessons.map(function (L) { return lessonComplete(L.id); }));
       list.innerHTML = lessons.map(function (L, i) {
         const title = "Lesson " + esc(L.lesson_number) + " · " + esc(L.title_en);
-        const py = L.title_py ? "<div class='title-py' style='font-size:15px;'>" + esc(L.title_py) + "</div>" : "";
+        const py = L.title_py ? "<div class='title-py' style='font-size:15px;'>" + escPy(L.title_py) + "</div>" : "";
         const when = L.date ? "<div class='when'>" + esc(L.date) + "</div>" : "";
         const done = flags[i]
           ? "<span class='lesson-done' title='Graded — report card on lesson page'>" +
@@ -53,6 +62,8 @@
       err.textContent = e.message || String(e);
     }
   }
+
+  if (window.MandarinEink) window.MandarinEink.init();
 
   if (window.MandarinLock) {
     window.MandarinLock.setup({ onUnlock: loadIndex });

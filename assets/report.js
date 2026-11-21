@@ -25,12 +25,21 @@
     skipped: "−5"
   };
 
+  var nfcNormalize = function (s) {
+    if (s == null) return "";
+    return String(s).normalize("NFC");
+  };
+
   function esc(s) {
     return String(s == null ? "" : s)
       .replace(/&/g, "&amp;")
       .replace(/</g, "&lt;")
       .replace(/>/g, "&gt;")
       .replace(/"/g, "&quot;");
+  }
+
+  function escPy(s) {
+    return esc(nfcNormalize(s));
   }
 
   function formatPoints(pts) {
@@ -58,7 +67,7 @@
     if (item.kind === "open" && (item.answer == null || !String(item.answer).trim())) return "—";
     var a = item.answer;
     if (a == null || !String(a).trim()) return "—";
-    return String(a);
+    return nfcNormalize(String(a));
   }
 
   function promptHtml(item) {
@@ -66,7 +75,7 @@
     var py = item.prompt_py;
     var out = '<span class="rc-prompt-en">' + esc(en || "") + "</span>";
     if (py) {
-      out += ' <span class="rc-prompt-bar">|</span> <span class="rc-prompt-py">' + esc(py) + "</span>";
+      out += ' <span class="rc-prompt-bar">|</span> <span class="rc-prompt-py">' + escPy(py) + "</span>";
     }
     return out;
   }
@@ -120,7 +129,7 @@
     if (needsCorrection) {
       parts.push(
         '<div class="rc-row rc-correction"><span class="rc-lbl">Correction</span> <span class="rc-val">' +
-          esc(item.correction) + "</span></div>"
+          esc(nfcNormalize(item.correction)) + "</span></div>"
       );
     }
     if (item.note) {
