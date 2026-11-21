@@ -14,6 +14,11 @@
   var recorders = {}; // n -> {blob, mime, url}
   var hasGatedContent = false;
 
+  function nfc(s) {
+    var E = window.MandarinEink;
+    return E && E.normalizeNfc ? E.normalizeNfc(s) : String(s == null ? "" : s);
+  }
+
   function esc(s) {
     return String(s == null ? "" : s)
       .replace(/&/g, "&amp;")
@@ -21,7 +26,17 @@
       .replace(/>/g, "&gt;")
       .replace(/"/g, "&quot;");
   }
+
+  function escPy(s) {
+    return esc(nfc(s));
+  }
+
   function nl(s) { return esc(s).replace(/\n/g, "<br>"); }
+  function nlPy(s) { return escPy(s).replace(/\n/g, "<br>"); }
+
+  function einkMode() {
+    return document.documentElement.classList.contains("eink-mode");
+  }
 
   function qs(name) {
     return new URLSearchParams(window.location.search).get(name);
@@ -57,7 +72,7 @@
   function pairHtml(en, py, sizeClass) {
     var out = '<span class="en">' + esc(en) + "</span>";
     if (py) {
-      out += ' <span class="bar">|</span> <span class="py">' + esc(py) + "</span>";
+      out += ' <span class="bar">|</span> <span class="py">' + escPy(py) + "</span>";
     }
     return '<span class="pair ' + (sizeClass || "") + '">' + out + "</span>";
   }
@@ -65,7 +80,7 @@
   function bilingual(en, py) {
     var out = '<div class="bilingual">';
     if (en) out += '<p class="' + (py ? "" : "solo") + '">' + nl(en) + "</p>";
-    if (py) out += '<p class="py-line">' + nl(py) + "</p>";
+    if (py) out += '<p class="py-line">' + nlPy(py) + "</p>";
     out += "</div>";
     return en || py ? out : "";
   }
@@ -216,7 +231,7 @@
 
   function headerHtml(L) {
     var h = "<h1>Lesson " + esc(L.lesson_number) + " · " + esc(L.title_en) + "</h1>";
-    if (L.title_py) h += '<div class="title-py">' + esc(L.title_py) + "</div>";
+    if (L.title_py) h += '<div class="title-py">' + escPy(L.title_py) + "</div>";
     var meta = [];
     if (L.category) meta.push(String(L.category));
     if (L.hsk != null) meta.push("HSK " + L.hsk);
@@ -542,7 +557,17 @@
       if (r.status) box.classList.add(r.status);
       var fb = box.querySelector(".item-feedback");
       if (!fb) return;
-      var label = {
+      var ink = einkMode();
+      var label = (ink ? {
+        correct: "Correct (+15)",
+        partial: "Partial (+8)" + (r.note ? " — " + r.note : ""),
+        wrong: "Wrong (−12)" + (r.note ? " — " + r.note : ""),
+        skipped: "Skipped (−5)",
+        needs_voice: "Voice — saved for Mei (not auto-graded)",
+        voice_graded: "Voice — graded (" + (r.points > 0 ? "+" : "") + r.points + ")",
+        pending_mei: "Pending Mei (not in written score)",
+        open_graded: "Graded by Mei (" + (r.points > 0 ? "+" : "") + r.points + ")"
+      } : {
         correct: "✅ Correct (+15)",
         partial: "🟡 Partial (+8)" + (r.note ? " — " + r.note : ""),
         wrong: "❌ Wrong (−12)" + (r.note ? " — " + r.note : ""),
@@ -551,11 +576,11 @@
         voice_graded: "🎤 Graded (" + (r.points > 0 ? "+" : "") + r.points + ")",
         pending_mei: "⏳ Pending Mei (not in written score)",
         open_graded: "Graded by Mei (" + (r.points > 0 ? "+" : "") + r.points + ")"
-      }[r.status] || r.status;
+      })[r.status] || r.status;
       if (r.status === "needs_voice") {
         label = recorders[r.n]
-          ? "🎤 Recorded — Mei will grade this"
-          : "🎤 No clip yet — you can still submit; Mei will see it as pending";
+          ? (ink ? "Voice recorded — Mei will grade this" : "🎤 Recorded — Mei will grade this")
+          : (ink ? "No voice clip yet — you can still submit" : "🎤 No clip yet — you can still submit; Mei will see it as pending");
       }
       fb.textContent = label;
       fb.hidden = false;
@@ -570,19 +595,24 @@
     var voice = out.needs_voice || [];
     var pendingOpen = (out.items || []).filter(function (r) { return r.status === "pending_mei"; }).map(function (r) { return r.n; });
     el.hidden = false;
+    var ink = einkMode();
+    var tally = ink
+      ? ("✓ " + c.correct + " correct · ~ " + c.partial + " partial · ✗ " +
+        c.wrong + " wrong · — " + c.skipped + " skipped")
+      : ("✅ " + c.correct + " correct · 🟡 " + c.partial + " partial · ❌ " +
+        c.wrong + " wrong · ⏭ " + c.skipped + " skipped");
     el.innerHTML =
       "<h2>Lesson " + esc(out.lesson_number) + " Practice — " + esc(out.score) + " / " + esc(out.max) + "</h2>" +
-      '<div class="tally">✅ ' + c.correct + " correct · 🟡 " + c.partial + " partial · ❌ " +
-      c.wrong + " wrong · ⏭ " + c.skipped + " skipped</div>" +
+      '<div class="tally">' + tally + "</div>" +
       (voice.length
-        ? "<p>🎤 Voice items (not in the written score): " + esc(voice.join(", ")) +
+        ? "<p>" + (ink ? "Voice" : "🎤 Voice") + " items (not in the written score): " + esc(voice.join(", ")) +
           (Object.keys(recorders).length ? " — clips attached." : " — no clips recorded yet.") + "</p>"
         : "") +
       (pendingOpen.length
-        ? "<p>✍️ Open answers pending Mei: " + esc(pendingOpen.join(", ")) + ".</p>"
+        ? "<p>" + (ink ? "Open answers" : "✍️ Open answers") + " pending Mei: " + esc(pendingOpen.join(", ")) + ".</p>"
         : "") +
       "<p>Written answers are scored instantly. Mei reviews voice memos and open answers separately.</p>";
-    el.scrollIntoView({ behavior: "smooth", block: "center" });
+    el.scrollIntoView({ behavior: einkMode() ? "auto" : "smooth", block: "center" });
   }
 
   function setMsg(text, kind) {
@@ -838,6 +868,8 @@
   }
 
   ensureListenFilters();
+
+  if (window.MandarinEink) window.MandarinEink.init();
 
   if (window.MandarinLock) {
     window.MandarinLock.setup({ onUnlock: loadLesson });

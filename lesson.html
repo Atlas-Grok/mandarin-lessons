@@ -2,6 +2,24 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
+    <script>
+      (function () {
+        try {
+          var q = new URLSearchParams(location.search).get("eink");
+          var on;
+          if (q === "1" || q === "true") {
+            on = true;
+            localStorage.setItem("mandarin-eink-mode", "1");
+          } else if (q === "0" || q === "false") {
+            on = false;
+            localStorage.setItem("mandarin-eink-mode", "0");
+          } else {
+            on = localStorage.getItem("mandarin-eink-mode") === "1";
+          }
+          if (on) document.documentElement.classList.add("eink-mode");
+        } catch (e) { /* private mode */ }
+      })();
+    </script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Mei · Mandarin Tutor</title>
     <meta name="theme-color" content="#1b325e">
@@ -12,11 +30,21 @@
     <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
     <link rel="icon" type="image/png" sizes="64x64" href="assets/favicon-64.png">
     <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
-    <link rel="stylesheet" href="assets/style.css?v=7">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/style.css?v=8">
+    <link rel="stylesheet" href="assets/eink.css?v=1">
   </head>
   <body>
     <div id="lock-screen" hidden>
       <div class="lock-card">
+        <div class="eink-header-bar">
+          <label class="eink-toggle">
+            <input type="checkbox" id="eink-toggle-lock" role="switch" aria-checked="false" aria-label="E-ink mode">
+            <span>E-ink mode</span>
+          </label>
+        </div>
         <img class="lock-logo" src="assets/logo.png" alt="Mei" width="96" height="96">
         <div class="brand">Mei · Mandarin Tutor</div>
         <h1 style="font-size:22px;">Draw your pattern</h1>
@@ -29,6 +57,12 @@
     </div>
     <div id="app" class="page" hidden>
       <div class="card">
+        <div class="eink-header-bar">
+          <label class="eink-toggle">
+            <input type="checkbox" id="eink-toggle" role="switch" aria-checked="false" aria-label="E-ink mode">
+            <span>E-ink mode</span>
+          </label>
+        </div>
         <div class="mast">
           <div class="brand-row">
             <img class="brand-logo" src="assets/logo.png" alt="Mei" width="48" height="48">
@@ -42,10 +76,11 @@
       </div>
       <div class="foot">Mei · Mandarin Tutor</div>
     </div>
+    <script src="assets/eink.js"></script>
     <script src="assets/config.js"></script>
     <script src="assets/grade.js"></script>
     <script src="assets/report.js"></script>
     <script src="assets/lock.js"></script>
-    <script src="assets/lesson.js?v=7"></script>
+    <script src="assets/lesson.js?v=8"></script>
   </body>
 </html>
