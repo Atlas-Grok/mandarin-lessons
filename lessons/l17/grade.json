@@ -1,0 +1,355 @@
+{
+  "lesson_id": "l17",
+  "lesson_number": 17,
+  "title_en": "Fish, Vegetables & Soup",
+  "title_py": "Yú, cài hé tāng",
+  "graded_at": "2026-11-21",
+  "score": 260,
+  "max": 315,
+  "written_score": 236,
+  "written_max": 270,
+  "voice_score": 24,
+  "voice_max": 45,
+  "items": [
+    {
+      "n": "1",
+      "section": "A · English → pinyin",
+      "kind": "pinyin",
+      "prompt_en": "fish",
+      "prompt_py": "?",
+      "answer": "yú",
+      "expected": [
+        "yú"
+      ],
+      "status": "correct",
+      "points": 15,
+      "max_points": 15,
+      "correction": null,
+      "note": null
+    },
+    {
+      "n": "2",
+      "section": "A · English → pinyin",
+      "kind": "pinyin",
+      "prompt_en": "soup",
+      "prompt_py": "?",
+      "answer": "Tāng",
+      "expected": [
+        "tāng"
+      ],
+      "status": "correct",
+      "points": 15,
+      "max_points": 15,
+      "correction": null,
+      "note": null
+    },
+    {
+      "n": "3",
+      "section": "A · English → pinyin",
+      "kind": "pinyin",
+      "prompt_en": "vegetable / dish",
+      "prompt_py": "?",
+      "answer": "cái",
+      "expected": [
+        "cài"
+      ],
+      "status": "partial",
+      "points": 8,
+      "max_points": 15,
+      "correction": "cài",
+      "note": "tone: cái should be cài (4th tone, not 2nd)"
+    },
+    {
+      "n": "4",
+      "section": "A · English → pinyin",
+      "kind": "pinyin",
+      "prompt_en": "five",
+      "prompt_py": "?",
+      "answer": "wǔ ",
+      "expected": [
+        "wǔ"
+      ],
+      "status": "correct",
+      "points": 15,
+      "max_points": 15,
+      "correction": null,
+      "note": null
+    },
+    {
+      "n": "5",
+      "section": "A · English → pinyin",
+      "kind": "pinyin",
+      "prompt_en": "name",
+      "prompt_py": "?",
+      "answer": "míng zi",
+      "expected": [
+        "míngzi"
+      ],
+      "status": "correct",
+      "points": 15,
+      "max_points": 15,
+      "correction": null,
+      "note": null
+    },
+    {
+      "n": "6",
+      "section": "A · English → pinyin",
+      "kind": "pinyin",
+      "prompt_en": "black",
+      "prompt_py": "?",
+      "answer": "héisè",
+      "expected": [
+        "hēisè"
+      ],
+      "status": "partial",
+      "points": 8,
+      "max_points": 15,
+      "correction": "hēisè",
+      "note": "tone: héisè should be hēisè (1st tone on hēi, not 2nd)"
+    },
+    {
+      "n": "7",
+      "section": "B · Pinyin → English",
+      "kind": "english",
+      "prompt_en": "jǐ",
+      "prompt_py": "?",
+      "answer": "how many",
+      "expected": [
+        "how many",
+        "how much",
+        "what number"
+      ],
+      "status": "correct",
+      "points": 15,
+      "max_points": 15,
+      "correction": null,
+      "note": null
+    },
+    {
+      "n": "8",
+      "section": "B · Pinyin → English",
+      "kind": "english",
+      "prompt_en": "suì",
+      "prompt_py": "?",
+      "answer": "age",
+      "expected": [
+        "years old",
+        "age",
+        "year old"
+      ],
+      "status": "correct",
+      "points": 15,
+      "max_points": 15,
+      "correction": null,
+      "note": null
+    },
+    {
+      "n": "9",
+      "section": "B · Pinyin → English",
+      "kind": "english",
+      "prompt_en": "dòngwù",
+      "prompt_py": "?",
+      "answer": "",
+      "expected": [
+        "animal"
+      ],
+      "status": "skipped",
+      "points": -5,
+      "max_points": 15,
+      "correction": "animal",
+      "note": "skipped — expected 'animal' (dòngwù)"
+    },
+    {
+      "n": "10",
+      "section": "B · Pinyin → English",
+      "kind": "english",
+      "prompt_en": "lǜsè",
+      "prompt_py": "?",
+      "answer": "green",
+      "expected": [
+        "green"
+      ],
+      "status": "correct",
+      "points": 15,
+      "max_points": 15,
+      "correction": null,
+      "note": null
+    },
+    {
+      "n": "11",
+      "section": "C · Fill in the blank",
+      "kind": "pinyin",
+      "prompt_en": "I eat fish.",
+      "prompt_py": "Wǒ ___ yú.",
+      "answer": "chī",
+      "expected": [
+        "chī"
+      ],
+      "status": "correct",
+      "points": 15,
+      "max_points": 15,
+      "correction": null,
+      "note": null
+    },
+    {
+      "n": "12",
+      "section": "C · Fill in the blank",
+      "kind": "pinyin",
+      "prompt_en": "My younger brother drinks soup.",
+      "prompt_py": "Wǒ de dìdi ___ tāng.",
+      "answer": "hē",
+      "expected": [
+        "hē"
+      ],
+      "status": "correct",
+      "points": 15,
+      "max_points": 15,
+      "correction": null,
+      "note": null
+    },
+    {
+      "n": "13",
+      "section": "C · Fill in the blank",
+      "kind": "pinyin",
+      "prompt_en": "Do you eat vegetables?",
+      "prompt_py": "Nǐ chī cài ___?",
+      "answer": "ma",
+      "expected": [
+        "ma"
+      ],
+      "status": "correct",
+      "points": 15,
+      "max_points": 15,
+      "correction": null,
+      "note": null
+    },
+    {
+      "n": "14",
+      "section": "C · Fill in the blank",
+      "kind": "pinyin",
+      "prompt_en": "What is your name?",
+      "prompt_py": "Nǐ jiào ___ míngzi?",
+      "answer": "shénme",
+      "expected": [
+        "shénme"
+      ],
+      "status": "correct",
+      "points": 15,
+      "max_points": 15,
+      "correction": null,
+      "note": null
+    },
+    {
+      "n": "15",
+      "section": "C · Fill in the blank",
+      "kind": "pinyin",
+      "prompt_en": "How old is her friend?",
+      "prompt_py": "Tā de péngyou ___ suì?",
+      "answer": "jǐ",
+      "expected": [
+        "jǐ"
+      ],
+      "status": "correct",
+      "points": 15,
+      "max_points": 15,
+      "correction": null,
+      "note": null
+    },
+    {
+      "n": "16",
+      "section": "D · About you",
+      "kind": "sentence",
+      "prompt_en": "Say what you eat, in a full pinyin sentence.",
+      "prompt_py": null,
+      "answer": "Wǒ chī ròu",
+      "expected": [
+        "Wǒ chī yú."
+      ],
+      "status": "correct",
+      "points": 15,
+      "max_points": 15,
+      "correction": null,
+      "note": null
+    },
+    {
+      "n": "17",
+      "section": "D · About you",
+      "kind": "sentence",
+      "prompt_en": "Say you drink soup or water, in a full pinyin sentence.",
+      "prompt_py": null,
+      "answer": "wǒ hē shuǐ ",
+      "expected": [
+        "Wǒ hē tāng."
+      ],
+      "status": "correct",
+      "points": 15,
+      "max_points": 15,
+      "correction": null,
+      "note": null
+    },
+    {
+      "n": "18",
+      "section": "D · About you",
+      "kind": "sentence",
+      "prompt_en": "Say your name, in a full pinyin sentence.",
+      "prompt_py": null,
+      "answer": "Wǒ jiào Evan",
+      "expected": [
+        "Wǒ jiào Evan."
+      ],
+      "status": "correct",
+      "points": 15,
+      "max_points": 15,
+      "correction": null,
+      "note": null
+    },
+    {
+      "n": "S1",
+      "section": "E · Say it out loud 🎤",
+      "kind": "voice",
+      "prompt_en": "I eat fish.",
+      "prompt_py": "Wǒ chī yú.",
+      "answer": null,
+      "expected": [
+        "Wǒ chī yú."
+      ],
+      "status": "voice_graded",
+      "points": 8,
+      "max_points": 15,
+      "correction": "Wǒ chī yú.",
+      "note": "Wǒ chī yú — the phrase is there but articulation is muddy (especially chī) and tones need work — keep chī high and level, and let yú rise"
+    },
+    {
+      "n": "S2",
+      "section": "E · Say it out loud 🎤",
+      "kind": "voice",
+      "prompt_en": "I drink soup.",
+      "prompt_py": "Wǒ hē tāng.",
+      "answer": null,
+      "expected": [
+        "Wǒ hē tāng."
+      ],
+      "status": "voice_graded",
+      "points": 8,
+      "max_points": 15,
+      "correction": "Wǒ hē tāng.",
+      "note": "Wǒ hē tāng — phrase comes through; tones need work — keep hē high and level, and hold tāng high and flat"
+    },
+    {
+      "n": "S3",
+      "section": "E · Say it out loud 🎤",
+      "kind": "voice",
+      "prompt_en": "Do you eat fish?",
+      "prompt_py": "Nǐ chī yú ma?",
+      "answer": null,
+      "expected": [
+        "Nǐ chī yú ma?"
+      ],
+      "status": "voice_graded",
+      "points": 8,
+      "max_points": 15,
+      "correction": "Nǐ chī yú ma?",
+      "note": "Nǐ chī yú ma? — nǐ chī … ma comes through; yú was a little unclear and tones need work — give nǐ a 3rd-tone dip, keep chī high, let yú rise, and keep ma light"
+    }
+  ]
+}
