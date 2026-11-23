@@ -1,6 +1,15 @@
 {
   "lessons": [
     {
+      "id": "l21",
+      "lesson_number": 21,
+      "title_en": "Greeting My Family",
+      "title_py": "Wènhòu wǒ de jiārén",
+      "date": "2026-11-23",
+      "category": "Family / people",
+      "hsk": 1
+    },
+    {
       "id": "l20",
       "lesson_number": 20,
       "title_en": "Weekly Quiz & Speed Round",
