@@ -1,0 +1,335 @@
+{
+  "lesson_id": "l19",
+  "lesson_number": 19,
+  "title_en": "Who Eats What?",
+  "title_py": "Shéi chī shénme?",
+  "graded_at": "2026-11-23",
+  "score": 177,
+  "max": 300,
+  "written_score": 153,
+  "written_max": 255,
+  "voice_score": 24,
+  "voice_max": 45,
+  "items": [
+    {
+      "n": "1",
+      "section": "A · English → pinyin",
+      "kind": "pinyin",
+      "prompt_en": "apple",
+      "prompt_py": "?",
+      "answer": "píngguǒ",
+      "expected": [
+        "píngguǒ"
+      ],
+      "status": "correct",
+      "points": 15,
+      "max_points": 15,
+      "correction": null,
+      "note": null
+    },
+    {
+      "n": "2",
+      "section": "A · English → pinyin",
+      "kind": "pinyin",
+      "prompt_en": "to drink",
+      "prompt_py": "?",
+      "answer": "hē",
+      "expected": [
+        "hē"
+      ],
+      "status": "correct",
+      "points": 15,
+      "max_points": 15,
+      "correction": null,
+      "note": null
+    },
+    {
+      "n": "3",
+      "section": "A · English → pinyin",
+      "kind": "pinyin",
+      "prompt_en": "five",
+      "prompt_py": "?",
+      "answer": "wǒ",
+      "expected": [
+        "wǔ"
+      ],
+      "status": "wrong",
+      "points": -12,
+      "max_points": 15,
+      "correction": "wǔ",
+      "note": "expected wǔ (five); wrote wǒ (I)"
+    },
+    {
+      "n": "4",
+      "section": "A · English → pinyin",
+      "kind": "pinyin",
+      "prompt_en": "daughter",
+      "prompt_py": "?",
+      "answer": "nǚ｀ér",
+      "expected": [
+        "nǚ'ér"
+      ],
+      "status": "wrong",
+      "points": -12,
+      "max_points": 15,
+      "correction": "nǚ'ér",
+      "note": "nǚ｀ér uses a backtick instead of the apostrophe in nǚ'ér — typographic; otherwise the pinyin and tones are right (override candidate)"
+    },
+    {
+      "n": "5",
+      "section": "A · English → pinyin",
+      "kind": "pinyin",
+      "prompt_en": "milk",
+      "prompt_py": "?",
+      "answer": "niúnǎi",
+      "expected": [
+        "niúnǎi"
+      ],
+      "status": "correct",
+      "points": 15,
+      "max_points": 15,
+      "correction": null,
+      "note": null
+    },
+    {
+      "n": "6",
+      "section": "A · English → pinyin",
+      "kind": "pinyin",
+      "prompt_en": "how many",
+      "prompt_py": "?",
+      "answer": "jī",
+      "expected": [
+        "jǐ"
+      ],
+      "status": "partial",
+      "points": 8,
+      "max_points": 15,
+      "correction": "jǐ",
+      "note": "tone: jī should be jǐ (3rd tone, not 1st)"
+    },
+    {
+      "n": "7",
+      "section": "B · Build the sentence",
+      "kind": "sentence",
+      "prompt_en": "I eat an apple.",
+      "prompt_py": null,
+      "answer": "wǒ chī yígè píngguǒ",
+      "expected": [
+        "Wǒ chī yí gè píngguǒ."
+      ],
+      "status": "correct",
+      "points": 15,
+      "max_points": 15,
+      "correction": null,
+      "note": null
+    },
+    {
+      "n": "8",
+      "section": "B · Build the sentence",
+      "kind": "sentence",
+      "prompt_en": "My daughter drinks milk.",
+      "prompt_py": null,
+      "answer": "wǒde nǚér hē niúnǎi ",
+      "expected": [
+        "Wǒ de nǚ'ér hē niúnǎi."
+      ],
+      "status": "correct",
+      "points": 15,
+      "max_points": 15,
+      "correction": null,
+      "note": null
+    },
+    {
+      "n": "9",
+      "section": "B · Build the sentence",
+      "kind": "sentence",
+      "prompt_en": "I don't eat meat.",
+      "prompt_py": null,
+      "answer": "wǒ bù chī ròu ",
+      "expected": [
+        "Wǒ bù chī ròu."
+      ],
+      "status": "correct",
+      "points": 15,
+      "max_points": 15,
+      "correction": null,
+      "note": null
+    },
+    {
+      "n": "10",
+      "section": "B · Build the sentence",
+      "kind": "sentence",
+      "prompt_en": "We have five eggs.",
+      "prompt_py": null,
+      "answer": "wǒmen yǒu wǔgè jīdàn",
+      "expected": [
+        "Wǒmen yǒu wǔ gè jīdàn."
+      ],
+      "status": "correct",
+      "points": 15,
+      "max_points": 15,
+      "correction": null,
+      "note": null
+    },
+    {
+      "n": "11",
+      "section": "B · Build the sentence",
+      "kind": "sentence",
+      "prompt_en": "Do you drink tea?",
+      "prompt_py": null,
+      "answer": "nǐ hē chá ma",
+      "expected": [
+        "Nǐ hē chá ma?"
+      ],
+      "status": "correct",
+      "points": 15,
+      "max_points": 15,
+      "correction": null,
+      "note": null
+    },
+    {
+      "n": "12",
+      "section": "C · Fill in the blank",
+      "kind": "pinyin",
+      "prompt_en": "I eat rice.",
+      "prompt_py": "Wǒ ___ mǐfàn.",
+      "answer": "chī",
+      "expected": [
+        "chī"
+      ],
+      "status": "correct",
+      "points": 15,
+      "max_points": 15,
+      "correction": null,
+      "note": null
+    },
+    {
+      "n": "13",
+      "section": "C · Fill in the blank",
+      "kind": "pinyin",
+      "prompt_en": "My older sister drinks tea.",
+      "prompt_py": "Wǒ de ___ hē chá.",
+      "answer": "jíe jie",
+      "expected": [
+        "jiějie"
+      ],
+      "status": "partial",
+      "points": 8,
+      "max_points": 15,
+      "correction": "jiějie",
+      "note": "tone: jíe jie should be jiějie (3rd on jiě, no space)"
+    },
+    {
+      "n": "14",
+      "section": "C · Fill in the blank",
+      "kind": "pinyin",
+      "prompt_en": "I don't drink milk.",
+      "prompt_py": "Wǒ ___ hē niúnǎi.",
+      "answer": "bú ",
+      "expected": [
+        "bù"
+      ],
+      "status": "partial",
+      "points": 8,
+      "max_points": 15,
+      "correction": "bù",
+      "note": "tone: bú should be bù here (bú only before a 4th tone; hē is 1st)"
+    },
+    {
+      "n": "15",
+      "section": "C · Fill in the blank",
+      "kind": "pinyin",
+      "prompt_en": "Do you eat bread?",
+      "prompt_py": "Nǐ chī miànbāo ___?",
+      "answer": "ma",
+      "expected": [
+        "ma"
+      ],
+      "status": "correct",
+      "points": 15,
+      "max_points": 15,
+      "correction": null,
+      "note": null
+    },
+    {
+      "n": "16",
+      "section": "D · About you",
+      "kind": "sentence",
+      "prompt_en": "Say what you drink, in a full pinyin sentence.",
+      "prompt_py": null,
+      "answer": "wǒhēchā",
+      "expected": [
+        "Wǒ hē shuǐ."
+      ],
+      "status": "correct",
+      "points": 15,
+      "max_points": 15,
+      "correction": null,
+      "note": "site gave full credit (Wǒ hē + drink); chā should be chá, and add spaces: Wǒ hē chá"
+    },
+    {
+      "n": "17",
+      "section": "D · About you",
+      "kind": "sentence",
+      "prompt_en": "Say one thing you don't eat, in a full pinyin sentence.",
+      "prompt_py": null,
+      "answer": "wǒbóchīróu",
+      "expected": [
+        "Wǒ bù chī ròu."
+      ],
+      "status": "wrong",
+      "points": -12,
+      "max_points": 15,
+      "correction": "Wǒ bù chī ròu.",
+      "note": "wǒbóchīróu — bó should be bù (same sentence as #9, which was correct); expected Wǒ bù chī ròu. (override candidate if counted as a typo)"
+    },
+    {
+      "n": "S1",
+      "section": "E · Say it out loud 🎤",
+      "kind": "voice",
+      "prompt_en": "I eat an apple.",
+      "prompt_py": "Wǒ chī yí gè píngguǒ.",
+      "answer": null,
+      "expected": [
+        "Wǒ chī yí gè píngguǒ."
+      ],
+      "status": "voice_graded",
+      "points": 8,
+      "max_points": 15,
+      "correction": "Wǒ chī yí gè píngguǒ.",
+      "note": "Wǒ chī yí gè píngguǒ. — the sentence comes through (chī and píngguǒ are favored); tones need work — give wǒ a 3rd-tone dip, keep chī high and level, and let yí gè lead into píngguǒ"
+    },
+    {
+      "n": "S2",
+      "section": "E · Say it out loud 🎤",
+      "kind": "voice",
+      "prompt_en": "My daughter drinks milk.",
+      "prompt_py": "Wǒ de nǚ'ér hē niúnǎi.",
+      "answer": null,
+      "expected": [
+        "Wǒ de nǚ'ér hē niúnǎi."
+      ],
+      "status": "voice_graded",
+      "points": 8,
+      "max_points": 15,
+      "correction": "Wǒ de nǚ'ér hē niúnǎi.",
+      "note": "Wǒ de nǚ'ér hē niúnǎi. — the sentence comes through (nǚ'ér and niúnǎi are there); tones need work — keep hē high and level, and let niú rise into a 3rd-tone nǎi"
+    },
+    {
+      "n": "S3",
+      "section": "E · Say it out loud 🎤",
+      "kind": "voice",
+      "prompt_en": "Do you drink tea?",
+      "prompt_py": "Nǐ hē chá ma?",
+      "answer": null,
+      "expected": [
+        "Nǐ hē chá ma?"
+      ],
+      "status": "voice_graded",
+      "points": 8,
+      "max_points": 15,
+      "correction": "Nǐ hē chá ma?",
+      "note": "Nǐ hē chá ma? — phrase comes through clearly; tones need work — give nǐ a 3rd-tone dip, keep hē high, and let chá rise"
+    }
+  ]
+}
