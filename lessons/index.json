@@ -1,6 +1,15 @@
 {
   "lessons": [
     {
+      "id": "l22",
+      "lesson_number": 22,
+      "title_en": "Five People at Home",
+      "title_py": "Wǒ jiā yǒu wǔ gè rén",
+      "date": "2026-11-24",
+      "category": "Family / food (story)",
+      "hsk": 1
+    },
+    {
       "id": "l21",
       "lesson_number": 21,
       "title_en": "Greeting My Family",

@@ -1,0 +1,632 @@
+{
+  "lesson_number": 22,
+  "lesson_type": "story",
+  "title_en": "Five People at Home",
+  "title_py": "Wǒ jiā yǒu wǔ gè rén",
+  "category": "Family / food (story)",
+  "hsk": 1,
+  "date": "2026-11-24",
+  "auditory_note": "Tap ▶ Listen to play each clip.",
+  "teach": {
+    "intro": {
+      "en": "Hi Evan! Today is a story day with no new words. We read a short story about five people at home, and the words that have slipped come back as part of the story. Listen to each line and say it out loud.",
+      "py": "Nǐ hǎo, Evan! Jīntiān shì gùshi rì, méiyǒu xīn cí. Wǒmen dú yí gè guānyú jiā lǐ wǔ gè rén de duǎn gùshi, wàngdiào de cí huì zài gùshi lǐ huílái. Měi yí jù dōu xiān tīng, ránhòu dàshēng shuō."
+    },
+    "blocks": [
+      {
+        "type": "heading",
+        "text": "Story: Five People at Home"
+      },
+      {
+        "type": "paragraph",
+        "en": "Today is a story day with no new words. Read the short story about a family at dinner, then listen to every line. The words that have slipped, like soup, fish, vegetables, five, and white, show up inside the story. Notice how the same small words keep coming back.",
+        "py": "Jīntiān shì gùshi rì, méiyǒu xīn cí. Xiān dú yí gè guānyú yì jiā rén chī fàn de duǎn gùshi, ránhòu tīng měi yí jù. Wàngdiào de cí, bǐrú tāng, yú, cài, wǔ hé báisè, dōu zài gùshi lǐmiàn. Zhùyì zhèxiē xiǎo cí zěnme yìzhí huílái."
+      },
+      {
+        "type": "heading",
+        "text": "The story, line by line"
+      },
+      {
+        "type": "example",
+        "en": "We have five people at home.",
+        "py": "Wǒ jiā yǒu wǔ gè rén.",
+        "listen_url": "l22-s1.mp3",
+        "n": 1
+      },
+      {
+        "type": "example",
+        "en": "Dad, mom, older sister, younger sister, and me.",
+        "py": "Bàba, māma, jiějie, mèimei hé wǒ.",
+        "listen_url": "l22-s2.mp3",
+        "n": 2
+      },
+      {
+        "type": "example",
+        "en": "Older sister eats fish, younger sister drinks soup.",
+        "py": "Jiějie chī yú, mèimei hē tāng.",
+        "listen_url": "l22-s3.mp3",
+        "n": 3
+      },
+      {
+        "type": "example",
+        "en": "Mom eats vegetables, dad drinks tea.",
+        "py": "Māma chī cài, bàba hē chá.",
+        "listen_url": "l22-s4.mp3",
+        "n": 4
+      },
+      {
+        "type": "example",
+        "en": "I have a cat. A cat is an animal. The cat is white.",
+        "py": "Wǒ yǒu yì zhī māo. Māo shì dòngwù. Māo shì báisè.",
+        "listen_url": "l22-s5.mp3",
+        "n": 5
+      },
+      {
+        "type": "example",
+        "en": "The cat eats fish.",
+        "py": "Māo chī yú.",
+        "listen_url": "l22-s6.mp3",
+        "n": 6
+      },
+      {
+        "type": "example",
+        "en": "I eat four apples.",
+        "py": "Wǒ chī sì gè píngguǒ.",
+        "listen_url": "l22-s7.mp3",
+        "n": 7
+      },
+      {
+        "type": "example",
+        "en": "Hello, cat! Thank you, goodbye!",
+        "py": "Nǐ hǎo, māo! Xièxie, zàijiàn!",
+        "listen_url": "l22-s8.mp3",
+        "n": 8
+      },
+      {
+        "type": "heading",
+        "text": "Say the small words from the story"
+      },
+      {
+        "type": "vocab_card",
+        "en": "five",
+        "py": "wǔ",
+        "note_en": "Wǔ is 3rd tone, low and dipping.",
+        "note_py": "Wǔ shì dì-sān shēng, dī ér wān.",
+        "listen_url": "l22-wu.mp3"
+      },
+      {
+        "type": "vocab_card",
+        "en": "person / people",
+        "py": "rén",
+        "note_en": "Rén is 2nd tone, rising like a question.",
+        "note_py": "Rén shì dì-èr shēng, xiàng wèn wèntí yíyàng shàng shēng.",
+        "listen_url": "l22-ren.mp3"
+      },
+      {
+        "type": "vocab_card",
+        "en": "and",
+        "py": "hé",
+        "note_en": "Hé is 2nd tone. It joins two things: bàba hé māma.",
+        "note_py": "Hé shì dì-èr shēng. Tā lián liǎng gè dōngxi: bàba hé māma.",
+        "listen_url": "l22-he.mp3"
+      },
+      {
+        "type": "vocab_card",
+        "en": "fish",
+        "py": "yú",
+        "note_en": "Yú is 2nd tone. Wǒ chī yú = I eat fish.",
+        "note_py": "Yú shì dì-èr shēng. Wǒ chī yú.",
+        "listen_url": "l22-yu.mp3"
+      },
+      {
+        "type": "vocab_card",
+        "en": "soup",
+        "py": "tāng",
+        "note_en": "Tāng is 1st tone, high and flat. Wǒ hē tāng = I drink soup.",
+        "note_py": "Tāng shì dì-yī shēng. Wǒ hē tāng.",
+        "listen_url": "l22-tang.mp3"
+      },
+      {
+        "type": "vocab_card",
+        "en": "vegetable / dish",
+        "py": "cài",
+        "note_en": "Cài is 4th tone.",
+        "note_py": "Cài shì dì-sì shēng.",
+        "listen_url": "l22-cai.mp3"
+      },
+      {
+        "type": "vocab_card",
+        "en": "animal",
+        "py": "dòngwù",
+        "note_en": "Dòngwù: 4th tone twice.",
+        "note_py": "Dòngwù: liǎng gè dì-sì shēng.",
+        "listen_url": "l22-dongwu.mp3"
+      },
+      {
+        "type": "vocab_card",
+        "en": "four",
+        "py": "sì",
+        "note_en": "Sì is 4th tone, sharp and falling. Not shí (ten).",
+        "note_py": "Sì shì dì-sì shēng. Bú shì shí.",
+        "listen_url": "l22-si.mp3"
+      },
+      {
+        "type": "vocab_card",
+        "en": "white",
+        "py": "báisè",
+        "note_en": "Báisè: 2nd tone, then 4th tone.",
+        "note_py": "Báisè: dì-èr shēng, ránhòu dì-sì shēng.",
+        "listen_url": "l22-baise.mp3"
+      },
+      {
+        "type": "vocab_card",
+        "en": "one",
+        "py": "yī",
+        "note_en": "Yī is 1st tone alone, but before a 4th tone it becomes yí (yí gè), and before zhī (1st tone) it is yì: yì zhī.",
+        "note_py": "Yī dān shuō shì dì-yī shēng; zài dì-sì shēng qián biàn yí; zài zhī qián biàn yì: yì zhī.",
+        "listen_url": "l22-yi.mp3"
+      },
+      {
+        "type": "callout",
+        "kind": "pattern",
+        "title": "Pattern: who eats or drinks what",
+        "body_en": "Say who, then chī (eat) or hē (drink), then what: Jiějie chī yú. Mèimei hē tāng. Use hé (and) to join people: bàba hé māma. To count animals use zhī: yì zhī māo.",
+        "body_py": "Xiān shuō shéi, ránhòu shuō chī huò hē, zuìhòu shuō shénme: Jiějie chī yú. Mèimei hē tāng. Yòng hé lián rén: bàba hé māma. Shǔ dòngwù yòng zhī: yì zhī māo."
+      }
+    ]
+  },
+  "practice": {
+    "how_to": "Type your answers in the boxes below. Use tone marks on every pinyin answer (missing tones earn half credit). For 🎤 S1–S3, record a short clip on this page. Then tap Submit.",
+    "sections": [
+      {
+        "title": "A · English → pinyin",
+        "items": [
+          {
+            "n": 1,
+            "type": "prompt",
+            "prompt_en": "five",
+            "prompt_py": "?"
+          },
+          {
+            "n": 2,
+            "type": "prompt",
+            "prompt_en": "fish",
+            "prompt_py": "?"
+          },
+          {
+            "n": 3,
+            "type": "prompt",
+            "prompt_en": "soup",
+            "prompt_py": "?"
+          },
+          {
+            "n": 4,
+            "type": "prompt",
+            "prompt_en": "vegetable / dish",
+            "prompt_py": "?"
+          },
+          {
+            "n": 5,
+            "type": "prompt",
+            "prompt_en": "white",
+            "prompt_py": "?"
+          },
+          {
+            "n": 6,
+            "type": "prompt",
+            "prompt_en": "four",
+            "prompt_py": "?"
+          },
+          {
+            "n": 7,
+            "type": "prompt",
+            "prompt_en": "animal",
+            "prompt_py": "?"
+          },
+          {
+            "n": 8,
+            "type": "prompt",
+            "prompt_en": "and",
+            "prompt_py": "?"
+          }
+        ]
+      },
+      {
+        "title": "B · Pinyin → English",
+        "items": [
+          {
+            "n": 9,
+            "type": "prompt",
+            "prompt_en": "rén",
+            "prompt_py": "?"
+          },
+          {
+            "n": 10,
+            "type": "prompt",
+            "prompt_en": "tāng",
+            "prompt_py": "?"
+          },
+          {
+            "n": 11,
+            "type": "prompt",
+            "prompt_en": "yī",
+            "prompt_py": "?"
+          },
+          {
+            "n": 12,
+            "type": "prompt",
+            "prompt_en": "mèimei",
+            "prompt_py": "?"
+          },
+          {
+            "n": 13,
+            "type": "prompt",
+            "prompt_en": "jiā",
+            "prompt_py": "?"
+          },
+          {
+            "n": 14,
+            "type": "prompt",
+            "prompt_en": "nǎinai",
+            "prompt_py": "?"
+          }
+        ]
+      },
+      {
+        "title": "C · Fill in the blank (the story)",
+        "items": [
+          {
+            "n": 15,
+            "type": "fill",
+            "prompt_en": "We have five people at home.",
+            "prompt_py": "Wǒ jiā yǒu ___ gè rén."
+          },
+          {
+            "n": 16,
+            "type": "fill",
+            "prompt_en": "Older sister eats fish.",
+            "prompt_py": "Jiějie chī ___."
+          },
+          {
+            "n": 17,
+            "type": "fill",
+            "prompt_en": "Younger sister drinks soup.",
+            "prompt_py": "Mèimei hē ___."
+          },
+          {
+            "n": 18,
+            "type": "fill",
+            "prompt_en": "Dad and mom.",
+            "prompt_py": "Bàba ___ māma."
+          }
+        ]
+      },
+      {
+        "title": "D · Build a sentence",
+        "items": [
+          {
+            "n": 19,
+            "type": "unscramble",
+            "prompt_en": "Mom eats vegetables.",
+            "unscramble": "cài / chī / māma"
+          },
+          {
+            "n": 20,
+            "type": "unscramble",
+            "prompt_en": "I eat four apples.",
+            "unscramble": "gè / wǒ / sì / chī / píngguǒ"
+          },
+          {
+            "n": 21,
+            "type": "unscramble",
+            "prompt_en": "The cat is an animal.",
+            "unscramble": "dòngwù / shì / māo"
+          }
+        ]
+      },
+      {
+        "title": "E · About you",
+        "items": [
+          {
+            "n": 22,
+            "type": "about_you",
+            "prompt_en": "Write a pinyin sentence about who in your family eats or drinks something.",
+            "hint": "___ chī / hē ___."
+          }
+        ]
+      },
+      {
+        "title": "F · Say it out loud 🎤",
+        "intro_callout": {
+          "title": "Record each clip right on this page",
+          "body_en": "Listen to each model first, then record S1–S3. Watch the tones on wǔ (3rd), yú (2nd), and tāng (1st).",
+          "body_py": "Xiān tīng, ránhòu lùyīn S1 dào S3. Zhùyì wǔ (dì-sān shēng), yú (dì-èr shēng) hé tāng (dì-yī shēng)."
+        },
+        "items": [
+          {
+            "n": "S1",
+            "type": "say",
+            "prompt_en": "We have five people at home.",
+            "prompt_py": "Wǒ jiā yǒu wǔ gè rén.",
+            "listen_url": "l22-s1.mp3"
+          },
+          {
+            "n": "S2",
+            "type": "say",
+            "prompt_en": "Older sister eats fish, younger sister drinks soup.",
+            "prompt_py": "Jiějie chī yú, mèimei hē tāng.",
+            "listen_url": "l22-s3.mp3"
+          },
+          {
+            "n": "S3",
+            "type": "say",
+            "prompt_en": "I have a cat. The cat is white.",
+            "prompt_py": "Wǒ yǒu yì zhī māo. Māo shì báisè.",
+            "listen_url": "l22-s5.mp3"
+          }
+        ]
+      }
+    ]
+  },
+  "closing": {
+    "en": "Nice work, Evan! Read the story out loud once more tonight. Tap Submit when your answers and clips are ready. Jiāyóu!",
+    "py": "Zuò de hǎo, Evan! Jīntiān wǎnshang zài dàshēng dú yí biàn gùshi. Dá'àn hé lùyīn zhǔnbèi hǎo le jiù diǎn Submit. Jiāyóu!"
+  },
+  "answer_key": {
+    "items": [
+      {
+        "n": "1",
+        "kind": "pinyin",
+        "expected": [
+          "wǔ"
+        ],
+        "words": [
+          "wǔ"
+        ]
+      },
+      {
+        "n": "2",
+        "kind": "pinyin",
+        "expected": [
+          "yú"
+        ],
+        "words": [
+          "yú"
+        ]
+      },
+      {
+        "n": "3",
+        "kind": "pinyin",
+        "expected": [
+          "tāng"
+        ],
+        "words": [
+          "tāng"
+        ]
+      },
+      {
+        "n": "4",
+        "kind": "pinyin",
+        "expected": [
+          "cài"
+        ],
+        "words": [
+          "cài"
+        ]
+      },
+      {
+        "n": "5",
+        "kind": "pinyin",
+        "expected": [
+          "báisè"
+        ],
+        "words": [
+          "báisè"
+        ]
+      },
+      {
+        "n": "6",
+        "kind": "pinyin",
+        "expected": [
+          "sì"
+        ],
+        "words": [
+          "sì"
+        ]
+      },
+      {
+        "n": "7",
+        "kind": "pinyin",
+        "expected": [
+          "dòngwù"
+        ],
+        "words": [
+          "dòngwù"
+        ]
+      },
+      {
+        "n": "8",
+        "kind": "pinyin",
+        "expected": [
+          "hé"
+        ],
+        "words": [
+          "hé"
+        ]
+      },
+      {
+        "n": "9",
+        "kind": "english",
+        "expected": [
+          "person",
+          "people"
+        ],
+        "words": [
+          "rén"
+        ]
+      },
+      {
+        "n": "10",
+        "kind": "english",
+        "expected": [
+          "soup"
+        ],
+        "words": [
+          "tāng"
+        ]
+      },
+      {
+        "n": "11",
+        "kind": "english",
+        "expected": [
+          "one"
+        ],
+        "words": [
+          "yī"
+        ]
+      },
+      {
+        "n": "12",
+        "kind": "english",
+        "expected": [
+          "younger sister",
+          "little sister",
+          "sister"
+        ],
+        "words": [
+          "mèimei"
+        ]
+      },
+      {
+        "n": "13",
+        "kind": "english",
+        "expected": [
+          "home",
+          "family"
+        ],
+        "words": [
+          "jiā"
+        ]
+      },
+      {
+        "n": "14",
+        "kind": "english",
+        "expected": [
+          "grandma",
+          "grandmother"
+        ],
+        "words": [
+          "nǎinai"
+        ]
+      },
+      {
+        "n": "15",
+        "kind": "pinyin",
+        "expected": [
+          "wǔ"
+        ],
+        "words": [
+          "wǔ"
+        ]
+      },
+      {
+        "n": "16",
+        "kind": "pinyin",
+        "expected": [
+          "yú"
+        ],
+        "words": [
+          "yú"
+        ]
+      },
+      {
+        "n": "17",
+        "kind": "pinyin",
+        "expected": [
+          "tāng"
+        ],
+        "words": [
+          "tāng"
+        ]
+      },
+      {
+        "n": "18",
+        "kind": "pinyin",
+        "expected": [
+          "hé"
+        ],
+        "words": [
+          "hé"
+        ]
+      },
+      {
+        "n": "19",
+        "kind": "sentence",
+        "expected": [
+          "Māma chī cài."
+        ],
+        "words": [
+          "cài"
+        ]
+      },
+      {
+        "n": "20",
+        "kind": "sentence",
+        "expected": [
+          "Wǒ chī sì gè píngguǒ."
+        ],
+        "words": [
+          "sì",
+          "píngguǒ"
+        ]
+      },
+      {
+        "n": "21",
+        "kind": "sentence",
+        "expected": [
+          "Māo shì dòngwù."
+        ],
+        "words": [
+          "dòngwù"
+        ]
+      },
+      {
+        "n": "22",
+        "kind": "sentence",
+        "expected": [
+          "Māma chī cài."
+        ],
+        "words": [
+          "chī"
+        ],
+        "regex": "\\S+\\s*(chī|hē)\\s*\\S.*"
+      },
+      {
+        "n": "S1",
+        "kind": "voice",
+        "words": [
+          "wǔ",
+          "rén",
+          "jiā"
+        ]
+      },
+      {
+        "n": "S2",
+        "kind": "voice",
+        "words": [
+          "yú",
+          "tāng"
+        ]
+      },
+      {
+        "n": "S3",
+        "kind": "voice",
+        "words": [
+          "yī",
+          "báisè",
+          "dòngwù"
+        ]
+      }
+    ]
+  }
+}
