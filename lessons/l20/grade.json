@@ -1,0 +1,597 @@
+{
+  "lesson_id": "l20",
+  "lesson_number": 20,
+  "title_en": "Weekly Quiz & Speed Round",
+  "title_py": "Měi zhōu cèyàn hé kuài sù huídá",
+  "graded_at": "2026-11-25",
+  "score": 158,
+  "max": 525,
+  "written_score": 134,
+  "written_max": 480,
+  "voice_score": 24,
+  "voice_max": 45,
+  "items": [
+    {
+      "n": "1",
+      "section": "Quiz A · English → pinyin (this week's food words)",
+      "kind": "pinyin",
+      "prompt_en": "apple",
+      "prompt_py": "?",
+      "answer": "píngguǒ",
+      "expected": [
+        "píngguǒ"
+      ],
+      "status": "correct",
+      "points": 15,
+      "max_points": 15,
+      "correction": null,
+      "note": null
+    },
+    {
+      "n": "2",
+      "section": "Quiz A · English → pinyin (this week's food words)",
+      "kind": "pinyin",
+      "prompt_en": "egg",
+      "prompt_py": "?",
+      "answer": "jǐdián ",
+      "expected": [
+        "jīdàn"
+      ],
+      "status": "wrong",
+      "points": -12,
+      "max_points": 15,
+      "correction": "jīdàn",
+      "note": "wrote jǐdián (what time) instead of jīdàn (egg)"
+    },
+    {
+      "n": "3",
+      "section": "Quiz A · English → pinyin (this week's food words)",
+      "kind": "pinyin",
+      "prompt_en": "five",
+      "prompt_py": "?",
+      "answer": "wǔ ",
+      "expected": [
+        "wǔ"
+      ],
+      "status": "correct",
+      "points": 15,
+      "max_points": 15,
+      "correction": null,
+      "note": null
+    },
+    {
+      "n": "4",
+      "section": "Quiz A · English → pinyin (this week's food words)",
+      "kind": "pinyin",
+      "prompt_en": "rice / meal",
+      "prompt_py": "?",
+      "answer": "chīfàn",
+      "expected": [
+        "mǐfàn"
+      ],
+      "status": "wrong",
+      "points": -12,
+      "max_points": 15,
+      "correction": "mǐfàn",
+      "note": "wrote chīfàn (eat a meal) instead of mǐfàn (rice / meal)"
+    },
+    {
+      "n": "5",
+      "section": "Quiz A · English → pinyin (this week's food words)",
+      "kind": "pinyin",
+      "prompt_en": "milk",
+      "prompt_py": "?",
+      "answer": "niúnài",
+      "expected": [
+        "niúnǎi"
+      ],
+      "status": "partial",
+      "points": 8,
+      "max_points": 15,
+      "correction": "niúnǎi",
+      "note": "tone: niúnài should be niúnǎi (3rd on nǎi, not 4th)"
+    },
+    {
+      "n": "6",
+      "section": "Quiz A · English → pinyin (this week's food words)",
+      "kind": "pinyin",
+      "prompt_en": "tea",
+      "prompt_py": "?",
+      "answer": "chā",
+      "expected": [
+        "chá"
+      ],
+      "status": "partial",
+      "points": 8,
+      "max_points": 15,
+      "correction": "chá",
+      "note": "tone: chā should be chá (2nd tone, not 1st)"
+    },
+    {
+      "n": "7",
+      "section": "Quiz A · English → pinyin (this week's food words)",
+      "kind": "pinyin",
+      "prompt_en": "meat",
+      "prompt_py": "?",
+      "answer": "rǒu",
+      "expected": [
+        "ròu"
+      ],
+      "status": "partial",
+      "points": 8,
+      "max_points": 15,
+      "correction": "ròu",
+      "note": "tone: rǒu should be ròu (4th tone, not 3rd)"
+    },
+    {
+      "n": "8",
+      "section": "Quiz A · English → pinyin (this week's food words)",
+      "kind": "pinyin",
+      "prompt_en": "bread",
+      "prompt_py": "?",
+      "answer": "mǐanbāo",
+      "expected": [
+        "miànbāo"
+      ],
+      "status": "partial",
+      "points": 8,
+      "max_points": 15,
+      "correction": "miànbāo",
+      "note": "tone/spelling: mǐanbāo should be miànbāo (4th on miàn)"
+    },
+    {
+      "n": "9",
+      "section": "Quiz B · Pinyin → English",
+      "kind": "english",
+      "prompt_en": "jiějie",
+      "prompt_py": "?",
+      "answer": "older sister",
+      "expected": [
+        "older sister",
+        "big sister",
+        "sister"
+      ],
+      "status": "correct",
+      "points": 15,
+      "max_points": 15,
+      "correction": null,
+      "note": null
+    },
+    {
+      "n": "10",
+      "section": "Quiz B · Pinyin → English",
+      "kind": "english",
+      "prompt_en": "dòngwù",
+      "prompt_py": "?",
+      "answer": "",
+      "expected": [
+        "animal",
+        "animals"
+      ],
+      "status": "skipped",
+      "points": -5,
+      "max_points": 15,
+      "correction": "animal",
+      "note": "blank — expected: animal"
+    },
+    {
+      "n": "11",
+      "section": "Quiz B · Pinyin → English",
+      "kind": "english",
+      "prompt_en": "nǚ'ér",
+      "prompt_py": "?",
+      "answer": "daughter",
+      "expected": [
+        "daughter"
+      ],
+      "status": "correct",
+      "points": 15,
+      "max_points": 15,
+      "correction": null,
+      "note": null
+    },
+    {
+      "n": "12",
+      "section": "Quiz B · Pinyin → English",
+      "kind": "english",
+      "prompt_en": "suì",
+      "prompt_py": "?",
+      "answer": "age",
+      "expected": [
+        "years old",
+        "year old",
+        "age",
+        "years"
+      ],
+      "status": "correct",
+      "points": 15,
+      "max_points": 15,
+      "correction": null,
+      "note": null
+    },
+    {
+      "n": "13",
+      "section": "Quiz B · Pinyin → English",
+      "kind": "english",
+      "prompt_en": "jiào",
+      "prompt_py": "?",
+      "answer": "family",
+      "expected": [
+        "to be called",
+        "called",
+        "to call",
+        "be called",
+        "name is"
+      ],
+      "status": "wrong",
+      "points": -12,
+      "max_points": 15,
+      "correction": "to be called",
+      "note": "wrote family; jiào means to be called"
+    },
+    {
+      "n": "14",
+      "section": "Quiz B · Pinyin → English",
+      "kind": "english",
+      "prompt_en": "lǜsè",
+      "prompt_py": "?",
+      "answer": "green",
+      "expected": [
+        "green"
+      ],
+      "status": "correct",
+      "points": 15,
+      "max_points": 15,
+      "correction": null,
+      "note": null
+    },
+    {
+      "n": "15",
+      "section": "Quiz C · Sentences",
+      "kind": "english",
+      "prompt_en": "Nǐ chī shénme?",
+      "prompt_py": "?",
+      "answer": "nǐ chī rǒu",
+      "expected": [
+        "what do you eat",
+        "what are you eating",
+        "what do you eat?"
+      ],
+      "status": "wrong",
+      "points": -12,
+      "max_points": 15,
+      "correction": "what do you eat",
+      "note": "this item asks for English; wrote pinyin nǐ chī rǒu (you eat meat) instead of What do you eat?"
+    },
+    {
+      "n": "16",
+      "section": "Quiz C · Sentences",
+      "kind": "english",
+      "prompt_en": "Nǐ hē niúnǎi ma?",
+      "prompt_py": "?",
+      "answer": "shi nǐ hē niúnǎi",
+      "expected": [
+        "do you drink milk",
+        "do you drink milk?"
+      ],
+      "status": "wrong",
+      "points": -12,
+      "max_points": 15,
+      "correction": "do you drink milk",
+      "note": "this item asks for English; wrote shi nǐ hē niúnǎi instead of Do you drink milk?"
+    },
+    {
+      "n": "17",
+      "section": "Quiz C · Sentences",
+      "kind": "sentence",
+      "prompt_en": "I eat bread.",
+      "prompt_py": null,
+      "answer": "wǒchīmiànbāo",
+      "expected": [
+        "Wǒ chī miànbāo."
+      ],
+      "status": "correct",
+      "points": 15,
+      "max_points": 15,
+      "correction": null,
+      "note": null
+    },
+    {
+      "n": "18",
+      "section": "Quiz C · Sentences",
+      "kind": "sentence",
+      "prompt_en": "My daughter drinks tea.",
+      "prompt_py": null,
+      "answer": "wǒde nǚér hē chá",
+      "expected": [
+        "Wǒ de nǚ'ér hē chá."
+      ],
+      "status": "correct",
+      "points": 15,
+      "max_points": 15,
+      "correction": null,
+      "note": null
+    },
+    {
+      "n": "19",
+      "section": "Quiz C · Sentences",
+      "kind": "pinyin",
+      "prompt_en": "Do you eat meat?",
+      "prompt_py": "Nǐ chī ròu ___?",
+      "answer": "ma",
+      "expected": [
+        "ma"
+      ],
+      "status": "correct",
+      "points": 15,
+      "max_points": 15,
+      "correction": null,
+      "note": null
+    },
+    {
+      "n": "20",
+      "section": "Quiz C · Sentences",
+      "kind": "sentence",
+      "prompt_en": "Say what you like to eat, in a full pinyin sentence.",
+      "prompt_py": null,
+      "answer": "wǒxǐhuanchī miànbāo ",
+      "expected": [
+        "Wǒ xǐhuan chī miànbāo."
+      ],
+      "status": "correct",
+      "points": 15,
+      "max_points": 15,
+      "correction": null,
+      "note": null
+    },
+    {
+      "n": "21",
+      "section": "⚡ Speed round · weakest words (quick, don't overthink)",
+      "kind": "pinyin",
+      "prompt_en": "hello",
+      "prompt_py": "?",
+      "answer": "nihāo",
+      "expected": [
+        "nǐ hǎo"
+      ],
+      "status": "partial",
+      "points": 8,
+      "max_points": 15,
+      "correction": "nǐ hǎo",
+      "note": "tone: nihāo should be nǐ hǎo (3rd on both; add a space)"
+    },
+    {
+      "n": "22",
+      "section": "⚡ Speed round · weakest words (quick, don't overthink)",
+      "kind": "pinyin",
+      "prompt_en": "thank you",
+      "prompt_py": "?",
+      "answer": "xíexíe",
+      "expected": [
+        "xièxie"
+      ],
+      "status": "partial",
+      "points": 8,
+      "max_points": 15,
+      "correction": "xièxie",
+      "note": "tone: xíexíe should be xièxie (4th on both, not 2nd)"
+    },
+    {
+      "n": "23",
+      "section": "⚡ Speed round · weakest words (quick, don't overthink)",
+      "kind": "pinyin",
+      "prompt_en": "goodbye",
+      "prompt_py": "?",
+      "answer": "zéijiān",
+      "expected": [
+        "zàijiàn"
+      ],
+      "status": "wrong",
+      "points": -12,
+      "max_points": 15,
+      "correction": "zàijiàn",
+      "note": "zéijiān should be zàijiàn (ài not éi, iàn not iān)"
+    },
+    {
+      "n": "24",
+      "section": "⚡ Speed round · weakest words (quick, don't overthink)",
+      "kind": "pinyin",
+      "prompt_en": "very",
+      "prompt_py": "?",
+      "answer": "hen",
+      "expected": [
+        "hěn"
+      ],
+      "status": "partial",
+      "points": 8,
+      "max_points": 15,
+      "correction": "hěn",
+      "note": "missing tones: hen should be hěn"
+    },
+    {
+      "n": "25",
+      "section": "⚡ Speed round · weakest words (quick, don't overthink)",
+      "kind": "pinyin",
+      "prompt_en": "one",
+      "prompt_py": "?",
+      "answer": "yī ",
+      "expected": [
+        "yī"
+      ],
+      "status": "correct",
+      "points": 15,
+      "max_points": 15,
+      "correction": null,
+      "note": null
+    },
+    {
+      "n": "26",
+      "section": "⚡ Speed round · weakest words (quick, don't overthink)",
+      "kind": "pinyin",
+      "prompt_en": "four",
+      "prompt_py": "?",
+      "answer": "sí",
+      "expected": [
+        "sì"
+      ],
+      "status": "partial",
+      "points": 8,
+      "max_points": 15,
+      "correction": "sì",
+      "note": "tone: sí should be sì (4th tone, not 2nd)"
+    },
+    {
+      "n": "27",
+      "section": "⚡ Speed round · weakest words (quick, don't overthink)",
+      "kind": "pinyin",
+      "prompt_en": "white",
+      "prompt_py": "?",
+      "answer": "béisè",
+      "expected": [
+        "báisè"
+      ],
+      "status": "wrong",
+      "points": -12,
+      "max_points": 15,
+      "correction": "báisè",
+      "note": "béisè should be báisè (ái not éi) — close vowel slip (override candidate)"
+    },
+    {
+      "n": "28",
+      "section": "⚡ Speed round · weakest words (quick, don't overthink)",
+      "kind": "pinyin",
+      "prompt_en": "dad",
+      "prompt_py": "?",
+      "answer": "bábe",
+      "expected": [
+        "bàba"
+      ],
+      "status": "wrong",
+      "points": -12,
+      "max_points": 15,
+      "correction": "bàba",
+      "note": "bábe should be bàba — likely a typing slip (override candidate)"
+    },
+    {
+      "n": "29",
+      "section": "⚡ Speed round · weakest words (quick, don't overthink)",
+      "kind": "english",
+      "prompt_en": "Wǒ yǒu yì zhī gǒu.",
+      "prompt_py": "?",
+      "answer": "I have a dog",
+      "expected": [
+        "i have a dog",
+        "i have one dog",
+        "i have a dog."
+      ],
+      "status": "correct",
+      "points": 15,
+      "max_points": 15,
+      "correction": null,
+      "note": null
+    },
+    {
+      "n": "30",
+      "section": "⚡ Speed round · weakest words (quick, don't overthink)",
+      "kind": "english",
+      "prompt_en": "Nǐ xǐhuan shénme yánsè?",
+      "prompt_py": "?",
+      "answer": "Do you like red?",
+      "expected": [
+        "what color do you like",
+        "what colour do you like",
+        "what color do you like?"
+      ],
+      "status": "wrong",
+      "points": -12,
+      "max_points": 15,
+      "correction": "what color do you like",
+      "note": "wrote Do you like red?; Nǐ xǐhuan shénme yánsè? means What color do you like?"
+    },
+    {
+      "n": "31",
+      "section": "⚡ Speed round · weakest words (quick, don't overthink)",
+      "kind": "english",
+      "prompt_en": "Wǒ bù xǐhuan lǜsè.",
+      "prompt_py": "?",
+      "answer": "I do not the green",
+      "expected": [
+        "i don't like green",
+        "i do not like green",
+        "i dont like green"
+      ],
+      "status": "wrong",
+      "points": -12,
+      "max_points": 15,
+      "correction": "i don't like green",
+      "note": "wrote I do not the green — missing like; expected I don't like green (override candidate if counted as a dropped word)"
+    },
+    {
+      "n": "32",
+      "section": "⚡ Speed round · weakest words (quick, don't overthink)",
+      "kind": "english",
+      "prompt_en": "Nǐ yǒu gēge ma?",
+      "prompt_py": "?",
+      "answer": "Do you have an older brother",
+      "expected": [
+        "do you have an older brother",
+        "do you have a older brother",
+        "do you have an older brother?",
+        "do you have a big brother"
+      ],
+      "status": "correct",
+      "points": 15,
+      "max_points": 15,
+      "correction": null,
+      "note": null
+    },
+    {
+      "n": "S1",
+      "section": "Say it out loud 🎤",
+      "kind": "voice",
+      "prompt_en": "What do you eat?",
+      "prompt_py": "Nǐ chī shénme?",
+      "answer": null,
+      "expected": [
+        "Nǐ chī shénme?"
+      ],
+      "status": "voice_graded",
+      "points": 8,
+      "max_points": 15,
+      "correction": "Nǐ chī shénme?",
+      "note": "Nǐ chī shénme? — phrase comes through clearly; tones need work — give nǐ a 3rd-tone dip, keep chī high and level, and let shén rise"
+    },
+    {
+      "n": "S2",
+      "section": "Say it out loud 🎤",
+      "kind": "voice",
+      "prompt_en": "I eat an apple.",
+      "prompt_py": "Wǒ chī yí gè píngguǒ.",
+      "answer": null,
+      "expected": [
+        "Wǒ chī yí gè píngguǒ."
+      ],
+      "status": "voice_graded",
+      "points": 8,
+      "max_points": 15,
+      "correction": "Wǒ chī yí gè píngguǒ.",
+      "note": "Wǒ chī yí gè píngguǒ. — the sentence comes through (píngguǒ is clear; chī is favored over hē); tones need work — give wǒ a 3rd-tone dip, keep chī high and level, and let yí gè lead into píngguǒ"
+    },
+    {
+      "n": "S3",
+      "section": "Say it out loud 🎤",
+      "kind": "voice",
+      "prompt_en": "What do you like to eat?",
+      "prompt_py": "Nǐ xǐhuan chī shénme?",
+      "answer": null,
+      "expected": [
+        "Nǐ xǐhuan chī shénme?"
+      ],
+      "status": "voice_graded",
+      "points": 8,
+      "max_points": 15,
+      "correction": "Nǐ xǐhuan chī shénme?",
+      "note": "Nǐ xǐhuan chī shénme? — phrase comes through clearly; tones need work — give nǐ a 3rd-tone dip, keep the 3rd-tone dip on xǐ, keep chī high, and let shén rise"
+    }
+  ]
+}
