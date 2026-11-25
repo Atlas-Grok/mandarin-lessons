@@ -1,6 +1,15 @@
 {
   "lessons": [
     {
+      "id": "l23",
+      "lesson_number": 23,
+      "title_en": "Mistake Clinic: Fix the Tones",
+      "title_py": "Cuòwù mén zhěn: gǎizhèng shēngdiào",
+      "date": "2026-11-25",
+      "category": "Tones / food / family",
+      "hsk": 1
+    },
+    {
       "id": "l22",
       "lesson_number": 22,
       "title_en": "Five People at Home",
