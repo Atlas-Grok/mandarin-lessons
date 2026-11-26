@@ -1,6 +1,15 @@
 {
   "lessons": [
     {
+      "id": "l24",
+      "lesson_number": 24,
+      "title_en": "Listening Day: Colors, Family and Food",
+      "title_py": "Tīnglì rì: yánsè, jiārén hé shíwù",
+      "date": "2026-11-26",
+      "category": "Colors / family / food",
+      "hsk": 1
+    },
+    {
       "id": "l23",
       "lesson_number": 23,
       "title_en": "Mistake Clinic: Fix the Tones",
