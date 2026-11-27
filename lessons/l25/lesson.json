@@ -1,0 +1,655 @@
+{
+  "lesson_number": 25,
+  "lesson_type": "quiz",
+  "title_en": "Weekly Quiz & Speed Round: Family, Colors and Food",
+  "title_py": "Měi zhōu cèyàn hé kuài sù huídá: jiārén, yánsè hé shíwù",
+  "category": "Mixed",
+  "hsk": 1,
+  "date": "2026-11-27",
+  "auditory_note": "Tap ▶ Listen to play each clip.",
+  "teach": {
+    "intro": {
+      "en": "Hi Evan! It's Friday, so this is the weekly quiz: no teaching and no new words. Part one checks the animal, family, color and food words we touched this week. Part two is a speed round of the words that have slipped the most. Do your best from memory.",
+      "py": "Nǐ hǎo, Evan! Jīntiān shì xīngqīwǔ, suǒyǐ shì měi zhōu cèyàn: méiyǒu xīn cí. Dì-yī bùfen kǎo wǒmen běn zhōu jiàn guò de dòngwù, jiārén, yánsè hé shíwù cí. Dì-èr bùfen shì kuài sù huídá, kǎo wàngdé zuì duō de cí. Kào jìyì zuò jiù hǎo."
+    },
+    "blocks": []
+  },
+  "practice": {
+    "how_to": "This is the weekly quiz plus a speed round: no new words today. Type your answers in the boxes below. Use tone marks on every pinyin answer (missing tones earn half credit). For 🎤 S1–S3, record a short clip on this page. Then tap Submit.",
+    "sections": [
+      {
+        "title": "Quiz A · English → pinyin (this week's words)",
+        "items": [
+          {
+            "n": 1,
+            "type": "prompt",
+            "prompt_en": "animal",
+            "prompt_py": "?"
+          },
+          {
+            "n": 2,
+            "type": "prompt",
+            "prompt_en": "fish",
+            "prompt_py": "?"
+          },
+          {
+            "n": 3,
+            "type": "prompt",
+            "prompt_en": "soup",
+            "prompt_py": "?"
+          },
+          {
+            "n": 4,
+            "type": "prompt",
+            "prompt_en": "vegetable / dish",
+            "prompt_py": "?"
+          },
+          {
+            "n": 5,
+            "type": "prompt",
+            "prompt_en": "white",
+            "prompt_py": "?"
+          },
+          {
+            "n": 6,
+            "type": "prompt",
+            "prompt_en": "younger sister",
+            "prompt_py": "?"
+          },
+          {
+            "n": 7,
+            "type": "prompt",
+            "prompt_en": "grandma (father's mother)",
+            "prompt_py": "?"
+          },
+          {
+            "n": 8,
+            "type": "prompt",
+            "prompt_en": "egg",
+            "prompt_py": "?"
+          }
+        ]
+      },
+      {
+        "title": "Quiz B · Pinyin → English",
+        "items": [
+          {
+            "n": 9,
+            "type": "prompt",
+            "prompt_en": "mǐfàn",
+            "prompt_py": "?"
+          },
+          {
+            "n": 10,
+            "type": "prompt",
+            "prompt_en": "dìdi",
+            "prompt_py": "?"
+          },
+          {
+            "n": 11,
+            "type": "prompt",
+            "prompt_en": "péngyou",
+            "prompt_py": "?"
+          },
+          {
+            "n": 12,
+            "type": "prompt",
+            "prompt_en": "yánsè",
+            "prompt_py": "?"
+          },
+          {
+            "n": 13,
+            "type": "prompt",
+            "prompt_en": "zhī",
+            "prompt_py": "?"
+          },
+          {
+            "n": 14,
+            "type": "prompt",
+            "prompt_en": "hé",
+            "prompt_py": "?"
+          }
+        ]
+      },
+      {
+        "title": "Quiz C · Sentences",
+        "items": [
+          {
+            "n": 15,
+            "type": "prompt",
+            "prompt_en": "Nǐ chī yú ma?",
+            "prompt_py": "?"
+          },
+          {
+            "n": 16,
+            "type": "prompt",
+            "prompt_en": "Nǐ xǐhuan shénme yánsè?",
+            "prompt_py": "?"
+          },
+          {
+            "n": 17,
+            "type": "unscramble",
+            "prompt_en": "I drink soup.",
+            "unscramble": "tāng / hē / wǒ"
+          },
+          {
+            "n": 18,
+            "type": "unscramble",
+            "prompt_en": "My younger sister likes fish.",
+            "unscramble": "yú / xǐhuan / de / wǒ / mèimei"
+          },
+          {
+            "n": 19,
+            "type": "fill",
+            "prompt_en": "I have a cat and a dog.",
+            "prompt_py": "Wǒ yǒu māo ___ gǒu."
+          },
+          {
+            "n": 20,
+            "type": "about_you",
+            "prompt_en": "Say what color you like, in a full pinyin sentence.",
+            "hint": "Wǒ xǐhuan ___."
+          }
+        ]
+      },
+      {
+        "title": "⚡ Speed round · weakest words (quick, don't overthink)",
+        "options_line": "Go fast. Tone marks count. 12 items, about 2 minutes.",
+        "items": [
+          {
+            "n": 21,
+            "type": "prompt",
+            "prompt_en": "goodbye",
+            "prompt_py": "?"
+          },
+          {
+            "n": 22,
+            "type": "prompt",
+            "prompt_en": "dad",
+            "prompt_py": "?"
+          },
+          {
+            "n": 23,
+            "type": "prompt",
+            "prompt_en": "one",
+            "prompt_py": "?"
+          },
+          {
+            "n": 24,
+            "type": "prompt",
+            "prompt_en": "four",
+            "prompt_py": "?"
+          },
+          {
+            "n": 25,
+            "type": "prompt",
+            "prompt_en": "very",
+            "prompt_py": "?"
+          },
+          {
+            "n": 26,
+            "type": "prompt",
+            "prompt_en": "good",
+            "prompt_py": "?"
+          },
+          {
+            "n": 27,
+            "type": "prompt",
+            "prompt_en": "home / family",
+            "prompt_py": "?"
+          },
+          {
+            "n": 28,
+            "type": "prompt",
+            "prompt_en": "person",
+            "prompt_py": "?"
+          },
+          {
+            "n": 29,
+            "type": "prompt",
+            "prompt_en": "Wǒ yǒu yì zhī gǒu.",
+            "prompt_py": "?"
+          },
+          {
+            "n": 30,
+            "type": "prompt",
+            "prompt_en": "Nǐ chī shénme?",
+            "prompt_py": "?"
+          },
+          {
+            "n": 31,
+            "type": "prompt",
+            "prompt_en": "Nǐ xǐhuan chī shénme?",
+            "prompt_py": "?"
+          },
+          {
+            "n": 32,
+            "type": "prompt",
+            "prompt_en": "Wǒ chī yí gè píngguǒ.",
+            "prompt_py": "?"
+          }
+        ]
+      },
+      {
+        "title": "Say it out loud 🎤",
+        "intro_callout": {
+          "title": "Record each clip right on this page",
+          "body_en": "Listen to each model first, then record S1–S3.",
+          "body_py": "Xiān tīng, ránhòu lùyīn S1 dào S3."
+        },
+        "items": [
+          {
+            "n": "S1",
+            "type": "say",
+            "prompt_en": "Do you eat fish?",
+            "prompt_py": "Nǐ chī yú ma?",
+            "listen_url": "l25-ni-chi-yu-ma.mp3"
+          },
+          {
+            "n": "S2",
+            "type": "say",
+            "prompt_en": "I have a dog.",
+            "prompt_py": "Wǒ yǒu yì zhī gǒu.",
+            "listen_url": "l25-wo-you-yi-zhi-gou.mp3"
+          },
+          {
+            "n": "S3",
+            "type": "say",
+            "prompt_en": "What color do you like?",
+            "prompt_py": "Nǐ xǐhuan shénme yánsè?",
+            "listen_url": "l25-ni-xihuan-shenme-yanse.mp3"
+          }
+        ]
+      }
+    ]
+  },
+  "closing": {
+    "en": "Nice work finishing the week, Evan! Tap Submit when your written answers and voice clips are ready. Jiāyóu!",
+    "py": "Běn zhōu zuò wán le, zuò de hǎo, Evan! Nǐ zhǔnbèi hǎo xiěxià de dá'àn hé yǔyīn le, jiù diǎn Submit. Jiāyóu!"
+  },
+  "answer_key": {
+    "items": [
+      {
+        "n": "1",
+        "kind": "pinyin",
+        "expected": [
+          "dòngwù"
+        ],
+        "words": [
+          "dòngwù"
+        ]
+      },
+      {
+        "n": "2",
+        "kind": "pinyin",
+        "expected": [
+          "yú"
+        ],
+        "words": [
+          "yú"
+        ]
+      },
+      {
+        "n": "3",
+        "kind": "pinyin",
+        "expected": [
+          "tāng"
+        ],
+        "words": [
+          "tāng"
+        ]
+      },
+      {
+        "n": "4",
+        "kind": "pinyin",
+        "expected": [
+          "cài"
+        ],
+        "words": [
+          "cài"
+        ]
+      },
+      {
+        "n": "5",
+        "kind": "pinyin",
+        "expected": [
+          "báisè"
+        ],
+        "words": [
+          "báisè"
+        ]
+      },
+      {
+        "n": "6",
+        "kind": "pinyin",
+        "expected": [
+          "mèimei"
+        ],
+        "words": [
+          "mèimei"
+        ]
+      },
+      {
+        "n": "7",
+        "kind": "pinyin",
+        "expected": [
+          "nǎinai"
+        ],
+        "words": [
+          "nǎinai"
+        ]
+      },
+      {
+        "n": "8",
+        "kind": "pinyin",
+        "expected": [
+          "jīdàn"
+        ],
+        "words": [
+          "jīdàn"
+        ]
+      },
+      {
+        "n": "9",
+        "kind": "english",
+        "expected": [
+          "rice",
+          "meal",
+          "rice / meal",
+          "cooked rice"
+        ],
+        "words": [
+          "mǐfàn"
+        ]
+      },
+      {
+        "n": "10",
+        "kind": "english",
+        "expected": [
+          "younger brother",
+          "little brother"
+        ],
+        "words": [
+          "dìdi"
+        ]
+      },
+      {
+        "n": "11",
+        "kind": "english",
+        "expected": [
+          "friend",
+          "friends"
+        ],
+        "words": [
+          "péngyou"
+        ]
+      },
+      {
+        "n": "12",
+        "kind": "english",
+        "expected": [
+          "color",
+          "colour",
+          "colors"
+        ],
+        "words": [
+          "yánsè"
+        ]
+      },
+      {
+        "n": "13",
+        "kind": "english",
+        "expected": [
+          "counter for animals",
+          "animal counter",
+          "measure word for animals"
+        ],
+        "words": [
+          "zhī"
+        ]
+      },
+      {
+        "n": "14",
+        "kind": "english",
+        "expected": [
+          "and",
+          "with"
+        ],
+        "words": [
+          "hé"
+        ]
+      },
+      {
+        "n": "15",
+        "kind": "english",
+        "expected": [
+          "do you eat fish",
+          "do you eat fish?"
+        ],
+        "words": [
+          "chī",
+          "yú",
+          "ma"
+        ]
+      },
+      {
+        "n": "16",
+        "kind": "english",
+        "expected": [
+          "what color do you like",
+          "what colour do you like",
+          "what color do you like?"
+        ],
+        "words": [
+          "xǐhuan",
+          "shénme",
+          "yánsè"
+        ]
+      },
+      {
+        "n": "17",
+        "kind": "sentence",
+        "expected": [
+          "Wǒ hē tāng."
+        ],
+        "words": [
+          "hē",
+          "tāng"
+        ]
+      },
+      {
+        "n": "18",
+        "kind": "sentence",
+        "expected": [
+          "Wǒ de mèimei xǐhuan yú."
+        ],
+        "words": [
+          "mèimei",
+          "xǐhuan",
+          "yú"
+        ]
+      },
+      {
+        "n": "19",
+        "kind": "pinyin",
+        "expected": [
+          "hé"
+        ],
+        "words": [
+          "hé"
+        ]
+      },
+      {
+        "n": "20",
+        "kind": "sentence",
+        "expected": [
+          "Wǒ xǐhuan lánsè."
+        ],
+        "regex": "wǒ\\s*xǐhuan\\s*\\S.*",
+        "words": [
+          "xǐhuan",
+          "yánsè"
+        ]
+      },
+      {
+        "n": "21",
+        "kind": "pinyin",
+        "expected": [
+          "zàijiàn"
+        ],
+        "words": [
+          "zàijiàn"
+        ]
+      },
+      {
+        "n": "22",
+        "kind": "pinyin",
+        "expected": [
+          "bàba"
+        ],
+        "words": [
+          "bàba"
+        ]
+      },
+      {
+        "n": "23",
+        "kind": "pinyin",
+        "expected": [
+          "yī"
+        ],
+        "words": [
+          "yī"
+        ]
+      },
+      {
+        "n": "24",
+        "kind": "pinyin",
+        "expected": [
+          "sì"
+        ],
+        "words": [
+          "sì"
+        ]
+      },
+      {
+        "n": "25",
+        "kind": "pinyin",
+        "expected": [
+          "hěn"
+        ],
+        "words": [
+          "hěn"
+        ]
+      },
+      {
+        "n": "26",
+        "kind": "pinyin",
+        "expected": [
+          "hǎo"
+        ],
+        "words": [
+          "hǎo"
+        ]
+      },
+      {
+        "n": "27",
+        "kind": "pinyin",
+        "expected": [
+          "jiā"
+        ],
+        "words": [
+          "jiā"
+        ]
+      },
+      {
+        "n": "28",
+        "kind": "pinyin",
+        "expected": [
+          "rén"
+        ],
+        "words": [
+          "rén"
+        ]
+      },
+      {
+        "n": "29",
+        "kind": "english",
+        "expected": [
+          "i have a dog",
+          "i have one dog",
+          "i have a dog."
+        ],
+        "words": [
+          "Wǒ yǒu yì zhī gǒu."
+        ]
+      },
+      {
+        "n": "30",
+        "kind": "english",
+        "expected": [
+          "what do you eat",
+          "what are you eating",
+          "what do you eat?"
+        ],
+        "words": [
+          "Nǐ chī shénme?"
+        ]
+      },
+      {
+        "n": "31",
+        "kind": "english",
+        "expected": [
+          "what do you like to eat",
+          "what do you like eating",
+          "what do you like to eat?"
+        ],
+        "words": [
+          "Nǐ xǐhuan chī shénme?"
+        ]
+      },
+      {
+        "n": "32",
+        "kind": "english",
+        "expected": [
+          "i eat an apple",
+          "i eat one apple",
+          "i am eating an apple",
+          "i eat an apple."
+        ],
+        "words": [
+          "Wǒ chī yí gè píngguǒ."
+        ]
+      },
+      {
+        "n": "S1",
+        "kind": "voice",
+        "words": [
+          "Nǐ chī yú ma?",
+          "chī",
+          "yú",
+          "ma"
+        ]
+      },
+      {
+        "n": "S2",
+        "kind": "voice",
+        "words": [
+          "Wǒ yǒu yì zhī gǒu.",
+          "yǒu",
+          "zhī",
+          "gǒu"
+        ]
+      },
+      {
+        "n": "S3",
+        "kind": "voice",
+        "words": [
+          "Nǐ xǐhuan shénme yánsè?",
+          "xǐhuan",
+          "shénme",
+          "yánsè"
+        ]
+      }
+    ]
+  }
+}

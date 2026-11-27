@@ -1,6 +1,15 @@
 {
   "lessons": [
     {
+      "id": "l25",
+      "lesson_number": 25,
+      "title_en": "Weekly Quiz & Speed Round: Family, Colors and Food",
+      "title_py": "Měi zhōu cèyàn hé kuài sù huídá: jiārén, yánsè hé shíwù",
+      "date": "2026-11-27",
+      "category": "Mixed",
+      "hsk": 1
+    },
+    {
       "id": "l24",
       "lesson_number": 24,
       "title_en": "Listening Day: Colors, Family and Food",
